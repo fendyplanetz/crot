@@ -1,43 +1,26 @@
 proxies:
-- {name: rakch-vp.fo, server: vp.fo, port: 443, type: trojan, password: bcbc9e80-eee2-11ec-bc5c-1239d0255272, skip-cert-verify: true, sni: id-rackhtj.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id-rackhtj.bonds.id}}, udp: true}
+#- {name: sshmax-aleva, server: aleva.com.au, port: 443, type: vmess, uuid: 973e5aaa-ec92-44c6-924e-3fabc65b804d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-v.sshmax.xyz}}, udp: true}
+  
+- {name: Jpt1-fastworldpay, server: api.fastworldpay.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
-- {name: digicert, server: cacerts.digicert.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+- {name: Jpt1-onlymega, server: cdn.onlymega.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Fastworld, server: api.fastworldpay.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+- {name: Jpt2-qiscus, server: status.qiscus.com, port: 443, type: vmess, uuid: 9938637b-0615-499f-b8ff-54f2cee1ea28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg2.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Ruangguru, server: gw.ruangguru.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+- {name: Jpt2-loord.nl, server: www.loord.nl, port: 443, type: vmess, uuid: 9938637b-0615-499f-b8ff-54f2cee1ea28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg2.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Aleva, server: aleva.com.au, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+- {name: Jpt3-vp.fo, server: vp.fo, port: 443, type: vmess, uuid: dd068cb6-f39d-4a05-895a-a861c9755c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg3.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg3.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Gehealth, server: info.gehealthcare.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+- {name: Jpt3-aleva, server: aleva.com.au, port: 443, type: vmess, uuid: dd068cb6-f39d-4a05-895a-a861c9755c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg3.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg3.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Antasari, server: lms.uin-antasari.ac.id, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+#- {name: Jpt-ruangguru, server: bimbel.ruangguru.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Ukmindo, server: dev.ukmindonesia.id, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+#- {name: Jpt-antasari, server: lms.uin-antasari.ac.id, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Meeting, server: go.gotomeeting.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+#- {name: Jpt-microsoft, server: azureinfo.microsoft, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Haircare, server: haircarerefined.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+#- {name: Jpt-gotomeeting, server: go.gotomeeting.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
-- {name: Microsoft, server: azureinfo.microsoft.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+#- {name: howdy-cacerts, server: cacerts.digicert.com, port: 443, type: trojan, password: 5964a8c0-ef01-11ec-9179-1239d0255272, skip-cert-verify: true, sni: w11.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: w11.udpgw.com}}, udp: true}
 
-- {name: Zoom, server: devsupport.zoom.us, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-
-- {name: Crl, server: crl.globalsign.net, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-
-- {name: Linebiz, server: go.linebiz.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-
-- {name: Livestream, server: lp.livestream.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-
-- {name: Onlymega, server: cdn.onlymega.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-
-- {name: jpt-vp.fo, server: vp.fo, port: 443, type: vmess, uuid: 9688a9bc-3419-4a26-b19c-9bff7e33cf11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
-- {name: sshmax-aleva, server: aleva.com.au, port: 443, type: vmess, uuid: 4db10946-f4c6-4a4f-9a0e-b670ad94971e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg-v.sshmax.xyz}}, udp: true}
-
-#Axis
-#- {name: Appsflyer, server: cdn.appsflyer.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
-
-#Axis
-#- {name: etoro.us, server: etoro.us, port: 443, type: vmess, uuid: 4db10946-f4c6-4a4f-9a0e-b670ad94971e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg-v.sshmax.xyz}}, udp: true}
-
+#- {name: Jpt-haircare, server: haircarerefined.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
