@@ -1,7 +1,8 @@
-#Expired 25 juni 2022
 proxies:
 #- {name: sshmax-aleva, server: aleva.com.au, port: 443, type: vmess, uuid: 973e5aaa-ec92-44c6-924e-3fabc65b804d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-v.sshmax.xyz}}, udp: true}
-  
+#expired 24 juni 2022
+- {name: herbal-vp.fo, server: vp.fo, port: 443, type: vmess, uuid: 86a80948-12ad-491a-a170-79b6db8ab41b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgl-1.herbalv2ray.me, network: ws, ws-opts: {path: /herbalserver, headers: {Host: sgl-1.herbalv2ray.me}}, udp: true}
+#Expired 25 juni 2022
 - {name: Jpt1-fastworldpay, server: api.fastworldpay.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 
 - {name: Jpt1-onlymega, server: cdn.onlymega.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
