@@ -1,0 +1,6 @@
+proxies:
+- {name: rakch-vp.fo, server: vp.fo, port: 443, type: trojan, password: bcbc9e80-eee2-11ec-bc5c-1239d0255272, skip-cert-verify: true, sni: id-rackhtj.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id-rackhtj.bonds.id}}, udp: true}
+
+- {name: digicert, server: cacerts.digicert.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
+
+- {name: Fastworld, server: api.fastworldpay.com, port: 443, type: trojan, password: e448cdd0-eb31-11ec-a97a-1239d0255272, skip-cert-verify: true, sni: sgovh-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sgovh-trojan.bonds.id}}, udp: true}
