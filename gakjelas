@@ -1,3 +1,4 @@
+#Expired 25 juni 2022
 proxies:
 #- {name: sshmax-aleva, server: aleva.com.au, port: 443, type: vmess, uuid: 973e5aaa-ec92-44c6-924e-3fabc65b804d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1-v.sshmax.xyz}}, udp: true}
   
