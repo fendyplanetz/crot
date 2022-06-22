@@ -1,30 +1,14 @@
 proxies:
 #expired 24 juni 2022
-- {name: herbal-ruangguru, server: gw.ruanguru.com, port: 443, type: vmess, uuid: 86a80948-12ad-491a-a170-79b6db8ab41b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgl-1.herbalv2ray.me, network: ws, ws-opts: {path: /herbalserver, headers: {Host: sgl-1.herbalv2ray.me}}, udp: true}
-
-- {name: herbal-appsflyer, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 86a80948-12ad-491a-a170-79b6db8ab41b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgl-1.herbalv2ray.me, network: ws, ws-opts: {path: /herbalserver, headers: {Host: sgl-1.herbalv2ray.me}}, udp: true}
-
+- {name: hrbl-ruang, server: gw.ruanguru.com, port: 443, type: vmess, uuid: 86a80948-12ad-491a-a170-79b6db8ab41b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgl-1.herbalv2ray.me, network: ws, ws-opts: {path: /herbalserver, headers: {Host: sgl-1.herbalv2ray.me}}, udp: true}
+- {name: hrbl-appsflyer, server: cdn.appsflyer.com, port: 443, type: vmess, uuid: 86a80948-12ad-491a-a170-79b6db8ab41b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgl-1.herbalv2ray.me, network: ws, ws-opts: {path: /herbalserver, headers: {Host: sgl-1.herbalv2ray.me}}, udp: true}
 #Expired 25 juni 2022
 - {name: Jpt1-fastworldpay, server: api.fastworldpay.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
 - {name: Jpt1-digicert, server: cacerts.digicert.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
+- {name: Jpt1-ukmindo, server: ukmindonesia.id, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 - {name: Jpt2-qiscus, server: status.qiscus.com, port: 443, type: vmess, uuid: 9938637b-0615-499f-b8ff-54f2cee1ea28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg2.jupiterv2ray.xyz}}, udp: true}
-
+- {name: Jpt2-meet, server: go.gotomeeting.com, port: 443, type: vmess, uuid: 9938637b-0615-499f-b8ff-54f2cee1ea28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg2.jupiterv2ray.xyz}}, udp: true}
 - {name: Jpt2-haircare, server: haircarerefined.com, port: 443, type: vmess, uuid: 9938637b-0615-499f-b8ff-54f2cee1ea28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg2.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg2.jupiterv2ray.xyz}}, udp: true}
-
 - {name: Jpt3-vp.fo, server: vp.fo, port: 443, type: vmess, uuid: dd068cb6-f39d-4a05-895a-a861c9755c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg3.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg3.jupiterv2ray.xyz}}, udp: true}
-
 - {name: Jpt3-antasari, server: lms.uin-antasari.ac.id, port: 443, type: vmess, uuid: dd068cb6-f39d-4a05-895a-a861c9755c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg3.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg3.jupiterv2ray.xyz}}, udp: true}
-
-#- {name: Jpt-ruangguru, server: bimbel.ruangguru.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
-#- {name: Jpt-antasari, server: lms.uin-antasari.ac.id, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
-#- {name: Jpt-microsoft, server: azureinfo.microsoft, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
-#- {name: Jpt-gotomeeting, server: go.gotomeeting.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
-
-#- {name: howdy-cacerts, server: cacerts.digicert.com, port: 443, type: trojan, password: 5964a8c0-ef01-11ec-9179-1239d0255272, skip-cert-verify: true, sni: w11.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: w11.udpgw.com}}, udp: true}
-
-#- {name: Jpt-haircare, server: haircarerefined.com, port: 443, type: vmess, uuid: f2990136-169d-44ae-bf0c-a5c7a0a68a9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
+- {name: Jpt3-live, server: lp.livestream.com, port: 443, type: vmess, uuid: dd068cb6-f39d-4a05-895a-a861c9755c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg3.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg3.jupiterv2ray.xyz}}, udp: true}
