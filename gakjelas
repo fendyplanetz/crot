@@ -1,6 +1,8 @@
 proxies:
+#Expired 13 juli 2022
+- {name: sg2go.Fast, server: api.fastworldpay.com, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: sg2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 #Expired 10 juli 2022
-- {name: Jpt1-fastworldpay, server: api.fastworldpay.com, port: 443, type: vmess, uuid: bcb9303c-ea60-47ec-b48b-c9c46d35a36a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
+#- {name: Jpt1-fastworldpay, server: api.fastworldpay.com, port: 443, type: vmess, uuid: bcb9303c-ea60-47ec-b48b-c9c46d35a36a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 - {name: Jpt1-aleva, server: aleva.com.au, port: 443, type: vmess, uuid: bcb9303c-ea60-47ec-b48b-c9c46d35a36a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 - {name: Jpt1-digicert, server: cacerts.digicert.com, port: 443, type: vmess, uuid: bcb9303c-ea60-47ec-b48b-c9c46d35a36a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
 #- {name: Jpt1-ruang, server: get.ruanguru.com, port: 443, type: vmess, uuid: bcb9303c-ea60-47ec-b48b-c9c46d35a36a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.jupiterv2ray.xyz, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg1.jupiterv2ray.xyz}}, udp: true}
