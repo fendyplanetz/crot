@@ -1,14 +1,14 @@
 proxies:
 #Expired 13 juli 2022
-- {name: sg2go.Meet, server: meet.google.com, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: sg2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
-- {name: sg2go.Whatsapp, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: web.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
+- {name: sg2go.Meet, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: meet.google.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
+- {name: sg2go.Web, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: web.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 - {name: sg2go.Teams, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 - {name: sg2go.Midtrans, server: api.midtrans.com, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: sg2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 - {name: sg2go.Ruangguru, server: gw.ruangguru.com, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: sg2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 #- {name: sg2go.Antasari, server: www.uin-antasari.ac.id, port: 443, type: trojan, password: jagoanssh-okeey, skip-cert-verify: true, sni: sg2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 #Expired 15 juli 2022
 - {name: sg1go.Google, server: sg1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
-- {name: sg1go.W5.wa, server: sg1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: w5.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
+- {name: sg1go.W5, server: sg1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: w5.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 - {name: sg1go.Cleverism, server: mail.cleverism.com, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 - {name: sg1go.Vp.fo, server: vp.fo, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 #Expired 10 juli 2022
