@@ -5,7 +5,7 @@ proxies:
 - {name: sg1go.Meetings, server: sg1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: meetings.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 - {name: sg1go.Zoom, server: gost-bk.zoom.us, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 - {name: sg1go.Udemy, server: www.udemy.com, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
-- {name: sg1go.Sociomile, server: chat.sociomile.com, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
+#- {name: sg1go.Sociomile, server: chat.sociomile.com, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 #- {name: sg1go.Cleverism, server: mail.cleverism.com, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 #- {name: sg1go.Vp.fo, server: vp.fo, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: sg1go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
 #Expired 13 juli 2022
