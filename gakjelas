@@ -1,12 +1,11 @@
 proxies:
-#Expired 18 juli 2022
-- {name: id1go.W9, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: w9.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
-- {name: id1go.Google, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
-- {name: id1go.Maps, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: mobilemaps.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
+#Expired 21 juli 2022
+- {name: id1go.Google, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-bandil, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
+- {name: id1go.Maps, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-bandil, skip-cert-verify: true, sni: mobilemaps.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
 #Expired 18 juli 2022
 - {name: id2go.W4, server: id2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-poiuy, skip-cert-verify: true, sni: w4.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
-- {name: id2go.Meetings, server: id2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-poiuy, skip-cert-verify: true, sni: meetings.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
 - {name: id2go.Teams, server: id2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-poiuy, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
+- {name: id2go.Meetings, server: id2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-poiuy, skip-cert-verify: true, sni: meetings.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
 #- {name: id2go.Midtrans, server: api.midtrans.com, port: 443, type: trojan, password: jagoanssh-poiuy, skip-cert-verify: true, sni: id2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
 #Expired 15 juli 2022
 #- {name: sg1go.Web, server: sg1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-ocrit, skip-cert-verify: true, sni: web.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg1go.ipservers.xyz}}, udp: true}
