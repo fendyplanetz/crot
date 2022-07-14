@@ -1,6 +1,6 @@
 proxies:
 #Expired 18 juli 2022
-- {name: id1go.Web, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: web.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
+- {name: id1go.W9, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: w9.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
 - {name: id1go.Google, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
 - {name: id1go.Maps, server: id1go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hokii, skip-cert-verify: true, sni: mobilemaps.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id1go.ipservers.xyz}}, udp: true}
 #Expired 18 juli 2022
