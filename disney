@@ -2,6 +2,7 @@ payload:
   - DOMAIN-KEYWORD,hotstar
   - DOMAIN-SUFFIX,hotstar.com
   - DOMAIN-SUFFIX,akamaized.net
+  - sub-pubsub.hotstar-labs.com
   - amulmithaimatemasterchefcontest.hotstar.com
   - image.hotstar.com
   - hotstar.com
