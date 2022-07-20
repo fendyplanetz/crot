@@ -6,6 +6,6 @@ proxies:
 #- {name: id2go.Teams, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeoke, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 #- {name: id2go.Meetings, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeoke, skip-cert-verify: true, sni: meetings.googleapis.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 #Expired 23 juli 2022
-- {name: jr.Zoom, server: gost-bk.zoom.us, port: 443, type: trojan, password: f0130970-783c-49db-a69f-7798a2249e36, skip-cert-verify: true, sni: sg1trws.jrtunnel.us, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: sg1trws.jrtunnel.us}}, udp: true}
+- {name: jr.Zoom, server: sg1trws.jrtunnel.us, port: 443, type: trojan, password: f0130970-783c-49db-a69f-7798a2249e36, skip-cert-verify: true, sni: gost-bk.zoom.us, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: sg1trws.jrtunnel.us}}, udp: true}
 - {name: jr.Teams, server: sg1trws.jrtunnel.us, port: 443, type: trojan, password: f0130970-783c-49db-a69f-7798a2249e36, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: sg1trws.jrtunnel.us}}, udp: true}
 #- {name: jr.Live, server: sg1trws.jrtunnel.us, port: 443, type: trojan, password: f0130970-783c-49db-a69f-7798a2249e36, skip-cert-verify: true, sni: teams.live.com, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: sg1trws.jrtunnel.us}}, udp: true}
