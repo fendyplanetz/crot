@@ -159,164 +159,164 @@ payload:
   - secure-media2.hotstar.com
   - playwine-in-prod.hotstar.com
   - origin-pollapi.hotstar.com
-homedancer.hotstar.com
-videoads.hotstar.com
-tv.hotstar.com
-www.hotstar.com
-st.hotstar.com
-email-ca.hotstar.com
-hses3-qa.hotstar.com
-gringotts-gb-qa.hotstar.com
-m.hotstar.com
-aapkeheroes.hotstar.com
-socialpics.hotstar.com
-shows.hotstar.com
-hses2.hotstar.com
-www.csat.hotstar.com
-segment.hotstar.com
-onebigblue.hotstar.com
-h.hotstar.com
-origin-nv-watchnext-pp.hotstar.com
-mail.hotstar.com
-help-th.hotstar.com
-adops.hotstar.com
-mc-sports-redirect.hotstar.com
-tata-pa-blr.hotstar.com
-csat.hotstar.com
-help.hotstar.com
-aadhar-in-prod.hotstar.com
-image-origin.hotstar.com
-vip.hotstar.com
-communications.hotstar.com
-hses3-z.hotstar.com
-autodiscover.hotstar.com
-gcloud-qa.hotstar.com
-getcdn-pp.hotstar.com
-getcdn-pp-r3.hotstar.com
-email-us.hotstar.com
-gcache.hotstar.com
-secure-media0.hotstar.com
-la.hotstar.com
-kulfi.hotstar.com
-customer-support-api.hotstar.com
-tata-mum.hotstar.com
-cape.hotstar.com
-us.hotstar.com
-drm.hotstar.com
-indiasnextsuperstars.hotstar.com
-vrcade-dev.hotstar.com
-hses2-z.hotstar.com
-ns1.alerts.hotstar.com
-hses7.hotstar.com
-dev-api.hotstar.com
-services.hotstar.com
-logs.hotstar.com
-stg-us.hotstar.com
-billioncheers.hotstar.com
-mum.hotstar.com
-www.fp-analytics.hotstar.com
-b.mx.alerts.hotstar.com
-live-gec.hotstar.com
-akhil.hotstar.com
-svn.hotstar.com
-help-sg-pp.hotstar.com
-mail-us.hotstar.com
-saikat.hotstar.com
-buzz.hotstar.com
-videoplaza.hotstar.com
-otprivacyportalde-cdn.hotstar.com
-vpn.hotstar.com
-publish-pp.hotstar.com
-umsp.hotstar.com
-dahleez.hotstar.com
-account-pp.hotstar.com
-videos.hotstar.com
-hses1-qa.hotstar.com
-umsp-jio.hotstar.com
-concurrency.hotstar.com
-d.ns.alerts.hotstar.com
-secure-media-jio.hotstar.com
-search-pp.hotstar.com
-origin-tracker-pp.hotstar.com
-b.ns.alerts.hotstar.com
-panicgateway-in-prod.hotstar.com
-conttech.hotstar.com
-pp-api.hotstar.com
-tyrion.hotstar.com
-predictor.hotstar.com
-thebigbull.hotstar.com
-f.ns.alerts.hotstar.com
-masterchefindia.hotstar.com
-content-load.hotstar.com
-mysupport.hotstar.com
-live15.hotstar.com
-secure-pollapi.hotstar.com
-secure-getcdn.hotstar.com
-champion.hotstar.com
-discover.hotstar.com
-www.media.hotstar.com
-sub-media.hotstar.com
-data.hotstar.com
-beta.hotstar.com
-devicelab.hotstar.com
-premium.hotstar.com
-greatindianelection.hotstar.com
-origin-emailpost.hotstar.com
-origin-watchnext.hotstar.com
-service-intl.hotstar.com
-imageupload.hotstar.com
-load-service.hotstar.com
-sabsebadamoh.hotstar.com
-webstories.hotstar.com
-specialops.hotstar.com
-hses1-z.hotstar.com
-pp.hotstar.com
-hses5-vod-cf.cdn.hotstar.com
-live14.hotstar.com
-radhakrishn.hotstar.com
-beacon.hotstar.com
-geoip.hotstar.com
-hses4-vod-jio.cdn.hotstar.com
-hses4.hotstar.com
-sportzsdk.hotstar.com
-agl.hotstar.com
-utils.hotstar.com
-myjenkins.hotstar.com
-origin-brands.hotstar.com
-hello.hotstar.com
-pp-catalog-api.hotstar.com
-sammaan.hotstar.com
-us-vivoiplelection.hotstar.com
-jason.hotstar.com
-live09p.hotstar.com
-origin-ads-pp.hotstar.com
-sms.hotstar.com
-reports.hotstar.com
-help-us.hotstar.com
-pp-us.hotstar.com
-lg-pay.hotstar.com
-events-analytics.hotstar.com
-a.mx.alerts.hotstar.com
-int-election.hotstar.com
-agl-jio.hotstar.com
-sanjit.hotstar.com
-blog.hotstar.com
-vivoiplelection.hotstar.com
-bifrost-api.hotstar.com
-secure-media.hotstar.com
-ae.hotstar.com
-staging.hotstar.com
-starscreenawards.hotstar.com
-content.hotstar.com
-origin-segment-pp.hotstar.com
-account-pp-r3.hotstar.com
-console-dev.hotstar.com
-fp-analytics.hotstar.com
-reco-pp.hotstar.com
-static-predictor.hotstar.com
-www.blog.hotstar.com
-cj.hotstar.com
-nexus.hotstar.com
+  - homedancer.hotstar.com
+  - videoads.hotstar.com
+  - tv.hotstar.com
+  - www.hotstar.com
+  - st.hotstar.com
+  - email-ca.hotstar.com
+  - hses3-qa.hotstar.com
+  - gringotts-gb-qa.hotstar.com
+  - m.hotstar.com
+  - aapkeheroes.hotstar.com
+  - socialpics.hotstar.com
+  - shows.hotstar.com
+  - hses2.hotstar.com
+  - www.csat.hotstar.com
+  - segment.hotstar.com
+  - onebigblue.hotstar.com
+  - h.hotstar.com
+  - origin-nv-watchnext-pp.hotstar.com
+  - mail.hotstar.com
+  - help-th.hotstar.com
+  - adops.hotstar.com
+  - mc-sports-redirect.hotstar.com
+  - tata-pa-blr.hotstar.com
+  - csat.hotstar.com
+  - help.hotstar.com
+  - aadhar-in-prod.hotstar.com
+  - image-origin.hotstar.com
+  - vip.hotstar.com
+  - communications.hotstar.com
+  - hses3-z.hotstar.com
+  - autodiscover.hotstar.com
+  - gcloud-qa.hotstar.com
+  - getcdn-pp.hotstar.com
+  - getcdn-pp-r3.hotstar.com
+  - email-us.hotstar.com
+  - gcache.hotstar.com
+  - secure-media0.hotstar.com
+  - la.hotstar.com
+  - kulfi.hotstar.com
+  - customer-support-api.hotstar.com
+  - tata-mum.hotstar.com
+  - cape.hotstar.com
+  - us.hotstar.com
+  - drm.hotstar.com
+  - indiasnextsuperstars.hotstar.com
+  - vrcade-dev.hotstar.com
+  - hses2-z.hotstar.com
+  - ns1.alerts.hotstar.com
+  - hses7.hotstar.com
+  - dev-api.hotstar.com
+  - services.hotstar.com
+  - logs.hotstar.com
+  - stg-us.hotstar.com
+  - billioncheers.hotstar.com
+  - mum.hotstar.com
+  - www.fp-analytics.hotstar.com
+  - b.mx.alerts.hotstar.com
+  - live-gec.hotstar.com
+  - akhil.hotstar.com
+  - svn.hotstar.com
+  - help-sg-pp.hotstar.com
+  - mail-us.hotstar.com
+  - saikat.hotstar.com
+  - buzz.hotstar.com
+  - videoplaza.hotstar.com
+  - otprivacyportalde-cdn.hotstar.com
+  - vpn.hotstar.com
+  - publish-pp.hotstar.com
+  - umsp.hotstar.com
+  - dahleez.hotstar.com
+  - account-pp.hotstar.com
+  - videos.hotstar.com
+  - hses1-qa.hotstar.com
+  - umsp-jio.hotstar.com
+  - concurrency.hotstar.com
+  - d.ns.alerts.hotstar.com
+  - secure-media-jio.hotstar.com
+  - search-pp.hotstar.com
+  - origin-tracker-pp.hotstar.com
+  - b.ns.alerts.hotstar.com
+  - panicgateway-in-prod.hotstar.com
+  - conttech.hotstar.com
+  - pp-api.hotstar.com
+  - tyrion.hotstar.com
+  - predictor.hotstar.com
+  - thebigbull.hotstar.com
+  - f.ns.alerts.hotstar.com
+  - masterchefindia.hotstar.com
+  - content-load.hotstar.com
+  - mysupport.hotstar.com
+  - live15.hotstar.com
+  - secure-pollapi.hotstar.com
+  - secure-getcdn.hotstar.com
+  - champion.hotstar.com
+  - discover.hotstar.com
+  - www.media.hotstar.com
+  - sub-media.hotstar.com
+  - data.hotstar.com
+  - beta.hotstar.com
+  - devicelab.hotstar.com
+  - premium.hotstar.com
+  - greatindianelection.hotstar.com
+  - origin-emailpost.hotstar.com
+  - origin-watchnext.hotstar.com
+  - service-intl.hotstar.com
+  - imageupload.hotstar.com
+  - load-service.hotstar.com
+  - sabsebadamoh.hotstar.com
+  - webstories.hotstar.com
+  - specialops.hotstar.com
+  - hses1-z.hotstar.com
+  - pp.hotstar.com
+  - hses5-vod-cf.cdn.hotstar.com
+  - live14.hotstar.com
+  - radhakrishn.hotstar.com
+  - beacon.hotstar.com
+  - geoip.hotstar.com
+  - hses4-vod-jio.cdn.hotstar.com
+  - hses4.hotstar.com
+  - sportzsdk.hotstar.com
+  - agl.hotstar.com
+  - utils.hotstar.com
+  - myjenkins.hotstar.com
+  - origin-brands.hotstar.com
+  - hello.hotstar.com
+  - pp-catalog-api.hotstar.com
+  - sammaan.hotstar.com
+  - us-vivoiplelection.hotstar.com
+  - jason.hotstar.com
+  - live09p.hotstar.com
+  - origin-ads-pp.hotstar.com
+  - sms.hotstar.com
+  - reports.hotstar.com
+  - help-us.hotstar.com
+  - pp-us.hotstar.com
+  - lg-pay.hotstar.com
+  - events-analytics.hotstar.com
+  - a.mx.alerts.hotstar.com
+  - int-election.hotstar.com
+  - agl-jio.hotstar.com
+  - sanjit.hotstar.com
+  - blog.hotstar.com
+  - vivoiplelection.hotstar.com
+  - bifrost-api.hotstar.com
+  - secure-media.hotstar.com
+  - ae.hotstar.com
+  - staging.hotstar.com
+  - starscreenawards.hotstar.com
+  - content.hotstar.com
+  - origin-segment-pp.hotstar.com
+  - account-pp-r3.hotstar.com
+  - console-dev.hotstar.com
+  - fp-analytics.hotstar.com
+  - reco-pp.hotstar.com
+  - static-predictor.hotstar.com
+  - www.blog.hotstar.com
+  - cj.hotstar.com
+  - nexus.hotstar.com
 origin-new-segment.hotstar.com
 hses1.hotstar.com
 img.hotstar.com
