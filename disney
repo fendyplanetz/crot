@@ -1,6 +1,7 @@
 payload:
-  - geoip.hotstar.com
-  - persona.hotstar.com
+  - DOMAIN-KEYWORD,hotstar
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-SUFFIX,akamaized.net
   - amulmithaimatemasterchefcontest.hotstar.com
   - image.hotstar.com
   - hotstar.com
