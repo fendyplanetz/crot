@@ -1,4 +1,5 @@
 payload:
+  - geoip.hotstar.com
   - persona.hotstar.com
   - amulmithaimatemasterchefcontest.hotstar.com
   - image.hotstar.com
