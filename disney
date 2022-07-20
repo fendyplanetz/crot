@@ -1,4 +1,5 @@
 payload:
+  - persona.hotstar.com
   - amulmithaimatemasterchefcontest.hotstar.com
   - image.hotstar.com
   - hotstar.com
@@ -370,38 +371,38 @@ payload:
   - console-pp.hotstar.com
   - secure-getcdn-jio.hotstar.com
   - okcomputer.hotstar.com
-dev-ops.hotstar.com
-m-sports-redirect.hotstar.com
-partner-portal-dev.hotstar.com
-livetv.hotstar.com
-account-st.hotstar.com
-hodor-in-prod.hotstar.com
-catalog-pp.hotstar.com
-pastebin.hotstar.com
-cc.hotstar.com
-tools.hotstar.com
-help.brands.hotstar.com
-uk.hotstar.com
-scmm.hotstar.com
-img1.hotstar.com
-partner-portal.hotstar.com
-vote.hotstar.com
-w.alerts.hotstar.com
-cdn.hotstar.com
-help-sg.hotstar.com
-hses4-qa.hotstar.com
-vr.hotstar.com
-getcdn-dev.hotstar.com
-secure.hotstar.com
-api.hotstar.com
-hspx.hotstar.com
-ca.hotstar.com
-pp4.hotstar.com
-load-api.hotstar.com
-sahil.hotstar.com
-cms-users.hotstar.com
-x.mail-us.hotstar.com
-live08.hotstar.com
-img3.hotstar.com
-i.mail-ca.hotstar.com
-satyam.hotstar.com
+  - dev-ops.hotstar.com
+  - m-sports-redirect.hotstar.com
+  - partner-portal-dev.hotstar.com
+  - livetv.hotstar.com
+  - account-st.hotstar.com
+  - hodor-in-prod.hotstar.com
+  - catalog-pp.hotstar.com
+  - pastebin.hotstar.com
+  - cc.hotstar.com
+  - tools.hotstar.com
+  - help.brands.hotstar.com
+  - uk.hotstar.com
+  - scmm.hotstar.com
+  - img1.hotstar.com
+  - partner-portal.hotstar.com
+  - vote.hotstar.com
+  - w.alerts.hotstar.com
+  - cdn.hotstar.com
+  - help-sg.hotstar.com
+  - hses4-qa.hotstar.com
+  - vr.hotstar.com
+  - getcdn-dev.hotstar.com
+  - secure.hotstar.com
+  - api.hotstar.com
+  - hspx.hotstar.com
+  - ca.hotstar.com
+  - pp4.hotstar.com
+  - load-api.hotstar.com
+  - sahil.hotstar.com
+  - cms-users.hotstar.com
+  - x.mail-us.hotstar.com
+  - live08.hotstar.com
+  - img3.hotstar.com
+  - i.mail-ca.hotstar.com
+  - satyam.hotstar.com
