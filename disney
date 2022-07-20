@@ -317,59 +317,59 @@ payload:
   - www.blog.hotstar.com
   - cj.hotstar.com
   - nexus.hotstar.com
-origin-new-segment.hotstar.com
-hses1.hotstar.com
-img.hotstar.com
-blr-vpn.hotstar.com
-live13p.hotstar.com
-origin-pubsub-discovery.hotstar.com
-cricfest.hotstar.com
-airtel-mum.hotstar.com
-live01.hotstar.com
-gringotts-gb-prod.hotstar.com
-admin-pp.hotstar.com
-roar.hotstar.com
-pp2-us.hotstar.com
-l.mail-us.hotstar.com
-emailpost.hotstar.com
-reco-dev.hotstar.com
-persona.hotstar.com
-help-pp.hotstar.com
-ccu.hotstar.com
-cdn-monitor.hotstar.com
-getcdn-r3.hotstar.com
-hb-analytics.hotstar.com
-catalog-api.hotstar.com
-ggn.hotstar.com
-content-api-pp.hotstar.com
-secure-getcdn-pp.hotstar.com
-newsletter.hotstar.com
-images.hotstar.com
-hses4-z.hotstar.com
-getcdn.hotstar.com
-secure-media1.hotstar.com
-console-st.hotstar.com
-iplselection.hotstar.com
-rocky-qa.hotstar.com
-sainasquad.hotstar.com
-amd.hotstar.com
-lnk.hello.hotstar.com
-live12p.hotstar.com
-social.hotstar.com
-faq.hotstar.com
-au.hotstar.com
-redirect.hotstar.com
-search-r3.hotstar.com
-umsp-load.hotstar.com
-img.hello.hotstar.com
-sports.hotstar.com
-hses5-vod-gcdn.cdn.hotstar.com
-tech.hotstar.com
-dilhaihindustani.hotstar.com
-customer-support.hotstar.com
-console-pp.hotstar.com
-secure-getcdn-jio.hotstar.com
-okcomputer.hotstar.com
+  - origin-new-segment.hotstar.com
+  - hses1.hotstar.com
+  - img.hotstar.com
+  - blr-vpn.hotstar.com
+  - live13p.hotstar.com
+  - origin-pubsub-discovery.hotstar.com
+  - cricfest.hotstar.com
+  - airtel-mum.hotstar.com
+  - live01.hotstar.com
+  - gringotts-gb-prod.hotstar.com
+  - admin-pp.hotstar.com
+  - roar.hotstar.com
+  - pp2-us.hotstar.com
+  - l.mail-us.hotstar.com
+  - emailpost.hotstar.com
+  - reco-dev.hotstar.com
+  - persona.hotstar.com
+  - help-pp.hotstar.com
+  - ccu.hotstar.com
+  - cdn-monitor.hotstar.com
+  - getcdn-r3.hotstar.com
+  - hb-analytics.hotstar.com
+  - catalog-api.hotstar.com
+  - ggn.hotstar.com
+  - content-api-pp.hotstar.com
+  - secure-getcdn-pp.hotstar.com
+  - newsletter.hotstar.com
+  - images.hotstar.com
+  - hses4-z.hotstar.com
+  - getcdn.hotstar.com
+  - secure-media1.hotstar.com
+  - console-st.hotstar.com
+  - iplselection.hotstar.com
+  - rocky-qa.hotstar.com
+  - sainasquad.hotstar.com
+  - amd.hotstar.com
+  - lnk.hello.hotstar.com
+  - live12p.hotstar.com
+  - social.hotstar.com
+  - faq.hotstar.com
+  - au.hotstar.com
+  - redirect.hotstar.com
+  - search-r3.hotstar.com
+  - umsp-load.hotstar.com
+  - img.hello.hotstar.com
+  - sports.hotstar.com
+  - hses5-vod-gcdn.cdn.hotstar.com
+  - tech.hotstar.com
+  - dilhaihindustani.hotstar.com
+  - customer-support.hotstar.com
+  - console-pp.hotstar.com
+  - secure-getcdn-jio.hotstar.com
+  - okcomputer.hotstar.com
 dev-ops.hotstar.com
 m-sports-redirect.hotstar.com
 partner-portal-dev.hotstar.com
