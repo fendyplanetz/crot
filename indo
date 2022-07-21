@@ -1,6 +1,8 @@
 proxies:
-- {name: hwd-Google, server: idtj-uninet.bonds.id, port: 443, type: trojan, password: 9d86e180-0907-11ed-ba41-1239d0255272, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-uninet.bonds.id}}, udp: true}
-- {name: hwd-Live, server: idtj-uninet.bonds.id, port: 443, type: trojan, password: 9d86e180-0907-11ed-ba41-1239d0255272, skip-cert-verify: true, sni: teams.live.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-uninet.bonds.id}}, udp: true}
+- {name: hwd-Google, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 50922ed0-0909-11ed-bb35-1239d0255272, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
+- {name: hwd-Live, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 50922ed0-0909-11ed-bb35-1239d0255272, skip-cert-verify: true, sni: teams.live.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
+#- {name: hwd-Google, server: idtj-uninet.bonds.id, port: 443, type: trojan, password: 9d86e180-0907-11ed-ba41-1239d0255272, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-uninet.bonds.id}}, udp: true}
+#- {name: hwd-Live, server: idtj-uninet.bonds.id, port: 443, type: trojan, password: 9d86e180-0907-11ed-ba41-1239d0255272, skip-cert-verify: true, sni: teams.live.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-uninet.bonds.id}}, udp: true}
 #Expired 23 juli 2022
 #- {name: sshmax-Google, server: id-v.sshmax.xyz, port: 443, type: vmess, uuid: 1710a028-f869-4b8d-9ceb-82fd75e88c78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dl.google.com, network: ws, ws-opts: {path: /vmess, headers: {Host: id-v.sshmax.xyz}}, udp: true}
 #- {name: sshmax-Live, server: id-v.sshmax.xyz, port: 443, type: vmess, uuid: 1710a028-f869-4b8d-9ceb-82fd75e88c78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: teams.live.com, network: ws, ws-opts: {path: /vmess, headers: {Host: id-v.sshmax.xyz}}, udp: true}
