@@ -5,3 +5,4 @@ proxies:
 #Expired 28 juli 2022
 - {name: sg2go.Google, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeee, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
 - {name: sg2go.Wa, server: sg2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okeee, skip-cert-verify: true, sni: w0.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
+- {name: sg2go.Midtrans, server: api.midtrans.com, port: 443, type: trojan, password: jagoanssh-okeee, skip-cert-verify: true, sni: sg2go.ipservers.xyz, network: ws, ws-opts: {path: /trojan, headers: {Host: sg2go.ipservers.xyz}}, udp: true}
