@@ -7,29 +7,4 @@ proxies:
 #- {name: Jago-Antasari, server: lms.uin-antasari.ac.id, port: 443, type: vless, uuid: 43034eb6-c9b7-401c-b1d6-0b5674742886, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
 #- {name: Jago-Guru, server: gw.ruangguru.com, port: 443, type: vless, uuid: 43034eb6-c9b7-401c-b1d6-0b5674742886, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
 #Biznet
-- name: Midtrans
-    server: api.midtrans.com
-    port: 443
-    type: trojan
-    password: f3da3570-0cf3-11ed-a98b-1239d0255272
-    skip-cert-verify: true
-    sni: id5-trojan.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: id5-trojan.bonds.id
-    udp: true
-- name: Maps
-    server: id5-trojan.bonds.id
-    port: 443
-    type: trojan
-    password: f3da3570-0cf3-11ed-a98b-1239d0255272
-    skip-cert-verify: true
-    sni: mobilemaps.googleapis.com
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: id5-trojan.bonds.id
-    udp: true
+- {name: Midtrans, server: api.midtrans.com, port: 443, type: trojan, password: f3da3570-0cf3-11ed-a98b-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
