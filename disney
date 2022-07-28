@@ -1,4 +1,8 @@
 payload:
+#speedtest Id
+  - fast.com
+  - api.fast.com
+#Hotstar
   - DOMAIN-KEYWORD,hotstar
   - DOMAIN-SUFFIX,hotstar.com
   - DOMAIN-SUFFIX,akamaized.net
