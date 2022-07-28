@@ -1,5 +1,6 @@
 proxies:
 #Expired 29 juli 2022
+- {name: BIZNET, server: id3.v2-ray.com, port: 443, type: vmess, uuid: efdb5791-814e-4a05-99c6-fcb1c2e12e5e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: w2.web.whatsapp.com, network: ws, ws-opts: {path: /fastssh/gghpws/62e1cbe52c76f/, headers: {Host: id3.v2-ray.com}}, udp: true}
 - {name: id2go-Google, server: id2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okoke, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
 - {name: Wa, server: id2go.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-okoke, skip-cert-verify: true, sni: w2.web.whatsapp.com, network: ws, ws-opts: {path: /trojan, headers: {Host: id2go.ipservers.xyz}}, udp: true}
 #Expired 01 Agustus 2022
