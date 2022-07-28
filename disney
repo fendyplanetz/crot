@@ -2,8 +2,8 @@ payload:
 #speedtest Id
   - fast.com
   - api.fast.com
-  - DOMAIN-SUFFIX,nflxvideo.net
-  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-KEYWORD,nflxvideo
+  - DOMAIN-KEYWORD,netflix
 #Hotstar
   - DOMAIN-KEYWORD,hotstar
   - DOMAIN-SUFFIX,hotstar.com
