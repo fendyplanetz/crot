@@ -1,8 +1,5 @@
 proxies:
 #Expired 05 Agustus 2022
-- {name: gfw-Google, server: id1tro.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hjkhb, skip-cert-verify: true, sni: "dl.google.com", udp: true}
-#Expired 01 Agustus 2022
-- {name: Jago-Midtrans, server: api.midtrans.com, port: 443, type: vless, uuid: 43034eb6-c9b7-401c-b1d6-0b5674742886, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
-#- {name: Jago-Maps, server: id2vless.ipservers.xyz, port: 443, type: vless, uuid: 43034eb6-c9b7-401c-b1d6-0b5674742886, cipher: auto, tls: true, skip-cert-verify: true, servername: mobilemaps.googleapis.com, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
-#- {name: Jago-Antasari, server: lms.uin-antasari.ac.id, port: 443, type: vless, uuid: 43034eb6-c9b7-401c-b1d6-0b5674742886, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
-#- {name: Jago-Guru, server: gw.ruangguru.com, port: 443, type: vless, uuid: 43034eb6-c9b7-401c-b1d6-0b5674742886, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
+- {name: Gfw-Google, server: id1tro.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hjkhb, skip-cert-verify: true, sni: "dl.google.com", udp: true}
+#Expired 06 Agustus 2022
+- {name: Jago-Midtrans, server: api.midtrans.com, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
