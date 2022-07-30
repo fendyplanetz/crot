@@ -1,6 +1,7 @@
 payload:
 #Vidio
-  - "+.vidio.com
+  - "+.vidio.com"
+  - "+.akamaized.net"
 #Netflix
   - "+.fast.com"
   - "+.netflix.ca"
@@ -28,7 +29,7 @@ payload:
 #Hotstar
   - DOMAIN-KEYWORD,hotstar
   - DOMAIN-SUFFIX,hotstar.com
-  - DOMAIN-SUFFIX,akamaized.net
+#  - DOMAIN-SUFFIX,akamaized.net
   - sub-pubsub.hotstar-labs.com
   - amulmithaimatemasterchefcontest.hotstar.com
   - image.hotstar.com
