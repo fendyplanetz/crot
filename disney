@@ -1,7 +1,7 @@
 payload:
 #Netflix
-  - DOMAIN-KEYWORD,nflxvideo
-  - DOMAIN-KEYWORD,netflix
+#  - DOMAIN-KEYWORD,nflxvideo
+#  - DOMAIN-KEYWORD,netflix
   - "+.fast.com"
   - "+.netflix.ca"
   - "+.netflix.com"
