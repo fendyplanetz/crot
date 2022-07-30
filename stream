@@ -1,7 +1,7 @@
 payload:
 #Vidio
   - "+.vidio.com"
-  - "+-vidio-com.akamaized.net"
+  - "+.akamaized.net"
 #Netflix
   - "+.fast.com"
   - "+.netflix.ca"
