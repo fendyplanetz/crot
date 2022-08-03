@@ -3,4 +3,4 @@ proxies:
 - {name: Gfw-Google, server: id1tro.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hjkhb, skip-cert-verify: true, sni: "dl.google.com", udp: true}
 #Expired 06 Agustus 2022
 - {name: Jago-Midtrans, server: api.midtrans.com, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
-- {name: Jago-Wa, server: id2vless.ipservers.xyz, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: w0.web.whatsapp.com, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
+- {name: Jago-Zoom, server: gost-bk.zoom.us, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
