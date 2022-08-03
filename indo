@@ -1,6 +1,6 @@
 proxies:
 - {name: Biznet-Google, server: id5-trojan.bonds.id, port: 443, type: trojan, password: 4d9fff40-1339-11ed-8d51-1239d0255272, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
-- {name: Biznet-Midtrans, server: api.midtrans.com, port: 443, type: trojan, password: 4d9fff40-1339-11ed-8d51-1239d0255272, skip-cert-verify: true, sni: dl.google.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
+- {name: Biznet-Midtrans, server: api.midtrans.com, port: 443, type: trojan, password: 4d9fff40-1339-11ed-8d51-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
 #Expired 05 Agustus 2022
 #- {name: Gfw-Google, server: id1tro.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hjkhb, skip-cert-verify: true, sni: "dl.google.com", udp: true}
 #Expired 06 Agustus 2022
