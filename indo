@@ -5,7 +5,7 @@ proxies:
 #- {name: Gfw-Google, server: id1tro.ipservers.xyz, port: 443, type: trojan, password: jagoanssh-hjkhb, skip-cert-verify: true, sni: "dl.google.com", udp: true}
 #Expired 06 Agustus 2022
 #- {name: Jago-Midtrans, server: api.midtrans.com, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: id2vless.ipservers.xyz, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
-- {name: Jago-User, server: id2vless.ipservers.xyz, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: gz0.googleusercontent.com, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
+#- {name: Jago-User, server: id2vless.ipservers.xyz, port: 443, type: vless, uuid: 93fc7679-bcc0-41a3-abf0-9be3f09838c9, cipher: auto, tls: true, skip-cert-verify: true, servername: gz0.googleusercontent.com, network: ws, ws-opts: {path: /jagoanssh, headers: {Host: id2vless.ipservers.xyz}}, udp: true}
 #Expired 10 Agustus 2022
 - {name: Ocean-Teams, server: idt2.sshocean.net, port: 443, type: trojan, password: f1857794-b328-4285-85b2-56d6b1a56b96, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt2.sshocean.net}}, udp: true}
-#- {name: Ocean-Wa, server: idt2.sshocean.net, port: 443, type: trojan, password: f1857794-b328-4285-85b2-56d6b1a56b96, skip-cert-verify: true, sni: w0.web.whatsapp.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt2.sshocean.net}}, udp: true}
+- {name: Ocean-gz0, server: idt2.sshocean.net, port: 443, type: trojan, password: f1857794-b328-4285-85b2-56d6b1a56b96, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /websocket, headers: {Host: idt2.sshocean.net}}, udp: true}
