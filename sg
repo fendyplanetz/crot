@@ -1,6 +1,6 @@
 proxies:
 #Expired 24 Agustus 2022
-#- {name: Wa, server: sgmgrpc.serverssh.us, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: w0.web.whatsapp.com, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
-#- {name: Midtrans, server: api.midtrans.com, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmgrpc.serverssh.us, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
+#- {name: Google, server: sgmgrpc.serverssh.us, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dl.google.com, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
+- {name: Midtrans, server: api.midtrans.com, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmgrpc.serverssh.us, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
 - {name: Onlymega, server: cdn.onlymega.com, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmgrpc.serverssh.us, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
 - {name: Qiscus, server: api.qiscus.com, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmgrpc.serverssh.us, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
