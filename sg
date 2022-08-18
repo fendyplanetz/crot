@@ -9,7 +9,7 @@ proxies:
 #- {name: Ocean-Midtrans, server: api.midtrans.com, port: 443, type: vmess, uuid: bd5a1773-5091-4881-bfa0-ea6ceb825734, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg8.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg8.v2rayserv.com}}, udp: true}
 - {name: Ocean-Onlymega, server: 104.26.5.10, port: 443, type: vmess, uuid: bd5a1773-5091-4881-bfa0-ea6ceb825734, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cdn.onlymega.com, network: ws, ws-opts: {path: ws://cdn.onlymega.com/sshocean, headers: {Host: sg8.v2rayserv.com}}, udp: true}
 #Expired 21 Agustus 2022
-- name: Google
+ - name: Google
     server: sg1vms-grpc.jrtunnel.us
     port: 443
     type: vmess
