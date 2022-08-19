@@ -1,4 +1,18 @@
 proxies:
+  - name: Google
+    server: sg1vms-grpc.jrtunnel.us
+    port: 443
+    type: vmess
+    uuid: b6e41c64-b908-475a-a2df-da30b0d5aea7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dl.google.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: jrtunnel-vmess-grpc
+    udp: true
 #Expired
   - name: Apis
     server: idc.skycloud.my.id
