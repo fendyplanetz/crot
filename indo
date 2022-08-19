@@ -1,32 +1,32 @@
 proxies:
 #Expired
-  - name: Fast
+  - name: Idt-Fast
     server: api.fastworldpay.com
     port: 443
     type: trojan
-    password: 57495770-1eff-11ed-8601-1239d0255272
+    password: 788ab87c-224d-4e85-8575-470567934d47
     skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
+    sni: idt1.sshocean.net
     network: ws
     ws-opts: 
-      path: /howdy
+      path: /websocket
       headers: 
-        Host: idtj-ikd.bonds.id
+        Host: idt1.sshocean.net
     udp: true
-  - name: Space
+  - name: Idt-Space
     server: geo.vpsku.space
     port: 443
     type: trojan
-    password: 57495770-1eff-11ed-8601-1239d0255272
+    password: 788ab87c-224d-4e85-8575-470567934d47
     skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
+    sni: idt1.sshocean.net
     network: ws
     ws-opts: 
-      path: /howdy
+      path: /websocket
       headers: 
-        Host: idtj-ikd.bonds.id
+        Host: idt1.sshocean.net
     udp: true
-  - name: Teams
+  - name: Ikd-Teams
     server: idtj-ikd.bonds.id
     port: 443
     type: trojan
@@ -39,7 +39,7 @@ proxies:
       headers: 
         Host: idtj-ikd.bonds.id
     udp: true
-  - name: Gz0
+  - name: Ikd-Gz0
     server: idtj-ikd.bonds.id
     port: 443
     type: trojan
