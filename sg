@@ -44,7 +44,7 @@ proxies:
     network: grpc
     grpc-opts: 
       grpc-service-name: jrtunnel-vmess-grpc
-    udp: true}
+    udp: true
 #Expired 21 Agustus ==============
   - name: Midtrans
     server: api.midtrans.com
