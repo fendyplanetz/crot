@@ -1,5 +1,5 @@
 proxies:
-#Expired
+#Expired 26 Agustus
   - name: Idt-Fast
     server: api.fastworldpay.com
     port: 443
