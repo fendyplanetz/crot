@@ -28,8 +28,8 @@ proxies:
         Host: idt1.sshocean.net
     udp: true
 #Expired================
-  - name: Hwd-hohm
-    server: microsoft-hohm.com
+  - name: Hwd-zoom
+    server: gost-bk.zoom.us
     port: 443
     type: trojan
     password: 57495770-1eff-11ed-8601-1239d0255272
