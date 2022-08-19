@@ -1,9 +1,64 @@
 proxies:
 #Expired 18 September 2022
-- {name: Qiscus, server: api.qiscus.com, port: 443, type: vless, uuid: 34731f67-a285-4397-b634-00def7a07e6e, cipher: auto, tls: true, skip-cert-verify: true, servername: sgm1ray.serverssh.net, network: ws, ws-opts: {path: /serverssh, headers: {Host: sgm1ray.serverssh.net}}, udp: true}
-#Expired 24 Agustus 2022
-- {name: Onlymega, server: cdn.onlymega.com, port: 443, type: vmess, uuid: e9e35367-3c66-40d3-82c8-a5453553b484, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgmgrpc.serverssh.us, network: grpc, grpc-opts: {grpc-service-name: grpc}, udp: true}
-#Expired 21 Agustus 2022
-- {name: Google, server: sg1vms-grpc.jrtunnel.us, port: 443, type: vmess, uuid: b6e41c64-b908-475a-a2df-da30b0d5aea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dl.google.com, network: grpc, grpc-opts: {grpc-service-name: jrtunnel-vmess-grpc}, udp: true}
-#Expired 21 Agustus 2022
-- {name: Midtrans, server: api.midtrans.com, port: 443, type: vmess, uuid: bd5a1773-5091-4881-bfa0-ea6ceb825734, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg8.v2rayserv.com, network: ws, ws-opts: {path: /sshocean, headers: {Host: sg8.v2rayserv.com}}, udp: true}
+  - name: Qiscus
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 34731f67-a285-4397-b634-00def7a07e6e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgm1ray.serverssh.net
+    network: ws
+    ws-opts: 
+      path: /serverssh
+      headers: 
+        Host: sgm1ray.serverssh.net
+    udp: true
+#Expired 13 September =============
+  - name: Onlymega
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 0eb284b2-4553-43f9-9072-b642b76707bf
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgmgrpc.serverssh.us
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: grpc
+    udp: true
+#Expired 21 Agustus ==============
+  - name: Google
+    server: sg1vms-grpc.jrtunnel.us
+    port: 443
+    type: vmess
+    uuid: b6e41c64-b908-475a-a2df-da30b0d5aea7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dl.google.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: jrtunnel-vmess-grpc
+    udp: true}
+#Expired 21 Agustus ==============
+  - name: Midtrans
+    server: api.midtrans.com
+    port: 443
+    type: vmess
+    uuid: bd5a1773-5091-4881-bfa0-ea6ceb825734
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8.v2rayserv.com
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers: 
+        Host: sg8.v2rayserv.com
+    udp: true
