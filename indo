@@ -14,8 +14,8 @@ proxies:
         Host: idt1.sshocean.net
     udp: true
 #=================================
-  - name: Idt-space
-    server: geo.vpsku.space
+  - name: Idt-clev
+    server: cdn.cleverism.com
     port: 443
     type: trojan
     password: 788ab87c-224d-4e85-8575-470567934d47
