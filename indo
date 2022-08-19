@@ -30,12 +30,6 @@ proxies:
         Host: idc.skycloud.my.id
     udp: true
 #Expired
-#- {name: Biznet-Fastworld, server: api.fastworldpay.com, port: 443, type: trojan, password: 96e7a100-1a49-11ed-8c39-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
-#- {name: Biznet-Gz0, server: id5-trojan.bonds.id, port: 443, type: trojan, password: 96e7a100-1a49-11ed-8c39-1239d0255272, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
-#Expired 23 Agustus 2022
-#- {name: Ocean-Qiscus, server: status.qiscus.com, port: 443, type: vless, uuid: 584309b3-7d8e-4c25-861e-33ada7fddb8c, cipher: auto, tls: true, skip-cert-verify: true, servername: id2.v2vless.xyz, network: ws, ws-opts: {path: /vless, headers: {Host: id2.v2vless.xyz}}, udp: true}
-#- {name: Ocean-Teams, server: id2.v2vless.xyz, port: 443, type: vless, uuid: 584309b3-7d8e-4c25-861e-33ada7fddb8c, cipher: auto, tls: true, skip-cert-verify: true, servername: teams.microsoft.com, network: ws, ws-opts: {path: /vless, headers: {Host: id2.v2vless.xyz}}, udp: true}
-#Expired
   - name: Ikd-Fast
     server: api.fastworldpay.com
     port: 443
@@ -46,9 +40,15 @@ proxies:
     network: ws
     ws-opts: 
       path: /howdy
-      headers: Host: idtj-ikd.bonds.id
+      headers: 
+        Host: idtj-ikd.bonds.id
     udp: true
 #- {name: Ikd-Space, server: geo.vpsku.space, port: 443, type: trojan, password: 57495770-1eff-11ed-8601-1239d0255272, skip-cert-verify: true, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
 #- {name: Ikd-Teams, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 57495770-1eff-11ed-8601-1239d0255272, skip-cert-verify: true, sni: teams.microsoft.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
 #- {name: Ikd-Gz0, server: idtj-ikd.bonds.id, port: 443, type: trojan, password: 57495770-1eff-11ed-8601-1239d0255272, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}, udp: true}
-
+#Expired
+#- {name: Biznet-Fastworld, server: api.fastworldpay.com, port: 443, type: trojan, password: 96e7a100-1a49-11ed-8c39-1239d0255272, skip-cert-verify: true, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
+#- {name: Biznet-Gz0, server: id5-trojan.bonds.id, port: 443, type: trojan, password: 96e7a100-1a49-11ed-8c39-1239d0255272, skip-cert-verify: true, sni: gz0.googleusercontent.com, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}, udp: true}
+#Expired 23 Agustus 2022
+#- {name: Ocean-Qiscus, server: status.qiscus.com, port: 443, type: vless, uuid: 584309b3-7d8e-4c25-861e-33ada7fddb8c, cipher: auto, tls: true, skip-cert-verify: true, servername: id2.v2vless.xyz, network: ws, ws-opts: {path: /vless, headers: {Host: id2.v2vless.xyz}}, udp: true}
+#- {name: Ocean-Teams, server: id2.v2vless.xyz, port: 443, type: vless, uuid: 584309b3-7d8e-4c25-861e-33ada7fddb8c, cipher: auto, tls: true, skip-cert-verify: true, servername: teams.microsoft.com, network: ws, ws-opts: {path: /vless, headers: {Host: id2.v2vless.xyz}}, udp: true}
