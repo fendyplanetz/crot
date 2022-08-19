@@ -1,42 +1,51 @@
 proxies:
-  - name: Google
-    server: sg1vms-grpc.jrtunnel.us
-    port: 443
-    type: vmess
-    uuid: b6e41c64-b908-475a-a2df-da30b0d5aea7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dl.google.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: jrtunnel-vmess-grpc
-    udp: true
 #Expired
-  - name: Apis
-    server: idc.skycloud.my.id
-    port: 443
-    type: vless
-    uuid: fdf0e426-5fc7-4c24-bcf6-7dc437e0e0a2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: instantmessaging-pa.googleapis.com
-    network: ws
-    ws-opts:
-      path: vless/
-      headers:
-        Host: idc.skycloud.my.id
-    udp: true
-#Expired
-  - name: Ikd-Fast
+  - name: Fast
     server: api.fastworldpay.com
     port: 443
     type: trojan
     password: 57495770-1eff-11ed-8601-1239d0255272
     skip-cert-verify: true
     sni: idtj-ikd.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: idtj-ikd.bonds.id
+    udp: true
+  - name: Space
+    server: geo.vpsku.space
+    port: 443
+    type: trojan
+    password: 57495770-1eff-11ed-8601-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-ikd.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: idtj-ikd.bonds.id
+    udp: true
+  - name: Teams
+    server: idtj-ikd.bonds.id
+    port: 443
+    type: trojan
+    password: 57495770-1eff-11ed-8601-1239d0255272
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: idtj-ikd.bonds.id
+    udp: true
+  - name: Gz0
+    server: idtj-ikd.bonds.id
+    port: 443
+    type: trojan
+    password: 57495770-1eff-11ed-8601-1239d0255272
+    skip-cert-verify: true
+    sni: gz0.googleusercontent.com
     network: ws
     ws-opts: 
       path: /howdy
