@@ -28,13 +28,13 @@ proxies:
         Host: idt1.sshocean.net
     udp: true
 #Expired================
-  - name: Hwd-teams
+  - name: Hwd-hohm
     server: idtj-ikd.bonds.id
     port: 443
     type: trojan
     password: 57495770-1eff-11ed-8601-1239d0255272
     skip-cert-verify: true
-    sni: teams.microsoft.com
+    sni: microsoft-hohm.com
     network: ws
     ws-opts: 
       path: /howdy
