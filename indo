@@ -28,18 +28,20 @@ proxies:
         Host: idt1.sshocean.net
     udp: true
 #Expired================
-  - name: Hwd-google
-    server: idtj-ikd.bonds.id
+  - name: Google
+    server: idc.skycloud.my.id
     port: 443
-    type: trojan
-    password: 57495770-1eff-11ed-8601-1239d0255272
+    type: vless
+    uuid: fdf0e426-5fc7-4c24-bcf6-7dc437e0e0a2
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: kh.google.com
+    servername: kh.google.com
     network: ws
     ws-opts: 
-      path: /howdy
+      path: vless/
       headers: 
-        Host: idtj-ikd.bonds.id
+        Host: idc.skycloud.my.id
     udp: true
 #=================================
   - name: Hwd-fast
