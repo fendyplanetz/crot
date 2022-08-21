@@ -30,35 +30,29 @@ proxies:
     grpc-opts: 
       grpc-service-name: grpc
     udp: true
-#Expired 21 Agustus ==============
-  - name: Google
-    server: sg1vms-grpc.jrtunnel.us
+#Expired 28 Agustus ==============
+  - name: Maps
+    server: sgovh1-ws.xvless.xyz
     port: 443
-    type: vmess
-    uuid: b6e41c64-b908-475a-a2df-da30b0d5aea7
-    alterId: 0
+    type: vless
+    uuid: 59dfe7ff-a9d8-4f52-a9e7-2c7190702bc0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dl.google.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: jrtunnel-vmess-grpc
-    udp: true
-#Expired 21 Agustus ==============
-  - name: Midtrans
-    server: api.midtrans.com
-    port: 443
-    type: vmess
-    uuid: bd5a1773-5091-4881-bfa0-ea6ceb825734
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg8.v2rayserv.com
+    servername: mobilemaps.googleapis.com
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /websocket
       headers: 
-        Host: sg8.v2rayserv.com
+        Host: sgovh1-ws.xvless.xyz
+    udp: true
+#Expired 28 Agustus ==============
+  - name: Meet
+    server: sg2.sjupiter.net
+    port: 443
+    type: trojan
+    password: jupitervpn-123
+    skip-cert-verify: true
+    sni: meetings.googleapis.com
+    network: tcp
     udp: true
