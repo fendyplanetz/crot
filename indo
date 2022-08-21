@@ -1,17 +1,17 @@
 proxies:
 #Expired 26 Agustus
-  - name: Idt-gz0
-    server: idt1.sshocean.net
+  - name: Jpt-gz0
+    server: id2.sjupiter.net
     port: 443
     type: trojan
-    password: 788ab87c-224d-4e85-8575-470567934d47
+    password: jupitervpn-pokeh
     skip-cert-verify: true
     sni: gz0.googleusercontent.com
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /trojan-go
       headers: 
-        Host: idt1.sshocean.net
+        Host: gz0.googleusercontent.com
     udp: true
 #=================================
   - name: Idt-clev
