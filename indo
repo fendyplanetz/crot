@@ -57,4 +57,18 @@ proxies:
       headers: 
         Host: idtj-ikd.bonds.id
     udp: true
-#=================================
+#==============22 September=============
+  - name: Teams
+    server: idc-1.xolva.id
+    port: 443
+    type: vmess
+    uuid: 80a8b68f-a034-4434-ac78-0f544bdb355b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: teams.events.data.microsoft.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vmess-grpc
+    udp: true
