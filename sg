@@ -15,20 +15,21 @@ proxies:
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
-#Expired 13 September =============
-  - name: Onlymega
+#Expired 28 Agustus =============
+  - name: onlymega
     server: cdn.onlymega.com
     port: 443
-    type: vmess
-    uuid: 0eb284b2-4553-43f9-9072-b642b76707bf
-    alterId: 0
+    type: vless
+    uuid: 59dfe7ff-a9d8-4f52-a9e7-2c7190702bc0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgmgrpc.serverssh.us
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: grpc
+    servername: sgovh1-ws.xvless.xyz
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: sgovh1-ws.xvless.xyz
     udp: true
 #Expired 28 Agustus ==============
   - name: Maps
