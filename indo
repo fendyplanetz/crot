@@ -27,22 +27,6 @@ proxies:
       headers: 
         Host: idt1.sshocean.net
     udp: true
-#Expired================
-  - name: Google
-    server: idc.skycloud.my.id
-    port: 443
-    type: vless
-    uuid: fdf0e426-5fc7-4c24-bcf6-7dc437e0e0a2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: kh.google.com
-    network: ws
-    ws-opts: 
-      path: vless/
-      headers: 
-        Host: idc.skycloud.my.id
-    udp: true
 #=================================
   - name: Hwd-fast
     server: api.fastworldpay.com
