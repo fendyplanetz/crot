@@ -31,22 +31,6 @@ proxies:
       headers: 
         Host: sgovh1-ws.xvless.xyz
     udp: true
-#Expired 28 Agustus =============
-  - name: Google
-    server: sgovh1-ws.xvless.xyz
-    port: 443
-    type: vless
-    uuid: 59dfe7ff-a9d8-4f52-a9e7-2c7190702bc0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dl.google.com
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: sgovh1-ws.xvless.xyz
-    udp: true
 #Expired 28 Agustus ==============
   - name: Meet
     server: sg2.sjupiter.net
