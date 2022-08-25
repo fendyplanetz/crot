@@ -1,5 +1,5 @@
 proxies:
-#Expired 18 September 2022
+#Expired 18 September 2022 =============
   - name: Qiscus
     server: api.qiscus.com
     port: 443
@@ -15,21 +15,20 @@ proxies:
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
-#Expired 28 Agustus =============
-  - name: onlymega
+#Expired 23 September 2022 =============
+  - name: Onlymega
     server: cdn.onlymega.com
     port: 443
-    type: vless
-    uuid: 59dfe7ff-a9d8-4f52-a9e7-2c7190702bc0
+    type: vmess
+    uuid: 80a8b68f-a034-4434-ac78-0f544bdb355b
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgovh1-ws.xvless.xyz
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: sgovh1-ws.xvless.xyz
+    servername: idc-1.xolva.id
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vmess-grpc
     udp: true
 #Expired 28 Agustus ==============
   - name: Maps
