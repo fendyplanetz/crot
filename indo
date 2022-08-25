@@ -1,17 +1,17 @@
 proxies:
 #Expired 29 Agustus ================
-  - name: Jpt-gz0
-    server: id2.sjupiter.net
+  - name: Jpt-Fast
+    server: api.fastworldpay.com
     port: 443
     type: trojan
     password: jupitervpn-pokeh
     skip-cert-verify: true
-    sni: gz0.googleusercontent.com
+    sni: id2.sjupiter.net
     network: ws
     ws-opts: 
       path: /trojan-go
       headers: 
-        Host: gz0.googleusercontent.com
+        Host: id2.sjupiter.net
     udp: true
 #Expired 26 Agustus ================
   - name: Idt-clev
@@ -26,20 +26,6 @@ proxies:
       path: /websocket
       headers: 
         Host: idt1.sshocean.net
-    udp: true
-#=================================
-  - name: Hwd-fast
-    server: api.fastworldpay.com
-    port: 443
-    type: trojan
-    password: 57495770-1eff-11ed-8601-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: idtj-ikd.bonds.id
     udp: true
 #==============22 September=============
   - name: Teams
