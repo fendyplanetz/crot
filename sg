@@ -31,20 +31,21 @@ proxies:
       headers: 
         Host: sgovh1-ws.xvless.xyz
     udp: true
-#Expired 22 September ==============
+#Expired 28 Agustus =============
   - name: Google
-    server: idc-1.xolva.id
+    server: sgovh1-ws.xvless.xyz
     port: 443
-    type: vmess
-    uuid: 80a8b68f-a034-4434-ac78-0f544bdb355b
-    alterId: 0
+    type: vless
+    uuid: 59dfe7ff-a9d8-4f52-a9e7-2c7190702bc0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: dl.google.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: vmess-grpc
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: sgovh1-ws.xvless.xyz
     udp: true
 #Expired 28 Agustus ==============
   - name: Meet
