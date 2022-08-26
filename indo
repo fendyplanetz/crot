@@ -13,19 +13,19 @@ proxies:
       headers: 
         Host: id2.sjupiter.net
     udp: true
-#Expired 26 Agustus ================
-  - name: Idt-clev
+#======================================
+  - name: Hwd-Clev
     server: cdn.cleverism.com
     port: 443
     type: trojan
-    password: 788ab87c-224d-4e85-8575-470567934d47
+    password: 2c7c7220-255c-11ed-be35-1239d0255272
     skip-cert-verify: true
-    sni: idt1.sshocean.net
+    sni: idtj-ikd.bonds.id
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /howdy
       headers: 
-        Host: idt1.sshocean.net
+        Host: idtj-ikd.bonds.id
     udp: true
 #==============22 September=============
   - name: Teams
