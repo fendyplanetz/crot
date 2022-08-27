@@ -31,13 +31,20 @@ proxies:
       headers: 
         Host: sg5vless.ipservers.xyz
     udp: true
-#Expired 28 Agustus ==============
+#Expired 04 September JupiterVPN ============
   - name: Meet
-    server: sg2.sjupiter.net
+    server: sg1.jupiterv2ray.xyz
     port: 443
-    type: trojan
-    password: jupitervpn-123
+    type: vmess
+    uuid: 2a736300-4f39-4aec-81a8-ef5e3e471f43
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meetings.googleapis.com
-    network: tcp
+    servername: meetings.googleapis.com
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers: 
+        Host: sg1.jupiterv2ray.xyz
     udp: true
