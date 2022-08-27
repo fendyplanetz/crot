@@ -15,21 +15,21 @@ proxies:
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
-#Expired 28 Agustus =============
+#Expired 04 September JagoanSSH =============
   - name: Onlymega
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 59dfe7ff-a9d8-4f52-a9e7-2c7190702bc0
+    uuid: 63411c9f-d808-49db-b476-6b1a9e11d937
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgovh1-ws.xvless.xyz
+    servername: sg5vless.ipservers.xyz
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /jagoanssh
       headers: 
-        Host: sgovh1-ws.xvless.xyz
+        Host: sg5vless.ipservers.xyz
     udp: true
 #Expired 28 Agustus ==============
   - name: Meet
