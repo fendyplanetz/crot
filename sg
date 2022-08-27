@@ -1,19 +1,18 @@
 proxies:
-#Expired 18 September =============
+#Expired 27 September =============
   - name: Qiscus
     server: api.qiscus.com
     port: 443
-    type: vless
-    uuid: 34731f67-a285-4397-b634-00def7a07e6e
+    type: vmess
+    uuid: cb12d5a2-a2e4-4166-a492-c76931a5f4ee
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgm1ray.serverssh.net
-    network: ws
-    ws-opts: 
-      path: /serverssh
-      headers: 
-        Host: sgm1ray.serverssh.net
+    servername: sgmgrpc.serverssh.us
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: grpc
     udp: true
 #Expired 04 September JagoanSSH =============
   - name: Onlymega
