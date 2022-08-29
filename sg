@@ -14,21 +14,21 @@ proxies:
     grpc-opts: 
       grpc-service-name: grpc
     udp: true
-#Expired 04 September JagoanSSH =============
-  - name: Onlymega
-    server: cdn.onlymega.com
+#Expired 29 September JagoanSSH =============
+  - name: Teams
+    server: sgcvless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 63411c9f-d808-49db-b476-6b1a9e11d937
+    uuid: b57f1da9-fe74-400a-8d49-ab4a4d32602a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg5vless.ipservers.xyz
+    servername: teams.events.data.microsoft.com
     network: ws
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: sg5vless.ipservers.xyz
+        Host: sgcvless.ipservers.xyz
     udp: true
 #Expired 04 September JupiterVPN ============
   - name: Meet
