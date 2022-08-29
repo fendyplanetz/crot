@@ -1,17 +1,19 @@
 proxies:
-#Expired 29 Agustus ================
-  - name: Jpt-Fast
-    server: api.fastworldpay.com
+#Expired 5 September SSH Ocean ================
+  - name: Meet
+    server: id6.v2vless.xyz
     port: 443
-    type: trojan
-    password: jupitervpn-pokeh
+    type: vless
+    uuid: 2b00e36d-2ad9-4a82-8b0e-808d578da997
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id2.sjupiter.net
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /trojan-go
+      path: /vless
       headers: 
-        Host: id2.sjupiter.net
+        Host: id6.v2vless.xyz
     udp: true
 #======================================
   - name: Hwd-Clev
