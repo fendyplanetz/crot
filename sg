@@ -15,8 +15,8 @@ proxies:
       grpc-service-name: grpc
     udp: true
 #Expired 29 September JagoanSSH =============
-  - name: Onlymega
-    server: support.onlymega.com
+  - name: Fastworld
+    server: api.fastworldpay.com
     port: 443
     type: vless
     uuid: b57f1da9-fe74-400a-8d49-ab4a4d32602a
