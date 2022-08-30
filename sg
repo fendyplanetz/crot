@@ -16,7 +16,7 @@ proxies:
     udp: true
 #Expired 29 September JagoanSSH =============
   - name: Onlymega
-    server: cdn.onlymega.com
+    server: support.onlymega.com
     port: 443
     type: vless
     uuid: b57f1da9-fe74-400a-8d49-ab4a4d32602a
