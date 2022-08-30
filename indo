@@ -1,6 +1,6 @@
 proxies:
 #Expired 5 September SSH Ocean ================
-  - name: Meet
+  - name: Hangouts
     server: id6.v2vless.xyz
     port: 443
     type: vless
@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: hangouts.googleapis.com
     network: ws
     ws-opts: 
       path: /vless
@@ -30,7 +30,7 @@ proxies:
         Host: idtj-ikd.bonds.id
     udp: true
 #==============22 September=============
-  - name: Teams
+  - name: Meet
     server: idc-1.xolva.id
     port: 443
     type: vmess
@@ -39,7 +39,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: teams.events.data.microsoft.com
+    servername: meet.google.com
     network: grpc
     grpc-opts: 
       grpc-service-name: vmess-grpc
