@@ -14,21 +14,21 @@ proxies:
     grpc-opts: 
       grpc-service-name: grpc
     udp: true
-#Expired 5 September SSHOcean =============
-  - name: Ocean.Daily-5
-    server: id6.v2vless.xyz
-    port: 443
+#Expired 6 September FastSSH =============
+  - name: FastSSH-Daily-5
+    server: sg2.vless.co
+    port: 443/
     type: vless
-    uuid: 2b00e36d-2ad9-4a82-8b0e-808d578da997
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /fastssh/bendul/630f605bbfbd7/
       headers: 
-        Host: id6.v2vless.xyz
+        Host: daily-5.meet.google.com
     udp: true
 #Expired 04 September JupiterVPN ============
   - name: Jptr-Daily-0
