@@ -30,20 +30,18 @@ proxies:
       headers: 
         Host: sg2.vless.co
     udp: true
-#Expired 08 September SSHMax ============
-  - name: SSHMax-Daily-5
-    server: sg-v.sshmax.xyz
+#Expired 08 September JupiterVPN ============
+  - name: Jptr-Daily-5 
+    server: sg1.sjupiter.net
     port: 443
     type: vmess
-    uuid: e891f76a-31ae-4802-904b-d9f47406ec96
+    uuid: a93b77d0-dc36-4c98-8fa4-a9984eab7a69
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: daily-0.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg-v.sshmax.xyz
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: v2ray-vmess-grpc
     udp: true
