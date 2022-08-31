@@ -15,20 +15,20 @@ proxies:
       grpc-service-name: grpc
     udp: true
 #Expired 6 September FastSSH =============
-  - name: FastSSH-Daily-5
-    server: sg2.vless.co
-    port: 443/
+  - name: FastSSH-Fast
+    server: api.fastworldpay.com
+    port: 443
     type: vless
     uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-5.meet.google.com
+    servername: sg2.vless.co
     network: ws
     ws-opts: 
       path: /fastssh/bendul/630f605bbfbd7/
       headers: 
-        Host: daily-5.meet.google.com
+        Host: sg2.vless.co
     udp: true
 #Expired 04 September JupiterVPN ============
   - name: Jptr-Daily-0
