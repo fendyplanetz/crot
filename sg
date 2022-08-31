@@ -14,21 +14,21 @@ proxies:
     grpc-opts: 
       grpc-service-name: grpc
     udp: true
-#Expired 29 September JagoanSSH =============
+#Expired 5 September SSHOcean =============
   - name: Daily-5
-    server: sgcvless.ipservers.xyz
+    server: id6.v2vless.xyz
     port: 443
     type: vless
-    uuid: b57f1da9-fe74-400a-8d49-ab4a4d32602a
+    uuid: 2b00e36d-2ad9-4a82-8b0e-808d578da997
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
-      path: /jagoanssh
+      path: /vless
       headers: 
-        Host: sgcvless.ipservers.xyz
+        Host: id6.v2vless.xyz
     udp: true
 #Expired 04 September JupiterVPN ============
   - name: Daily-0
