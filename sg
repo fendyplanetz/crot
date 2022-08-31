@@ -15,15 +15,15 @@ proxies:
       grpc-service-name: grpc
     udp: true
 #Expired 29 September JagoanSSH =============
-  - name: Fastworld
-    server: api.fastworldpay.com
+  - name: Daily-5
+    server: sgcvless.ipservers.xyz
     port: 443
     type: vless
     uuid: b57f1da9-fe74-400a-8d49-ab4a4d32602a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgcvless.ipservers.xyz
+    servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
@@ -31,7 +31,7 @@ proxies:
         Host: sgcvless.ipservers.xyz
     udp: true
 #Expired 04 September JupiterVPN ============
-  - name: Meet
+  - name: Daily-0
     server: sg1.jupiterv2ray.xyz
     port: 443
     type: vmess
@@ -40,7 +40,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meetings.googleapis.com
+    servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
       path: /v2ray
