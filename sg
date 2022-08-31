@@ -31,7 +31,7 @@ proxies:
         Host: sg2.vless.co
     udp: true
 #Expired 04 September JupiterVPN ============
-  - name: Jptr-Daily-0
+  - name: Jptr-Daily-5
     server: sg1.jupiterv2ray.xyz
     port: 443
     type: vmess
@@ -40,7 +40,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-0.meet.google.com
+    servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
       path: /v2ray
