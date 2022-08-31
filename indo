@@ -1,6 +1,6 @@
 proxies:
 #Expired 5 September SSH Ocean ================
-  - name: Daily-0
+  - name: Ocean.Daily-0
     server: id6.v2vless.xyz
     port: 443
     type: vless
@@ -16,7 +16,7 @@ proxies:
         Host: id6.v2vless.xyz
     udp: true
 #======================================
-  - name: Hwd-Clev
+  - name: Howdy-Clev
     server: cdn.cleverism.com
     port: 443
     type: trojan
@@ -30,7 +30,7 @@ proxies:
         Host: idtj-ikd.bonds.id
     udp: true
 #==============22 September=============
-  - name: Meet
+  - name: Xolva-Meet
     server: idc-1.xolva.id
     port: 443
     type: vmess
