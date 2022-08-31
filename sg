@@ -1,6 +1,6 @@
 proxies:
 #Expired 27 September ServerSSH=============
-  - name: Qiscus
+  - name: Server-Qiscus
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       grpc-service-name: grpc
     udp: true
 #Expired 5 September SSHOcean =============
-  - name: Daily-5
+  - name: Ocean.Daily-5
     server: id6.v2vless.xyz
     port: 443
     type: vless
@@ -31,7 +31,7 @@ proxies:
         Host: id6.v2vless.xyz
     udp: true
 #Expired 04 September JupiterVPN ============
-  - name: Daily-0
+  - name: Jptr-Daily-0
     server: sg1.jupiterv2ray.xyz
     port: 443
     type: vmess
