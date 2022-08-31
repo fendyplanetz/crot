@@ -1,6 +1,6 @@
 proxies:
 #Expired 5 September SSH Ocean ================
-  - name: Hangouts
+  - name: Daily-0
     server: id6.v2vless.xyz
     port: 443
     type: vless
@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hangouts.googleapis.com
+    servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
       path: /vless
