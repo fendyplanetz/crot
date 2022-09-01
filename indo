@@ -1,6 +1,6 @@
 proxies:
 #Expired 5 September SSH Ocean ================
-  - name: Ocean.Daily-0
+#  - name: Ocean.Daily-0
     server: id6.v2vless.xyz
     port: 443
     type: vless
@@ -16,7 +16,7 @@ proxies:
         Host: id6.v2vless.xyz
     udp: true
 #======================================
-  - name: Howdy-Clev
+#  - name: Howdy-Clev
     server: cdn.cleverism.com
     port: 443
     type: trojan
@@ -30,6 +30,21 @@ proxies:
         Host: idtj-ikd.bonds.id
     udp: true
 #==============22 September=============
+  - name: Xolva-clev
+    server: cdn.cleverism.com
+    port: 443
+    type: vmess
+    uuid: 80a8b68f-a034-4434-ac78-0f544bdb355b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idc-1.xolva.id
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vmess-grpc
+    udp: true
+
   - name: Xolva-Meet
     server: idc-1.xolva.id
     port: 443
@@ -40,6 +55,21 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vmess-grpc
+    udp: true
+
+  - name: Xolva-Daily-0
+    server: idc-1.xolva.id
+    port: 443
+    type: vmess
+    uuid: 80a8b68f-a034-4434-ac78-0f544bdb355b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: daily-0.meet.google.com
     network: grpc
     grpc-opts: 
       grpc-service-name: vmess-grpc
