@@ -1,34 +1,4 @@
 proxies:
-#Expired 5 September SSH Ocean ================
-#  - name: Ocean.Daily-0
-    server: id6.v2vless.xyz
-    port: 443
-    type: vless
-    uuid: 2b00e36d-2ad9-4a82-8b0e-808d578da997
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: daily-0.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vless
-      headers: 
-        Host: id6.v2vless.xyz
-    udp: true
-#======================================
-#  - name: Howdy-Clev
-    server: cdn.cleverism.com
-    port: 443
-    type: trojan
-    password: 2c7c7220-255c-11ed-be35-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: idtj-ikd.bonds.id
-    udp: true
 #==============22 September=============
   - name: Xolva-clev
     server: cdn.cleverism.com
