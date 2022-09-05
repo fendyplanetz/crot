@@ -14,21 +14,20 @@ proxies:
     grpc-opts: 
       grpc-service-name: grpc
     udp: true
-#Expired 6 September FastSSH =============
-  - name: FastSSH-Fast
+#Expired 9 September Mainssh =============
+  - name: Main-Fast
     server: api.fastworldpay.com
     port: 443
-    type: vless
-    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    type: vmess
+    uuid: 04f62129-bb0d-4ab9-8515-64c521c8f2cd
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2.vless.co
-    network: ws
-    ws-opts: 
-      path: /fastssh/bendul/630f605bbfbd7/
-      headers: 
-        Host: sg2.vless.co
+    servername: sg3mgrpc.mainssh.xyz
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vmessgrpc
     udp: true
 #Expired 08 September JupiterVPN ============
   - name: Jptr-Daily-5 
