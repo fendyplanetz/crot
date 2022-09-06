@@ -17,7 +17,7 @@ proxies:
 #Expired 12 September Mainssh =============
   - name: Main-sg
     server: zendesk1.shopee.sg
-    port: 443
+    port: 80
     type: vmess
     uuid: 04f62129-bb0d-4ab9-8515-64c521c8f2cd
     alterId: 0
