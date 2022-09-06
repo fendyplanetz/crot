@@ -1,6 +1,6 @@
 proxies:
 #==============22 September=============
-  - name: Xolva-Meet
+  - name: Xolva-Wa
     server: idc-1.xolva.id
     port: 443
     type: vmess
@@ -9,7 +9,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: w0.web.whatsapp.com
     network: grpc
     grpc-opts: 
       grpc-service-name: vmess-grpc
