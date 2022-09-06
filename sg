@@ -2,7 +2,7 @@ proxies:
 #Expired 27 September ServerSSH=============
   - name: Server-tw
     server: zendesk1.shopee.tw
-    port: 443
+    port: 80
     type: vmess
     uuid: cb12d5a2-a2e4-4166-a492-c76931a5f4ee
     alterId: 0
