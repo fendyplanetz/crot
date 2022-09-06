@@ -1,7 +1,7 @@
 proxies:
 #Expired 27 September ServerSSH=============
-  - name: Server-Qiscus
-    server: api.qiscus.com
+  - name: Server-tw
+    server: zendesk1.shopee.tw
     port: 443
     type: vmess
     uuid: cb12d5a2-a2e4-4166-a492-c76931a5f4ee
@@ -15,8 +15,8 @@ proxies:
       grpc-service-name: grpc
     udp: true
 #Expired 12 September Mainssh =============
-  - name: Main-Fast
-    server: api.fastworldpay.com
+  - name: Main-sg
+    server: zendesk1.shopee.sg
     port: 443
     type: vmess
     uuid: 04f62129-bb0d-4ab9-8515-64c521c8f2cd
@@ -30,7 +30,7 @@ proxies:
       grpc-service-name: vmessgrpc
     udp: true
 #Expired 08 September JupiterVPN ============
-  - name: Jptr-Daily-5 
+  - name: Jptr-wa
     server: sg1.sjupiter.net
     port: 443
     type: vmess
@@ -39,7 +39,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-0.meet.google.com
+    servername: w0.web.whatsapp.com
     network: grpc
     grpc-opts: 
       grpc-service-name: v2ray-vmess-grpc
