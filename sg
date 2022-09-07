@@ -17,19 +17,21 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #Expired 12 September Mainssh =============
-  - name: Main-Doc
-    server: sg3mgrpc.mainssh.xyz
-    port: 433
+  - name: Server-Gopay
+    server: account-gopay.midtrans.com
+    port: 80
     type: vmess
-    uuid: 04f62129-bb0d-4ab9-8515-64c521c8f2cd
+    uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: api-docs.midtrans.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: vmessgrpc
+    tls: false
+    skip-cert-verify: false
+    servername: jdbdh
+    network: ws
+    ws-opts: 
+      path: /serverssh.net
+      headers: 
+        Host: sgm1ray.serverssh.net
     udp: true
 #Expired 08 September JupiterVPN ============
   - name: Jptr-wa
