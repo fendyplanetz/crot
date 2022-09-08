@@ -17,7 +17,7 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #Expired 12 September Mainssh =============
-  - name: Server-Gopay
+  - name: Server-Midtrans
     server: account-gopay.midtrans.com
     port: 80
     type: vmess
