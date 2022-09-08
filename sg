@@ -33,18 +33,20 @@ proxies:
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
-#Expired 08 September JupiterVPN ============
-  - name: Jptr-wa
-    server: sg1.sjupiter.net
+#Expired 16/9 JupiterVPN ============
+  - name: Jptr-Udemy
+    server: exogroup.udemy.com
     port: 443
     type: vmess
-    uuid: a93b77d0-dc36-4c98-8fa4-a9984eab7a69
+    uuid: 8b695c85-c4fc-493a-9b8b-0f477e703a5e
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w0.web.whatsapp.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: v2ray-vmess-grpc
+    servername: sg2.sjupiter.net
+    network: ws
+    ws-opts: 
+      path: /vmess/
+      headers: 
+        Host: sg2.sjupiter.net
     udp: true
