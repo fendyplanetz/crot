@@ -16,7 +16,7 @@ proxies:
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
-#Expired 12 September Mainssh =============
+#Expired 12 September ServerSSH =============
   - name: Server-Midtrans
     server: account-gopay.midtrans.com
     port: 80
@@ -44,6 +44,23 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: sg2.sjupiter.net
+    network: ws
+    ws-opts: 
+      path: /vmess/
+      headers: 
+        Host: sg2.sjupiter.net
+    udp: true
+#============
+  - name: Jptr-Wa
+    server: sg2.sjupiter.net
+    port: 443
+    type: vmess
+    uuid: 8b695c85-c4fc-493a-9b8b-0f477e703a5e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: w0.web.whatsapp.com
     network: ws
     ws-opts: 
       path: /vmess/
