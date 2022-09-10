@@ -33,19 +33,20 @@ proxies:
       headers: 
         Host: v2.scvpn.me
     udp: true
-#Expired 9/10 JagoanSSH=============
-  - name: Jago-Wa
-    server: sgcvless.ipservers.xyz
+#Expired 16/9 Jupiter =============
+  - name: Jptr-Wa
+    server: sg2.sjupiter.net
     port: 443
-    type: vless
-    uuid: 6de59fdd-779d-4471-9e5e-7bf3fbadb12c
+    type: vmess
+    uuid: 8b695c85-c4fc-493a-9b8b-0f477e703a5e
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: web.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /jagoanssh
+      path: /vmess/
       headers: 
-        Host: sgcvless.ipservers.xyz
+        Host: sg2.sjupiter.net
     udp: true
