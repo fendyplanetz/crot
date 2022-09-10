@@ -15,7 +15,7 @@ proxies:
       grpc-service-name: vmess-grpc
     udp: true
 #======================================
-  - name: Xolva-Midtrans
+  - name: Xolva-W2
     server: idc-1.xolva.id
     port: 443
     type: vmess
@@ -24,13 +24,13 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: app.midtrans.com
+    servername: w2.web.whatsapp.com
     network: grpc
     grpc-opts: 
       grpc-service-name: vmess-grpc
     udp: true
 #======================================
-  - name: Xolva-Udemy
+  - name: Xolva-W5
     server: idc-1.xolva.id
     port: 443
     type: vmess
@@ -39,7 +39,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: exogroup.udemy.com
+    servername: w5.web.whatsapp.com
     network: grpc
     grpc-opts: 
       grpc-service-name: vmess-grpc
