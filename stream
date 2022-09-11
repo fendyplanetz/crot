@@ -4,6 +4,8 @@ payload:
   - "+.akamaized.net"
   - "IP-CIDR,23.59.168.0/24"
   - "IP-CIDR,96.17.72.0/24"
+  - "IP-CIDR,23.49.60.0/24"
+  - "IP-CIDR,122.11.168.0/24"
 #Netflix
   - "+.fast.com"
   - "+.netflix.ca"
