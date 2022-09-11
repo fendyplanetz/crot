@@ -18,7 +18,7 @@ proxies:
     udp: true
 #Expired 16/9 JagoanSSH =============
   - name: Jago-grab
-    server: zendesk1.grabtaxi.com
+    server: zendesk1.grab.com
     port: 80
     type: vmess
     uuid: ac414c2a-f532-4698-9a9e-176174270830
