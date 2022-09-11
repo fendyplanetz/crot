@@ -30,17 +30,16 @@ proxies:
       grpc-service-name: vmess-grpc
     udp: true
 #======================================
-  - name: Xolva-W5
-    server: idc-1.xolva.id
+  - name: Hwd-w5
+    server: idtj-ikd.bonds.id
     port: 443
-    type: vmess
-    uuid: 80a8b68f-a034-4434-ac78-0f544bdb355b
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 1f9b8a10-3173-11ed-aba2-1239d0255272
     skip-cert-verify: true
-    servername: w5.web.whatsapp.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: vmess-grpc
+    sni: w5.web.whatsapp.com
+    network: ws
+    ws-opts: 
+      path: wss://web.web.whatsapp.com/howdy
+      headers: 
+        Host: idtj-ikd.bonds.id
     udp: true
