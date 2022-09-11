@@ -2,6 +2,7 @@ payload:
 #Vidio
   - "+.vidio.com"
   - "+.akamaized.net"
+  - "IP-CIDR,23.59.168.0/24"
 #Netflix
   - "+.fast.com"
   - "+.netflix.ca"
