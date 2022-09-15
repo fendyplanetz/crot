@@ -3,6 +3,7 @@ payload:
   - "+.vidio.com"
   - "+.akamaized.net"
   - "+.livesportstv.cc"
+  - "+.vidiocdn.com"
   - "IP-CIDR,23.59.168.0/24"
   - "IP-CIDR,96.17.72.0/24"
   - "IP-CIDR,23.49.60.0/24"
