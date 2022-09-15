@@ -1,24 +1,23 @@
 proxies:
 #Expired 6/10 ServerSSH=============
-  - name: Server-Tw
-    server: zendesk1.shopee.tw
-    port: 80
-    type: vmess
+- name: Server-W0
+    server: sgm1ray.serverssh.net
+    port: 443
+    type: vless
     uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
-    alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: jdbdh
+    tls: true
+    skip-cert-verify: true
+    servername: w0.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /serverssh.net
+      path: /serverssh
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
 #Expired 16/9 JagoanSSH =============
-  - name: Jago-grab
-    server: zendesk1.grab.com
+  - name: Jago-Tw
+    server: zendesk1.shopee.tw
     port: 80
     type: vmess
     uuid: ac414c2a-f532-4698-9a9e-176174270830
@@ -26,7 +25,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: w0.web.whatsapp.com
+    servername: sg8.vmes.xyz
     network: ws
     ws-opts: 
       path: /JAGOANSSH/
