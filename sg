@@ -1,6 +1,6 @@
 proxies:
 #Expired 6/10 ServerSSH=============
-- name: Server-W0
+  - name: Server-W0
     server: sgm1ray.serverssh.net
     port: 443
     type: vless
