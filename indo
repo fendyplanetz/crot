@@ -29,19 +29,20 @@ proxies:
     grpc-opts: 
       grpc-service-name: vmess-grpc
     udp: true
-#==============23/9 MainSSH =============
-  - name: Mainssh-Wa
-    server: idlws.mainssh.xyz
+#==============23/9 JupiterVPN =============
+  - name: Jupiter-W5
+    server: id2.sjupiter.net
     port: 443
-    type: vless
-    uuid: 74049c2c-7295-443c-abb0-a8ea30c6b105
+    type: vmess
+    uuid: 3a940368-027c-49fa-a346-7af63d8f0200
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: web.web.whatsapp.com
+    servername: w5.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /vmess/
       headers: 
-        Host: idlws.mainssh.xyz
+        Host: id2.sjupiter.net
     udp: true
