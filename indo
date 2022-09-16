@@ -29,17 +29,19 @@ proxies:
     grpc-opts: 
       grpc-service-name: vmess-grpc
     udp: true
-#======================================
-  - name: Hwd-w5
-    server: idtj-ikd.bonds.id
+#==============23/9 MainSSH =============
+  - name: Mainssh-Wa
+    server: idlws.mainssh.xyz
     port: 443
-    type: trojan
-    password: 1f9b8a10-3173-11ed-aba2-1239d0255272
+    type: vless
+    uuid: 74049c2c-7295-443c-abb0-a8ea30c6b105
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: w5.web.whatsapp.com
+    servername: web.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: wss://web.web.whatsapp.com/howdy
+      path: /vless
       headers: 
-        Host: idtj-ikd.bonds.id
+        Host: idlws.mainssh.xyz
     udp: true
