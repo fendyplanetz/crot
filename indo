@@ -1,6 +1,6 @@
 proxies:
 #==============22 September=============
-  - name: Xolva-Wa
+  - name: Xolva-W0
     server: idc-1.xolva.id
     port: 443
     type: vmess
