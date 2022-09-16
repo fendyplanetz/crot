@@ -32,20 +32,17 @@ proxies:
       headers: 
         Host: sg8.vmes.xyz
     udp: true
-#Expired 16/9 Jupiter =============
+#Expired 21/9 Jupiter =============
   - name: Jptr-Wa
-    server: sg2.sjupiter.net
+    server: sg3.sjupiter.net
     port: 443
-    type: vmess
-    uuid: 8b695c85-c4fc-493a-9b8b-0f477e703a5e
-    alterId: 0
+    type: vless
+    uuid: 772f85b1-0c47-46e1-b679-f2ede4232608
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: web.web.whatsapp.com
-    network: ws
-    ws-opts: 
-      path: /vmess/
-      headers: 
-        Host: sg2.sjupiter.net
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: xray-vless-grpc
     udp: true
