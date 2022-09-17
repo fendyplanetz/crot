@@ -29,6 +29,23 @@ proxies:
     grpc-opts: 
       grpc-service-name: vmess-grpc
     udp: true
+#============== RackH =============
+  - name: RackH-W5
+    server: biznet10.nextvpn.cc
+    port: 443
+    type: vmess
+    uuid: 444e2f97-179c-4bff-8416-f1fbed0500ea
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: w5.web.whatsapp.com
+    network: ws
+    ws-opts: 
+      path: /vpnneo
+      headers: 
+        Host: biznet10.nextvpn.cc
+    udp: true
 #============== Biznet =============
   - name: Biznet-Tw
     server: zendesk1.shopee.tw
