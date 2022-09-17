@@ -47,8 +47,8 @@ proxies:
       grpc-service-name: xray-vless-grpc
     udp: true
 #============= Biznet =============
-  - name: Biznet-sg
-    server: zendesk1.shopee.sg
+  - name: Biznet-ph
+    server: zendesk1.shopee.ph
     port: 80
     type: vmess
     uuid: 0d231b33-66c3-42bb-ae76-0f01faaf9719
