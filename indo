@@ -29,20 +29,20 @@ proxies:
     grpc-opts: 
       grpc-service-name: vmess-grpc
     udp: true
-#==============23/9 JupiterVPN =============
-  - name: Jupiter-W5
-    server: id2.sjupiter.net
-    port: 443
+#============== Biznet =============
+  - name: Biznet-Tw
+    server: zendesk1.shopee.tw
+    port: 80
     type: vmess
-    uuid: 3a940368-027c-49fa-a346-7af63d8f0200
+    uuid: 0d231b33-66c3-42bb-ae76-0f01faaf9719
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: w5.web.whatsapp.com
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /vmess/
+      path: /vpnneo
       headers: 
-        Host: id2.sjupiter.net
+        Host: biznet-s.nextvpn.cc
     udp: true
