@@ -1,6 +1,6 @@
 proxies:
-#Expired 6/10 ServerSSH=============
-  - name: Server-W0
+#=========== 6/10 ServerSSH ===========
+  - name: 6/10 W0
     server: sgm1ray.serverssh.net
     port: 443
     type: vless
@@ -15,51 +15,53 @@ proxies:
       headers: 
         Host: sgm1ray.serverssh.net
     udp: true
-#Expired 21/9 Jupiter =============
-  - name: Jptr-Wa
-    server: sg3.sjupiter.net
+#=========== 6/10 ServerSSH ===========
+  - name: 6/10 PH
+    server: zendesk1.shopee.ph
     port: 443
     type: vless
-    uuid: 772f85b1-0c47-46e1-b679-f2ede4232608
+    uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: web.web.whatsapp.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: xray-vless-grpc
-    udp: true
-#============= Biznet =============
-  - name: Biznet-ph
-    server: zendesk1.shopee.ph
-    port: 80
-    type: vmess
-    uuid: 0d231b33-66c3-42bb-ae76-0f01faaf9719
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
+    servername: sgm1ray.serverssh.net
     network: ws
     ws-opts: 
-      path: /vpnneo
+      path: /serverssh
       headers: 
-        Host: biznet-s.nextvpn.cc
+        Host: sgm1ray.serverssh.net
     udp: true
-#============= Biznet =============
-  - name: Biznet-W5
-    server: biznet10.nextvpn.cc
+#=========== 14/10 indo-ssh.com ===========
+  - name: 14/10 W2
+    server: sg-ovh.indo-ssh.com
     port: 443
     type: vmess
-    uuid: 444e2f97-179c-4bff-8416-f1fbed0500ea
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w5.web.whatsapp.com
+    servername: w2.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /vpnneo
+      path: /vmessws
       headers: 
-        Host: biznet10.nextvpn.cc
+        Host: sg-ovh.indo-ssh.com
+    udp: true
+#=========== 14/10 indo-ssh.com ===========
+  - name: 14/10 SG
+    server: zendesk1.shopee.sg
+    port: 443
+    type: vmess
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-ovh.indo-ssh.com
+    network: ws
+    ws-opts: 
+      path: /vmessws
+      headers: 
+        Host: sg-ovh.indo-ssh.com
     udp: true
