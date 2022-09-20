@@ -29,12 +29,12 @@ proxies:
     grpc-opts: 
       grpc-service-name: vmess-grpc
     udp: true
-#============== RackH =============
-  - name: RackH-W5
-    server: biznet10.nextvpn.cc
+#============ 14/10 indo-ssh.com ===========
+  - name: Indo-w5
+    server: id-skd.indo-ssh.com
     port: 443
     type: vmess
-    uuid: 444e2f97-179c-4bff-8416-f1fbed0500ea
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
     alterId: 0
     cipher: auto
     tls: true
@@ -42,24 +42,24 @@ proxies:
     servername: w5.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /vpnneo
+      path: /vmessws
       headers: 
-        Host: biznet10.nextvpn.cc
+        Host: id-skd.indo-ssh.com
     udp: true
-#============== Biznet =============
-  - name: Biznet-Tw
+#============ 14/10 indo-ssh.com ===========
+  - name: Indo-tw
     server: zendesk1.shopee.tw
-    port: 80
+    port: 443
     type: vmess
-    uuid: 0d231b33-66c3-42bb-ae76-0f01faaf9719
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
+    tls: true
+    skip-cert-verify: true
+    servername: id-skd.indo-ssh.com
     network: ws
     ws-opts: 
-      path: /vpnneo
+      path: /vmessws
       headers: 
-        Host: biznet-s.nextvpn.cc
+        Host: id-skd.indo-ssh.com
     udp: true
