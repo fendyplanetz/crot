@@ -1,4 +1,11 @@
 payload:
+#Vision+
+  - "+.visionplus.id"
+  - "+.mncnow.id"
+  - "+.mncanalytics.net"
+  - "+.mncdigital.id"
+  - "+.mncplus.com"
+  - "+.onesignal.com"
 #Vidio
   - "+.vidio.com"
   - "+.akamaized.net"
