@@ -1,10 +1,10 @@
 proxies:
-#============ 1/10 JupiterVPN ===========
-  - name: Jptr-w0
-    server: id1.jupiterv2ray.xyz
+#============ 14/10 indo-ssh.com ===========
+  - name: Indo-w0
+    server: id-skd.indo-ssh.com
     port: 443
     type: vmess
-    uuid: 333e40af-72d5-4307-8d85-413fa8d2d0ed
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
     alterId: 0
     cipher: auto
     tls: true
@@ -12,16 +12,16 @@ proxies:
     servername: w0.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /vmessws
       headers: 
-        Host: id1.jupiterv2ray.xyz
+        Host: id-skd.indo-ssh.com
     udp: true
-#============ 1/10 JupiterVPN ===========
-  - name: Jptr-w2
-    server: id1.jupiterv2ray.xyz
+#============ 14/10 indo-ssh.com ===========
+  - name: Indo-w2
+    server: id-skd.indo-ssh.com
     port: 443
     type: vmess
-    uuid: 333e40af-72d5-4307-8d85-413fa8d2d0ed
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
     alterId: 0
     cipher: auto
     tls: true
@@ -29,9 +29,9 @@ proxies:
     servername: w2.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /vmessws
       headers: 
-        Host: id1.jupiterv2ray.xyz
+        Host: id-skd.indo-ssh.com
     udp: true
 #============ 14/10 indo-ssh.com ===========
   - name: Indo-w5
@@ -50,20 +50,20 @@ proxies:
       headers: 
         Host: id-skd.indo-ssh.com
     udp: true
-#============ 14/10 indo-ssh.com ===========
-  - name: Indo-tw
+#============ 1/10 JupiterVPN ===========
+  - name: Jptr-tw
     server: zendesk1.shopee.tw
     port: 443
     type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    uuid: 333e40af-72d5-4307-8d85-413fa8d2d0ed
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-skd.indo-ssh.com
+    servername: id1.jupiterv2ray.xyz
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /v2ray
       headers: 
-        Host: id-skd.indo-ssh.com
+        Host: id1.jupiterv2ray.xyz
     udp: true
