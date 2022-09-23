@@ -1,6 +1,6 @@
 proxies:
 #=========== 6/10 ServerSSH ===========
-  - name: 6/10 W0
+  - name: Server-w0
     server: sgm1ray.serverssh.net
     port: 443
     type: vless
@@ -16,7 +16,7 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #=========== 6/10 ServerSSH ===========
-  - name: 6/10 PH
+  - name: Server-ph
     server: zendesk1.shopee.ph
     port: 443
     type: vless
@@ -32,7 +32,7 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #=========== 14/10 indo-ssh.com ===========
-  - name: 14/10 W2
+  - name: IdSSH-w2
     server: sg-ovh.indo-ssh.com
     port: 443
     type: vmess
@@ -49,7 +49,7 @@ proxies:
         Host: sg-ovh.indo-ssh.com
     udp: true
 #=========== 14/10 indo-ssh.com ===========
-  - name: 14/10 SG
+  - name: IdSSH-sg
     server: zendesk1.shopee.sg
     port: 443
     type: vmess
