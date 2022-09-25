@@ -16,8 +16,8 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #=========== 6/10 ServerSSH ===========
-  - name: Server-ph
-    server: zendesk1.shopee.ph
+  - name: Server-grab
+    server: food-merchant-help.grab.com
     port: 443
     type: vless
     uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
