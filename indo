@@ -51,8 +51,8 @@ proxies:
         Host: id-skd.indo-ssh.com
     udp: true
 #============ 1/10 JupiterVPN ===========
-  - name: Jptr-tw
-    server: zendesk1.shopee.tw
+  - name: Jptr-ph
+    server: zendesk1.shopee.ph
     port: 443
     type: vmess
     uuid: 333e40af-72d5-4307-8d85-413fa8d2d0ed
