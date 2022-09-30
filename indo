@@ -51,6 +51,23 @@ proxies:
         Host: id-skd.indo-ssh.com
     udp: true
 #============ 14/10 indo-ssh.com ===========
+  - name: Indo-sg
+    server: zendesk1.shopee.sg
+    port: 443
+    type: vmess
+    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-skd.indo-ssh.com
+    network: ws
+    ws-opts: 
+      path: /vmessws
+      headers: 
+        Host: id-skd.indo-ssh.com
+    udp: true
+#============ 14/10 indo-ssh.com ===========
   - name: Indo-mid
     server: api.midtrans.com
     port: 443
@@ -66,21 +83,4 @@ proxies:
       path: /vmessws
       headers: 
         Host: id-skd.indo-ssh.com
-    udp: true
-#============ 1/10 JupiterVPN ===========
-  - name: Jptr-ph
-    server: zendesk1.shopee.ph
-    port: 443
-    type: vmess
-    uuid: 333e40af-72d5-4307-8d85-413fa8d2d0ed
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1.jupiterv2ray.xyz
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers: 
-        Host: id1.jupiterv2ray.xyz
     udp: true
