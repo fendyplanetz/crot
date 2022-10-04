@@ -1,6 +1,6 @@
 proxies:
 #============ 14/10 indo-ssh.com ===========
-  - name: Indo-w0
+  - name: Indo-meet
     server: id-skd.indo-ssh.com
     port: 443
     type: vmess
@@ -9,7 +9,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w0.web.whatsapp.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
       path: /vmessws
@@ -17,7 +17,7 @@ proxies:
         Host: id-skd.indo-ssh.com
     udp: true
 #============ 14/10 indo-ssh.com ===========
-  - name: Indo-w2
+  - name: Indo-daily
     server: id-skd.indo-ssh.com
     port: 443
     type: vmess
@@ -26,7 +26,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w2.web.whatsapp.com
+    servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
       path: /vmessws
@@ -36,40 +36,6 @@ proxies:
 #============ 14/10 indo-ssh.com ===========
   - name: Indo-grab
     server: food-merchant-help.grab.com
-    port: 443
-    type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-skd.indo-ssh.com
-    network: ws
-    ws-opts: 
-      path: /vmessws
-      headers: 
-        Host: id-skd.indo-ssh.com
-    udp: true
-#============ 14/10 indo-ssh.com ===========
-  - name: Indo-sg
-    server: zendesk1.shopee.sg
-    port: 443
-    type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-skd.indo-ssh.com
-    network: ws
-    ws-opts: 
-      path: /vmessws
-      headers: 
-        Host: id-skd.indo-ssh.com
-    udp: true
-#============ 14/10 indo-ssh.com ===========
-  - name: Indo-mid
-    server: api.midtrans.com
     port: 443
     type: vmess
     uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
