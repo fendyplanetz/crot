@@ -1,35 +1,35 @@
 proxies:
-#=========== 6/10 ServerSSH ===========
-  - name: Server-daily-1
-    server: sgm1ray.serverssh.net
+#=========== 31/10 JagoanSSH ===========
+  - name: Jagoan-daily-2
+    server: sgcvless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
+    uuid: e13dd17e-6e4b-4653-9626-44baa70eeaeb
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    servername: daily-2.meet.google.com
     network: ws
     ws-opts: 
-      path: /serverssh
+      path: /jagoanssh
       headers: 
-        Host: sgm1ray.serverssh.net
+        Host: sgcvless.ipservers.xyz
     udp: true
-#=========== 6/10 ServerSSH ===========
-  - name: Server-only
+#=========== 31/10 JagoanSSH ===========
+  - name: Jagoan-only
     server: cdn.onlymega.com
     port: 443
     type: vless
-    uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
+    uuid: e13dd17e-6e4b-4653-9626-44baa70eeaeb
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgm1ray.serverssh.net
+    servername: sgcvless.ipservers.xyz
     network: ws
     ws-opts: 
-      path: /serverssh
+      path: /jagoanssh
       headers: 
-        Host: sgm1ray.serverssh.net
+        Host: sgcvless.ipservers.xyz
     udp: true
 #=========== 14/10 indo-ssh.com ===========
   - name: IdSSH-daily-3
