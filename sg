@@ -1,6 +1,6 @@
 proxies:
 #=========== 6/10 ServerSSH ===========
-  - name: Server-w0
+  - name: Server-daily-1
     server: sgm1ray.serverssh.net
     port: 443
     type: vless
@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w0.web.whatsapp.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /serverssh
@@ -16,8 +16,8 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #=========== 6/10 ServerSSH ===========
-  - name: Server-grab
-    server: food-merchant-help.grab.com
+  - name: Server-only
+    server: cdn.onlymega.com
     port: 443
     type: vless
     uuid: 54b6a2d8-08e4-4a9c-8ff5-ec2e47d78f70
@@ -32,7 +32,7 @@ proxies:
         Host: sgm1ray.serverssh.net
     udp: true
 #=========== 14/10 indo-ssh.com ===========
-  - name: IdSSH-w2
+  - name: IdSSH-daily-3
     server: sg-ovh.indo-ssh.com
     port: 443
     type: vmess
@@ -41,7 +41,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w2.web.whatsapp.com
+    servername: daily-3.meet.google.com
     network: ws
     ws-opts: 
       path: /vmessws
@@ -49,8 +49,8 @@ proxies:
         Host: sg-ovh.indo-ssh.com
     udp: true
 #=========== 14/10 indo-ssh.com ===========
-  - name: IdSSH-sg
-    server: zendesk1.shopee.sg
+  - name: IdSSH-qiscus
+    server: status.qiscus.com
     port: 443
     type: vmess
     uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
