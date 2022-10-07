@@ -15,22 +15,6 @@ proxies:
       headers: 
         Host: sgcvless.ipservers.xyz
     udp: true
-#=========== 31/10 JagoanSSH ===========
-  - name: Jagoan-only
-    server: cdn.onlymega.com
-    port: 443
-    type: vless
-    uuid: e13dd17e-6e4b-4653-9626-44baa70eeaeb
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgcvless.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /jagoanssh
-      headers: 
-        Host: sgcvless.ipservers.xyz
-    udp: true
 #=========== 14/10 indo-ssh.com ===========
   - name: IdSSH-daily-3
     server: sg-ovh.indo-ssh.com
@@ -48,20 +32,19 @@ proxies:
       headers: 
         Host: sg-ovh.indo-ssh.com
     udp: true
-#=========== 14/10 indo-ssh.com ===========
-  - name: IdSSH-qiscus
-    server: status.qiscus.com
+#=========== 31/10 JagoanSSH ===========
+  - name: Jagoan-only
+    server: cdn.onlymega.com
     port: 443
-    type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
-    alterId: 0
+    type: vless
+    uuid: e13dd17e-6e4b-4653-9626-44baa70eeaeb
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-ovh.indo-ssh.com
+    servername: sgcvless.ipservers.xyz
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /jagoanssh
       headers: 
-        Host: sg-ovh.indo-ssh.com
+        Host: sgcvless.ipservers.xyz
     udp: true
