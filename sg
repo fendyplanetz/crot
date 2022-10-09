@@ -1,6 +1,6 @@
 proxies:
 #=========== 31/10 JagoanSSH ===========
-  - name: Jagoan-daily-2
+  - name: Jagoan-daily²
     server: sgcvless.ipservers.xyz
     port: 443
     type: vless
@@ -16,7 +16,7 @@ proxies:
         Host: sgcvless.ipservers.xyz
     udp: true
 #=========== 14/10 indo-ssh.com ===========
-  - name: IdSSH-daily-3
+  - name: IdSSH-daily³
     server: sg-ovh.indo-ssh.com
     port: 443
     type: vmess
