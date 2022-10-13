@@ -1,6 +1,6 @@
 proxies:
 #=========== 30/10 idch.vpn-ws.com ==========
-  - name: Meet-IDCH
+  - name: IDch-Meet
     server: idch.vpn-ws.com
     port: 443
     type: vmess
@@ -17,7 +17,7 @@ proxies:
         Host: idch.vpn-ws.com
     udp: true
 #=========== 30/10 rmh.vpn-ws.com ===========
-  - name: Daily-Rumahweb
+  - name: Rumahweb-Daily
     server: rmh.vpn-ws.com
     port: 443
     type: vmess
@@ -34,7 +34,7 @@ proxies:
         Host: rmh.vpn-ws.com
     udp: true
 #=========== 30/10 rmh.vpn-ws.com ===========
-  - name: Fast-Rumahweb
+  - name: Rumahweb-Fast
     server: api.fastworldpay.com
     port: 443
     type: vmess
