@@ -15,12 +15,12 @@ proxies:
       headers: 
         Host: sgcvless.ipservers.xyz
     udp: true
-#=========== 14/10 indo-ssh.com ===========
-  - name: IdSSH-daily³
-    server: sg-ovh.indo-ssh.com
+#=========== 30/10 rmh.vpn-ws.com ===========
+  - name: Rumahweb-Daily³
+    server: rmh.vpn-ws.com
     port: 443
     type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
     alterId: 0
     cipher: auto
     tls: true
@@ -28,23 +28,24 @@ proxies:
     servername: daily-3.meet.google.com
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /view
       headers: 
-        Host: sg-ovh.indo-ssh.com
+        Host: rmh.vpn-ws.com
     udp: true
-#=========== 31/10 JagoanSSH ===========
-  - name: Jagoan-only
+#=========== 30/10 IDCH ===========
+  - name: IDch-Only
     server: cdn.onlymega.com
     port: 443
-    type: vless
-    uuid: e13dd17e-6e4b-4653-9626-44baa70eeaeb
+    type: vmess
+    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgcvless.ipservers.xyz
+    servername: idch.vpn-ws.com
     network: ws
     ws-opts: 
-      path: /jagoanssh
+      path: /view
       headers: 
-        Host: sgcvless.ipservers.xyz
+        Host: idch.vpn-ws.com
     udp: true
