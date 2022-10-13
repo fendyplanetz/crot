@@ -1,10 +1,10 @@
 proxies:
-#============ 14/10 indo-ssh.com ===========
-  - name: Indo-meet
-    server: id-skd.indo-ssh.com
+#=========== 30/10 idch.vpn-ws.com ==========
+  - name: Meet-IDCH
+    server: idch.vpn-ws.com
     port: 443
     type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
     alterId: 0
     cipher: auto
     tls: true
@@ -12,16 +12,16 @@ proxies:
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /view
       headers: 
-        Host: id-skd.indo-ssh.com
+        Host: idch.vpn-ws.com
     udp: true
-#============ 14/10 indo-ssh.com ===========
-  - name: Indo-daily
-    server: id-skd.indo-ssh.com
+#=========== 30/10 rmh.vpn-ws.com ===========
+  - name: Daily-Rumahweb
+    server: rmh.vpn-ws.com
     port: 443
     type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
     alterId: 0
     cipher: auto
     tls: true
@@ -29,24 +29,24 @@ proxies:
     servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /view
       headers: 
-        Host: id-skd.indo-ssh.com
+        Host: rmh.vpn-ws.com
     udp: true
-#============ 14/10 indo-ssh.com ===========
-  - name: Indo-fast
+#=========== 30/10 rmh.vpn-ws.com ===========
+  - name: Fast-Rumahweb
     server: api.fastworldpay.com
     port: 443
     type: vmess
-    uuid: fbe7d0c0-3430-11ed-a8bf-00163e003cdd
+    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-skd.indo-ssh.com
+    servername: rmh.vpn-ws.com
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /view
       headers: 
-        Host: id-skd.indo-ssh.com
+        Host: rmh.vpn-ws.com
     udp: true
