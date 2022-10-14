@@ -33,20 +33,20 @@ proxies:
       headers: 
         Host: rmh.vpn-ws.com
     udp: true
-#=========== 30/10 rmh.vpn-ws.com ===========
-  - name: Rumahweb-Fast
-    server: api.fastworldpay.com
+#=========== iptunnels.com ===========
+  - name: GSL-Daily⁵
+    server: nginx-sg-185.iptunnels.com
     port: 443
     type: vmess
-    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
+    uuid: 23584750-8670-4dca-b3a1-6a9cb5613433
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: rmh.vpn-ws.com
+    servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
-      path: /view
+      path: /buy-vmess-ws-pm-telegram-at-synricha
       headers: 
-        Host: rmh.vpn-ws.com
+        Host: nginx-sg-185.iptunnels.com
     udp: true
