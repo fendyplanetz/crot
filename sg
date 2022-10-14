@@ -33,8 +33,8 @@ proxies:
         Host: rmh.vpn-ws.com
     udp: true
 #=========== 30/10 IDCH ===========
-  - name: IDch-Only
-    server: cdn.onlymega.com
+  - name: IDch-Daily⁴
+    server: idch.vpn-ws.com
     port: 443
     type: vmess
     uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
@@ -42,7 +42,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idch.vpn-ws.com
+    servername: daily-4.meet.google.com
     network: ws
     ws-opts: 
       path: /view
