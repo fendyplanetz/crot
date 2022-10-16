@@ -12,7 +12,7 @@ proxies:
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /view
+      path: /dilarang-menjual-akun-ini-(make_by:@dugong_lewat)
       headers: 
         Host: idch.vpn-ws.com
     udp: true
@@ -29,7 +29,7 @@ proxies:
     servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
-      path: /view
+      path: /dilarang-menjual-akun-ini-(make_by:@dugong_lewat)
       headers: 
         Host: rmh.vpn-ws.com
     udp: true
