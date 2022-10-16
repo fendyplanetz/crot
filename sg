@@ -15,12 +15,12 @@ proxies:
       headers: 
         Host: sgcvless.ipservers.xyz
     udp: true
-#=========== 30/10 rmh.vpn-ws.com ===========
-  - name: Rumahweb-Daily³
-    server: rmh.vpn-ws.com
+#=========== 30/10 OVH ===========
+  - name: Ovh-Daily³
+    server: ovh.vpn-ws.com
     port: 443
     type: vmess
-    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
+    uuid: 6c306862-4a26-4b3d-9763-8cb297b137e9
     alterId: 0
     cipher: auto
     tls: true
@@ -30,7 +30,7 @@ proxies:
     ws-opts: 
       path: /dilarang-menjual-akun-ini-(make_by:@dugong_lewat)
       headers: 
-        Host: rmh.vpn-ws.com
+        Host: ovh.vpn-ws.com
     udp: true
 #=========== 30/10 IDCH ===========
   - name: IDch-Daily⁴
