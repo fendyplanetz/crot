@@ -32,12 +32,12 @@ proxies:
       headers: 
         Host: ovh.vpn-ws.com
     udp: true
-#=========== 30/10 IDCH ===========
-  - name: IDch-Daily⁴
-    server: idch.vpn-ws.com
+#=========== 05/11 ServerSSH ===========
+  - name: ServerSSH-Daily⁴
+    server: sgm1ray.serverssh.net
     port: 443
     type: vmess
-    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
+    uuid: 42e6a77c-b4b5-4abf-aeae-175e0996b0d2
     alterId: 0
     cipher: auto
     tls: true
@@ -45,7 +45,7 @@ proxies:
     servername: daily-4.meet.google.com
     network: ws
     ws-opts: 
-      path: /dilarang-menjual-akun-ini-(make_by:@dugong_lewat)
+      path: /serverssh.net
       headers: 
-        Host: idch.vpn-ws.com
+        Host: sgm1ray.serverssh.net
     udp: true
