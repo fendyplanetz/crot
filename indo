@@ -16,12 +16,12 @@ proxies:
       headers: 
         Host: idch.vpn-ws.com
     udp: true
-#=========== 30/10 rmh.vpn-ws.com ===========
-  - name: Rumahweb-Daily
-    server: rmh.vpn-ws.com
+#=========== 28/10 sshOcean.com ===========
+  - name: Ocean-Meet⁴
+    server: id4.v2rayserv.com
     port: 443
     type: vmess
-    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
+    uuid: f489e4b1-0fcd-4428-b701-f6d663b40089
     alterId: 0
     cipher: auto
     tls: true
@@ -29,9 +29,9 @@ proxies:
     servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
-      path: /dilarang-menjual-akun-ini-(make_by:@dugong_lewat)
+      path: /sshocean
       headers: 
-        Host: rmh.vpn-ws.com
+        Host: id4.v2rayserv.com
     udp: true
 #=========== iptunnels.com ===========
   - name: GSL-Daily⁵
