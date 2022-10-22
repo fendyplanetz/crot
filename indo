@@ -1,20 +1,19 @@
 proxies:
-#=========== 30/10 idch.vpn-ws.com ==========
-  - name: IDch-Meet
-    server: idch.vpn-ws.com
+#=========== 29/10 sshMax.com ==========
+  - name: SSHmax-Meet
+    server: id-v.sshmax.xyz
     port: 443
-    type: vmess
-    uuid: 58a85d88-57f7-495a-9392-5cdc3087411f
-    alterId: 0
+    type: vless
+    uuid: 66ee7ed1-edd1-455f-877d-ca3b7296bf6c
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
     network: ws
-    ws-opts: 
-      path: /dilarang-menjual-akun-ini-(make_by:@dugong_lewat)
-      headers: 
-        Host: idch.vpn-ws.com
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id-v.sshmax.xyz
     udp: true
 #=========== 28/10 sshOcean.com ===========
   - name: Ocean-Meet⁴
