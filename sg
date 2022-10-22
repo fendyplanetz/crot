@@ -1,19 +1,17 @@
 proxies:
-#=========== 31/10 JagoanSSH ===========
-  - name: Jagoan-daily²
-    server: sgcvless.ipservers.xyz
+#=========== 30/10 JagoanSSH ===========
+  - name: Jago-Daily²
+    server: sg2go.ipservers.xyz
     port: 443
-    type: vless
-    uuid: e13dd17e-6e4b-4653-9626-44baa70eeaeb
-    cipher: auto
-    tls: true
+    type: trojan
+    password: jagoanssh-hxbdb
     skip-cert-verify: true
-    servername: daily-2.meet.google.com
+    sni: daily-2.meet.google.com
     network: ws
     ws-opts: 
-      path: /jagoanssh
+      path: /trojan
       headers: 
-        Host: sgcvless.ipservers.xyz
+        Host: sg2go.ipservers.xyz
     udp: true
 #=========== 30/10 JagoanSSH ===========
   - name: Jago-Daily³
