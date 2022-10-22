@@ -13,22 +13,21 @@ proxies:
       headers: 
         Host: sg2go.ipservers.xyz
     udp: true
-#=========== 30/10 JagoanSSH ===========
-  - name: Jago-Daily³
-    server: sg8.vmes.xyz
+#=========== 30/10 JupiterVPN ===========
+  - name: Jptr-Daily³
+    server: sg1.sjupiter.net
     port: 443
-    type: vmess
-    uuid: de360161-6f03-4c57-a153-b2be14f60b97
-    alterId: 0
+    type: vless
+    uuid: 30323fd3-ef58-43f8-a10a-70200851ab8f
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: daily-3.meet.google.com
     network: ws
     ws-opts: 
-      path: /JAGOANSSH/
+      path: /vless/
       headers: 
-        Host: hshdn
+        Host: hdhdhd
     udp: true
 #=========== 05/11 ServerSSH ===========
   - name: ServerSSH-Daily⁴
