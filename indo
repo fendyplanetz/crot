@@ -15,12 +15,12 @@ proxies:
       headers:
         Host: id-v.sshmax.xyz
     udp: true
-#=========== 28/10 sshOcean.com ===========
-  - name: Ocean-Meet⁴
-    server: id4.v2rayserv.com
+#=========== 28/10 Biznet ===========
+  - name: Biznet-Daily
+    server: qfkz.aiovray.my.id
     port: 443
     type: vmess
-    uuid: f489e4b1-0fcd-4428-b701-f6d663b40089
+    uuid: 45d7338d-907c-4322-bef7-8657103a1939
     alterId: 0
     cipher: auto
     tls: true
@@ -28,9 +28,9 @@ proxies:
     servername: daily-0.meet.google.com
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /vmess
       headers: 
-        Host: id4.v2rayserv.com
+        Host: 
     udp: true
 #=========== iptunnels.com ===========
   - name: GSL-Daily⁵
