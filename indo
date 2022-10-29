@@ -16,3 +16,18 @@ proxies:
       headers: 
         Host: id-v.sshmax.xyz
     udp: true
+#=========== 05/11 MainSSH.com ==========
+  - name: Mainssh-Only 05/11
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 13cc411b-e3f0-452e-972e-90ac3acde79c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dl.google.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vmessgrpc
+    udp: true
