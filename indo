@@ -15,37 +15,3 @@ proxies:
       headers:
         Host: id-v.sshmax.xyz
     udp: true
-#=========== 28/10 Biznet ===========
-  - name: Biznet-Daily
-    server: qfkz.aiovray.my.id
-    port: 443
-    type: vmess
-    uuid: 45d7338d-907c-4322-bef7-8657103a1939
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: daily-0.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: 
-    udp: true
-#=========== iptunnels.com ===========
-  - name: GSL-Daily⁵
-    server: nginx-sg-185.iptunnels.com
-    port: 443
-    type: vmess
-    uuid: 23584750-8670-4dca-b3a1-6a9cb5613433
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: daily-5.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /buy-vmess-ws-pm-telegram-at-synricha
-      headers: 
-        Host: nginx-sg-185.iptunnels.com
-    udp: true
