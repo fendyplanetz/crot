@@ -16,8 +16,8 @@ proxies:
       headers: 
         Host: id-v.sshmax.xyz
     udp: true
-#=========== 05/11 MainSSH.com ==========
-  - name: Mainssh-Only 05/11
+#=========== 05/11 MainSSH.com VMESS==========
+  - name: Mainssh-Only
     server: cdn.onlymega.com
     port: 443
     type: vmess
@@ -30,4 +30,18 @@ proxies:
     network: grpc
     grpc-opts: 
       grpc-service-name: vmessgrpc
+    udp: true
+#=========== 05/11 MainSSH.com VLESS ==========
+  - name: Mainssh-Fast
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: d975ee59-efa8-4782-a75f-83e1b942e86a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idlgrpc.mainssh.xyz
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: vlessgrpc
     udp: true
