@@ -1,21 +1,4 @@
 proxies:
-#=========== 05/11 sshMax.com ==========
-  - name: SSHmax-Meet
-    server: id-v.sshmax.xyz
-    port: 443
-    type: vmess
-    uuid: 35f3c9d1-0fb0-4c90-9adc-7c675e0148e8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: id-v.sshmax.xyz
-    udp: true
 #=========== 05/11 MainSSH.com VMESS==========
   - name: Mainssh-Only
     server: cdn.onlymega.com
