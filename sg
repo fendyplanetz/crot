@@ -13,20 +13,6 @@ proxies:
       headers: 
         Host: sgcgo.ipservers.xyz
     udp: true
-#=========== 04/11 JagoanSSH ===========
-  - name: Jago-Meet
-    server: sg3go.ipservers.xyz
-    port: 443
-    type: trojan
-    password: jagoanssh-jshdbd
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg3go.ipservers.xyz
-    udp: true
 #=========== 06/11 JupiterVPN ===========
   - name: Jptr-Daily²
     server: sg3.sjupiter.net
