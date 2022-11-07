@@ -13,17 +13,30 @@ proxies:
       headers: 
         Host: sgcgo.ipservers.xyz
     udp: true
-#=========== 06/11 JupiterVPN ===========
+#=========== 25/11 ServerSSH ===========
+  - name: ServerSSH-Meet
+    server: sgm1ray.serverssh.net
+    port: 443
+    type: vmess
+    uuid: 19b1cd92-091f-4903-9baa-e2743fe65f3c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /serverssh.net
+      headers: 
+        Host: sgm1ray.serverssh.net
+    udp: true
+#=========== 12/11 JupiterVPN ===========
   - name: Jptr-Daily²
     server: sg3.sjupiter.net
     port: 443
     type: trojan
-    password: jupitervpn-jshdh
+    password: jupitervpn-jzhxh
     skip-cert-verify: true
     sni: daily-2.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan-go
-      headers: 
-        Host: sg3.sjupiter.net
+    network: tcp
     udp: true
