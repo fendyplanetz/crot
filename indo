@@ -1,30 +1,15 @@
 proxies:
-#=========== 05/11 MainSSH.com VMESS==========
-  - name: Mainssh-Only
-    server: cdn.onlymega.com
-    port: 443
-    type: vmess
-    uuid: 13cc411b-e3f0-452e-972e-90ac3acde79c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idmgrpc.mainssh.xyz
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: vmessgrpc
-    udp: true
-#=========== 05/11 MainSSH.com VLESS ==========
-  - name: Mainssh-Fast
-    server: api.fastworldpay.com
+#=========== 15/11 sshocean.com VMESS==========
+  - name: SSHocean-Meet
+    server: id5-grpc.xvless.xyz
     port: 443
     type: vless
-    uuid: d975ee59-efa8-4782-a75f-83e1b942e86a
+    uuid: e2c1c76b-989a-41bb-bad2-e8071c84caea
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idlgrpc.mainssh.xyz
+    servername: meet.google.com
     network: grpc
     grpc-opts: 
-      grpc-service-name: vlessgrpc
+      grpc-service-name: grpc
     udp: true
