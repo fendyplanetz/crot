@@ -1,15 +1,16 @@
 proxies:
-#=========== 15/11 sshocean.com GRPC ==========
-  - name: SSHocean-Meet
-    server: id5-grpc.xvless.xyz
+#=========== 15/11 Mainssh.com GRPC ==========
+  - name: Mainssh-Onlymega
+    server: cdn.onlymega.com
     port: 443
-    type: vless
-    uuid: e2c1c76b-989a-41bb-bad2-e8071c84caea
+    type: vmess
+    uuid: a773151a-2aac-4713-8897-8f41f4143c85
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: idmgrpc.mainssh.xyz
     network: grpc
     grpc-opts: 
-      grpc-service-name: grpc
+      grpc-service-name: vmessgrpc
     udp: true
