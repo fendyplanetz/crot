@@ -1,5 +1,5 @@
 proxies:
-#=========== 15/11 sshocean.com VMESS==========
+#=========== 15/11 sshocean.com GRPC ==========
   - name: SSHocean-Meet
     server: id5-grpc.xvless.xyz
     port: 443
