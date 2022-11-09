@@ -13,22 +13,15 @@ proxies:
       headers: 
         Host: sgcgo.ipservers.xyz
     udp: true
-#=========== 25/11 ServerSSH ===========
-  - name: ServerSSH-Meet
-    server: sgm1ray.serverssh.net
+#=========== 16/11 JagoanSSH ===========
+  - name: Jago-Daily⁴
+    server: sgtro.ipservers.xyz
     port: 443
-    type: vmess
-    uuid: 19b1cd92-091f-4903-9baa-e2743fe65f3c
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: jagoanssh-jdjndbb
     skip-cert-verify: true
-    servername: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /serverssh.net
-      headers: 
-        Host: sgm1ray.serverssh.net
+    sni: daily-4.meet.google.com
+    network: tcp
     udp: true
 #=========== 12/11 JupiterVPN ===========
   - name: Jptr-Daily²
