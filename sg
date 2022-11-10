@@ -14,22 +14,22 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
 #=========== 16/11 JagoanSSH ===========
-  - name: Jago-Qiscus
-    server: api.qiscus.com
+  - name: Jago-Daily²
+    server: sgtro.ipservers.xyz
     port: 443
     type: trojan
     password: jagoanssh-jdjndbb
     skip-cert-verify: true
-    sni: sgtro.ipservers.xyz
+    sni: daily-2.meet.google.com
     network: tcp
     udp: true
 #=========== 12/11 JupiterVPN ===========
-  - name: Jptr-Fast
-    server: api.fastworldpay.com
+  - name: Jptr-Daily³
+    server: sg3.sjupiter.net
     port: 443
     type: trojan
     password: jupitervpn-jzhxh
     skip-cert-verify: true
-    sni: sg3.sjupiter.net
+    sni: daily-3.meet.google.com
     network: tcp
     udp: true
