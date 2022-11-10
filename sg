@@ -14,7 +14,7 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
 #=========== 16/11 JagoanSSH ===========
-  - name: Jago-Fast
+  - name: Jago-Qiscus
     server: api.qiscus.com
     port: 443
     type: trojan
