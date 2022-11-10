@@ -24,12 +24,12 @@ proxies:
     network: tcp
     udp: true
 #=========== 12/11 JupiterVPN ===========
-  - name: Jptr-Daily²
-    server: sg3.sjupiter.net
+  - name: Jptr-Fast
+    server: api.fastworldpay.com
     port: 443
     type: trojan
     password: jupitervpn-jzhxh
     skip-cert-verify: true
-    sni: daily-2.meet.google.com
+    sni: sg3.sjupiter.net
     network: tcp
     udp: true
