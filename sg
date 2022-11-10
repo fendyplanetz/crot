@@ -15,7 +15,7 @@ proxies:
     udp: true
 #=========== 16/11 JagoanSSH ===========
   - name: Jago-Fast
-    server: api.fastworldpay.com
+    server: api.qiscus.com
     port: 443
     type: trojan
     password: jagoanssh-jdjndbb
