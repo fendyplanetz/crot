@@ -1,12 +1,12 @@
 proxies:
 #=========== 29/11 JagoanSSH ===========
-  - name: Jago-Daily³
-    server: sgcgo.ipservers.xyz
+  - name: Jago-Only
+    server: cdn.onlymega.com
     port: 443
     type: trojan
     password: jagoanssh-hshdb
     skip-cert-verify: true
-    sni: daily-3.meet.google.com
+    sni: sgcgo.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
@@ -14,13 +14,13 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
 #=========== 16/11 JagoanSSH ===========
-  - name: Jago-Daily⁴
-    server: sgtro.ipservers.xyz
+  - name: Jago-Fast
+    server: api.fastworldpay.com
     port: 443
     type: trojan
     password: jagoanssh-jdjndbb
     skip-cert-verify: true
-    sni: daily-4.meet.google.com
+    sni: sgtro.ipservers.xyz
     network: tcp
     udp: true
 #=========== 12/11 JupiterVPN ===========
