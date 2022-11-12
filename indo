@@ -15,3 +15,13 @@ proxies:
       headers: 
         Host: daily-4.meet.google.com
     udp: true
+#=========== 19/11 onlyssh.my.id ==========
+  - name: OnlySSH-Daily⁵ ¹⁹.¹⁹
+    server: id1.kitu.xyz
+    port: 443
+    type: trojan
+    password: onlyssh-boglex
+    skip-cert-verify: true
+    sni: daily-5.meet.google.com
+    network: tcp
+    udp: true
