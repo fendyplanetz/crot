@@ -1,16 +1,17 @@
 proxies:
-#=========== 15/11 Mainssh.com GRPC ==========
-  - name: Mainssh-Onlymega
-    server: cdn.onlymega.com
+#=========== 19/11 whyvpn.my.id ==========
+  - name: Daily⁴
+    server: id1.kitu.xyz
     port: 443
-    type: vmess
-    uuid: a773151a-2aac-4713-8897-8f41f4143c85
-    alterId: 0
+    type: vless
+    uuid: 54a99f88-6317-402c-9326-3e5d0ad19097
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idmgrpc.mainssh.xyz
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: vmessgrpc
+    servername: daily-4.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /vless/
+      headers: 
+        Host: daily-4.meet.google.com
     udp: true
