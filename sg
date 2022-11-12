@@ -1,27 +1,34 @@
 proxies:
-#=========== 29/11 JagoanSSH ===========
-  - name: Jago-Only
-    server: cdn.onlymega.com
+#=========== 19/11 whyvpn.my.id ===========
+  - name: Daily² ⅙⁹/⅙⅙
+    server: do5.kitu.xyz
     port: 443
-    type: trojan
-    password: jagoanssh-hshdb
+    type: vless
+    uuid: 78b00001-05f7-409f-a507-8fc3b36fc652
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgcgo.ipservers.xyz
+    servername: daily-2.meet.google.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless/
       headers: 
-        Host: sgcgo.ipservers.xyz
+        Host: do5.kitu.xyz
     udp: true
-#=========== 16/11 JagoanSSH ===========
-  - name: Jago-Daily²
-    server: sgtro.ipservers.xyz
+#=========== 19/11 whyvpn.my.id ===========
+  - name: Daily³
+    server: do2.kitu.xyz
     port: 443
-    type: trojan
-    password: jagoanssh-jdjndbb
+    type: vmess
+    uuid: 8de81e83-09fd-4327-a063-c26397e449cb
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: daily-2.meet.google.com
-    network: tcp
+    servername: daily-3.meet.google.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: v2ray-vmess-grpc
     udp: true
 #=========== Oracle ===========
   - name: Oracle-Meet
