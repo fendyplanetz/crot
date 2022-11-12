@@ -1,6 +1,6 @@
 proxies:
 #=========== 19/11 whyvpn.my.id ==========
-  - name: Daily⁴
+  - name: Daily⁴ ¹⁹.¹¹
     server: id1.kitu.xyz
     port: 443
     type: vless
