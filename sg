@@ -23,13 +23,13 @@ proxies:
     sni: daily-2.meet.google.com
     network: tcp
     udp: true
-#=========== 12/11 JupiterVPN ===========
-  - name: Jptr-Daily³
-    server: sg3.sjupiter.net
+#=========== Oracle ===========
+  - name: Oracle-Meet
+    server: 31.72img.xyz
     port: 443
     type: trojan
-    password: jupitervpn-jzhxh
+    password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     skip-cert-verify: true
-    sni: daily-3.meet.google.com
+    sni: meet.google.com
     network: tcp
     udp: true
