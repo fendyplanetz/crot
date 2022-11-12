@@ -1,6 +1,6 @@
 proxies:
 #=========== 19/11 whyvpn.my.id ===========
-  - name: Daily² ⅙⁹/⅙⅙
+  - name: Daily² ¹⁹.¹¹
     server: do5.kitu.xyz
     port: 443
     type: vless
@@ -16,7 +16,7 @@ proxies:
         Host: do5.kitu.xyz
     udp: true
 #=========== 19/11 whyvpn.my.id ===========
-  - name: Daily³
+  - name: Daily³ ¹⁹.¹¹
     server: do2.kitu.xyz
     port: 443
     type: vmess
