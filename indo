@@ -16,7 +16,7 @@ proxies:
         Host: daily-4.meet.google.com
     udp: true
 #=========== 19/11 onlyssh.my.id ==========
-  - name: OnlySSH-Daily⁵ ¹⁹.¹⁹
+  - name: OnlySSH-Daily⁵ ¹⁹.¹¹
     server: id1.kitu.xyz
     port: 443
     type: trojan
