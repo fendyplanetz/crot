@@ -40,3 +40,20 @@ proxies:
     sni: meet.google.com
     network: tcp
     udp: true
+#=========== Digital Ocean ===========
+- name: DO-Daily¹
+    server: fullpower.selalu.my.id
+    port: 8443
+    type: vmess
+    uuid: aa5da027-0235-4221-8fe2-7465a8885540
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: daily-1.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: fullpower.selalu.my.id
+    udp: true
