@@ -41,7 +41,7 @@ proxies:
     network: tcp
     udp: true
 #=========== Digital Ocean ===========
-- name: DO-Daily¹
+  - name: DO-Daily¹
     server: fullpower.selalu.my.id
     port: 8443
     type: vmess
