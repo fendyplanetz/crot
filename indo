@@ -1,27 +1,15 @@
 proxies:
-#=========== 19/11 whyvpn.my.id ==========
-  - name: WhyVPN-Daily⁴ ¹⁹.¹¹
-    server: id1.kitu.xyz
-    port: 443
-    type: vless
-    uuid: 54a99f88-6317-402c-9326-3e5d0ad19097
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: daily-4.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vless/
-      headers: 
-        Host: daily-4.meet.google.com
-    udp: true
-#=========== 19/11 onlyssh.my.id ==========
-  - name: OnlySSH-Daily⁵ ¹⁹.¹¹
-    server: id1.kitu.xyz
+#=========== Howdy ==========
+  - name: Herza-Daily⁴
+    server: idtj-herza.bonds.id
     port: 443
     type: trojan
-    password: onlyssh-boglex
+    password: 11771020-66d1-11ed-8aa3-1239d0255272
     skip-cert-verify: true
-    sni: daily-5.meet.google.com
-    network: tcp
+    sni: daily-4.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: idtj-herza.bonds.id
     udp: true
