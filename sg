@@ -15,20 +15,21 @@ proxies:
       headers: 
         Host: do5.kitu.xyz
     udp: true
-#=========== 19/11 whyvpn.my.id ===========
-  - name: Daily³ ¹⁹.¹¹
+#=========== 24/11 whyvpn.my.id ===========
+  - name: Daily³ ²⁴.¹¹
     server: do2.kitu.xyz
     port: 443
-    type: vmess
-    uuid: 8de81e83-09fd-4327-a063-c26397e449cb
-    alterId: 0
+    type: vless
+    uuid: b9be5942-5ea8-421a-8b0b-3a15fb1ebf82
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-3.meet.google.com
-    network: grpc
-    grpc-opts: 
-      grpc-service-name: v2ray-vmess-grpc
+    servername: daily-1.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /vless/
+      headers: 
+        Host: daily-3.meet.google.com
     udp: true
 #=========== Oracle ===========
   - name: Oracle-Meet
