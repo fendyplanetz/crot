@@ -31,16 +31,6 @@ proxies:
       headers: 
         Host: daily-3.meet.google.com
     udp: true
-#=========== Oracle ===========
-  - name: Oracle-Meet
-    server: 31.72img.xyz
-    port: 443
-    type: trojan
-    password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: tcp
-    udp: true
 #=========== Jagoanssh.com ===========
   - name: Jago-Daily¹ ²⁹.¹¹
     server: sgcgo.ipservers.xyz
