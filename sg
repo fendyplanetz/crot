@@ -41,20 +41,17 @@ proxies:
     sni: meet.google.com
     network: tcp
     udp: true
-#=========== Digital Ocean ===========
-  - name: DO-Daily¹
-    server: fullpower.selalu.my.id
-    port: 8443
-    type: vmess
-    uuid: aa5da027-0235-4221-8fe2-7465a8885540
-    alterId: 0
-    cipher: auto
-    tls: true
+#=========== Jagoanssh.com ===========
+  - name: Jago-Daily¹ ²⁹.¹¹
+    server: sgcgo.ipservers.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-hshdb
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    sni: daily-1.meet.google.com
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /trojan
       headers: 
-        Host: fullpower.selalu.my.id
+        Host: sgcgo.ipservers.xyz
     udp: true
