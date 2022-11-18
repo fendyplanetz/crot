@@ -27,5 +27,5 @@ proxies:
     ws-opts: 
       path: /fastssh/jbbmm/6376eedddc99d/
       headers: 
-        Host: daily-5.meet.google.xom
+        Host: daily-5.meet.google.com
     udp: true
