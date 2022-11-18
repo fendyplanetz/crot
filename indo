@@ -13,3 +13,19 @@ proxies:
       headers: 
         Host: idtj-herza.bonds.id
     udp: true
+#=========== 25/11 FastSSH.com ==========
+  - name: Fast-Daily⁵ ²⁵.¹¹
+    server: id-2.vless.co
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: daily-5.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /fastssh/jbbmm/6376eedddc99d/
+      headers: 
+        Host: daily-5.meet.google.xom
+    udp: true
