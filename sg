@@ -1,22 +1,22 @@
 proxies:
-#=========== 19/11 whyvpn.my.id ===========
-  - name: Daily² ¹⁹.¹¹
-    server: do5.kitu.xyz
+#=========== 25/11 whyvpn.my.id ===========
+  - name: Daily¹ ²⁵.¹¹
+    server: do1.kitu.xyz
     port: 443
     type: vless
-    uuid: 78b00001-05f7-409f-a507-8fc3b36fc652
+    uuid: 2f108b62-4c23-4d7f-a33f-d4af976aec64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-2.meet.google.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /vless/
       headers: 
-        Host: do5.kitu.xyz
+        Host: daily-1.meet.google.com
     udp: true
 #=========== 24/11 whyvpn.my.id ===========
-  - name: Daily³ ²⁴.¹¹
+  - name: Daily² ²⁴.¹¹
     server: do2.kitu.xyz
     port: 443
     type: vless
@@ -29,7 +29,7 @@ proxies:
     ws-opts: 
       path: /vless/
       headers: 
-        Host: daily-3.meet.google.com
+        Host: daily-2.meet.google.com
     udp: true
 #=========== Jagoanssh.com ===========
   - name: Jago-Daily¹ ²⁹.¹¹
