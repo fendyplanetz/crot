@@ -32,13 +32,13 @@ proxies:
         Host: daily-2.meet.google.com
     udp: true
 #=========== Jagoanssh.com ===========
-  - name: Jago-Daily¹ ²⁹.¹¹
+  - name: Jago-Daily³ ²⁹.¹¹
     server: sgcgo.ipservers.xyz
     port: 443
     type: trojan
     password: jagoanssh-hshdb
     skip-cert-verify: true
-    sni: daily-1.meet.google.com
+    sni: daily-3.meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
