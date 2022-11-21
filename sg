@@ -60,5 +60,5 @@ proxies:
     ws-opts: 
       path: /vmess
       headers: 
-        Host: 
+        Host: do-vip1.dnstore.my.id
     udp: true
