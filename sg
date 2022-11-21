@@ -45,3 +45,20 @@ proxies:
       headers: 
         Host: sgcgo.ipservers.xyz
     udp: true
+#=========== Digital Ocean ===========
+  - name: DO-Meet
+    server: do-vip1.dnstore.my.id
+    port: 443
+    type: vmess
+    uuid: f54c16ab-574a-44f4-af33-f9b25eb261a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: 
+    udp: true
