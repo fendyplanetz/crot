@@ -1,19 +1,20 @@
 proxies:
-#=========== 25/11 whyvpn.my.id ===========
-  - name: Daily¹ ²⁵.¹¹
-    server: do1.kitu.xyz
+#=========== 01/12 whyvpn.my.id ===========
+  - name: Daily³ ⁰¹.¹²
+    server: do3.kitu.xyz
     port: 443
-    type: vless
-    uuid: 2f108b62-4c23-4d7f-a33f-d4af976aec64
+    type: vmess
+    uuid: e38111d1-b888-440b-9669-189af3c31cb9
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
-      path: /vless/
+      path: /vmess/
       headers: 
-        Host: daily-1.meet.google.com
+        Host: daily-3.meet.google.com
     udp: true
 #=========== 30/11 onlyssh.my.id ===========
   - name: Daily² ³⁰.¹¹
@@ -30,13 +31,13 @@ proxies:
         Host: daily-2.meet.google.com
     udp: true
 #=========== Jagoanssh.com ===========
-  - name: Jago-Daily³ ²⁹.¹¹
+  - name: Jago-Daily¹ ²⁹.¹¹
     server: sgcgo.ipservers.xyz
     port: 443
     type: trojan
     password: jagoanssh-hshdb
     skip-cert-verify: true
-    sni: daily-3.meet.google.com
+    sni: daily-¹.meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
