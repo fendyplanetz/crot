@@ -37,7 +37,7 @@ proxies:
     type: trojan
     password: jagoanssh-hshdb
     skip-cert-verify: true
-    sni: daily-¹.meet.google.com
+    sni: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
