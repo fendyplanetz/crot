@@ -15,19 +15,17 @@ proxies:
       headers: 
         Host: daily-1.meet.google.com
     udp: true
-#=========== 24/11 whyvpn.my.id ===========
-  - name: Daily² ²⁴.¹¹
+#=========== 30/11 onlyssh.my.id ===========
+  - name: Daily² ³⁰.¹¹
     server: do2.kitu.xyz
     port: 443
-    type: vless
-    uuid: b9be5942-5ea8-421a-8b0b-3a15fb1ebf82
-    cipher: auto
-    tls: true
+    type: trojan
+    password: onlyssh-jshdbxb
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    sni: daily-2.meet.google.com
     network: ws
     ws-opts: 
-      path: /vless/
+      path: /trojan-go
       headers: 
         Host: daily-2.meet.google.com
     udp: true
