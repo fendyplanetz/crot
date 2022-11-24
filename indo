@@ -13,7 +13,7 @@ proxies:
       headers: 
         Host: idtj-herza.bonds.id
     udp: true
-#=========== 25/11 FastSSH.com ==========
+#=========== 01/12 FastSSH.com ==========
   - name: Fast-Daily⁵ ⁰¹.¹²
     server: id-2.vless.co
     port: 443
