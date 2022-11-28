@@ -30,17 +30,20 @@ proxies:
       headers: 
         Host: daily-2.meet.google.com
     udp: true
-#=========== Jagoanssh.com ===========
-  - name: Jago-Daily¹ ²⁹.¹¹
-    server: sgcgo.ipservers.xyz
+#=========== Centerhop ===========
+  - name: CH-daily¹
+    server: sgz2.xtls.my.id
     port: 443
-    type: trojan
-    password: jagoanssh-hshdb
+    type: vmess
+    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: daily-1.meet.google.com
+    servername: daily-¹.meet.google.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /worryfree/vmess
       headers: 
-        Host: sgcgo.ipservers.xyz
+        Host: daily-3.meet.google.com
     udp: true
