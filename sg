@@ -9,19 +9,15 @@ proxies:
     sni: daily-3.meet.google.com
     network: tcp
     udp: true 
-#=========== 30/11 onlyssh.my.id ===========
-  - name: Daily² ³⁰.¹¹
-    server: do2.kitu.xyz
+#=========== 06/12 JupiterVPN ===========
+  - name: Jptr-Daily²
+    server: sg2.sjupiter.net
     port: 443
     type: trojan
-    password: onlyssh-jshdbxb
+    password: jupitervpn-jdhdbdk
     skip-cert-verify: true
     sni: daily-2.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan-go
-      headers: 
-        Host: daily-2.meet.google.com
+    network: tcp
     udp: true
 #=========== Centerhop ===========
   - name: CH-daily¹
