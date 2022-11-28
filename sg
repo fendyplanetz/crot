@@ -1,21 +1,14 @@
 proxies:
-#=========== 01/12 whyvpn.my.id ===========
-  - name: Daily³ ⁰¹.¹²
-    server: do3.kitu.xyz
+#=========== 06/12 JupiterVPN ===========
+  - name: Jptr-Daily³
+    server: sg1.sjupiter.net
     port: 443
-    type: vmess
-    uuid: e38111d1-b888-440b-9669-189af3c31cb9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: jupitervpn-nxnxnnx
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess/
-      headers: 
-        Host: daily-3.meet.google.com
-    udp: true
+    sni: daily-3.meet.google.com
+    network: tcp
+    udp: true 
 #=========== 30/11 onlyssh.my.id ===========
   - name: Daily² ³⁰.¹¹
     server: do2.kitu.xyz
