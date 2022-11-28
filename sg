@@ -40,10 +40,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-¹.meet.google.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /worryfree/vmess
       headers: 
-        Host: daily-3.meet.google.com
+        Host: daily-1.meet.google.com
     udp: true
