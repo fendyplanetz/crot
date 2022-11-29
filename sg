@@ -1,6 +1,6 @@
 proxies:
 #=========== 06/12 JupiterVPN ===========
-  - name: Jptr-Daily³
+  - name: Jptr-Daily³ ⁰⁶.¹²
     server: sg1.sjupiter.net
     port: 443
     type: trojan
@@ -10,7 +10,7 @@ proxies:
     network: tcp
     udp: true 
 #=========== 07/12 JupiterVPN ===========
-  - name: Jptr-Daily²
+  - name: Jptr-Daily² ⁰⁷.¹²
     server: sg2.sjupiter.net
     port: 443
     type: trojan
