@@ -1,12 +1,12 @@
 proxies:
 #=========== 06/12 JupiterVPN ===========
-  - name: Jptr-Daily³ ⁰⁶.¹²
+  - name: Jptr-Daily¹ ⁰⁶.¹²
     server: sg1.sjupiter.net
     port: 443
     type: trojan
     password: jupitervpn-nxnxnnx
     skip-cert-verify: true
-    sni: daily-3.meet.google.com
+    sni: daily-1.meet.google.com
     network: tcp
     udp: true 
 #=========== 07/12 JupiterVPN ===========
