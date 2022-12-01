@@ -13,8 +13,8 @@ proxies:
       headers: 
         Host: idtj-herza.bonds.id
     udp: true
-#=========== 01/12 FastSSH.com ==========
-  - name: Fast-Daily⁵ ⁰¹.¹²
+#=========== 09/12 FastSSH.com ==========
+  - name: Fast-Daily⁵ ⁰⁹.¹²
     server: id-2.vless.co
     port: 443
     type: vless
@@ -25,7 +25,7 @@ proxies:
     servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
-      path: /fastssh/jdbdbkn/637f1c4ab6a1c/
+      path: /fastssh/jsnndosg/63893805e78e9/
       headers: 
         Host: daily-5.meet.google.com
     udp: true
