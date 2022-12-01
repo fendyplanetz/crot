@@ -19,20 +19,3 @@ proxies:
     sni: daily-2.meet.google.com
     network: tcp
     udp: true
-#=========== Centerhop ===========
-  - name: CH-daily¹
-    server: sgz2.xtls.my.id
-    port: 443
-    type: vmess
-    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: daily-1.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /worryfree/vmess
-      headers: 
-        Host: daily-1.meet.google.com
-    udp: true
