@@ -19,3 +19,19 @@ proxies:
     sni: daily-2.meet.google.com
     network: tcp
     udp: true
+#=========== 07/12 Whyvpn ===========
+  - name: Tsel ¹¹.¹²
+    server: do3.kitu.xyz
+    port: 80
+    type: vless
+    uuid: 8a485571-2317-49ed-b54c-a99e899f7d31
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: do3.kitu.xyz
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: tsel.me
+    udp: true
