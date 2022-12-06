@@ -10,11 +10,11 @@ proxies:
     network: tcp
     udp: true
 #=========== 11/12 JupiterVPN ===========
-  - name: Daily² ⁰⁷.¹²
+  - name: Daily² ¹¹.¹²
     server: sg2.sjupiter.net
     port: 443
     type: trojan
-    password: jupitervpn-inijzk
+    password: jupitervpn-jxjxbdkb
     skip-cert-verify: true
     sni: daily-2.meet.google.com
     network: tcp
