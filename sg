@@ -1,16 +1,16 @@
 proxies:
 #=========== 06/12 JupiterVPN ===========
-  - name: Jptr-Daily¹ ⁰⁶.¹²
-    server: sg1.sjupiter.net
+  - name: Daily³ ¹³.¹²
+    server: sg3.sjupiter.net
     port: 443
     type: trojan
-    password: jupitervpn-nxnxnnx
+    password: jupitervpn-jshdbdb
     skip-cert-verify: true
-    sni: daily-1.meet.google.com
+    sni: daily-3.meet.google.com
     network: tcp
-    udp: true 
+    udp: true
 #=========== 07/12 JupiterVPN ===========
-  - name: Jptr-Daily² ⁰⁷.¹²
+  - name: Daily² ⁰⁷.¹²
     server: sg2.sjupiter.net
     port: 443
     type: trojan
@@ -19,7 +19,7 @@ proxies:
     sni: daily-2.meet.google.com
     network: tcp
     udp: true
-#=========== 07/12 Whyvpn ===========
+#=========== 11/12 Whyvpn ===========
   - name: Tsel ¹¹.¹²
     server: do3.kitu.xyz
     port: 80
@@ -29,6 +29,22 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: do3.kitu.xyz
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: tsel.me
+    udp: true
+#=========== 13/12 Whyvpn ===========
+  - name: Tsel ¹³.¹²
+    server: do4.kitu.xyz
+    port: 80
+    type: vless
+    uuid: acc4cd0f-fab5-48e4-a855-b24e0b1c26cd
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: do4.kitu.xyz
     network: ws
     ws-opts: 
       path: /worryfree
