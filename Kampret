@@ -1,24 +1,4 @@
 proxies:
-#=========== 13/12 JupiterVPN ===========
-  - name: Daily³ ¹³.¹²
-    server: sg3.sjupiter.net
-    port: 443
-    type: trojan
-    password: jupitervpn-jshdbdb
-    skip-cert-verify: true
-    sni: daily-3.meet.google.com
-    network: tcp
-    udp: true
-#=========== 11/12 JupiterVPN ===========
-  - name: Daily² ¹¹.¹²
-    server: sg2.sjupiter.net
-    port: 443
-    type: trojan
-    password: jupitervpn-jxjxbdkb
-    skip-cert-verify: true
-    sni: daily-2.meet.google.com
-    network: tcp
-    udp: true
 #=========== 11/12 Whyvpn ===========
   - name: Tsel ¹¹.¹²
     server: do3.kitu.xyz
