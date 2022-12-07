@@ -9,7 +9,7 @@ proxies:
     sni: daily-3.meet.google.com
     network: tcp
     udp: true
-#=========== 11/12 JupiterVPN ===========
+#=========== 15/12 JupiterVPN ===========
   - name: Daily¹ ¹⁵.¹²
     server: sg1.sjupiter.net
     port: 443
