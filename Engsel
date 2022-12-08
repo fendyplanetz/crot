@@ -1,21 +1,21 @@
 proxies:
 #=========== 13/12 JupiterVPN ===========
-  - name: Daily³ ¹³.¹²
+  - name: io.Rg ¹³.¹²
     server: sg3.sjupiter.net
     port: 443
     type: trojan
     password: jupitervpn-jshdbdb
     skip-cert-verify: true
-    sni: daily-3.meet.google.com
+    sni: io.ruangguru.com
     network: tcp
     udp: true
 #=========== 15/12 JupiterVPN ===========
-  - name: Daily¹ ¹⁵.¹²
+  - name: app.Rg ¹⁵.¹²
     server: sg1.sjupiter.net
     port: 443
     type: trojan
     password: jupitervpn-jxnxnd
     skip-cert-verify: true
-    sni: daily-1.meet.google.com
+    sni: app.ruangguru.com
     network: tcp
     udp: true
