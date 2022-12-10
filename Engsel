@@ -1,13 +1,19 @@
 proxies:
-#=========== 13/12 JupiterVPN ===========
-  - name: io.Rg ¹³.¹²
-    server: sg3.sjupiter.net
+  - name: io.Rg ⁰⁸.⁰¹
+    server: sg.dogayengvpn.my.id
     port: 443
-    type: trojan
-    password: jupitervpn-jshdbdb
+    type: vmess
+    uuid: 2ecb0e9b-d2f4-477a-8490-8b9e45736d51
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: io.ruangguru.com
-    network: tcp
+    servername: io.ruangguru.com
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: sg.dogayengvpn.my.id
     udp: true
 #=========== 15/12 JupiterVPN ===========
   - name: gw.Rg ¹⁵.¹²
