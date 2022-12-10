@@ -19,7 +19,7 @@ proxies:
     sni: app.ruangguru.com
     network: tcp
     udp: true
-#=========== 16/12 OnlySSH ===========
+#=========== 17/12 OnlySSH ===========
   - name: Daily¹ ¹⁷.¹²
     server: do1.kitu.xyz
     port: 443
