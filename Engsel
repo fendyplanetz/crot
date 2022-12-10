@@ -10,13 +10,13 @@ proxies:
     network: tcp
     udp: true
 #=========== 15/12 JupiterVPN ===========
-  - name: app.Rg ¹⁵.¹²
+  - name: gw.Rg ¹⁵.¹²
     server: sg1.sjupiter.net
     port: 443
     type: trojan
     password: jupitervpn-jxnxnd
     skip-cert-verify: true
-    sni: app.ruangguru.com
+    sni: gw.ruangguru.com
     network: tcp
     udp: true
 #=========== 17/12 OnlySSH ===========
