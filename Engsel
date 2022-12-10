@@ -1,5 +1,5 @@
 proxies:
-  - name: io.Rg ⁰⁸.⁰¹
+  - name: Daily³ ⁰⁸.⁰¹
     server: sg.dogayengvpn.my.id
     port: 443
     type: vmess
@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: io.ruangguru.com
+    servername: daily-3.meet.google.com
     network: ws
     ws-opts: 
       path: /vmess
@@ -16,7 +16,7 @@ proxies:
         Host: sg.dogayengvpn.my.id
     udp: true
 #=========== 18/12 OnlySSH ===========
-  - name: gw.Rg ¹⁸.¹²
+  - name: Daily² ¹⁸.¹²
     server: do2.kitu.xyz
     port: 443
     type: vmess
@@ -25,12 +25,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: gw.ruangguru.com
+    servername: daily-2.meet.google.com
     network: ws
     ws-opts: 
       path: /vmess/
       headers: 
-        Host: gw.ruangguru.com
+        Host: daily-2.meet.google.com
     udp: true
 #=========== 17/12 OnlySSH ===========
   - name: Daily¹ ¹⁷.¹²
