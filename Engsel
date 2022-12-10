@@ -19,3 +19,19 @@ proxies:
     sni: app.ruangguru.com
     network: tcp
     udp: true
+#=========== 16/12 OnlySSH ===========
+  - name: Daily¹ ¹⁷.¹²
+    server: do1.kitu.xyz
+    port: 443
+    type: vless
+    uuid: db57dfaa-9245-4b8f-900d-02f5a30d28c9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: daily-1.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /xvless/
+      headers: 
+        Host: daily-1.meet.google.com
+    udp: true
