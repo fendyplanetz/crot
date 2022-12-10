@@ -15,15 +15,22 @@ proxies:
       headers: 
         Host: sg.dogayengvpn.my.id
     udp: true
-#=========== 15/12 JupiterVPN ===========
-  - name: gw.Rg ¹⁵.¹²
-    server: sg1.sjupiter.net
+#=========== 18/12 OnlySSH ===========
+  - name: gw.Rg ¹⁸.¹²
+    server: do2.kitu.xyz
     port: 443
-    type: trojan
-    password: jupitervpn-jxnxnd
+    type: vmess
+    uuid: 1629119a-0c24-455f-b9d4-0851fb82115e
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: gw.ruangguru.com
-    network: tcp
+    servername: gw.ruangguru.com
+    network: ws
+    ws-opts: 
+      path: /vmess/
+      headers: 
+        Host: gw.ruangguru.com
     udp: true
 #=========== 17/12 OnlySSH ===========
   - name: Daily¹ ¹⁷.¹²
