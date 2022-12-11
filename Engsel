@@ -1,20 +1,4 @@
 proxies:
-  - name: Daily³ ⁰⁸.⁰¹
-    server: sg.dogayengvpn.my.id
-    port: 443
-    type: vmess
-    uuid: 2ecb0e9b-d2f4-477a-8490-8b9e45736d51
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: daily-3.meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg.dogayengvpn.my.id
-    udp: true
 #=========== 18/12 OnlySSH ===========
   - name: Daily² ¹⁸.¹²
     server: do2.kitu.xyz
