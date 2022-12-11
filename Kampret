@@ -1,10 +1,10 @@
 proxies:
-#=========== 11/12 Whyvpn ===========
-  - name: Tsel ¹¹.¹²
+#=========== 18/12 OnlySSH ===========
+  - name: Tsel ¹⁸.¹²
     server: do3.kitu.xyz
     port: 80
     type: vless
-    uuid: 8a485571-2317-49ed-b54c-a99e899f7d31
+    uuid: 73b31157-55f4-4024-8f26-a32df69053b5
     cipher: auto
     tls: false
     skip-cert-verify: true
