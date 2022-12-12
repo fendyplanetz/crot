@@ -32,3 +32,19 @@ proxies:
       headers: 
         Host: daily-1.meet.google.com
     udp: true
+#=========== 19/12 FastSSH ===========
+  - name: Daily³ ¹⁹.¹²
+    server: sg1.vless.co
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: daily-3.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /fastssh/jdhdbdkb/6396c46636ad5/
+      headers: 
+        Host: daily-3.meet.google.com
+    udp: true
