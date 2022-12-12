@@ -1,6 +1,6 @@
 proxies:
 #=========== 18/12 OnlySSH ===========
-  - name: Daily² ¹⁸.¹²
+  - name: Meet ¹⁸.¹²
     server: do2.kitu.xyz
     port: 443
     type: vmess
@@ -9,15 +9,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-2.meet.google.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
       path: /vmess/
       headers: 
-        Host: daily-2.meet.google.com
+        Host: meet.google.com
     udp: true
 #=========== 17/12 OnlySSH ===========
-  - name: Daily¹ ¹⁷.¹²
+  - name: Google ¹⁷.¹²
     server: do1.kitu.xyz
     port: 443
     type: vless
@@ -25,15 +25,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    servername: dl.google.com
     network: ws
     ws-opts: 
       path: /xvless/
       headers: 
-        Host: daily-1.meet.google.com
+        Host: dl.google.com
     udp: true
 #=========== 19/12 FastSSH ===========
-  - name: Daily³ ¹⁹.¹²
+  - name: Teams ¹⁹.¹²
     server: sg1.vless.co
     port: 443
     type: vless
@@ -41,10 +41,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-3.meet.google.com
+    servername: teams.microsoft.com
     network: ws
     ws-opts: 
       path: /fastssh/jdhdbdkb/6396c46636ad5/
       headers: 
-        Host: daily-3.meet.google.com
+        Host: teams.microsoft.com
     udp: true
