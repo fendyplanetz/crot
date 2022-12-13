@@ -1,50 +1,17 @@
 proxies:
-#=========== 18/12 OnlySSH ===========
-  - name: Meet ¹⁸.¹²
-    server: do2.kitu.xyz
-    port: 443
-    type: vmess
-    uuid: 1629119a-0c24-455f-b9d4-0851fb82115e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess/
-      headers: 
-        Host: meet.google.com
-    udp: true
-#=========== 17/12 OnlySSH ===========
-  - name: Google ¹⁷.¹²
-    server: do1.kitu.xyz
-    port: 443
-    type: vless
-    uuid: db57dfaa-9245-4b8f-900d-02f5a30d28c9
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dl.google.com
-    network: ws
-    ws-opts: 
-      path: /xvless/
-      headers: 
-        Host: dl.google.com
-    udp: true
 #=========== 19/12 FastSSH ===========
-  - name: Teams ¹⁹.¹²
-    server: sg1.vless.co
+  - name: Google ¹⁹.¹²
+    server: id-2.vless.co
     port: 443
     type: vless
     uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: teams.microsoft.com
+    servername: dl.google.com
     network: ws
     ws-opts: 
-      path: /fastssh/jdhdbdkb/6396c46636ad5/
+      path: /fastssh/jdbdknvk/6398955708d7b/
       headers: 
-        Host: teams.microsoft.com
+        Host: dl.google.com
     udp: true
