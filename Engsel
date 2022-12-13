@@ -1,6 +1,6 @@
 proxies:
-#=========== 19/12 FastSSH ===========
-  - name: Google ¹⁹.¹²
+#=========== 20/12 FastSSH ===========
+  - name: Google ²⁰.¹²
     server: id-2.vless.co
     port: 443
     type: vless
@@ -14,4 +14,18 @@ proxies:
       path: /fastssh/jdbdknvk/6398955708d7b/
       headers: 
         Host: dl.google.com
+    udp: true
+#=========== 21/12 JagoanSSH ===========
+  - name: Teams ²¹.¹²
+    server: id1go.ipservers.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-jsbxksbv
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: id1go.ipservers.xyz
     udp: true
