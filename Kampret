@@ -16,11 +16,11 @@ proxies:
         Host: tsel.me
     udp: true
 #=========== 13/12 Whyvpn ===========
-  - name: Tsel ¹³.¹²
+  - name: Tsel ²⁰.¹²
     server: do4.kitu.xyz
     port: 80
     type: vless
-    uuid: acc4cd0f-fab5-48e4-a855-b24e0b1c26cd
+    uuid: 1a537f13-aac3-4603-a2f3-32cc082c4f60
     cipher: auto
     tls: false
     skip-cert-verify: true
