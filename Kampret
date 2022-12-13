@@ -15,7 +15,7 @@ proxies:
       headers: 
         Host: tsel.me
     udp: true
-#=========== 13/12 Whyvpn ===========
+#=========== 20/12 Whyvpn ===========
   - name: Tsel ²⁰.¹²
     server: do4.kitu.xyz
     port: 80
