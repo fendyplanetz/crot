@@ -29,3 +29,19 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
+#=========== 23/12 sshMax ===========
+  - name: Meetings ²³.¹²
+    server: id-v.sshmax.xyz
+    port: 443
+    type: vless
+    uuid: 3fc50e5e-5a18-4483-9011-2977a9906b01
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: meetings.googleapis.com
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: id-v.sshmax.xyz
+    udp: true
