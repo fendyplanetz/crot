@@ -1,6 +1,6 @@
 proxies:
 #=========== 23/12 sshMax ===========
-  - name: Meet ²³.¹²
+  - name: sshMax ²³.¹²
     server: id-v.sshmax.xyz
     port: 443
     type: vless
@@ -8,25 +8,26 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: mobilemaps-pa-gz.googleapis.com
     network: ws
     ws-opts: 
       path: /vless
       headers: 
         Host: id-v.sshmax.xyz
     udp: true
-  - name: Google ²³.¹²
-    server: id-v.sshmax.xyz
+#=========== 21/12 FastSSH ===========
+  - name: fastSSH ²¹.¹²
+    server: id-2.vless.co
     port: 443
     type: vless
-    uuid: 3fc50e5e-5a18-4483-9011-2977a9906b01
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dl.google.com
+    servername: mobilemaps.googleapis.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /fastssh/jdbdknvk/6398955708d7b/
       headers: 
-        Host: id-v.sshmax.xyz
+        Host: id-2.vless.co
     udp: true
