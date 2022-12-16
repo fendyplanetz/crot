@@ -1,34 +1,4 @@
 proxies:
-#=========== 20/12 FastSSH ===========
-  - name: Google ²⁰.¹²
-    server: id-2.vless.co
-    port: 443
-    type: vless
-    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dl.google.com
-    network: ws
-    ws-opts: 
-      path: /fastssh/jdbdknvk/6398955708d7b/
-      headers: 
-        Host: dl.google.com
-    udp: true
-#=========== 21/12 JagoanSSH ===========
-  - name: Teams ²¹.¹²
-    server: id1go.ipservers.xyz
-    port: 443
-    type: trojan
-    password: jagoanssh-jsbxksbv
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: id1go.ipservers.xyz
-    udp: true
 #=========== 23/12 sshMax ===========
   - name: Meetings ²³.¹²
     server: id-v.sshmax.xyz
@@ -39,6 +9,21 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: meetings.googleapis.com
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: id-v.sshmax.xyz
+    udp: true
+  - name: Google ²³.¹²
+    server: id-v.sshmax.xyz
+    port: 443
+    type: vless
+    uuid: 3fc50e5e-5a18-4483-9011-2977a9906b01
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dl.google.com
     network: ws
     ws-opts: 
       path: /vless
