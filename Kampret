@@ -1,6 +1,6 @@
 proxies:
 #=========== 26/12 OnlySSH ===========
-  - name: Tsel ¹⁶.¹²
+  - name: Tsel ²⁶.¹²
     server: do2.kitu.xyz
     port: 80
     type: vless
