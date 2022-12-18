@@ -1,14 +1,14 @@
 proxies:
-#=========== 18/12 OnlySSH ===========
-  - name: Tsel ¹⁸.¹²
-    server: do3.kitu.xyz
+#=========== 26/12 OnlySSH ===========
+  - name: Tsel ¹⁶.¹²
+    server: do2.kitu.xyz
     port: 80
     type: vless
-    uuid: 73b31157-55f4-4024-8f26-a32df69053b5
+    uuid: ec52d929-4445-4ac2-a65f-681e7d49a532
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: do3.kitu.xyz
+    servername: do2.kitu.xyz
     network: ws
     ws-opts: 
       path: /worryfree
