@@ -31,3 +31,17 @@ proxies:
       headers: 
         Host: id-2.vless.co
     udp: true
+#=========== 21/12 JagoanSSH ===========
+  - name: Jago ²¹.¹²
+    server: id1go.ipservers.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-jsbxksbv
+    skip-cert-verify: true
+    sni: mobilemaps-pa-gz.googleapis.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: id1go.ipservers.xyz
+    udp: true
