@@ -15,22 +15,6 @@ proxies:
       headers: 
         Host: id-v.sshmax.xyz
     udp: true
-#=========== 26/12 FastSSH ===========
-  - name: FastSSH ²⁶.¹²
-    server: id-2.vless.co
-    port: 443
-    type: vless
-    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: mobilemaps.googleapis.com
-    network: ws
-    ws-opts: 
-      path: /fastssh/jsjdbkn/639fa21a46725/
-      headers: 
-        Host: mobilemaps.googleapis.com
-    udp: true
 #=========== 21/12 JagoanSSH ===========
   - name: Jago ²¹.¹²
     server: id1go.ipservers.xyz
