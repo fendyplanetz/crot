@@ -15,7 +15,7 @@ proxies:
       headers: 
         Host: id-v.sshmax.xyz
     udp: true
-#=========== 21/12 JagoanSSH ===========
+#=========== 26/12 JagoanSSH GFW ===========
   - name: Jago ²⁶.¹²
     server: idtro.ipservers.xyz
     port: 443
@@ -24,4 +24,20 @@ proxies:
     skip-cert-verify: true
     sni: mobilemaps-pa-gz.googleapis.com
     network: tcp
+    udp: true
+#=========== 28/12 JagoanSSH Xray ===========
+  - name: Jago ²⁸.¹²
+    server: id2vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: 9195b31a-f4cc-4f18-bb20-d13996ee84d4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: lh5.googleusercontent.com
+    network: ws
+    ws-opts: 
+      path: /jagoanssh
+      headers: 
+        Host: id2vless.ipservers.xyz
     udp: true
