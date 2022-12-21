@@ -16,16 +16,12 @@ proxies:
         Host: id-v.sshmax.xyz
     udp: true
 #=========== 21/12 JagoanSSH ===========
-  - name: Jago ²¹.¹²
-    server: id1go.ipservers.xyz
+  - name: Jago ²⁶.¹²
+    server: idtro.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-jsbxksbv
+    password: jagoanssh-jsjjsosn
     skip-cert-verify: true
     sni: mobilemaps-pa-gz.googleapis.com
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: id1go.ipservers.xyz
+    network: tcp
     udp: true
