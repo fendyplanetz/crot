@@ -15,7 +15,7 @@ proxies:
       headers: 
         Host: id-v.sshmax.xyz
     udp: true
-#=========== 26/12 JagoanSSH GFW ===========
+#======= 26/12 JagoanSSH GFW =======
   - name: Jago ²⁶.¹²
     server: idtro.ipservers.xyz
     port: 443
@@ -25,7 +25,7 @@ proxies:
     sni: mobilemaps-pa-gz.googleapis.com
     network: tcp
     udp: true
-#=========== 28/12 JagoanSSH Xray ===========
+#======= 28/12 JagoanSSH Xray =======
   - name: Jago ²⁸.¹²
     server: id2vless.ipservers.xyz
     port: 443
