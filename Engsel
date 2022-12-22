@@ -22,7 +22,7 @@ proxies:
     type: trojan
     password: jagoanssh-jsjjsosn
     skip-cert-verify: true
-    sni: mobilemaps-pa-gz.googleapis.com
+    sni: kh.google.com
     network: tcp
     udp: true
 #======= 28/12 JagoanSSH Xray =======
