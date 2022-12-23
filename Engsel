@@ -1,19 +1,19 @@
 proxies:
-#=========== 23/12 sshMax ===========
-  - name: sshMax ²³.¹²
-    server: id-v.sshmax.xyz
+#=========== 30/12 Whyvpn.xray ===========
+  - name: Whyvpn ³⁰.¹²
+    server: do5.kitu.xyz
     port: 443
     type: vless
-    uuid: 3fc50e5e-5a18-4483-9011-2977a9906b01
+    uuid: 02e507c5-5267-471f-91b4-4462d06db7c4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: lh5.googleusercontent.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /xvless/
       headers: 
-        Host: id-v.sshmax.xyz
+        Host: meet.google.com
     udp: true
 #======= 26/12 JagoanSSH GFW =======
   - name: Jago ²⁶.¹²
