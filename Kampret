@@ -1,33 +1,17 @@
 proxies:
-#=========== 26/12 OnlySSH ===========
-  - name: Tsel ²⁶.¹²
-    server: do2.kitu.xyz
-    port: 80
+#=========== 30/12 Whyvpn.xray ===========
+  - name: Whyvpn ³⁰.¹²
+    server: do5.kitu.xyz
+    port: 443
     type: vless
-    uuid: ec52d929-4445-4ac2-a65f-681e7d49a532
+    uuid: 02e507c5-5267-471f-91b4-4462d06db7c4
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: do2.kitu.xyz
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /xvless/
       headers: 
-        Host: tsel.me
-    udp: true
-#=========== 20/12 Whyvpn ===========
-  - name: Tsel ²⁰.¹²
-    server: do4.kitu.xyz
-    port: 80
-    type: vless
-    uuid: 1a537f13-aac3-4603-a2f3-32cc082c4f60
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: do4.kitu.xyz
-    network: ws
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: tsel.me
+        Host: meet.google.com
     udp: true
