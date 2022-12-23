@@ -1,20 +1,4 @@
 proxies:
-#=========== 30/12 Whyvpn.xray ===========
-  - name: Whyvpn ³⁰.¹²
-    server: do5.kitu.xyz
-    port: 443
-    type: vless
-    uuid: 02e507c5-5267-471f-91b4-4462d06db7c4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /xvless/
-      headers: 
-        Host: meet.google.com
-    udp: true
 #======= 26/12 JagoanSSH GFW =======
   - name: Jago ²⁶.¹²
     server: idtro.ipservers.xyz
