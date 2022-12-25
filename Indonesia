@@ -1,13 +1,20 @@
 proxies:
 #======= 26/12 JagoanSSH GFW =======
-  - name: Jago ²⁶.¹²
-    server: idtro.ipservers.xyz
+  - name: Jago ⁰².⁰¹
+    server: id1-ray.ipservers.xyz
     port: 443
-    type: trojan
-    password: jagoanssh-jsjjsosn
+    type: vmess
+    uuid: ecd30bb2-ae05-4635-b9c1-71f5c6dc7237
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: kh.google.com
-    network: tcp
+    servername: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /JAGOANSSH/
+      headers: 
+        Host: meet.google.com
     udp: true
 #======= 28/12 JagoanSSH Xray =======
   - name: Jago ²⁸.¹²
