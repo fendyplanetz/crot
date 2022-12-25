@@ -1,20 +1,19 @@
 proxies:
-#======= 02/01 JagoanSSH Vmess =======
-  - name: Jago ⁰².⁰¹
-    server: id1-ray.ipservers.xyz
+#======= 02/01 sshmax Vless =======
+  - name: Sshmax ⁰².⁰¹
+    server: id-v.sshmax.xyz
     port: 443
-    type: vmess
-    uuid: ecd30bb2-ae05-4635-b9c1-71f5c6dc7237
-    alterId: 0
+    type: vless
+    uuid: 358158dc-f5f9-44c4-bec0-6a0db164d092
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: mobilemaps-pa-gz.googleapis.com
     network: ws
     ws-opts: 
-      path: /JAGOANSSH/
+      path: /vless
       headers: 
-        Host: meet.google.com
+        Host: id-v.sshmax.xyz
     udp: true
 #======= 28/12 JagoanSSH Xray =======
   - name: Jago ²⁸.¹²
