@@ -1,5 +1,5 @@
 proxies:
-#======= 26/12 JagoanSSH GFW =======
+#======= 02/01 JagoanSSH Vmess =======
   - name: Jago ⁰².⁰¹
     server: id1-ray.ipservers.xyz
     port: 443
