@@ -1,19 +1,19 @@
 proxies:
-#======= 02/01 sshmax Vless =======
-  - name: Sshmax ⁰².⁰¹
-    server: id-v.sshmax.xyz
+#======= 02/01 Onlyssh Xray =======
+  - name: Onlyssh ⁰².⁰¹
+    server: id1.kitu.xyz
     port: 443
     type: vless
-    uuid: 358158dc-f5f9-44c4-bec0-6a0db164d092
+    uuid: fbb87f9e-c80e-4959-9af9-abe1fd5eb12e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: mobilemaps-pa-gz.googleapis.com
+    servername: dl.google.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /xvless/
       headers: 
-        Host: id-v.sshmax.xyz
+        Host: dl.google.com
     udp: true
 #======= 28/12 JagoanSSH Xray =======
   - name: Jago ²⁸.¹²
