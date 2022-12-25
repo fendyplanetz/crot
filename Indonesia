@@ -9,7 +9,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: mobilemaps-pa-gz.googleapis.com
     network: ws
     ws-opts: 
       path: /JAGOANSSH/
