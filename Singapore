@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: wus1-api.asm.skype.com
     network: ws
     ws-opts: 
       path: /xvless/
