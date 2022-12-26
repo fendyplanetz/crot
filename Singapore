@@ -13,5 +13,5 @@ proxies:
     ws-opts: 
       path: /xvless/
       headers: 
-        Host: meet.google.com
+        Host: wus1-api.asm.skype.com
     udp: true
