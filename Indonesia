@@ -13,7 +13,7 @@ proxies:
     ws-opts: 
       path: /xvless/
       headers: 
-        Host: dl.google.com
+        Host: us-api.asm.skype.com
     udp: true
 #======= 28/12 JagoanSSH Xray =======
   - name: Jago ²⁸.¹²
@@ -24,7 +24,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: lh5.googleusercontent.com
+    servername: config.edge.skype.com
     network: ws
     ws-opts: 
       path: /jagoanssh
