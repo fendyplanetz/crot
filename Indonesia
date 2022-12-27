@@ -15,12 +15,12 @@ proxies:
       headers: 
         Host: us-api.asm.skype.com
     udp: true
-#======= 28/12 JagoanSSH Xray =======
-  - name: Jago ²⁸.¹²
-    server: id2vless.ipservers.xyz
+#======= 04/01 JagoanSSH Xray =======
+  - name: Jago ⁰⁴.⁰¹
+    server: id1vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 9195b31a-f4cc-4f18-bb20-d13996ee84d4
+    uuid: 8241e1e5-ef8a-4f20-b94f-ac124e9bcbe1
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,5 +29,5 @@ proxies:
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: id2vless.ipservers.xyz
+        Host: id1vless.ipservers.xyz
     udp: true
