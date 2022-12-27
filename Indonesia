@@ -1,21 +1,22 @@
 proxies:
-#======= 02/01 Onlyssh Xray =======
-  - name: Onlyssh ⁰².⁰¹
-    server: id1.kitu.xyz
+#======= 02/01 JagoanSSH Xray =======
+  - name: Jago ⁰².⁰¹
+    server: id1-ray.ipservers.xyz
     port: 443
-    type: vless
-    uuid: fbb87f9e-c80e-4959-9af9-abe1fd5eb12e
+    type: vmess
+    uuid: ecd30bb2-ae05-4635-b9c1-71f5c6dc7237
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: us-api.asm.skype.com
     network: ws
     ws-opts: 
-      path: /xvless/
+      path: /JAGOANSSH/
       headers: 
         Host: us-api.asm.skype.com
     udp: true
-#======= 04/01 JagoanSSH Xray =======
+#======= 04/01 JagoanSSH Vless =======
   - name: Jago ⁰⁴.⁰¹
     server: id1vless.ipservers.xyz
     port: 443
