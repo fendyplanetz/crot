@@ -15,7 +15,7 @@ proxies:
       headers: 
         Host: wus1-api.asm.skype.com
     udp: true
-#=========== 30/12 Whyvpn.xray ===========
+#=========== 04/01 Jagoan.xray ===========
   - name: Jago ⁰⁴.⁰¹
     server: sg5vless.ipservers.xyz
     port: 443
