@@ -1,19 +1,19 @@
 proxies:
-#=========== 30/12 Whyvpn.xray ===========
-  - name: Whyvpn ³⁰.¹²
-    server: do5.kitu.xyz
+#=========== 05/01 Mainssh.vless ===========
+  - name: MainSSH ⁰⁵.⁰¹
+    server: sglws.mainssh.xyz
     port: 443
     type: vless
-    uuid: 02e507c5-5267-471f-91b4-4462d06db7c4
+    uuid: e55e9af6-5981-4c19-90e0-8db310cb7448
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: wus1-api.asm.skype.com
+    servername: aqs.skype.com
     network: ws
     ws-opts: 
-      path: /xvless/
+      path: /vless
       headers: 
-        Host: wus1-api.asm.skype.com
+        Host: sglws.mainssh.xyz
     udp: true
 #=========== 04/01 Jagoan.xray ===========
   - name: Jago ⁰⁴.⁰¹
