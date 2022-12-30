@@ -1,19 +1,19 @@
 proxies:
-#=========== 05/01 Mainssh.vless ===========
-  - name: MainSSH ⁰⁵.⁰¹
-    server: sglws.mainssh.xyz
+#=========== 06/01 Jagoan.xray ===========
+  - name: Jago ⁰⁶.⁰¹
+    server: sg2vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: e55e9af6-5981-4c19-90e0-8db310cb7448
+    uuid: 816dbe90-3147-4290-99f4-3e8b2a145cbf
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: aqs.skype.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /jagoanssh
       headers: 
-        Host: sglws.mainssh.xyz
+        Host: sg2vless.ipservers.xyz
     udp: true
 #=========== 04/01 Jagoan.xray ===========
   - name: Jago ⁰⁴.⁰¹
