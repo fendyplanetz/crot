@@ -1,20 +1,20 @@
 proxies:
-#======= 02/01 JagoanSSH Xray =======
-  - name: Jago ⁰².⁰¹
-    server: id1-ray.ipservers.xyz
+#======= 02/01 FastSSH V2ray =======
+  - name: Fastssh ⁰⁹.⁰¹
+    server: id-ikd.vmess.sbs
     port: 443
     type: vmess
-    uuid: ecd30bb2-ae05-4635-b9c1-71f5c6dc7237
+    uuid: b2ccdd00-8a27-11ed-b131-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us-api.asm.skype.com
+    servername: edge.skype.com
     network: ws
     ws-opts: 
-      path: /JAGOANSSH/
+      path: /fastssh
       headers: 
-        Host: us-api.asm.skype.com
+        Host: edge.skype.com
     udp: true
 #======= 04/01 JagoanSSH Vless =======
   - name: Jago ⁰⁴.⁰¹
