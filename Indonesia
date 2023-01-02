@@ -1,20 +1,19 @@
 proxies:
-#======= 09/01 FastSSH V2ray =======
-  - name: Fastssh ⁰⁹.⁰¹
-    server: id-ikd.vmess.sbs
+#======= 10/01 JagoanSSH Vless =======
+  - name: Jago ¹⁰.⁰¹
+    server: id2vless.ipservers.xyz
     port: 443
-    type: vmess
-    uuid: b2ccdd00-8a27-11ed-b131-205c6d5f5d78
-    alterId: 0
+    type: vless
+    uuid: 267f2664-77a0-4c2e-b60e-eaaa3fdb4f83
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edge.skype.com
+    servername: daily-2.meet.google.com
     network: ws
     ws-opts: 
-      path: /fastssh
+      path: /jagoanssh
       headers: 
-        Host: edge.skype.com
+        Host: id2vless.ipservers.xyz
     udp: true
 #======= 04/01 JagoanSSH Vless =======
   - name: Jago ⁰⁴.⁰¹
@@ -25,7 +24,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: config.edge.skype.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
