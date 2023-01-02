@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aqs.skype.com
+    servername: daily-3.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
@@ -24,7 +24,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aqs.skype.com
+    servername: daily-4.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
