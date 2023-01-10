@@ -1,10 +1,10 @@
 proxies:
-#======= 10/01 JagoanSSH Vless =======
-  - name: Jago ¹⁰.⁰¹
+#======= 17/01 JagoanSSH Vless =======
+  - name: Jago ¹⁷.⁰¹
     server: id2vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 267f2664-77a0-4c2e-b60e-eaaa3fdb4f83
+    uuid: 27c1df36-9042-4e01-995e-7faefbb3db66
     cipher: auto
     tls: true
     skip-cert-verify: true
