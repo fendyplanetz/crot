@@ -15,12 +15,12 @@ proxies:
       headers: 
         Host: sg3vless.ipservers.xyz
     udp: true
-#=========== 11/01 Jagoan.xray ===========
-  - name: Jago ¹¹.⁰¹
-    server: sg5vless.ipservers.xyz
+#=========== 18/01 Jagoan.xray ===========
+  - name: Jago ¹⁸.⁰¹
+    server: sg2vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 688eb497-7001-410d-b192-1aee0742609a
+    uuid: a9f4c6a8-ecae-47a3-b064-14a44f8f25c0
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,5 +29,5 @@ proxies:
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: sg5vless.ipservers.xyz
+        Host: sg2vless.ipservers.xyz
     udp: true
