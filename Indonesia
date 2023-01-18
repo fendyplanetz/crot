@@ -1,19 +1,19 @@
 proxies:
 #======= JagoanSSH Vless =======
-  - name: Jago ¹⁷.⁰¹
-    server: id2vless.ipservers.xyz
+  - name: Jago ²⁵.⁰¹
+    server: id1vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 27c1df36-9042-4e01-995e-7faefbb3db66
+    uuid: 71066c33-9afd-4321-9c83-669819898dba
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-2.meet.google.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: id2vless.ipservers.xyz
+        Host: id1vless.ipservers.xyz
     udp: true
 #======= JagoanSSH Vless =======
   - name: Jago ¹⁸.⁰¹
@@ -24,7 +24,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    servername: daily-2.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
