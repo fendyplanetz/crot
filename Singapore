@@ -1,5 +1,5 @@
 proxies:
-#=========== 21/01 Jagoan.xray ===========
+#=========== Jagoan.xray ===========
   - name: Jago ²¹.⁰¹
     server: sg1vless.ipservers.xyz
     port: 443
@@ -15,7 +15,7 @@ proxies:
       headers: 
         Host: sg1vless.ipservers.xyz
     udp: true
-#=========== 18/01 Jagoan.xray ===========
+#=========== Jagoan.xray ===========
   - name: Jago ²⁶.⁰¹
     server: sg4vless.ipservers.xyz
     port: 443
