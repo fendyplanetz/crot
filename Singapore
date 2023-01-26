@@ -16,18 +16,18 @@ proxies:
         Host: sg3vless.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
-  - name: Jago ²⁶.⁰¹
-    server: sg4vless.ipservers.xyz
+  - name: Jago ⁰².⁰²
+    server: sg5vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 7fe44230-d7a5-4533-b77a-7105f3942df3
+    uuid: 20a043e1-06cc-4b1c-9964-e7c71dbc7fe6
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-4.meet.google.com
+    servername: daily-5.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: sg4vless.ipservers.xyz
+        Host: sg5vless.ipservers.xyz
     udp: true
