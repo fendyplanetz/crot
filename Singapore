@@ -1,10 +1,10 @@
 proxies:
 #=========== Jagoan.xray ===========
-  - name: Jago ²⁸.⁰¹
+  - name: Jago ⁰⁴.⁰²
     server: sg3vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 5b85ebc9-e180-4a3c-88b1-5ef4993718fb
+    uuid: 15309cce-3202-4c51-9514-44be5e65352e
     cipher: auto
     tls: true
     skip-cert-verify: true
