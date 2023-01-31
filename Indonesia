@@ -16,11 +16,11 @@ proxies:
         Host: id1vless.ipservers.xyz
     udp: true
 #======= JagoanSSH Vless =======
-  - name: Jago ⁰⁴.⁰²
-    server: id2vless.ipservers.xyz
+  - name: Jago ⁰⁸.⁰²
+    server: id1vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 765b80ae-4d07-4482-807f-b1f1ea8cc166
+    uuid: bc65ed48-65ae-42f6-86d0-6f18d3cba245
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -29,5 +29,5 @@ proxies:
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: id2vless.ipservers.xyz
+        Host: id1vless.ipservers.xyz
     udp: true
