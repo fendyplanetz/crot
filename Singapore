@@ -1,7 +1,7 @@
 proxies:
 #=========== Jagoan.xray ===========
-  - name: Line ⁰⁴.⁰²
-    server: sogood.linefriends.com
+  - name: Shopee ⁰⁴.⁰²
+    server: zendesk1.shopee.sg
     port: 443
     type: vless
     uuid: 15309cce-3202-4c51-9514-44be5e65352e
@@ -32,7 +32,7 @@ proxies:
         Host: sg2vless.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
-  - name: w1 ⁰⁷.⁰²
+  - name: Meet ⁰⁷.⁰²
     server: sg1vless.ipservers.xyz
     port: 443
     type: vless
@@ -40,7 +40,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w1.web.whatsapp.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
