@@ -1,22 +1,22 @@
 proxies:
-#======= JagoanSSH Vless =======
-  - name: Jago ⁰¹.⁰²
-    server: id1vless.ipservers.xyz
+#======= JagoanSSH Xray =======
+  - name: Maps ⁰⁴.⁰²
+    server: id2vless.ipservers.xyz
     port: 443
     type: vless
-    uuid: 00a7d52b-51af-4db2-bdcd-ecac1f10343f
+    uuid: 765b80ae-4d07-4482-807f-b1f1ea8cc166
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    servername: mobilemaps-pa-gz.googleapis.com
     network: ws
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: id1vless.ipservers.xyz
+        Host: id2vless.ipservers.xyz
     udp: true
-#======= JagoanSSH Vless =======
-  - name: Jago ⁰⁸.⁰²
+#======= JagoanSSH Xray =======
+  - name: Meet ⁰⁸.⁰²
     server: id1vless.ipservers.xyz
     port: 443
     type: vless
@@ -24,7 +24,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: daily-2.meet.google.com
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /jagoanssh
