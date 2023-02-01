@@ -1,14 +1,14 @@
 proxies:
 #======= JagoanSSH Xray =======
-  - name: Maps ⁰⁴.⁰²
-    server: id2vless.ipservers.xyz
+  - name: Shopee ⁰⁴.⁰²
+    server: zendesk1.shopee.sg
     port: 443
     type: vless
     uuid: 765b80ae-4d07-4482-807f-b1f1ea8cc166
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: mobilemaps-pa-gz.googleapis.com
+    servername: id2vless.ipservers.xyz
     network: ws
     ws-opts: 
       path: /jagoanssh
