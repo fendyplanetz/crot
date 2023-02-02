@@ -1,19 +1,19 @@
 proxies:
 #=========== Jagoan.xray ===========
-  - name: Grab ⁰⁴.⁰²
-    server: zendesk4.grabtaxi.com
+  - name: Shopee ¹⁰.⁰²
+    server: zendesk1.shopee.tw
     port: 443
     type: vless
-    uuid: 15309cce-3202-4c51-9514-44be5e65352e
+    uuid: 3ce3c5c7-20c6-43e1-ad30-2b312a27c9d4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg3vless.ipservers.xyz
+    servername: sg5vless.ipservers.xyz
     network: ws
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: sg3vless.ipservers.xyz
+        Host: sg5vless.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
   - name: Line ⁰⁸.⁰²
