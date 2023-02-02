@@ -1,7 +1,7 @@
 proxies:
 #=========== Jagoan.xray ===========
   - name: Grab ⁰⁴.⁰²
-    server: food-merchant-help.grab.com
+    server: zendesk4.grabtaxi.com
     port: 443
     type: vless
     uuid: 15309cce-3202-4c51-9514-44be5e65352e
@@ -16,8 +16,8 @@ proxies:
         Host: sg3vless.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
-  - name: Tech ⁰⁸.⁰²
-    server: cdn.adup-tech.com
+  - name: Line ⁰⁸.⁰²
+    server: sogood.linefriends.com
     port: 443
     type: vless
     uuid: b388ffb0-42ff-4290-b59c-9bcb3a9047bc
