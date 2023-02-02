@@ -1,7 +1,7 @@
 proxies:
 #=========== Jagoan.xray ===========
-  - name: Shopee ⁰⁴.⁰²
-    server: zendesk1.shopee.tw
+  - name: Grab ⁰⁴.⁰²
+    server: food-merchant-help.grab.com
     port: 443
     type: vless
     uuid: 15309cce-3202-4c51-9514-44be5e65352e
