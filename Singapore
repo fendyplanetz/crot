@@ -1,7 +1,7 @@
 proxies:
 #=========== Jagoan.xray ===========
   - name: Shopee ⁰⁴.⁰²
-    server: zendesk1.shopee.sg
+    server: zendesk1.shopee.tw
     port: 443
     type: vless
     uuid: 15309cce-3202-4c51-9514-44be5e65352e
@@ -46,4 +46,20 @@ proxies:
       path: /jagoanssh
       headers: 
         Host: sg1vless.ipservers.xyz
+    udp: true
+#=========== Jagoan.xray ===========
+  - name: Wa ⁰⁹.⁰²
+    server: sg4vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: 9165b882-2a38-4443-b624-ae3fffa96362
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: w0.web.whatsapp.com
+    network: ws
+    ws-opts: 
+      path: /jagoanssh
+      headers: 
+        Host: sg4vless.ipservers.xyz
     udp: true
