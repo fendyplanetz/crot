@@ -1,20 +1,17 @@
 proxies:
-#========= FastSSH Dynamic =========
-  - name: Grab ¹⁰.⁰²
+#=========== Jagoan.TroGo ===========
+  - name: Grab ¹¹.⁰²
     server: food-merchant-help.grab.com
-    port: 80
-    type: vmess
-    uuid: 0cd49303-330b-4591-83cd-e1c8fd08929a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: dynamic-us1b.obfs.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-nznxbknn
+    skip-cert-verify: true
+    sni: sg2go.ipservers.xyz
     network: ws
     ws-opts: 
-      path: wss://dynamic-us1b.obfs.xyz/
+      path: wss://sg2go.ipservers.xyz/trojan
       headers: 
-        Host: dynamic-us1b.obfs.xyz
+        Host: sg2go.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
   - name: Line ⁰⁸.⁰²
