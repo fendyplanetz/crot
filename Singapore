@@ -1,19 +1,20 @@
 proxies:
-#=========== Jagoan.xray ===========
-  - name: Shopee ¹⁰.⁰²
-    server: 162.159.138.6
+#========= FastSSH Dynamic =========
+  - name: Grab ¹⁰.⁰²
+    server: food-merchant-help.grab.com
     port: 80
-    type: vless
-    uuid: 3ce3c5c7-20c6-43e1-ad30-2b312a27c9d4
+    type: vmess
+    uuid: 0cd49303-330b-4591-83cd-e1c8fd08929a
+    alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: true
-    servername: sg5vless.ipservers.xyz
+    skip-cert-verify: false
+    servername: dynamic-us1b.obfs.xyz
     network: ws
     ws-opts: 
-      path: /jagoanssh
+      path: wss://dynamic-us1b.obfs.xyz/
       headers: 
-        Host: sg5vless.ipservers.xyz
+        Host: dynamic-us1b.obfs.xyz
     udp: true
 #=========== Jagoan.xray ===========
   - name: Line ⁰⁸.⁰²
