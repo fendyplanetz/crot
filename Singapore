@@ -1,7 +1,7 @@
 proxies:
 #=========== Jagoan.xray ===========
   - name: Shopee ¹⁰.⁰²
-    server: zendesk1.shopee.tw
+    server: 162.159.138.6
     port: 443
     type: vless
     uuid: 3ce3c5c7-20c6-43e1-ad30-2b312a27c9d4
