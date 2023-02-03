@@ -2,11 +2,11 @@ proxies:
 #=========== Jagoan.xray ===========
   - name: Shopee ¹⁰.⁰²
     server: 162.159.138.6
-    port: 443
+    port: 80
     type: vless
     uuid: 3ce3c5c7-20c6-43e1-ad30-2b312a27c9d4
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: sg5vless.ipservers.xyz
     network: ws
