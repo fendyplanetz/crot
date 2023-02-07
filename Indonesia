@@ -1,19 +1,19 @@
 proxies:
 #======= JagoanSSH Xray =======
-  - name: Shopee ⁰⁴.⁰²
-    server: zendesk1.shopee.sg
+  - name: Shopee ¹⁴.⁰²
+    server: zendesk1.shopee.tw
     port: 443
     type: vless
-    uuid: 765b80ae-4d07-4482-807f-b1f1ea8cc166
+    uuid: e7471a74-49b6-4cb9-939c-a9cfa2599542
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: id1vless.ipservers.xyz
     network: ws
     ws-opts: 
       path: /jagoanssh
       headers: 
-        Host: id2vless.ipservers.xyz
+        Host: id1vless.ipservers.xyz
     udp: true
 #======= JagoanSSH Xray =======
   - name: Meet ⁰⁸.⁰²
