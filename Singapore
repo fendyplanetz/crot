@@ -31,3 +31,33 @@ proxies:
       headers: 
         Host: sg4vless.ipservers.xyz
     udp: true
+#=========== Jagoan.TroGo ===========
+  - name: Grab ¹¹.⁰²
+    server: food-merchant-help.grab.com
+    port: 443
+    type: trojan
+    password: jagoanssh-nznxbknn
+    skip-cert-verify: true
+    sni: sg2go.ipservers.xyz
+    network: ws
+    ws-opts: 
+      path: wss://sg2go.ipservers.xyz/trojan
+      headers: 
+        Host: sg2go.ipservers.xyz
+    udp: true
+#=========== Jagoan.xray ===========
+  - name: Meet ¹⁴.⁰²
+    server: sg3vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: 0572a863-5084-4fac-8d2f-5fd84354e311
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: daily-1.meet.google.com
+    network: ws
+    ws-opts: 
+      path: /jagoanssh
+      headers: 
+        Host: sg3vless.ipservers.xyz
+    udp: true
