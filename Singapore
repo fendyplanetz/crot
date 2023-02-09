@@ -1,7 +1,7 @@
 proxies:
 #=========== Jagoan.xray ===========
-  - name: Tech ¹⁴.⁰²
-    server: cdn.adup-tech.com
+  - name: Line ¹⁴.⁰²
+    server: sogood.linefriends.com
     port: 443
     type: vless
     uuid: aa16efd2-33cb-44c5-b2d2-7455bf77a52e
