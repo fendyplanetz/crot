@@ -32,18 +32,18 @@ proxies:
         Host: sg4vless.ipservers.xyz
     udp: true
 #=========== Jagoan.TroGo ===========
-  - name: Grab ¹¹.⁰²
+  - name: Grab ¹⁸.⁰²
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: jagoanssh-nznxbknn
+    password: jagoanssh-bvkhftkvhh
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    sni: sg3go.ipservers.xyz
     network: ws
     ws-opts: 
-      path: wss://sg2go.ipservers.xyz/trojan
+      path: /trojan
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: sg3go.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
   - name: Meet ¹⁴.⁰²
