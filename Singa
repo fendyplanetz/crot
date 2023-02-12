@@ -16,7 +16,7 @@ proxies:
         Host: sg2vless.ipservers.xyz
     udp: true
 #=========== Jagoan.xray ===========
-  - name: Wha ¹⁶.⁰²
+  - name: Whatsapp ¹⁶.⁰²
     server: sg4vless.ipservers.xyz
     port: 443
     type: vless
