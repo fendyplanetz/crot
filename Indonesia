@@ -1,47 +1,43 @@
 proxies:
-#======= JagoanSSH Xray =======
-  - name: Shopee ¹⁴.⁰²
+#======= Jagoan.TroGo =======
+  - name: Shopee ²⁰.⁰²
     server: zendesk1.shopee.tw
     port: 443
-    type: vless
-    uuid: e7471a74-49b6-4cb9-939c-a9cfa2599542
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /jagoanssh
-      headers: 
-        Host: id1vless.ipservers.xyz
-    udp: true
-#=========== Jagoan.TroGo ===========
-  - name: Grab ¹¹.⁰²
-    server: food-merchant-help.grab.com
-    port: 443
     type: trojan
-    password: jagoanssh-nznxbknn
+    password: jagoanssh-nxnxksknd
     skip-cert-verify: true
     sni: sg2go.ipservers.xyz
     network: ws
     ws-opts: 
-      path: wss://sg2go.ipservers.xyz/trojan
+      path: /trojan
       headers: 
         Host: sg2go.ipservers.xyz
     udp: true
-#=========== Jagoan.xray ===========
-  - name: Meet ¹⁴.⁰²
-    server: sg3vless.ipservers.xyz
+#=========== Jagoan.TroGo ===========
+  - name: Grab ²⁰.⁰²
+    server: food-merchant-help.grab.com
     port: 443
-    type: vless
-    uuid: 0572a863-5084-4fac-8d2f-5fd84354e311
-    cipher: auto
-    tls: true
+    type: trojan
+    password: jagoanssh-nxnxksknd
     skip-cert-verify: true
-    servername: daily-1.meet.google.com
+    sni: sg2go.ipservers.xyz
     network: ws
     ws-opts: 
-      path: /jagoanssh
+      path: /trojan
       headers: 
-        Host: sg3vless.ipservers.xyz
+        Host: sg2go.ipservers.xyz
+    udp: true
+#=========== Jagoan.TroGo ===========
+  - name: Meet ²⁰.⁰²
+    server: sg3go.ipservers.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-jxksosm
+    skip-cert-verify: true
+    sni: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: sg3go.ipservers.xyz
     udp: true
