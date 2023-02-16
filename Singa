@@ -72,16 +72,16 @@ proxies:
         Host: sg3go.ipservers.xyz
     udp: true
 #=========== Jagoan.TroGo ===========
-  - name: Opera ²⁰.⁰²
-    server: res-odx.op-mobile.opera.com
+  - name: Opera ²⁴.⁰²
+    server: sgt1.sshocean.net
     port: 443
     type: trojan
-    password: jagoanssh-jxksosm
+    password: 3fabd0b2-f0ec-4c0f-b4e4-70d7b1f20531
     skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
+    sni: odsp-test.op-mobile.opera.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sg3go.ipservers.xyz
+        Host: sgt1.sshocean.net
     udp: true
