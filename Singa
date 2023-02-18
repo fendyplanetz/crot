@@ -1,17 +1,17 @@
 proxies:
-#=========== Jagoan.xray ===========
-  - name: Line ²⁰.⁰²
+#=========== SSHOcean.TroWS ===========
+  - name: Line ²⁴.⁰²
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-jxksosm
+    password: 3fabd0b2-f0ec-4c0f-b4e4-70d7b1f20531
     skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
+    sni: sgt1.sshocean.net
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sg3go.ipservers.xyz
+        Host: sgt1.sshocean.net
     udp: true
 #=========== Jagoan.xray ===========
   - name: Whatsapp ²³.⁰²
@@ -70,18 +70,4 @@ proxies:
       path: /trojan
       headers: 
         Host: sg3go.ipservers.xyz
-    udp: true
-#=========== SSHOcean.TroWS ===========
-  - name: Opera ²⁴.⁰²
-    server: odsp-test.op-mobile.opera.com
-    port: 443
-    type: trojan
-    password: 3fabd0b2-f0ec-4c0f-b4e4-70d7b1f20531
-    skip-cert-verify: true
-    sni: sgt1.sshocean.net
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: sgt1.sshocean.net
     udp: true
