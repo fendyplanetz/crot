@@ -27,33 +27,33 @@ proxies:
       headers: 
         Host: sg2go.ipservers.xyz
     udp: true
-#======= Jagoan.Trogo =======
-  - name: Shopee ²⁶.⁰²
+#======= MainSSH.Trogo =======
+  - name: Shopee ⁰³.⁰³
     server: zendesk1.shopee.tw
     port: 443
     type: trojan
-    password: jagoanssh-jdbddknkh
+    password: mainssh-jdndlnln
     skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg3go.ipservers.xyz
+        Host: idtws.mainssh.xyz
     udp: true
-#=========== Jagoan.Trogo ===========
-  - name: Grab ²⁶.⁰²
+#=========== MainSSH.Trogo ===========
+  - name: Grab ⁰³.⁰³
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: jagoanssh-jdbddknkh
+    password: mainssh-jdndlnln
     skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg3go.ipservers.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== SSHOcean.TroWS ===========
   - name: Meet ²⁶.⁰²
