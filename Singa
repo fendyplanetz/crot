@@ -1,12 +1,12 @@
 proxies:
 #=========== Jagoan.Trogo ===========
-  - name: Line ²⁶.⁰²
+  - name: Line ⁰⁴.⁰⁴
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-jdbddknkh
+    password: jagoanssh-jsjzzkbj
     skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
+    sni: meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
