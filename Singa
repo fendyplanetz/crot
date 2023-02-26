@@ -6,7 +6,7 @@ proxies:
     type: trojan
     password: jagoanssh-jsjzzkbj
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: sg3go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
@@ -56,16 +56,16 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSHOcean.TroWS ===========
-  - name: Meet ²⁶.⁰²
-    server: sgt3.sshocean.net
+  - name: Meet ⁰⁴.⁰³
+    server: sg3go.ipservers.xyz
     port: 443
     type: trojan
-    password: 82c3a55f-c560-425a-9a6c-3042e0e06e9d
+    password: jagoanssh-jsjzzkbj
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /trojan
       headers: 
-        Host: sgt3.sshocean.net
+        Host: sg3go.ipservers.xyz
     udp: true
