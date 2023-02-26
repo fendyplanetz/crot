@@ -13,19 +13,19 @@ proxies:
       headers: 
         Host: sg3go.ipservers.xyz
     udp: true
-#=========== Jagoan.xray ===========
-  - name: Whatsapp ²⁸.⁰²
-    server: sg2go.ipservers.xyz
+#=========== Jagoan.Trogo ===========
+  - name: Whatsapp ⁰⁶.⁰³
+    server: id2go.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-jgbkjkl
+    password: jagoanssh-hvhkbnbv
     skip-cert-verify: true
     sni: web.web.whatsapp.com
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: id2go.ipservers.xyz
     udp: true
 #======= MainSSH.Trogo =======
   - name: Shopee ⁰³.⁰³
