@@ -1,31 +1,27 @@
 proxies:
 #=========== Jagoan.Trogo ===========
-  - name: Line ⁰⁴.⁰⁴
+  - name: Line ⁰⁹.⁰³
     server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: jagoanssh-jsjzzkbj
-    skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg3go.ipservers.xyz
-    udp: true
-#=========== Jagoan.Trogo ===========
-  - name: Whatsapp ⁰⁹.⁰³
-    server: sg2go.ipservers.xyz
     port: 443
     type: trojan
     password: jagoanssh-jxbxbdk
     skip-cert-verify: true
-    sni: web.web.whatsapp.com
+    sni: sg2go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
         Host: sg2go.ipservers.xyz
+    udp: true
+#=========== MainSSH GFW ===========
+  - name: Whatsapp ¹¹.⁰³
+    server: idtcp.mainssh.xyz
+    port: 443
+    type: trojan
+    password: mainssh-nzbxbnxon
+    skip-cert-verify: true
+    sni: w0.web.whatsapp.com
+    network: tcp
     udp: true
 #======= MainSSH.Trogo =======
   - name: Shopee ⁰⁹.⁰³
