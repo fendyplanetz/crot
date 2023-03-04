@@ -13,15 +13,19 @@ proxies:
       headers: 
         Host: sg2go.ipservers.xyz
     udp: true
-#=========== MainSSH GFW ===========
-  - name: Whatsapp ¹¹.⁰³
-    server: idtcp.mainssh.xyz
+#=========== MainSSH.Trogo ===========
+  - name: Whatsapp ⁰⁹.⁰³
+    server: idtws.mainssh.xyz
     port: 443
     type: trojan
-    password: mainssh-nzbxbnxon
+    password: mainssh-hujbkbbctc
     skip-cert-verify: true
-    sni: w0.web.whatsapp.com
-    network: tcp
+    sni: web.web.whatsapp.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
     udp: true
 #======= MainSSH.Trogo =======
   - name: Shopee ⁰⁹.⁰³
