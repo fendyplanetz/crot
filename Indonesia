@@ -27,7 +27,7 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== JagoanSSH.Trogo ===========
+#=========== Jagoan.Trogo ===========
   - name: Meet ⁰⁹.⁰³
     server: sg2go.ipservers.xyz
     port: 443
