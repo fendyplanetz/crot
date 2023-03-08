@@ -1,17 +1,17 @@
 proxies:
 #=========== Jagoan.Trogo ===========
-  - name: Line ⁰⁹.⁰³
+  - name: Line ¹².⁰³
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-jxbxbdk
+    password: jagoanssh-uyryierhhd
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    sni: id2go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: id2go.ipservers.xyz
     udp: true
 #=========== Jagoan.Trogo ===========
   - name: Whatsapp ¹⁴.⁰³
