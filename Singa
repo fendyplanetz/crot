@@ -20,7 +20,7 @@ proxies:
     type: trojan
     password: jagoanssh-jdbddksbsk
     skip-cert-verify: true
-    sni: web.web.whatsapp.com
+    sni: w0.web.whatsapp.com
     network: ws
     ws-opts: 
       path: /trojan
