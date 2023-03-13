@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== Jagoan.Trogo ===========
-  - name: Whatsapp ¹⁴.⁰³
+  - name: Whatsapp ²¹.⁰³
     server: sg3go.ipservers.xyz
     port: 443
     type: trojan
-    password: jagoanssh-hdbdjojjkk
+    password: jagoanssh-hzhxbinkkkk
     skip-cert-verify: true
     sni: w0.web.whatsapp.com
     network: ws
