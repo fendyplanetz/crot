@@ -55,17 +55,13 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== Jagoan.Trogo ===========
-  - name: Meet ¹⁴.⁰³
-    server: sg3go.ipservers.xyz
+#=========== SSHocean ===========
+  - name: Meet ²².⁰³
+    server: idt1.sshocean.net
     port: 443
     type: trojan
-    password: jagoanssh-hdbdjojjkk
+    password: 101ce67f-58af-4234-a0d4-0f5b6b8fc4c1
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg3go.ipservers.xyz
     udp: true
