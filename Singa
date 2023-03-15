@@ -1,17 +1,19 @@
 proxies:
-#=========== JagoanSSH ===========
+#=========== sshocean-WS ===========
   - name: Line ²³.⁰³
     server: sogood.linefriends.com
     port: 443
-    type: trojan
-    password: jagoanssh-jdbdkddb
+    type: vless
+    uuid: c05666f3-080a-4ffe-b52f-124a6ec165a4
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    servername: id1-ws.xvless.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: id1-ws.xvless.xyz
     udp: true
 #=========== sshocean-WS ===========
   - name: Whatsapp ²³.⁰³
