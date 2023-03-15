@@ -55,13 +55,17 @@ proxies:
       headers: 
         Host: sg2go.ipservers.xyz
     udp: true
-#=========== SSHocean ===========
-  - name: Meet ²².⁰³
-    server: idt1.sshocean.net
+#=========== JagoanSSH ===========
+  - name: Meet ²¹.⁰³
+    server: sg3go.ipservers.xyz
     port: 443
     type: trojan
-    password: 101ce67f-58af-4234-a0d4-0f5b6b8fc4c1
+    password: jagoanssh-hzhxbinkkkk
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: sg3go.ipservers.xyz
     udp: true
