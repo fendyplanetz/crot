@@ -13,19 +13,21 @@ proxies:
       headers: 
         Host: sg2go.ipservers.xyz
     udp: true
-#=========== JagoanSSH ===========
+#=========== sshocean-WS ===========
   - name: Whatsapp ²³.⁰³
-    server: sg2go.ipservers.xyz
+    server: id1-ws.xvless.xyz
     port: 443
-    type: trojan
-    password: jagoanssh-jdbdkddb
+    type: vless
+    uuid: c05666f3-080a-4ffe-b52f-124a6ec165a4
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: w0.web.whatsapp.com
+    servername: w0.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: id1-ws.xvless.xyz
     udp: true
 #========== MainSSH ==========
   - name: Shopee ²³.⁰³
