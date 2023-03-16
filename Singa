@@ -1,19 +1,17 @@
 proxies:
-#=========== sshocean-WS ===========
+#=========== MainSSH ===========
   - name: Line ²³.⁰³
     server: sogood.linefriends.com
     port: 443
-    type: vless
-    uuid: c05666f3-080a-4ffe-b52f-124a6ec165a4
-    cipher: auto
-    tls: true
+    type: trojan
+    password: mainssh-bzkkakksjln
     skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /trojan
       headers: 
-        Host: id1-ws.xvless.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== JagoanSSH ===========
   - name: Whatsapp ²¹.⁰³
