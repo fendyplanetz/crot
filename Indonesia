@@ -27,17 +27,20 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== JagoanSSH ===========
-  - name: Meet ²¹.⁰³
-    server: sg3go.ipservers.xyz
+#=========== sshMax ===========
+  - name: Meet ²⁵.⁰³
+    server: sg-v.sshmax.xyz
     port: 443
-    type: trojan
-    password: jagoanssh-hzhxbinkkkk
+    type: vmess
+    uuid: 8c0a8070-0b65-42fc-a934-e6b2716246ee
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vmess
       headers: 
-        Host: sg3go.ipservers.xyz
+        Host: sg-v.sshmax.xyz
     udp: true
