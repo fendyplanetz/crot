@@ -27,20 +27,18 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== sshMax ===========
-  - name: Meet ²⁵.⁰³
-    server: sg-v.sshmax.xyz
+#=========== ServerSSH ===========
+  - name: Meet ¹⁸.⁰⁴
+    server: sgmgrpc.serverip.my.id
     port: 443
     type: vmess
-    uuid: 8c0a8070-0b65-42fc-a934-e6b2716246ee
+    uuid: dc0428d4-67fa-4f0f-80f2-656dda1abc73
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg-v.sshmax.xyz
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: grpc
     udp: true
