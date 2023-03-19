@@ -58,17 +58,18 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== JagoanSSH ===========
-  - name: Meet ²¹.⁰³
-    server: sg3go.ipservers.xyz
+#=========== ServerSSH ===========
+  - name: Meet ¹⁸.⁰⁴
+    server: sgmgrpc.serverip.my.id
     port: 443
-    type: trojan
-    password: jagoanssh-hzhxbinkkkk
+    type: vmess
+    uuid: dc0428d4-67fa-4f0f-80f2-656dda1abc73
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg3go.ipservers.xyz
+    servername: meet.google.com
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: grpc
     udp: true
