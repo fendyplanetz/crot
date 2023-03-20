@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Line ²³.⁰³
+  - name: Line ²⁸.⁰³
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-bzkkakksjln
+    password: mainssh-kshsbdbxub
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -31,11 +31,11 @@ proxies:
         Host: sg1-v.sshmax.xyz
     udp: true
 #========== MainSSH ==========
-  - name: Shopee ²³.⁰³
+  - name: Shopee ²⁸.⁰³
     server: zendesk1.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-bzkkakksjln
+    password: mainssh-kshsbdbxub
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -45,11 +45,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Grab ²³.⁰³
+  - name: Grab ²⁸.⁰³
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-bzkkakksjln
+    password: mainssh-kshsbdbxub
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
