@@ -1,6 +1,6 @@
 proxies:
 #=========== sshMax ===========
-  - name: Meet ²⁵.⁰³
+  - name: RG ²⁵.⁰³
     server: sg-v.sshmax.xyz
     port: 443
     type: vmess
@@ -9,7 +9,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: app.ruangguru.com
     network: ws
     ws-opts: 
       path: /vmess
