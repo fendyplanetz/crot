@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ²⁴.⁰³
+  - name: Whatsapp ³⁰.⁰³
     server: sg1-v.sshmax.xyz
     port: 443
     type: vmess
-    uuid: 5c825294-55cb-480e-9575-e55920effcd0
+    uuid: 34dcc8f5-a58c-43a9-b9c2-7e30ed4d6f3b
     alterId: 0
     cipher: auto
     tls: true
