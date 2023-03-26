@@ -14,18 +14,21 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ⁰³.⁰⁴
-    server: idtws.mainssh.xyz
+  - name: Whatsapp ³⁰.⁰³
+    server: sg1-v.sshmax.xyz
     port: 443
-    type: trojan
-    password: mainssh-kzxhxzon
+    type: vmess
+    uuid: 34dcc8f5-a58c-43a9-b9c2-7e30ed4d6f3b
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: w0.web.whatsapp.com
+    servername: w0.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vmess
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg1-v.sshmax.xyz
     udp: true
 #========== MainSSH ==========
   - name: Shopee ⁰³.⁰⁴
