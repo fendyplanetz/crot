@@ -14,19 +14,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ³⁰.⁰³
+  - name: Whatsapp ⁰⁴.⁰⁴
     server: sg1-v.sshmax.xyz
     port: 443
-    type: vmess
-    uuid: 34dcc8f5-a58c-43a9-b9c2-7e30ed4d6f3b
-    alterId: 0
+    type: vless
+    uuid: 17f2e996-9df3-403f-8e5f-7cd6c722fa3e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w0.web.whatsapp.com
+    servername: w5.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /vless
       headers: 
         Host: sg1-v.sshmax.xyz
     udp: true
