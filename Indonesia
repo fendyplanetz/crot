@@ -1,18 +1,17 @@
 proxies:
 #=========== sshMax ===========
-  - name: Meet ³¹.⁰³
+  - name: Meet ⁰⁶.⁰⁴
     server: sg-v.sshmax.xyz
     port: 443
-    type: vmess
-    uuid: b83517d8-ae4d-4e64-9471-44899483e4c2
-    alterId: 0
+    type: vless
+    uuid: f9294ee5-309b-49d0-b08d-59126e68ab89
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /vless
       headers: 
         Host: sg-v.sshmax.xyz
     udp: true
