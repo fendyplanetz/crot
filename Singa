@@ -1,17 +1,19 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Line ⁰³.⁰⁴
+  - name: Line ⁰⁴.⁰⁴
     server: sogood.linefriends.com
     port: 443
-    type: trojan
-    password: mainssh-kzxhxzon
+    type: vless
+    uuid: 17f2e996-9df3-403f-8e5f-7cd6c722fa3e
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: sg1-v.sshmax.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg1-v.sshmax.xyz
     udp: true
 #=========== sshMax ===========
   - name: Whatsapp ⁰⁴.⁰⁴
