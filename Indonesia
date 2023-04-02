@@ -16,11 +16,11 @@ proxies:
         Host: sg-v.sshmax.xyz
     udp: true
 #========== MainSSH ==========
-  - name: Shopee ⁰³.⁰⁴
+  - name: Shopee ⁰⁹.⁰⁴
     server: zendesk1.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-kzxhxzon
+    password: mainssh-jdjdbxkxb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -30,11 +30,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Grab ⁰³.⁰⁴
+  - name: Grab ⁰⁹.⁰⁴
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-kzxhxzon
+    password: mainssh-jdjdbxkxb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
