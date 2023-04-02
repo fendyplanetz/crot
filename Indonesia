@@ -1,10 +1,10 @@
 proxies:
 #=========== sshMax ===========
   - name: Meet ⁰⁶.⁰⁴
-    server: sg-v.sshmax.xyz
+    server: sg1-v.sshmax.xyz
     port: 443
     type: vless
-    uuid: f9294ee5-309b-49d0-b08d-59126e68ab89
+    uuid: 8d3ca337-5a3c-4912-85fc-d308636e57e9
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -13,7 +13,7 @@ proxies:
     ws-opts: 
       path: /vless
       headers: 
-        Host: sg-v.sshmax.xyz
+        Host: sg1-v.sshmax.xyz
     udp: true
 #========== MainSSH ==========
   - name: Shopee ⁰⁹.⁰⁴
