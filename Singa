@@ -14,6 +14,22 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
+  - name: Zoom ¹⁰.⁰⁴
+    server: sg1-v.sshmax.xyz
+    port: 443
+    type: vless
+    uuid: 8d3ca337-5a3c-4912-85fc-d308636e57e9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us04web.zoom.us
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: sg1-v.sshmax.xyz
+    udp: true
+#=========== sshMax ===========
   - name: Whatsapp ⁰⁴.⁰⁴
     server: sg1-v.sshmax.xyz
     port: 443
