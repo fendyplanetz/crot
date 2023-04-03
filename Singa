@@ -30,11 +30,11 @@ proxies:
         Host: sg1-v.sshmax.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ⁰⁴.⁰⁴
+  - name: Whatsapp ¹⁰.⁰⁴
     server: sg1-v.sshmax.xyz
     port: 443
     type: vless
-    uuid: 17f2e996-9df3-403f-8e5f-7cd6c722fa3e
+    uuid: 8d3ca337-5a3c-4912-85fc-d308636e57e9
     cipher: auto
     tls: true
     skip-cert-verify: true
