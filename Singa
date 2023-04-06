@@ -15,7 +15,7 @@ proxies:
     udp: true
 #=========== sshMax ===========
   - name: Zoom ¹³.⁰⁴
-    server: sg1-v.sshmax.xyz
+    server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
     password: 4328d66f-7526-4bd4-887e-b9f7625b175d
