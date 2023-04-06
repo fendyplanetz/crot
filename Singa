@@ -30,20 +30,18 @@ proxies:
         Host: sg1-v.sshmax.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ¹⁰.⁰⁴
-    server: sg1-v.sshmax.xyz
+  - name: Whatsapp ¹³.⁰⁴
+    server: sg1-t.sshmax.xyz
     port: 443
-    type: vless
-    uuid: 8d3ca337-5a3c-4912-85fc-d308636e57e9
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 4328d66f-7526-4bd4-887e-b9f7625b175d
     skip-cert-verify: true
-    servername: w5.web.whatsapp.com
+    sni: w5.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /
       headers: 
-        Host: sg1-v.sshmax.xyz
+        Host: sg1-t.sshmax.xyz
     udp: true
 #========== MainSSH ==========
   - name: Shopee ⁰⁹.⁰⁴
@@ -74,18 +72,16 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Meet ⁰⁶.⁰⁴
-    server: sg-v.sshmax.xyz
+  - name: Meet ¹³.⁰⁴
+    server: sg1-t.sshmax.xyz
     port: 443
-    type: vless
-    uuid: f9294ee5-309b-49d0-b08d-59126e68ab89
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 4328d66f-7526-4bd4-887e-b9f7625b175d
     skip-cert-verify: true
-    servername: meet.google.com
+    sni: meet.google.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /
       headers: 
-        Host: sg-v.sshmax.xyz
+        Host: sg1-t.sshmax.xyz
     udp: true
