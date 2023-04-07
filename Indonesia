@@ -14,13 +14,13 @@ proxies:
         Host: sg1-t.sshmax.xyz
     udp: true
 #========== MainSSH ==========
-  - name: Shopee ⁰⁹.⁰⁴
+  - name: Shopee ¹⁴.⁰⁴
     server: zendesk1.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-jdjdbxkxb
+    password: mainssh-nxnxxbxhb
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
@@ -28,13 +28,13 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Grab ⁰⁹.⁰⁴
+  - name: Grab ¹⁴.⁰⁴
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-jdjdbxkxb
+    password: mainssh-nxnxxbxhb
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
