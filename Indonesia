@@ -20,7 +20,7 @@ proxies:
     type: trojan
     password: mainssh-nxnxxbxhb
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
@@ -34,7 +34,7 @@ proxies:
     type: trojan
     password: mainssh-nxnxxbxhb
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
