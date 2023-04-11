@@ -1,17 +1,17 @@
 proxies:
 #=========== sshMax ===========
-  - name: Meet ¹³.⁰⁴
-    server: sg1-t.sshmax.xyz
+  - name: Meet ¹⁸.⁰⁴
+    server: sg2-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 4328d66f-7526-4bd4-887e-b9f7625b175d
+    password: 551acbe2-fce3-4183-9069-dffbaa0398e5
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
     ws-opts: 
       path: /
       headers: 
-        Host: sg1-t.sshmax.xyz
+        Host: sg2-t.sshmax.xyz
     udp: true
 #========== MainSSH ==========
   - name: Shopee ¹⁴.⁰⁴
