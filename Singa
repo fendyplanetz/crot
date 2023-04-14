@@ -14,18 +14,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Zoom ¹⁸.⁰⁴
-    server: sg2-t.sshmax.xyz
+  - name: Zoom ²².⁰⁴
+    server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 551acbe2-fce3-4183-9069-dffbaa0398e5
+    password: 4eb45a6b-e206-46db-adbb-c2cfa2813688
     skip-cert-verify: true
     sni: us04web.zoom.us
     network: ws
     ws-opts: 
       path: /
       headers: 
-        Host: sg2-t.sshmax.xyz
+        Host: sg1-t.sshmax.xyz
     udp: true
 #=========== sshMax ===========
   - name: Whatsapp ¹⁸.⁰⁴
@@ -70,16 +70,16 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Meet ¹⁸.⁰⁴
-    server: sg2-t.sshmax.xyz
+  - name: Meet ²².⁰⁴
+    server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 551acbe2-fce3-4183-9069-dffbaa0398e5
+    password: 4eb45a6b-e206-46db-adbb-c2cfa2813688
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
     ws-opts: 
       path: /
       headers: 
-        Host: sg2-t.sshmax.xyz
+        Host: sg1-t.sshmax.xyz
     udp: true
