@@ -1,18 +1,4 @@
 proxies:
-#=========== sshMax ===========
-  - name: Meet ²².⁰⁴
-    server: sg1-t.sshmax.xyz
-    port: 443
-    type: trojan
-    password: 4eb45a6b-e206-46db-adbb-c2cfa2813688
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /
-      headers: 
-        Host: sg1-t.sshmax.xyz
-    udp: true
 #========== MainSSH ==========
   - name: Shopee ²¹.⁰⁴
     server: zendesk1.shopee.tw
