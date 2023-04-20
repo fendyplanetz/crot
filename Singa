@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Line ²¹.⁰⁴
+  - name: Line ²⁷.⁰⁴
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-jshdhdkb
+    password: mainssh-hshdidb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -28,25 +28,25 @@ proxies:
         Host: sg1-t.sshmax.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ¹⁸.⁰⁴
-    server: sg2-t.sshmax.xyz
+  - name: Whatsapp ²⁷.⁰⁴
+    server: idtws.mainssh.xyz
     port: 443
     type: trojan
-    password: 551acbe2-fce3-4183-9069-dffbaa0398e5
+    password: mainssh-hshdidb
     skip-cert-verify: true
-    sni: w5.web.whatsapp.com
+    sni: w0.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /
+      path: /trojan
       headers: 
-        Host: sg2-t.sshmax.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #========== MainSSH ==========
-  - name: Shopee ²¹.⁰⁴
+  - name: Shopee ²⁷.⁰⁴
     server: zendesk1.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-jshdhdkb
+    password: mainssh-hshdidb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -56,11 +56,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Grab ²¹.⁰⁴
+  - name: Grab ²⁷.⁰⁴
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-jshdhdkb
+    password: mainssh-hshdidb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
