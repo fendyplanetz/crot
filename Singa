@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Zoom ²².⁰⁴
+  - name: Zoom ²⁸.⁰⁴
     server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 4eb45a6b-e206-46db-adbb-c2cfa2813688
+    password: 809d9fc0-3aba-4309-9238-7ed8d554cafd
     skip-cert-verify: true
     sni: us04web.zoom.us
     network: ws
@@ -70,11 +70,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Meet ²².⁰⁴
+  - name: Meet ²⁸.⁰⁴
     server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 4eb45a6b-e206-46db-adbb-c2cfa2813688
+    password: 809d9fc0-3aba-4309-9238-7ed8d554cafd
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
