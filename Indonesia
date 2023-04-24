@@ -1,23 +1,23 @@
 proxies:
 #========== MainSSH ==========
-  - name: Shopee ²⁷.⁰⁴
-    server: zendesk1.shopee.tw
+  - name: Line ⁰¹/⁰⁵ 
+    server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-hshdidb
+    password: jagoanssh-udhdhdb
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2go.ipservers.xyz
     udp: true
 #=========== MainSSH ===========
   - name: Grab ²⁷.⁰⁴
     server: food-merchant-help.grab.com
     port: 443
-    type: trojan
+    type: trojan 
     password: mainssh-hshdidb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
