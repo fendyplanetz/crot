@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Line-ID Main ²⁷.⁰⁴
+  - name: Main-ID Line ²⁷.⁰⁴
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -14,7 +14,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Grab-ID Main ²⁷.⁰⁴
+  - name: Main-ID Grab ²⁷.⁰⁴
     server: food-merchant-help.grab.com
     port: 443
     type: trojan 
@@ -28,7 +28,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== JagoanSSH ===========
-  - name: Line-ID Jago ⁰¹.⁰⁵
+  - name: Jago-ID Line ⁰¹.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -42,7 +42,7 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== JagoanSSH ===========
-  - name: Line-SG Jago ⁰¹.⁰⁵ 
+  - name: Jago-SG Line ⁰¹.⁰⁵ 
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -56,7 +56,7 @@ proxies:
         Host: sg2go.ipservers.xyz
     udp: true
 #=========== GreenSSH ===========
-  - name: Zoom ⁰¹.⁰⁵
+  - name: Green-SG Zoom ⁰¹.⁰⁵
     server: sgt1.greenssh.xyz
     port: 443
     type: trojan
