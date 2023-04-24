@@ -28,13 +28,13 @@ proxies:
         Host: sg1-t.sshmax.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Whatsapp ²⁷.⁰⁴
+  - name: Skype ²⁷.⁰⁴
     server: idtws.mainssh.xyz
     port: 443
     type: trojan
     password: mainssh-hshdidb
     skip-cert-verify: true
-    sni: w0.web.whatsapp.com
+    sni: m.skype.com
     network: ws
     ws-opts: 
       path: /trojan
