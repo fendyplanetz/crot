@@ -1,6 +1,6 @@
 proxies:
 #=========== JagoanSSH ===========
-  - name: Line-SG ⁰¹.⁰⁵ 
+  - name: Line-SG Jago ⁰¹.⁰⁵ 
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -28,7 +28,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== JagoanSSH ===========
-  - name: Line-ID ⁰¹.⁰⁵
+  - name: Line-ID Jago ⁰¹.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -40,4 +40,18 @@ proxies:
       path: /trojan
       headers: 
         Host: id1go.ipservers.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: Line-ID Main ²⁷.⁰⁴
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-hshdidb
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
     udp: true
