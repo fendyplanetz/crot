@@ -1,20 +1,20 @@
 proxies:
-#=========== JagoanSSH ===========
-  - name: Line-SG Jago ⁰¹.⁰⁵ 
+#=========== MainSSH ===========
+  - name: Line-ID Main ²⁷.⁰⁴
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-udhdhdb
+    password: mainssh-hshdidb
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Grab ²⁷.⁰⁴
+  - name: Grab-ID Main ²⁷.⁰⁴
     server: food-merchant-help.grab.com
     port: 443
     type: trojan 
@@ -41,17 +41,17 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: Line-ID Main ²⁷.⁰⁴
+#=========== JagoanSSH ===========
+  - name: Line-SG Jago ⁰¹.⁰⁵ 
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-hshdidb
+    password: jagoanssh-udhdhdb
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2go.ipservers.xyz
     udp: true
