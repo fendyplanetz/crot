@@ -13,19 +13,19 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== sshMax ===========
-  - name: Zoom ²⁸.⁰⁴
-    server: sg1-t.sshmax.xyz
+#=========== GreenSSH ===========
+  - name: Zoom ⁰¹.⁰⁵
+    server: sgt1.greenssh.xyz
     port: 443
     type: trojan
-    password: 809d9fc0-3aba-4309-9238-7ed8d554cafd
+    password: b25e20b1-0dd0-45a6-8e07-034d4b730ae8
     skip-cert-verify: true
-    sni: us04web.zoom.us
+    sni: zoom.us
     network: ws
     ws-opts: 
-      path: /
+      path: /websocket
       headers: 
-        Host: sg1-t.sshmax.xyz
+        Host: sgt1.greenssh.xyz
     udp: true
 #=========== sshMax ===========
   - name: Skype ²⁷.⁰⁴
@@ -69,17 +69,17 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== sshMax ===========
-  - name: Meet ²⁸.⁰⁴
-    server: sg1-t.sshmax.xyz
+#=========== GreenSSH ===========
+  - name: Meet ⁰¹.⁰⁵
+    server: sgt1.greenssh.xyz
     port: 443
     type: trojan
-    password: 809d9fc0-3aba-4309-9238-7ed8d554cafd
+    password: b25e20b1-0dd0-45a6-8e07-034d4b730ae8
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
     ws-opts: 
-      path: /
+      path: /websocket
       headers: 
-        Host: sg1-t.sshmax.xyz
+        Host: sgt1.greenssh.xyz
     udp: true
