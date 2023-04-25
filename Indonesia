@@ -14,7 +14,21 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Main-SG Line ⁰².⁰⁵
+  - name: SG1 Line ⁰².⁰⁵
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-jdbdkbnl
+    skip-cert-verify: true
+    sni: sgtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: sgtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: SG2 Line ⁰².⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -26,48 +40,6 @@ proxies:
       path: /trojan
       headers: 
         Host: sg2tws.mainssh.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: Main-ID Grab ⁰².⁰⁵
-    server: food-merchant-help.grab.com
-    port: 443
-    type: trojan
-    password: mainssh-jljjhlbnn
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: idtws.mainssh.xyz
-    udp: true
-#=========== JagoanSSH ===========
-  - name: Jago-ID Line ⁰¹.⁰⁵
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: jagoanssh-jxhxbxkn
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: id1go.ipservers.xyz
-    udp: true
-#=========== JagoanSSH ===========
-  - name: Jago-SG Line ⁰¹.⁰⁵ 
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: jagoanssh-udhdhdb
-    skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg2go.ipservers.xyz
     udp: true
 #=========== GreenSSH ===========
   - name: Green-SG Zoom ⁰¹.⁰⁵
