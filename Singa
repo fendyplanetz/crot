@@ -70,11 +70,11 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Max Zoom ²⁸.⁰⁴
+  - name: Max Zoom ⁰³.⁰⁵
     server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 809d9fc0-3aba-4309-9238-7ed8d554cafd
+    password: 207fd265-eac9-4cb0-81a4-1c42fcca08f6
     skip-cert-verify: true
     sni: zoom.us
     network: ws
