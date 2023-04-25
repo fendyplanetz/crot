@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Main-ID Line ²⁷.⁰⁴
+  - name: Main-ID Line ⁰².⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-hshdidb
+    password: mainssh-jljjhlbnn
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,25 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Main-ID Grab ²⁷.⁰⁴
+  - name: Main-SG Line ⁰².⁰⁵
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-ksbdobdo
+    skip-cert-verify: true
+    sni: sg2tws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: sg2tws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: Main-ID Grab ⁰².⁰⁵
     server: food-merchant-help.grab.com
     port: 443
-    type: trojan 
-    password: mainssh-hshdidb
+    type: trojan
+    password: mainssh-jljjhlbnn
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
