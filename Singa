@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Main-ID Line ⁰².⁰⁵
+  - name: ID Line ⁰².⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -13,59 +13,73 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== sshMax ===========
-  - name: sshMax-ID Skype ²⁷.⁰⁴
-    server: idtws.mainssh.xyz
+#=========== MainSSH ===========
+  - name: SG1 Line ⁰².⁰⁵
+    server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-hshdidb
+    password: mainssh-jdbdkbnl
     skip-cert-verify: true
-    sni: m.skype.com
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
-#========== JagoanSSH ==========
-  - name: Jago-SG Shopee ⁰¹.⁰⁵
+#=========== MainSSH ===========
+  - name: SG1 Shopee ⁰².⁰⁵
     server: zendesk1.shopee.tw
     port: 443
     type: trojan
-    password: jagoanssh-udhdhdb
+    password: mainssh-jdbdkbnl
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2go.ipservers.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Main-ID Grab ⁰².⁰⁵
+  - name: SG2 Line ⁰².⁰⁵
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-ksbdobdo
+    skip-cert-verify: true
+    sni: sg2tws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: sg2tws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: SG2 Grab ⁰².⁰⁵
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-jljjhlbnn
+    password: mainssh-ksbdobdo
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: Green-SG Meet ⁰¹.⁰⁵
-    server: sgt1.greenssh.xyz
+#=========== sshMax ===========
+  - name: Max Zoom ²⁸.⁰⁴
+    server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: b25e20b1-0dd0-45a6-8e07-034d4b730ae8
+    password: 809d9fc0-3aba-4309-9238-7ed8d554cafd
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: zoom.us
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /
       headers: 
-        Host: sgt1.greenssh.xyz
+        Host: sg1-t.sshmax.xyz
     udp: true
