@@ -69,6 +69,20 @@ proxies:
       headers: 
         Host: sg2tws.mainssh.xyz
     udp: true
+#=========== MainSSH ===========
+  - name: Usa Line ⁰².⁰⁵
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-ojdoeho
+    skip-cert-verify: true
+    sni: ustws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: ustws.mainssh.xyz
+    udp: true
 #=========== sshMax ===========
   - name: Max Zoom ⁰³.⁰⁵
     server: sg1-t.sshmax.xyz
