@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: Main-ID Line ⁰².⁰⁵
+  - name: ID Line ⁰².⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
