@@ -41,17 +41,3 @@ proxies:
       headers: 
         Host: sg2tws.mainssh.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: Green-SG Zoom ⁰¹.⁰⁵
-    server: sgt1.greenssh.xyz
-    port: 443
-    type: trojan
-    password: b25e20b1-0dd0-45a6-8e07-034d4b730ae8
-    skip-cert-verify: true
-    sni: zoom.us
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: sgt1.greenssh.xyz
-    udp: true
