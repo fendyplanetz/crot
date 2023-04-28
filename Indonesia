@@ -27,20 +27,6 @@ proxies:
       headers: 
         Host: ustws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: Usa Line ⁰².⁰⁵
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: mainssh-ojdoeho
-    skip-cert-verify: true
-    sni: ustws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: ustws.mainssh.xyz
-    udp: true
 #=========== GreenSSH ===========
   - name: SG Naver ⁰⁵.⁰⁵
     server: df.game.naver.com
