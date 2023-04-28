@@ -1,7 +1,7 @@
 proxies:
 #=========== MainSSH ===========
-  - name: ID Line ⁰².⁰⁵
-    server: sogood.linefriends.com
+  - name: ID Ava ⁰².⁰⁵
+    server: ava.game.naver.com
     port: 443
     type: trojan
     password: mainssh-jljjhlbnn
