@@ -14,32 +14,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: SG1 Naver ⁰².⁰⁵
-    server: df.game.naver.com
+  - name: Usa Line ⁰².⁰⁵
+    server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-jdbdkbnl
+    password: mainssh-ojdoeho
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    sni: ustws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sgtws.mainssh.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: SG2 Naver ⁰².⁰⁵
-    server: account.pmang.game.naver.com
-    port: 443
-    type: trojan
-    password: mainssh-ksbdobdo
-    skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: ustws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
   - name: Usa Line ⁰².⁰⁵
@@ -54,4 +40,36 @@ proxies:
       path: /trojan
       headers: 
         Host: ustws.mainssh.xyz
+    udp: true
+#=========== GreenSSH ===========
+  - name: SG Naver ⁰⁵.⁰⁵
+    server: df.game.naver.com
+    port: 443
+    type: vless
+    uuid: 9da42e0a-2599-4ed2-b03f-69a2793d2045
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-xray.greenssh.xyz
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: sg1-xray.greenssh.xyz
+    udp: true
+#=========== GreenSSH ===========
+  - name: ID Naver ⁰⁵.⁰⁵
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: c19c884b-0ce6-44d6-bffb-c8366539dc97
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-xray.greenssh.xyz
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: id1-xray.greenssh.xyz
     udp: true
