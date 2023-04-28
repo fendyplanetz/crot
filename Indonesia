@@ -14,8 +14,8 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: SG1 Line ⁰².⁰⁵
-    server: sogood.linefriends.com
+  - name: SG1 Naver ⁰².⁰⁵
+    server: df.game.naver.com
     port: 443
     type: trojan
     password: mainssh-jdbdkbnl
@@ -28,8 +28,8 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: SG2 Line ⁰².⁰⁵
-    server: sogood.linefriends.com
+  - name: SG2 Naver ⁰².⁰⁵
+    server: account.pmang.game.naver.com
     port: 443
     type: trojan
     password: mainssh-ksbdobdo
