@@ -28,7 +28,7 @@ proxies:
         Host: ustws.mainssh.xyz
     udp: true
 #=========== GreenSSH ===========
-  - name: SG Naver ⁰⁵.⁰⁵
+  - name: SG Df ⁰⁵.⁰⁵
     server: df.game.naver.com
     port: 443
     type: vless
@@ -44,7 +44,7 @@ proxies:
         Host: sg1-xray.greenssh.xyz
     udp: true
 #=========== GreenSSH ===========
-  - name: ID Naver ⁰⁵.⁰⁵
+  - name: G-ID Ava ⁰⁵.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: vless
