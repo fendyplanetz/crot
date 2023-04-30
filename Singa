@@ -13,33 +13,37 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: SG1 Line ⁰².⁰⁵
-    server: sogood.linefriends.com
+#=========== GreenSSH ===========
+  - name: G-SG Df ⁰⁵.⁰⁵
+    server: df.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-jdbdkbnl
+    type: vless
+    uuid: 9da42e0a-2599-4ed2-b03f-69a2793d2045
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    servername: sg1-xray.greenssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: sg1-xray.greenssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: SG1 Shopee ⁰².⁰⁵
-    server: zendesk1.shopee.tw
+#=========== GreenSSH ===========
+  - name: G-ID Ava ⁰⁵.⁰⁵
+    server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-jdbdkbnl
+    type: vless
+    uuid: c19c884b-0ce6-44d6-bffb-c8366539dc97
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    servername: id1-xray.greenssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: id1-xray.greenssh.xyz
     udp: true
 #=========== MainSSH ===========
   - name: SG2 Line ⁰².⁰⁵
