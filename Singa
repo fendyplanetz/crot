@@ -74,13 +74,13 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Max Zoom ⁰³.⁰⁵
+  - name: Max Meet ⁰⁹.⁰⁵
     server: sg1-t.sshmax.xyz
     port: 443
     type: trojan
-    password: 207fd265-eac9-4cb0-81a4-1c42fcca08f6
+    password: 1d966f6d-fea7-42ac-969a-37e43862bb17
     skip-cert-verify: true
-    sni: zoom.us
+    sni: meet.google.com
     network: ws
     ws-opts: 
       path: /
