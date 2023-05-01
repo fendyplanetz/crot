@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: ID Ava ⁰⁸.⁰⁵
+  - name: M-ID Ava ⁰⁸.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: trojan
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: Usa Line ⁰².⁰⁵
+  - name: M-Usa Line ⁰⁹.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ojdoeho
+    password: mainssh-khdksbdlh
     skip-cert-verify: true
     sni: ustws.mainssh.xyz
     network: ws
@@ -28,7 +28,7 @@ proxies:
         Host: ustws.mainssh.xyz
     udp: true
 #=========== GreenSSH ===========
-  - name: SG Df ⁰⁵.⁰⁵
+  - name: G-SG Df ⁰⁵.⁰⁵
     server: df.game.naver.com
     port: 443
     type: vless
