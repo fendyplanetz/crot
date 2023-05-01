@@ -46,11 +46,11 @@ proxies:
         Host: id1-xray.greenssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: SG2 Line ⁰².⁰⁵
+  - name: M-SG2 Line ⁰⁸.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ksbdobdo
+    password: mainssh-jdbddknk
     skip-cert-verify: true
     sni: sg2tws.mainssh.xyz
     network: ws
@@ -60,11 +60,11 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: SG2 Grab ⁰².⁰⁵
+  - name: M-SG2 Grab ⁰⁸.⁰⁵
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-ksbdobdo
+    password: mainssh-jdbddknk
     skip-cert-verify: true
     sni: sg2tws.mainssh.xyz
     network: ws
