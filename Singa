@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: ID Df ⁰⁸.⁰⁵
+  - name: M-ID Df ⁰⁸.⁰⁵
     server: df.game.naver.com
     port: 443
     type: trojan
