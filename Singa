@@ -74,13 +74,13 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== sshMax ===========
-  - name: Max Meet ⁰⁹.⁰⁵
-    server: sg1-t.sshmax.xyz
+  - name: Max Ava ⁰⁹.⁰⁵
+    server: ava.game.naver.com
     port: 443
     type: trojan
     password: 1d966f6d-fea7-42ac-969a-37e43862bb17
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: sg1-t.sshmax.xyz
     network: ws
     ws-opts: 
       path: /
