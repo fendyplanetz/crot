@@ -73,17 +73,20 @@ proxies:
       headers: 
         Host: sg2tws.mainssh.xyz
     udp: true
-#=========== sshMax ===========
-  - name: Max Ava ⁰⁹.⁰⁵
+#=========== Digital Ocean ===========
+  - name: 🇸🇬 Ava
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: 1d966f6d-fea7-42ac-969a-37e43862bb17
+    type: vmess
+    uuid: 92869d41-a98a-40ba-b79d-2eeb7ffe2433
+    cipher: auto
+    tls: true
+    udp: true
     skip-cert-verify: true
-    sni: sg1-t.sshmax.xyz
+    servername: dynamic-sg1b.obfs.xyz
     network: ws
+    alterId: 0
     ws-opts: 
       path: /
       headers: 
-        Host: sg1-t.sshmax.xyz
-    udp: true
+        Host: dynamic-sg1b.obfs.xyz
