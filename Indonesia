@@ -41,22 +41,6 @@ proxies:
       headers: 
         Host: sgt2.greenssh.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: G-ID Ava ⁰⁵.⁰⁵
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: c19c884b-0ce6-44d6-bffb-c8366539dc97
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1-xray.greenssh.xyz
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: id1-xray.greenssh.xyz
-    udp: true
 #=========== Digital Ocean ===========
   - name: 🇸🇬 Df
     server: df.game.naver.com
