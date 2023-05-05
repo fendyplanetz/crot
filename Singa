@@ -58,18 +58,18 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG2 Grab ⁰⁸.⁰⁵
+  - name: M-ID Grab ⁰⁸.⁰⁵
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-jdbddknk
+    password: mainssh-jxbxxlnkn
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== Digital Ocean ===========
   - name: 🇸🇬 Meet
