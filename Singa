@@ -14,13 +14,13 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== GreenSSH ===========
-  - name: G-SG Df ¹².⁰⁵
+  - name: G80-SG Df ¹².⁰⁵
     server: df.game.naver.com
-    port: 443
+    port: 80
     type: trojan
     password: 990fdfe9-b180-4524-bf10-415a7a174262
     skip-cert-verify: true
-    sni: sgt2.greenssh.xyz
+    sni: df.game.naver.com
     network: ws
     ws-opts: 
       path: /websocket
