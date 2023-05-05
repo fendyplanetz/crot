@@ -14,20 +14,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== GreenSSH ===========
-  - name: G-SG Df ⁰⁵.⁰⁵
+  - name: G-SG Df ¹².⁰⁵
     server: df.game.naver.com
     port: 443
-    type: vless
-    uuid: 9da42e0a-2599-4ed2-b03f-69a2793d2045
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 990fdfe9-b180-4524-bf10-415a7a174262
     skip-cert-verify: true
-    servername: sg1-xray.greenssh.xyz
+    sni: sgt2.greenssh.xyz
     network: ws
     ws-opts: 
       path: /websocket
       headers: 
-        Host: sg1-xray.greenssh.xyz
+        Host: sgt2.greenssh.xyz
     udp: true
 #=========== GreenSSH ===========
   - name: G-ID Ava ⁰⁵.⁰⁵
