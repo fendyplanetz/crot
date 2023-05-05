@@ -13,19 +13,33 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: G-SG Df ¹².⁰⁵
-    server: df.game.naver.com
-    port: 80
+#=========== MainSSH ===========
+  - name: M-ID Grab ⁰⁸.⁰⁵
+    server: food-merchant-help.grab.com
+    port: 443
     type: trojan
-    password: 990fdfe9-b180-4524-bf10-415a7a174262
+    password: mainssh-jxbxxlnkn
     skip-cert-verify: true
-    sni: sgt2.greenssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /trojan
       headers: 
-        Host: sgt2.greenssh.xyz
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: M-SG2 Line ⁰⁸.⁰⁵
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-jdbddknk
+    skip-cert-verify: true
+    sni: sg2tws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== GreenSSH ===========
   - name: G-ID Ava ⁰⁵.⁰⁵
@@ -43,48 +57,31 @@ proxies:
       headers: 
         Host: id1-xray.greenssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-SG2 Line ⁰⁸.⁰⁵
-    server: sogood.linefriends.com
+#=========== GreenSSH ===========
+  - name: G-SG Df ¹².⁰⁵
+    server: df.game.naver.com
+    port: 80
+    type: trojan
+    password: 990fdfe9-b180-4524-bf10-415a7a174262
+    skip-cert-verify: true
+    sni: sgt2.greenssh.xyz
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: sgt2.greenssh.xyz
+    udp: true
+#=========== GreenSSH ===========
+  - name: G-SG2 Meet ¹².⁰⁵
+    server: sgt2.greenssh.xyz
     port: 443
     type: trojan
-    password: mainssh-jdbddknk
+    password: 990fdfe9-b180-4524-bf10-415a7a174262
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: meet.google.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: sgt2.greenssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-ID Grab ⁰⁸.⁰⁵
-    server: food-merchant-help.grab.com
-    port: 443
-    type: trojan
-    password: mainssh-jxbxxlnkn
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: idtws.mainssh.xyz
-    udp: true
-#=========== Digital Ocean ===========
-  - name: 🇸🇬 Meet
-    server: dynamic-sg1b.obfs.xyz
-    port: 443
-    type: vmess
-    uuid: 92869d41-a98a-40ba-b79d-2eeb7ffe2433
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: meet.google.com
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: dynamic-sg1b.obfs.xyz
