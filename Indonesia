@@ -59,3 +59,37 @@ proxies:
       headers: 
         Host: id1-xray.greenssh.xyz
     udp: true
+#=========== Digital Ocean ===========
+  - name: 🇸🇬 Df
+    server: df.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 92869d41-a98a-40ba-b79d-2eeb7ffe2433
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: dynamic-sg1b.obfs.xyz
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /
+      headers: 
+        Host: dynamic-sg1b.obfs.xyz
+#=========== Digital Ocean ===========
+  - name: 🇸🇬 Skype 
+    server: dynamic-sg1b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 92869d41-a98a-40ba-b79d-2eeb7ffe2433
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: m.skype.com
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /
+      headers: 
+        Host: dynamic-sg1b.obfs.xyz
