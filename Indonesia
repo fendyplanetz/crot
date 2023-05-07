@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-Usa Line ⁰⁹.⁰⁵
+  - name: M-Usa Line ¹⁵.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-khdksbdlh
+    password: mainssh-jzhzbzib
     skip-cert-verify: true
     sni: ustws.mainssh.xyz
     network: ws
