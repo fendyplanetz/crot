@@ -27,31 +27,35 @@ proxies:
       headers: 
         Host: ustws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-SG² Zoom ⁰⁸.⁰⁵
-    server: sg2tws.mainssh.xyz
-    port: 443
-    type: trojan
-    password: mainssh-jdbddknk
-    skip-cert-verify: true
-    sni: us04web.zoom.us
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sg2tws.mainssh.xyz
-    udp: true
 #=========== GreenSSH ===========
-  - name: G-SG² Df ¹².⁰⁵
-    server: df.game.naver.com
+  - name: G-SG² Zoom ¹⁵.⁰⁵
+    server: sg2-xray.greenssh.xyz
     port: 443
-    type: trojan
-    password: 990fdfe9-b180-4524-bf10-415a7a174262
+    type: vless
+    uuid: 902fbd3b-a94e-4839-85cb-3e190a4412a9
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgt2.greenssh.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
       path: /websocket
       headers: 
-        Host: sgt2.greenssh.xyz
+        Host: sg2-xray.greenssh.xyz
+    udp: true
+#=========== GreenSSH ===========
+  - name: G-SG² Df ¹⁵.⁰⁵
+    server: df.game.naver.com
+    port: 443
+    type: vless
+    uuid: 902fbd3b-a94e-4839-85cb-3e190a4412a9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-xray.greenssh.xyz
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: sg2-xray.greenssh.xyz
     udp: true
