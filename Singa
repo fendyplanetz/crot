@@ -28,18 +28,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG2 Line ⁰⁸.⁰⁵
+  - name: M-ID Line ¹³.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-jdbddknk
+    password: mainssh-jshdkbonb
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== GreenSSH ===========
   - name: G-ID Ava ¹³.⁰⁵
