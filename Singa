@@ -41,35 +41,35 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: G-ID Ava ¹³.⁰⁵
+#=========== SSH Ocean ===========
+  - name: Oc-ID Ava ¹⁵.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 228befb1-cb78-4df5-a390-18a79fac33d4
+    uuid: 1363032d-f1a8-4c3f-8c41-e30cc64c1a2d
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1-xray.greenssh.xyz
+    servername: id2.v2vless.xyz
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /vless
       headers: 
-        Host: id1-xray.greenssh.xyz
+        Host: id2.v2vless.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: G-SG2 Meet ¹².⁰⁵
-    server: sgt2.greenssh.xyz
+#=========== SSH Ocean ===========
+  - name: Oc-ID² Meet ¹⁵.⁰⁵
+    server: idt2.sshocean.net
     port: 443
     type: trojan
-    password: 990fdfe9-b180-4524-bf10-415a7a174262
+    password: a6bf474f-fbb1-4d50-b385-de888953614f
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
     ws-opts: 
       path: /websocket
       headers: 
-        Host: sgt2.greenssh.xyz
+        Host: idt2.sshocean.net
     udp: true
 #=========== GreenSSH ===========
   - name: G-SG Wa ¹².⁰⁵
