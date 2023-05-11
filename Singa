@@ -1,7 +1,7 @@
 proxies:
 #=========== MainSSH ===========
   - name: M-ID Df ¹⁸.⁰⁵
-    server: df.game.naver.coml
+    server: df.game.naver.com
     port: 443
     type: trojan
     password: mainssh-bcnckfkn
