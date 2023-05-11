@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹³.⁰⁵
+  - name: M-ID Ava ¹⁸.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-jshdkbonb
+    password: mainssh-bcnckfkn
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,18 +14,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-Usa Line ¹⁵.⁰⁵
+  - name: M-Usa Line ¹⁸.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-jzhzbzib
+    password: mainssh-bcnckfkn
     skip-cert-verify: true
-    sni: ustws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: ustws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
   - name: Oc-ID² Zoom ¹⁵.⁰⁵
