@@ -42,11 +42,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID Ava ¹⁵.⁰⁵
+  - name: Oc-ID² Ava ²⁰.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 1363032d-f1a8-4c3f-8c41-e30cc64c1a2d
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -59,29 +59,33 @@ proxies:
     udp: true
 #=========== SSH Ocean ===========
   - name: Oc-ID² Meet ¹⁵.⁰⁵
-    server: idt2.sshocean.net
+    server: id2.v2vless.xyz
     port: 443
-    type: trojan
-    password: a6bf474f-fbb1-4d50-b385-de888953614f
+    type: vless
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /vless
       headers: 
-        Host: idt2.sshocean.net
+        Host: id2.v2vless.xyz
     udp: true
-#=========== GreenSSH ===========
-  - name: G-SG Wa ¹².⁰⁵
-    server: sgt2.greenssh.xyz
-    port: 80
-    type: trojan
-    password: 990fdfe9-b180-4524-bf10-415a7a174262
+#=========== SSH Ocean ===========
+  - name: Oc-ID² Wa ²⁰.⁰⁵
+    server: id2.v2vless.xyz
+    port: 443
+    type: vless
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: web.web.whatsapp.com
+    servername: w0.web.whatsapp.com
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /vless
       headers: 
-        Host: sgt2.greenssh.xyz
+        Host: id2.v2vless.xyz
     udp: true
