@@ -28,25 +28,27 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID² Zoom ¹⁵.⁰⁵
-    server: idt2.sshocean.net
+  - name: Oc-ID² Zoom ²⁰.⁰⁵
+    server: id2.v2vless.xyz
     port: 443
-    type: trojan
-    password: a6bf474f-fbb1-4d50-b385-de888953614f
+    type: vless
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: us04web.zoom.us
+    servername: us04web.zoom.us
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /vless
       headers: 
-        Host: idt2.sshocean.net
+        Host: id2.v2vless.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID Df ¹⁵.⁰⁵
+  - name: Oc-ID Df ²⁰.⁰⁵
     server: df.game.naver.com
     port: 443
     type: vless
-    uuid: 1363032d-f1a8-4c3f-8c41-e30cc64c1a2d
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
     cipher: auto
     tls: true
     skip-cert-verify: true
