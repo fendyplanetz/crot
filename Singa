@@ -42,27 +42,27 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID² Ava ²⁰.⁰⁵
+  - name: Oc-ID³ Ava ²⁰.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2.v2vless.xyz
+    servername: id3-cf.v2vless.xyz
     network: ws
     ws-opts: 
       path: /vless
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id3-cf.v2vless.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID² Meet ¹⁵.⁰⁵
-    server: id2.v2vless.xyz
+  - name: Oc-ID³ Meet ¹⁵.⁰⁵
+    server: id3-cf.v2vless.xyz
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -71,14 +71,14 @@ proxies:
     ws-opts: 
       path: /vless
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id3-cf.v2vless.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID² Wa ²⁰.⁰⁵
-    server: id2.v2vless.xyz
+  - name: Oc-ID³ Wa ²⁰.⁰⁵
+    server: id3-cf.v2vless.xyz
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -87,5 +87,6 @@ proxies:
     ws-opts: 
       path: /vless
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id3-cf.v2vless.xyz
     udp: true
+
