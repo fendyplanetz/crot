@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID² Zoom ²⁰.⁰⁵
-    server: id2.v2vless.xyz
+  - name: Oc-ID³ Zoom ²⁰.⁰⁵
+    server: id3-cf.v2vless.xyz
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -41,21 +41,21 @@ proxies:
     ws-opts: 
       path: /vless
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id3-cf.v2vless.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID Df ²⁰.⁰⁵
+  - name: Oc-ID³ Df ²⁰.⁰⁵
     server: df.game.naver.com
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2.v2vless.xyz
+    servername: id3-cf.v2vless.xyz
     network: ws
     ws-opts: 
       path: /vless
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id3-cf.v2vless.xyz
     udp: true
