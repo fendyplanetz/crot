@@ -28,20 +28,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID³ Zoom ²⁰.⁰⁵
-    server: id3-cf.v2vless.xyz
+  - name: Oc-ID² Zoom ²⁰.⁰⁵
+    server: idt2.sshocean.net
     port: 443
-    type: vless
-    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
-    cipher: auto
-    tls: true
+    type: trojan
+    password: a6bf474f-fbb1-4d50-b385-de888953614f
     skip-cert-verify: true
-    servername: us04web.zoom.us
+    sni: us04web.zoom.us
     network: ws
     ws-opts: 
-      path: /vless
+      path: /websocket
       headers: 
-        Host: id3-cf.v2vless.xyz
+        Host: idt2.sshocean.net
     udp: true
 #=========== sshOcean ===========
   - name: Oc-ID³ Df ²⁰.⁰⁵
