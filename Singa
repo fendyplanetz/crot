@@ -58,7 +58,7 @@ proxies:
         Host: id3-cf.v2vless.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID³ Meet ¹⁵.⁰⁵
+  - name: Oc-ID³ Meet ²⁰.⁰⁵
     server: id3-cf.v2vless.xyz
     port: 443
     type: vless
