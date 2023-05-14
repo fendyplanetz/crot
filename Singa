@@ -72,15 +72,15 @@ proxies:
         Host: idt2.sshocean.net
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID³ Wa ²⁰.⁰⁵
-    server: id3-cf.v2vless.xyz
+  - name: Oc-ID³ 118 ²⁰.⁰⁵
+    server: 172.67.26.118
     port: 443
     type: vless
     uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: w0.web.whatsapp.com
+    servername: id3-cf.v2vless.xyz
     network: ws
     ws-opts: 
       path: /vless
