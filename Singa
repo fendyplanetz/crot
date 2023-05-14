@@ -1,7 +1,7 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID 169 ¹⁸.⁰⁵
-    server: 104.18.9.169
+  - name: M-ID Df ¹⁸.⁰⁵
+    server: df.game.naver.com
     port: 443
     type: trojan
     password: mainssh-bcnckfkn
@@ -28,8 +28,8 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID 25 ¹⁸.⁰⁵
-    server: 104.22.2.25
+  - name: M-ID Line ¹⁸.⁰⁵
+    server: sogood.linefriends.com
     port: 443
     type: trojan
     password: mainssh-bcnckfkn
@@ -42,8 +42,8 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID³ 235 ²⁰.⁰⁵
-    server: 104.18.213.235
+  - name: Oc-ID³ Ava ²⁰.⁰⁵
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
@@ -72,8 +72,8 @@ proxies:
         Host: idt2.sshocean.net
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID³ 118 ²⁰.⁰⁵
-    server: 172.67.26.118
+  - name: Oc-ID³ Adup ²⁰.⁰⁵
+    server: cdn.adup-tech.com
     port: 443
     type: vless
     uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
