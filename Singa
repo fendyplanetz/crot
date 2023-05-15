@@ -41,6 +41,20 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
+#=========== MainSSH ===========
+  - name: M-Usa Meet ¹⁸.⁰⁵ 
+    server: idtws.mainssh.xyz 
+    port: 443 
+    type: trojan 
+    password: mainssh-bcnckfkn 
+    skip-cert-verify: true 
+    sni: meet.google.com 
+    network: ws 
+    ws-opts:  
+      path: /trojan 
+      headers:  
+        Host: idtws.mainssh.xyz 
+    udp: true
 #=========== SSH Ocean ===========
   - name: Oc-ID² Ava ²⁰.⁰⁵
     server: ava.game.naver.com
@@ -49,20 +63,6 @@ proxies:
     password: a6bf474f-fbb1-4d50-b385-de888953614f
     skip-cert-verify: true
     sni: idt2.sshocean.net
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: idt2.sshocean.net
-    udp: true
-#=========== SSH Ocean ===========
-  - name: Oc-ID² Meet ²⁰.⁰⁵
-    server: idt2.sshocean.net
-    port: 443
-    type: trojan
-    password: a6bf474f-fbb1-4d50-b385-de888953614f
-    skip-cert-verify: true
-    sni: meet.google.com
     network: ws
     ws-opts: 
       path: /websocket
