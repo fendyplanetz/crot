@@ -41,28 +41,31 @@ proxies:
       headers: 
         Host: ustws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-Usa Care ¹⁸.⁰⁵
-    server: care.pmang.game.naver.com
+#=========== Akamai ===========
+  - name: Akamai-SG Zoom
+    server: vsg1.0bad.com
     port: 443
-    type: trojan
-    password: mainssh-lklppolk
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: ustws.mainssh.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /chat
       headers: 
-        Host: ustws.mainssh.xyz
+        Host: vsg1.0bad.com
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID² Zoom ²⁰.⁰⁵
-    server: idt2.sshocean.net
+  - name: Oc-ID² Care ²⁰.⁰⁵
+    server: care.pmang.game.naver.com
     port: 443
     type: trojan
     password: a6bf474f-fbb1-4d50-b385-de888953614f
     skip-cert-verify: true
-    sni: us04web.zoom.us
+    sni: idt2.sshocean.net
     network: ws
     ws-opts: 
       path: /websocket
