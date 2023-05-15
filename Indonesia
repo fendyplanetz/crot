@@ -14,6 +14,20 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
+  - name: M-ID Shopee ¹⁸.⁰⁵
+    server: zendesk4.shopee.tw
+    port: 443
+    type: trojan
+    password: mainssh-bcnckfkn
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
   - name: M-Usa Line ¹⁸.⁰⁵
     server: sogood.linefriends.com
     port: 443
