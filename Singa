@@ -42,18 +42,21 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-Usa Meet ¹⁸.⁰⁵ 
-    server: ustws.mainssh.xyz
+  - name: Akamai-SG Meet
+    server: vsg1.0bad.com
     port: 443
-    type: trojan
-    password: mainssh-lklppolk
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /chat
       headers: 
-        Host: ustws.mainssh.xyz
+        Host: vsg1.0bad.com
     udp: true
 #=========== SSH Ocean ===========
   - name: Oc-ID² Ava ²⁰.⁰⁵
