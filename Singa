@@ -41,22 +41,21 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: Akamai-SG Meet
-    server: vsg1.0bad.com
+#=========== SSH Ocean ===========
+  - name: Oc-ID² Meet ²⁰.⁰⁵
+    server: id2.v2vless.xyz
     port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
+    type: vless
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /chat
+      path: /vless
       headers: 
-        Host: vsg1.0bad.com
+        Host: id2.v2vless.xyz
     udp: true
 #=========== SSH Ocean ===========
   - name: Oc-ID² Ava ²⁰.⁰⁵
