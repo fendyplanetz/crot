@@ -46,14 +46,14 @@ proxies:
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-bcnckfkn
+    password: mainssh-lklppolk
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: ustws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: ustws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
   - name: Oc-ID² Zoom ²⁰.⁰⁵
