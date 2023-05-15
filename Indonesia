@@ -27,6 +27,22 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
+#=========== MainSSH ===========
+  - name: M-Usa Care ¹⁸.⁰⁵
+    server: care.pmang.game.naver.com
+    port: 443
+    type: trojan
+    password: mainssh-bcnckfkn
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+    xudp : true
+    tfo: true
 #=========== sshOcean ===========
   - name: Oc-ID² Zoom ²⁰.⁰⁵
     server: idt2.sshocean.net
