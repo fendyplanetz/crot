@@ -42,20 +42,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID³ Ava ²⁰.⁰⁵
+  - name: Oc-ID² Ava ²⁰.⁰⁵
     server: ava.game.naver.com
     port: 443
-    type: vless
-    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
-    cipher: auto
-    tls: true
+    type: trojan
+    password: a6bf474f-fbb1-4d50-b385-de888953614f
     skip-cert-verify: true
-    servername: id3-cf.v2vless.xyz
+    sni: idt2.sshocean.net
     network: ws
     ws-opts: 
-      path: /vless
+      path: /websocket
       headers: 
-        Host: id3-cf.v2vless.xyz
+        Host: idt2.sshocean.net
     udp: true
 #=========== SSH Ocean ===========
   - name: Oc-ID² Meet ²⁰.⁰⁵
@@ -72,19 +70,17 @@ proxies:
         Host: idt2.sshocean.net
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID³ Adup ²⁰.⁰⁵
+  - name: Oc-ID² Adup ²⁰.⁰⁵
     server: cdn.adup-tech.com
     port: 443
-    type: vless
-    uuid: 187dd10d-c80b-4e26-91c1-2f584b407052
-    cipher: auto
-    tls: true
+    type: trojan
+    password: a6bf474f-fbb1-4d50-b385-de888953614f
     skip-cert-verify: true
-    servername: id3-cf.v2vless.xyz
+    sni: idt2.sshocean.net
     network: ws
     ws-opts: 
-      path: /vless
+      path: /websocket
       headers: 
-        Host: id3-cf.v2vless.xyz
+        Host: idt2.sshocean.net
     udp: true
 
