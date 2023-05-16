@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹⁸.⁰⁵
+  - name: M-ID Ava ²³.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-bcnckfkn
+    password: mainssh-jzbjblnkb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ¹⁸.⁰⁵
+  - name: M-ID Shopee ²³.⁰⁵
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-bcnckfkn
+    password: mainssh-jzbjblnkb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
