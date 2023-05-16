@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Df ¹⁸.⁰⁵
+  - name: M-ID Df ²³.⁰⁵
     server: df.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-bcnckfkn
+    password: mainssh-jzbjblnkb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Grab ¹⁸.⁰⁵
+  - name: M-ID Grab ²³.⁰⁵
     server: food-merchant-help.grab.com
     port: 443
     type: trojan
-    password: mainssh-bcnckfkn
+    password: mainssh-jzbjblnkb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Line ¹⁸.⁰⁵
+  - name: M-ID Line ²³.⁰⁵
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-bcnckfkn
+    password: mainssh-jzbjblnkb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
