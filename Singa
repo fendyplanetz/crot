@@ -61,16 +61,18 @@ proxies:
   - name: Oc-ID² Ava ²⁰.⁰⁵
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: a6bf474f-fbb1-4d50-b385-de888953614f
+    type: vless
+    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idt2.sshocean.net
+    servername: id2.v2vless.xyz
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /vless
       headers: 
-        Host: idt2.sshocean.net
-    udp: true
+        Host: id2.v2vless.xyz
+    udp: truee
 #=========== SSH Ocean ===========
   - name: Oc-ID² 118 ²⁰.⁰⁵
     server: 172.67.26.118
