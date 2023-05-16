@@ -41,22 +41,21 @@ proxies:
       headers: 
         Host: ustws.mainssh.xyz
     udp: true
-#=========== Akamai ===========
-  - name: Akamai-SG Zoom
-    server: vsg1.0bad.com
+#=========== Green SSH ===========
+  - name: G-SG² Skype ²².⁰⁵
+    server: sg2-xray.greenssh.xyz
     port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
+    type: vless
+    uuid: d4954c40-0bc6-457e-8f5a-2944650eeb6c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoom.us
+    servername: config.edge.skype.com
     network: ws
     ws-opts: 
-      path: /chat
+      path: /websocket
       headers: 
-        Host: vsg1.0bad.com
+        Host: sg2-xray.greenssh.xyz
     udp: true
 #=========== sshOcean ===========
   - name: Oc-ID² Care ²⁰.⁰⁵
