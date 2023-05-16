@@ -58,34 +58,34 @@ proxies:
         Host: sg2-xray.greenssh.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID² Care ²⁰.⁰⁵
+  - name: Oc-ID²WS Care ²³.⁰⁵
     server: care.pmang.game.naver.com
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2.v2vless.xyz
+    servername: id2-ws.xvless.xyz
     network: ws
     ws-opts: 
-      path: /vless
+      path: /websocket
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID³ Df ²⁰.⁰⁵
+  - name: Oc-ID²WS Df ²³.⁰⁵
     server: df.game.naver.com
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2.v2vless.xyz
+    servername: id2-ws.xvless.xyz
     network: ws
     ws-opts: 
-      path: /vless
+      path: /websocket
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
