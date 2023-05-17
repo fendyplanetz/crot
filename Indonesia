@@ -1,12 +1,12 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ²³.⁰⁵
-    server: ava.game.naver.com
+  - name: M-ID Meet ²³.⁰⁵
+    server: idtws.mainssh.xyz
     port: 443
     type: trojan
     password: mainssh-jzbjblnkb
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: meet.google.com
     network: ws
     ws-opts: 
       path: /trojan
@@ -27,39 +27,9 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-Usa Line ¹⁸.⁰⁵
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: mainssh-lklppolk
-    skip-cert-verify: true
-    sni: ustws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: ustws.mainssh.xyz
-    udp: true
-#=========== Green SSH ===========
-  - name: G-SG² Zoom ²².⁰⁵
-    server: sg2-xray.greenssh.xyz
-    port: 443
-    type: vless
-    uuid: d4954c40-0bc6-457e-8f5a-2944650eeb6c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zoom.us
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: sg2-xray.greenssh.xyz
-    udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID²WS Care ²³.⁰⁵
-    server: care.pmang.game.naver.com
+  - name: Oc-ID²WS Grab ²³.⁰⁵
+    server: food-merchant-help.grab.com
     port: 443
     type: vless
     uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
@@ -74,15 +44,15 @@ proxies:
         Host: id2-ws.xvless.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID²WS Df ²³.⁰⁵
-    server: df.game.naver.com
+  - name: Oc-ID²WS Zoom ²³.⁰⁵
+    server: id2-ws.xvless.xyz
     port: 443
     type: vless
     uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
       path: /websocket
