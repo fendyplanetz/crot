@@ -42,8 +42,8 @@ proxies:
         Host: ustws.mainssh.xyz
     udp: true
 #=========== Green SSH ===========
-  - name: G-SG² Skype ²².⁰⁵
-    server: config.edge.skype.com
+  - name: G-SG² Zoom ²².⁰⁵
+    server: zoom.us
     port: 443
     type: vless
     uuid: d4954c40-0bc6-457e-8f5a-2944650eeb6c
