@@ -43,14 +43,14 @@ proxies:
     udp: true
 #=========== Green SSH ===========
   - name: G-SG² Zoom ²².⁰⁵
-    server: zoom.us
+    server: sg2-xray.greenssh.xyz
     port: 443
     type: vless
     uuid: d4954c40-0bc6-457e-8f5a-2944650eeb6c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2-xray.greenssh.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
       path: /websocket
