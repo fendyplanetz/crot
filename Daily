@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Meet ²³.⁰⁵
+  - name: M-ID Meet ²⁶.⁰⁵
     server: idtws.mainssh.xyz
     port: 443
     type: trojan
-    password: mainssh-jzbjblnkb
+    password: mainssh-popoklkjk
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ²³.⁰⁵
+  - name: M-ID Shopee ²⁶.⁰⁵
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-jzbjblnkb
+    password: mainssh-popoklkjk
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
