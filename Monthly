@@ -42,20 +42,20 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID² Meet ²⁰.⁰⁵
-    server: id2.v2vless.xyz
+  - name: Oc-ID²WS Meet ²³.⁰⁵
+    server: id2-ws.xvless.xyz
     port: 443
     type: vless
-    uuid: dc0fb83c-f65d-4cdf-a1ce-3a5561bb0033
+    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vless
+      path: /websocket
       headers: 
-        Host: id2.v2vless.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== SSH Ocean ===========
   - name: Oc-ID²WS Ava ²³.⁰⁵
