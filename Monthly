@@ -42,11 +42,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID²WS Meet ²³.⁰⁵
+  - name: Oc-ID²WS Meet ²⁸.⁰⁵
     server: id2-ws.xvless.xyz
     port: 443
     type: vless
-    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
+    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -58,11 +58,11 @@ proxies:
         Host: id2-ws.xvless.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID²WS Ava ²³.⁰⁵
+  - name: Oc-ID²WS Ava ²⁸.⁰⁵
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
+    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -74,11 +74,11 @@ proxies:
         Host: id2-ws.xvless.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID²WS 118 ²³.⁰⁵
+  - name: Oc-ID²WS 118 ²⁸.⁰⁵
     server: 172.67.26.118
     port: 443
     type: vless
-    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
+    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
     cipher: auto
     tls: true
     skip-cert-verify: true
