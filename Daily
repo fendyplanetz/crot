@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID²WS Grab ²³.⁰⁵
+  - name: Oc-ID²WS Grab ²⁸.⁰⁵
     server: food-merchant-help.grab.com
     port: 443
     type: vless
-    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
+    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -44,11 +44,11 @@ proxies:
         Host: id2-ws.xvless.xyz
     udp: true
 #=========== sshOcean ===========
-  - name: Oc-ID²WS Zoom ²³.⁰⁵
+  - name: Oc-ID²WS Zoom ²⁸.⁰⁵
     server: id2-ws.xvless.xyz
     port: 443
     type: vless
-    uuid: 425de1d8-e021-439c-b4a5-1c32202e519a
+    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
     cipher: auto
     tls: true
     skip-cert-verify: true
