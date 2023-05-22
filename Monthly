@@ -15,7 +15,7 @@ proxies:
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Grab ²⁶.⁰⁵
-    server: food-merchant-help.grab.com
+    server: grabtaxihoanglong.com
     port: 443
     type: trojan
     password: mainssh-popoklkjk
@@ -74,8 +74,8 @@ proxies:
         Host: id2-ws.xvless.xyz
     udp: true
 #=========== SSH Ocean ===========
-  - name: Oc-ID²WS 118 ²⁸.⁰⁵
-    server: 172.67.26.118
+  - name: Oc-ID²WS Today ²⁸.⁰⁵
+    server: todayline.me
     port: 443
     type: vless
     uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
