@@ -1,8 +1,25 @@
-trojan://mainssh-jdjdbxkxb@sogood.linefriends.com:443?path=%2Ftrojan&security=tls&host=idtws.mainssh.xyz&type=ws&sni=idtws.mainssh.xyz#MainSSH-ID+09%2F04+60Gb
-trojan://mainssh-jdjdbxkxb@zendesk1.shopee.tw:443?path=%2Ftrojan&security=tls&host=idtws.mainssh.xyz&type=ws&sni=idtws.mainssh.xyz#MainSSH-ID+09%2F04+1Gb
-vless://8d3ca337-5a3c-4912-85fc-d308636e57e9@sg1-v.sshmax.xyz:443?path=%2Fvless&security=tls&encryption=none&host=sg1-v.sshmax.xyz&type=ws&sni=meet.google.com#sshmax-SG+10%2F04+700Mb
-vless://228befb1-cb78-4df5-a390-18a79fac33d4@maven.lokalise.co:443?path=%2Fwebsocket&security=tls&encryption=none&host=id1-xray.greenssh.xyz&type=ws&sni=id1-xray.greenssh.xyz#greenssh-ID+13%2F05
-trojan://mainssh-bcnckfkn@ava.game.naver.com:443?path=%2Ftrojan&security=tls&host=idtws.mainssh.xyz&type=ws&sni=idtws.mainssh.xyz#MainSSH-ID+18%2F05
-trojan://mainssh-lklppolk@ustws.mainssh.xyz:443?path=%2Ftrojan&security=tls&host=ustws.mainssh.xyz&type=ws&sni=zoom.us#Usa+18%2F05
-vless://1363032d-f1a8-4c3f-8c41-e30cc64c1a2d@ava.game.naver.com:443?path=%2Fvless&security=tls&encryption=none&host=id2.v2vless.xyz&type=ws&sni=id2.v2vless.xyz#sshocean-ID+15%2F05
-trojan://a6bf474f-fbb1-4d50-b385-de888953614f@idt2.sshocean.net:443?path=%2Fwebsocket&security=tls&host=idt2.sshocean.net&type=ws&sni=us04web.zoom.us#sshocean-ID2+15%2F05
+{
+  "outbounds": [
+//================= Daily ==================//
+    {
+      "type": "trojan",
+      "tag": "Meet",
+      "password": "mainssh-jzbjblnkb",
+      "server": "43.229.254.96",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "meet.google.com"
+      },
+      "transport": {
+        "headers": {
+          "Host": "idtws.mainssh.xyz"
+        },
+        "path": "/trojan",
+        "type": "ws"
+      },
+      "domain_strategy": ""
+    }
+  ]
+}
