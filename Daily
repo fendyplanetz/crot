@@ -29,7 +29,7 @@ proxies:
     udp: true
 #=========== sshOcean ===========
   - name: Oc-ID²WS Grab ²⁸.⁰⁵
-    server: food-merchant-help.grab.com
+    server: grabtaxihoanglong.com
     port: 443
     type: vless
     uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
