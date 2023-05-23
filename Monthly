@@ -73,20 +73,17 @@ proxies:
       headers: 
         Host: id2-ws.xvless.xyz
     udp: true
-#=========== SSH Ocean ===========
-  - name: Oc-ID²WS Today ²⁸.⁰⁵
-    server: todayline.me
+#=========== Digital Ocean ===========
+  - name: DO Tech
+    server: cdn.adup-tech.com
     port: 443
-    type: vless
-    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 4189927e-225a-491e-994d-fb1139f6a670
     skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
+    sni: r-18n19saputra.my.id
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /trojanws
       headers: 
-        Host: id2-ws.xvless.xyz
+        Host: r-18n19saputra.my.id
     udp: true
-
