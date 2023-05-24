@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Df ²⁶.⁰⁵
+  - name: M-ID Zoom ²⁶.⁰⁵
     server: idtws.mainssh.xyz
     port: 443
     type: trojan
