@@ -15,7 +15,7 @@ proxies:
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Grab ²⁶.⁰⁵
-    server: grabtaxihoanglong.com
+    server: food-merchant-help.grab.com
     port: 443
     type: trojan
     password: mainssh-popoklkjk
