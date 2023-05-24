@@ -1,61 +1,65 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Meet ²⁶.⁰⁵
+  - name: M-ID Df ²⁶.⁰⁵
     server: idtws.mainssh.xyz
     port: 443
     type: trojan
     password: mainssh-popoklkjk
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: zoom.us
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-ID Shopee ²⁶.⁰⁵
-    server: zendesk4.shopee.tw
+#=========== Amazon ===========
+  - name: 376 🇸🇬 AMAZON Meet
+    server: 13.215.177.20
     port: 443
     type: trojan
-    password: mainssh-popoklkjk
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: idtws.mainssh.xyz
+    password: 794d739c-89a0-444c-b2e7-acce12af3042
     udp: true
-#=========== sshOcean ===========
-  - name: Oc-ID²WS Grab ²⁸.⁰⁵
+    skip-cert-verify: true
+    sni: meet.google.com
+    network: tcp
+#=========== Digital Ocean ===========
+  - name: 426 🇸🇬 DO Shopee
+    server: zendesk4.shopee.tw
+    port: 443
+    type: vmess
+    uuid: 04a64d18-2310-41e1-b6a8-78739e881e44
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: v2ray3.udpgw.com
+    network: ws
+    alterId: 0
+    tfo: true
+    xudp: true
+    key: value
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: v2ray3.udpgw.com
+#=========== Akamai ===========
+  - name: 420 🇸🇬 AKAMAI Grab
     server: food-merchant-help.grab.com
     port: 443
-    type: vless
-    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     cipher: auto
     tls: true
-    skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: id2-ws.xvless.xyz
     udp: true
-#=========== sshOcean ===========
-  - name: Oc-ID²WS Zoom ²⁸.⁰⁵
-    server: id2-ws.xvless.xyz
-    port: 443
-    type: vless
-    uuid: fef813f7-6eb3-4d5c-85fc-904a311e357b
-    cipher: auto
-    tls: true
     skip-cert-verify: true
-    servername: zoom.us
+    servername: steep-bread-ef2e.labegob718911.workers.dev
     network: ws
+    alterId: 0
+    tfo: true
+    xudp: true
+    key: value
     ws-opts: 
-      path: /websocket
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: id2-ws.xvless.xyz
-    udp: true
+        Host: steep-bread-ef2e.labegob718911.workers.dev
