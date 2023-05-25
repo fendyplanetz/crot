@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ²⁶.⁰⁵
+  - name: M-ID Ava ⁰².⁰⁶
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-popoklkjk
+    password: mainssh-nzjxnxxl
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
