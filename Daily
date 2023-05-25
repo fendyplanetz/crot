@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Zoom ²⁶.⁰⁵
+  - name: M-ID Zoom ⁰².⁰⁶
     server: idtws.mainssh.xyz
     port: 443
     type: trojan
-    password: mainssh-popoklkjk
+    password: mainssh-nzjxnxxl
     skip-cert-verify: true
     sni: zoom.us
     network: ws
