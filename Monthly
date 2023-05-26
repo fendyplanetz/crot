@@ -44,25 +44,25 @@ proxies:
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
 #=========== Digital Ocean ===========
-  - name: 237 🇸🇬 DO Df
+  - name: 10 🇸🇬 DO Df
     server: df.game.naver.com
     port: 443
     type: vmess
-    uuid: a9772cf3-095d-4283-aab6-3087720db32d
+    uuid: 04a64d18-2310-41e1-b6a8-78739e881e44
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: cdn-xjp3.cqjsl.xyz
+    servername: v2ray3.udpgw.com
     network: ws
     alterId: 0
     tfo: true
     xudp: true
     key: value
     ws-opts: 
-      path: /
+      path: /worryfree
       headers: 
-        Host: cdn-xjp3.cqjsl.xyz
+        Host: v2ray3.udpgw.com
 #=========== Digital Ocean ===========
   - name: 426 🇸🇬 DO Line
     server: sogood.linefriends.com
