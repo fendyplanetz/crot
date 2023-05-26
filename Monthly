@@ -13,6 +13,48 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
+#=========== MainSSH ===========
+  - name: M-ID Line ⁰².⁰⁶
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-nzjxnxxl
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: M-ID Shopee ⁰².⁰⁶
+    server: zendesk4.shopee.tw
+    port: 443
+    type: trojan
+    password: mainssh-nzjxnxxl
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: M-ID Zoom ⁰².⁰⁶
+    server: idtws.mainssh.xyz
+    port: 443
+    type: trojan
+    password: mainssh-nzjxnxxl
+    skip-cert-verify: true
+    sni: zoom.us
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
 #=========== Amazon ===========
   - name: 376 🇸🇬 AMAZON Meet
     server: 13.215.177.20
@@ -24,8 +66,8 @@ proxies:
     sni: meet.google.com
     network: tcp
 #=========== Akamai ===========
-  - name: 420 🇸🇬 AKAMAI Shopee
-    server: zendesk4.shopee.tw
+  - name: 420 🇸🇬 AKAMAI Df
+    server: df.game.naver.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -43,57 +85,3 @@ proxies:
       path: /vsg1.0bad.com/chat
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
-#=========== Digital Ocean ===========
-  - name: 10 🇸🇬 DO Df
-    server: df.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 04a64d18-2310-41e1-b6a8-78739e881e44
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: v2ray3.udpgw.com
-    network: ws
-    alterId: 0
-    tfo: true
-    xudp: true
-    key: value
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: v2ray3.udpgw.com
-#=========== Digital Ocean ===========
-  - name: 426 🇸🇬 DO Line
-    server: sogood.linefriends.com
-    port: 443
-    type: vmess
-    uuid: 04a64d18-2310-41e1-b6a8-78739e881e44
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: v2ray3.udpgw.com
-    network: ws
-    alterId: 0
-    tfo: true
-    xudp: true
-    key: value
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: v2ray3.udpgw.com
-#=========== Digital Ocean ===========
-  - name: DO Tech
-    server: cdn.adup-tech.com
-    port: 443
-    type: trojan
-    password: 4189927e-225a-491e-994d-fb1139f6a670
-    skip-cert-verify: true
-    sni: r-18n19saputra.my.id
-    network: ws
-    ws-opts: 
-      path: /trojanws
-      headers: 
-        Host: r-18n19saputra.my.id
-    udp: true
