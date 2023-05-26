@@ -24,25 +24,18 @@ proxies:
     sni: meet.google.com
     network: tcp
 #=========== Digital Ocean ===========
-  - name: 426 🇸🇬 DO Zoom
-    server: zendesk4.shopee.tw
+  - name: 14 🇸🇬 MICROSOFT Zoom
+    server: sg4.f163ab0f2c74.sanfen004.me
     port: 443
     type: vmess
-    uuid: 04a64d18-2310-41e1-b6a8-78739e881e44
+    uuid: adb800cf-f56b-4c93-964d-07e8cc9eaf05
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     servername: zoom.us
-    network: ws
+    network: tcp
     alterId: 0
-    tfo: true
-    xudp: true
-    key: value
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: v2ray3.udpgw.com
 #=========== Akamai ===========
   - name: 420 🇸🇬 AKAMAI Grab
     server: food-merchant-help.grab.com
