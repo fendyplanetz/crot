@@ -1,12 +1,12 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Zoom ⁰².⁰⁶
-    server: idtws.mainssh.xyz
+  - name: M-ID Shopee ⁰².⁰⁶
+    server: zendesk4.shopee.tw
     port: 443
     type: trojan
     password: mainssh-nzjxnxxl
     skip-cert-verify: true
-    sni: zoom.us
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
@@ -24,7 +24,7 @@ proxies:
     sni: meet.google.com
     network: tcp
 #=========== Digital Ocean ===========
-  - name: 426 🇸🇬 DO Shopee
+  - name: 426 🇸🇬 DO Zoom
     server: zendesk4.shopee.tw
     port: 443
     type: vmess
@@ -33,7 +33,7 @@ proxies:
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: v2ray3.udpgw.com
+    servername: zoom.us
     network: ws
     alterId: 0
     tfo: true
