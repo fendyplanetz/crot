@@ -85,3 +85,36 @@ proxies:
       path: /vsg1.0bad.com/chat
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
+#=========== Microsoft ===========
+  - name: 14 🇸🇬 MICROSOFT Tech
+    server: 172.67.26.118
+    port: 443
+    type: vmess
+    uuid: adb800cf-f56b-4c93-964d-07e8cc9eaf05
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sg4.f163ab0f2c74.sanfen004.me
+    network: tcp
+    alterId: 0
+#=========== IKD ===========
+  - name: 165 🇮🇩 IKD Grab
+    server: 162.159.138.6
+    port: 443
+    type: vmess
+    uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: yn1.01dj.sbs
+    network: ws
+    alterId: 0
+    tfo: true
+    xudp: true
+    key: value
+    ws-opts: 
+      path: /sometimesnaive
+      headers: 
+        Host: yn1.01dj.sbs
