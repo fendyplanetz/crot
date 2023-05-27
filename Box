@@ -1,25 +1,3 @@
-{
-  "outbounds": [
-//================= Daily ==================//
-    {
-      "type": "trojan",
-      "tag": "Meet",
-      "password": "mainssh-jzbjblnkb",
-      "server": "43.229.254.96",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "meet.google.com"
-      },
-      "transport": {
-        "headers": {
-          "Host": "idtws.mainssh.xyz"
-        },
-        "path": "/trojan",
-        "type": "ws"
-      },
-      "domain_strategy": ""
-    }
-  ]
-}
+vmess://eyJhZGQiOiJ6ZW5kZXNrNC5zaG9vcGVlLnR3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0Ijoic3RlZXAtYnJlYWQtZWYyZS5sYWJlZ29iNzE4OTExLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnNnMS4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiNDIwIPCfh7jwn4esIEFTNjM5NDkgQUtBTUFJIiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWVwLWJyZWFkLWVmMmUubGFiZWdvYjcxODkxMS53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+//========================================
+vmess://eyJhZGQiOiIxMDQuMjIuMi4yNSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6Im9kZC1icm9vay02NmU4LmR1bWVsaXQzNzU4LndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnNnMS4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiMTUyIPCfh7jwn4esIEFLQU1BSSBTb2dvb2QiLCJzY3kiOiJhdXRvIiwic25pIjoib2RkLWJyb29rLTY2ZTguZHVtZWxpdDM3NTgud29ya2Vycy5kZXYiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
