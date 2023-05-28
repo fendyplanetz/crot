@@ -20,7 +20,7 @@
           "Host": "steep-bread-ef2e.labegob718911.workers.dev"
         }
       }
-    },
+    }
 //========================================
      {
       "type": "vmess",
@@ -42,7 +42,7 @@
           "Host": "cloudflare.piaole.me"
         }
       }
-    },
+    }
 //========================================
     {
       "type": "vmess",
@@ -64,4 +64,4 @@
           "Host": "cloudflare.piaole.me"
         }
       }
-    },
+    }
