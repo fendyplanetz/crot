@@ -1,6 +1,6 @@
 
 //========================================
-  - name: 420 🇸🇬 AS63949 AKAMAI
+  - name: 420 🇸🇬 AKAMAI Shopee
     server: zendesk4.shoopee.tw
     port: 443
     type: vmess
@@ -17,7 +17,7 @@
         Host: steep-bread-ef2e.labegob718911.workers.dev
     udp: true
 //========================================
-  - name: 80 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN TLS
+  - name: 80 🇸🇬 DIGITALOCEAN Ava
     server: ava.game.naver.com
     port: 443
     type: vmess
@@ -34,8 +34,8 @@
         Host: cloudflare.piaole.me
     udp: true
 //========================================
-  - name: 111 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN TLS
-    server: zendesk4.shoopee.tw
+  - name: 111 🇸🇬 DIGITALOCEAN Sogood
+    server: sogood.linefriends.com
     port: 443
     type: vmess
     uuid: e8dacfc5-79b1-4289-92f1-e390080d56aa
