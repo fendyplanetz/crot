@@ -67,7 +67,7 @@ proxies:
     network: tcp
 #=========== Akamai ===========
   - name: 420 🇸🇬 AKAMAI Df
-    server: df.game.naver.com
+    server: 104.18.9.169
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
