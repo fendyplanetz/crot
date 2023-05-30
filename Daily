@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Shopee ⁰².⁰⁶
+  - name: M-ID Shopee ⁰⁷.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-nzjxnxxl
+    password: mainssh-ishdkbmb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
