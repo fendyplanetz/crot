@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ⁰².⁰⁶
+  - name: M-ID Ava ⁰⁷.⁰⁶
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-nzjxnxxl
+    password: mainssh-ishdkbmb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Line ⁰².⁰⁶
+  - name: M-ID Line ⁰⁷.⁰⁶
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-nzjxnxxl
+    password: mainssh-ishdkbmb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ⁰².⁰⁶
+  - name: M-ID Shopee ⁰⁷.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-nzjxnxxl
+    password: mainssh-ishdkbmb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -42,11 +42,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Zoom ⁰².⁰⁶
+  - name: M-ID Zoom ⁰⁷.⁰⁶
     server: idtws.mainssh.xyz
     port: 443
     type: trojan
-    password: mainssh-nzjxnxxl
+    password: mainssh-ishdkbmb
     skip-cert-verify: true
     sni: zoom.us
     network: ws
