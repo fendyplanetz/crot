@@ -56,15 +56,22 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
-  - name: 376 🇸🇬 AMAZON Meet
-    server: 13.215.177.20
+  - name: 138 🇸🇬 DIGITALOCEAN Meet
+    server: dynamic-sg3b.obfs.xyz
     port: 443
-    type: trojan
-    password: 794d739c-89a0-444c-b2e7-acce12af3042
-    udp: true
+    type: vmess
+    uuid: c5aa70af-cb25-42ed-b0da-e9f5db42420a
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
-    network: tcp
+    servername: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /vmws
+      headers: 
+        Host: dynamic-sg3b.obfs.xyz
+    udp: true
 #=========== Akamai ===========
   - name: 420 🇸🇬 AKAMAI Df
     server: 104.18.9.169
@@ -85,22 +92,26 @@ proxies:
       path: /vsg1.0bad.com/chat
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
-#=========== Microsoft ===========
-  - name: 14 🇸🇬 MICROSOFT Tech
-    server: 172.67.26.118
-    port: 443
+#=========== Oracle ===========
+  - name: 104 🇸🇬 AS31898 ORACLE Adup
+    server: cdn.adup-tech.com
+    port: 80
     type: vmess
-    uuid: adb800cf-f56b-4c93-964d-07e8cc9eaf05
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: sg4.f163ab0f2c74.sanfen004.me
-    network: tcp
+    uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
     alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: sg2.freeiq.cf
+    udp: true
 #=========== IKD ===========
   - name: 165 🇮🇩 IKD Grab
-    server: 162.159.138.6
+    server: food-merchant-help.grab.com
     port: 443
     type: vmess
     uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18
