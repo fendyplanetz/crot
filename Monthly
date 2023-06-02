@@ -56,7 +56,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
-  - name: 138 🇸🇬 DIGITALOCEAN Meet
+  - name: 138 🇸🇬 DIGIOCEAN Meet
     server: dynamic-sg3b.obfs.xyz
     port: 443
     type: vmess
@@ -74,7 +74,7 @@ proxies:
     udp: true
 #=========== Akamai ===========
   - name: 420 🇸🇬 AKAMAI Df
-    server: 104.18.9.169
+    server: df.game.naver.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -93,7 +93,7 @@ proxies:
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
 #=========== Oracle ===========
-  - name: 104 🇸🇬 AS31898 ORACLE Adup
+  - name: 104 🇸🇬 ORACLE Adup
     server: cdn.adup-tech.com
     port: 80
     type: vmess
