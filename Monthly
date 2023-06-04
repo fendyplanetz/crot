@@ -1,45 +1,51 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ⁰⁷.⁰⁶
+  - name: Oc-ID Ava ⁰⁷.⁰⁶
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-ishdkbmb
+    type: vless
+    uuid: 5e270374-acba-45ad-96fe-9792bef9d581
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: todayline.me
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Line ⁰⁷.⁰⁶
+  - name: Oc-ID Sogood ⁰⁷.⁰⁶
     server: sogood.linefriends.com
     port: 443
-    type: trojan
-    password: mainssh-ishdkbmb
+    type: vless
+    uuid: 5e270374-acba-45ad-96fe-9792bef9d581
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: todayline.me
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ⁰⁷.⁰⁶
+  - name: Oc-ID Shopee ⁰⁷.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
-    type: trojan
-    password: mainssh-ishdkbmb
+    type: vless
+    uuid: 5e270374-acba-45ad-96fe-9792bef9d581
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: todayline.me
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Zoom ⁰⁷.⁰⁶
