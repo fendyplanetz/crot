@@ -56,21 +56,21 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
-  - name: 138 🇸🇬 DIGIOCEAN Meet
-    server: dynamic-sg3b.obfs.xyz
-    port: 443
+  - name: 49 🇸🇬 AMAZON Meet
+    server: sgaws1.tunnel.systems
+    port: 80
     type: vmess
-    uuid: c5aa70af-cb25-42ed-b0da-e9f5db42420a
+    uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
+    tls: false
+    skip-cert-verify: false
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vmws
+      path: /tunnelvmess
       headers: 
-        Host: dynamic-sg3b.obfs.xyz
+        Host: sgaws1.tunnel.systems
     udp: true
 #=========== Akamai ===========
   - name: 420 🇸🇬 AKAMAI Df
