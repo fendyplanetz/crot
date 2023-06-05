@@ -92,22 +92,22 @@ proxies:
       path: /vsg1.0bad.com/chat
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
-#=========== Cloud Hosting ===========
-  - name: 174 🇮🇩 Cloud Adup
+#=========== ORACLE ===========
+  - name: 23 🇸🇬 ORACLE Adup
     server: cdn.adup-tech.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+    uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: banterbener.my.id
+    tls: false
+    skip-cert-verify: false
+    servername: sg2.freeiq.cf
     network: ws
     ws-opts: 
-      path: /xrayvws
+      path: /
       headers: 
-        Host: banterbener.my.id
+        Host: sg2.freeiq.cf
     udp: true
 #=========== IKD ===========
   - name: 91 🇮🇩 IKD Grab
