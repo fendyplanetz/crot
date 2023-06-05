@@ -92,40 +92,37 @@ proxies:
       path: /vsg1.0bad.com/chat
       headers: 
         Host: steep-bread-ef2e.labegob718911.workers.dev
-#=========== Oracle ===========
-  - name: 104 🇸🇬 ORACLE Adup
+#=========== Cloud Hosting ===========
+  - name: 174 🇮🇩 Cloud Adup
     server: cdn.adup-tech.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+    uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
+    tls: true
+    skip-cert-verify: true
+    servername: banterbener.my.id
     network: ws
     ws-opts: 
-      path: /
+      path: /xrayvws
       headers: 
-        Host: sg2.freeiq.cf
+        Host: banterbener.my.id
     udp: true
 #=========== IKD ===========
-  - name: 165 🇮🇩 IKD Grab
+  - name: 91 🇮🇩 IKD Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vmess
-    uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18
+    uuid: d7f004e3-d074-408e-81fe-f5cbf91caa34
+    alterId: 0
     cipher: auto
     tls: true
-    udp: true
     skip-cert-verify: true
     servername: yn1.01dj.sbs
     network: ws
-    alterId: 0
-    tfo: true
-    xudp: true
-    key: value
     ws-opts: 
       path: /sometimesnaive
       headers: 
         Host: yn1.01dj.sbs
+    udp: true
