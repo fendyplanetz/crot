@@ -55,43 +55,40 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== Amazon ===========
-  - name: 49 🇸🇬 AMAZON Meet
-    server: sgaws1.tunnel.systems
-    port: 80
+#=========== DIGITAL OCEAN ===========
+  - name: 36 🇸🇬 DIGITALOCEAN Meet
+    server: sgdo.xolv4.com
+    port: 443
     type: vmess
-    uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d
+    uuid: b93fa68b-aaa4-45d4-9a05-275a1631e8ba
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
+    tls: true
+    skip-cert-verify: true
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /tunnelvmess
+      path: /vmess
       headers: 
-        Host: sgaws1.tunnel.systems
+        Host: sgdo.xolv4.com
     udp: true
 #=========== Akamai ===========
-  - name: 420 🇸🇬 AKAMAI Df
+  - name: 248 🇸🇬 DIGITALOCEAN Df
     server: df.game.naver.com
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a
+    alterId: 0
     cipher: auto
     tls: true
-    udp: true
     skip-cert-verify: true
-    servername: steep-bread-ef2e.labegob718911.workers.dev
+    servername: v2ray1.udpgw.com
     network: ws
-    alterId: 0
-    tfo: true
-    xudp: true
-    key: value
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /worryfree
       headers: 
-        Host: steep-bread-ef2e.labegob718911.workers.dev
+        Host: v2ray1.udpgw.com
+    udp: true
 #=========== ORACLE ===========
   - name: 23 🇸🇬 ORACLE Adup
     server: cdn.adup-tech.com
