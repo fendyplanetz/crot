@@ -14,45 +14,53 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
-  - name: 376 🇸🇬 AMAZON Meet
-    server: 13.215.177.20
-    port: 443
-    type: trojan
-    password: 794d739c-89a0-444c-b2e7-acce12af3042
-    udp: true
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: tcp
-#=========== Digital Ocean ===========
-  - name: 14 🇸🇬 MICROSOFT Zoom
-    server: sg4.f163ab0f2c74.sanfen004.me
+  - name: 174 🇮🇩 CLOUD Meet
+    server: banterbener.my.id
     port: 443
     type: vmess
-    uuid: adb800cf-f56b-4c93-964d-07e8cc9eaf05
+    uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+    alterId: 0
     cipher: auto
     tls: true
-    udp: true
     skip-cert-verify: true
-    servername: zoom.us
-    network: tcp
-    alterId: 0
-#=========== Akamai ===========
-  - name: 420 🇸🇬 AKAMAI Grab
-    server: food-merchant-help.grab.com
+    servername: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /xrayvws
+      headers: 
+        Host: banterbener.my.id
+    udp: true
+#=========== Digital Ocean ===========
+  - name: 197 🇸🇬 AKAMAI Zoom
+    server: vsg1.0bad.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
     cipher: auto
     tls: true
-    udp: true
     skip-cert-verify: true
-    servername: steep-bread-ef2e.labegob718911.workers.dev
+    servername: zoom.us
     network: ws
-    alterId: 0
-    tfo: true
-    xudp: true
-    key: value
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /chat
       headers: 
-        Host: steep-bread-ef2e.labegob718911.workers.dev
+        Host: vsg1.0bad.com
+    udp: true
+#=========== Akamai ===========
+  - name: 265 🇮🇩 IKD Grab
+    server: food-merchant-help.grab.com
+    port: 443
+    type: vmess
+    uuid: 2f9e909b-7920-4fa1-ab13-18c22a9fddd7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: yn1.01dj.sbs
+    network: ws
+    ws-opts: 
+      path: /sometimesnaive
+      headers: 
+        Host: yn1.01dj.sbs
+    udp: true=
