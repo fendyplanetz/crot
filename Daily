@@ -14,11 +14,11 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
-  - name: 174 🇮🇩 CLOUD Meet
-    server: banterbener.my.id
+  - name: 36 🇸🇬 AS14061 DIGITALOCEAN, LLC WS SNI TLS
+    server: sgdo.xolv4.com
     port: 443
     type: vmess
-    uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+    uuid: b93fa68b-aaa4-45d4-9a05-275a1631e8ba
     alterId: 0
     cipher: auto
     tls: true
@@ -26,28 +26,28 @@ proxies:
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /xrayvws
+      path: /vmess
       headers: 
-        Host: banterbener.my.id
+        Host: sgdo.xolv4.com
     udp: true
-#=========== Digital Ocean ===========
-  - name: 197 🇸🇬 AKAMAI Zoom
-    server: vsg1.0bad.com
-    port: 443
+#=========== AKAMAI ===========
+  - name: 382 🇸🇬 AKAMAI Zoom
+    server: ass.669990.xyz
+    port: 80
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
+    tls: false
+    skip-cert-verify: false
     servername: zoom.us
     network: ws
     ws-opts: 
-      path: /chat
+      path: /
       headers: 
-        Host: vsg1.0bad.com
+        Host: ass.669990.xyz
     udp: true
-#=========== Akamai ===========
+#=========== IKD ===========
   - name: 265 🇮🇩 IKD Grab
     server: food-merchant-help.grab.com
     port: 443
