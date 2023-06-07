@@ -1,17 +1,17 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Shopee ⁰⁷.⁰⁶
+  - name: M-SG Shopee ¹⁴.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-ishdkbmb
+    password: mainssh-kxjxpzjxn
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: zoom.us
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
   - name: 174 🇮🇩 CLOUD Meet
