@@ -1,7 +1,7 @@
 proxies:
 #=========== MainSSH ===========
   - name: M-ID Ava ¹⁴.⁰⁶
-    server: ava.game.naver.com
+    server: 104.18.213.235
     port: 443
     type: vless
     uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
@@ -17,7 +17,7 @@ proxies:
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Sogood ¹⁴.⁰⁶
-    server: sogood.linefriends.com
+    server: 104.22.2.25
     port: 443
     type: vless
     uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
@@ -33,7 +33,7 @@ proxies:
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Shopee ¹⁴.⁰⁶
-    server: zendesk4.shopee.tw
+    server: 162.159.128.7
     port: 443
     type: vless
     uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
