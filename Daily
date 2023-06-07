@@ -14,7 +14,7 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 #=========== Amazon ===========
-  - name: 36 🇸🇬 AS14061 DIGITALOCEAN, LLC WS SNI TLS
+  - name: 36 🇸🇬 DIGITALOCEAN Meet
     server: sgdo.xolv4.com
     port: 443
     type: vmess
