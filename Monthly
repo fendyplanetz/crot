@@ -1,59 +1,59 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ⁰⁷.⁰⁶
+  - name: M-SG Ava ¹⁴.⁰⁶
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-ishdkbmb
+    password: mainssh-kxjxpzjxn
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Sogood ⁰⁷.⁰⁶
+  - name: M-SG Sogood ¹⁴.⁰⁶
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ishdkbmb
+    password: mainssh-kxjxpzjxn
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ⁰⁷.⁰⁶
+  - name: M-SG Shopee ¹⁴.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-ishdkbmb
+    password: mainssh-kxjxpzjxn
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Zoom ⁰⁷.⁰⁶
-    server: idtws.mainssh.xyz
+  - name: M-SG Zoom ¹⁴.⁰⁶
+    server: sgtws.mainssh.xyz
     port: 443
     type: trojan
-    password: mainssh-ishdkbmb
+    password: mainssh-kxjxpzjxn
     skip-cert-verify: true
-    sni: zoom.us
+    sni: m.zoom.us
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== DIGITAL OCEAN ===========
   - name: 36 🇸🇬 DIGITALOCEAN Meet
