@@ -1,45 +1,51 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-SG Ava ¹⁴.⁰⁶
+  - name: M-ID Ava ¹⁴.⁰⁶
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-kxjxpzjxn
+    type: vless
+    uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Sogood ¹⁴.⁰⁶
+  - name: M-ID Sogood ¹⁴.⁰⁶
     server: sogood.linefriends.com
     port: 443
-    type: trojan
-    password: mainssh-kxjxpzjxn
+    type: vless
+    uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Shopee ¹⁴.⁰⁶
+  - name: M-ID Shopee ¹⁴.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
-    type: trojan
-    password: mainssh-kxjxpzjxn
+    type: vless
+    uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
   - name: M-SG Zoom ¹⁴.⁰⁶
