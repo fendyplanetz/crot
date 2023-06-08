@@ -1,5 +1,5 @@
 proxies:
-#=========== MainSSH ===========
+#=========== AKAMAI ===========
   - name: 382 🇸🇬 AKAMAI Shopee
     server: zendesk4.shopee.tw
     port: 80
@@ -16,7 +16,7 @@ proxies:
       headers: 
         Host: ass.669990.xyz
     udp: true
-#=========== Amazon ===========
+#=========== DIGITALOCEAN ===========
   - name: 36 🇸🇬 DIGITALOCEAN Meet
     server: sgdo.xolv4.com
     port: 443
@@ -33,22 +33,22 @@ proxies:
       headers: 
         Host: sgdo.xolv4.com
     udp: true
-#=========== AKAMAI ===========
-  - name: 382 🇸🇬 AKAMAI Zoom
-    server: ass.669990.xyz
-    port: 80
+#=========== CLOUDFLARE ===========
+  - name: 410 🇸🇬 CLOUDFLARE Zoom
+    server: goodbyefilteringchannel.space
+    port: 443
     type: vmess
-    uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1
+    uuid: 8c7f35bc-db54-4585-a6a3-2356e1ccff57
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
+    tls: true
+    skip-cert-verify: true
     servername: zoom.us
     network: ws
     ws-opts: 
-      path: /
+      path: /ports/56416
       headers: 
-        Host: ass.669990.xyz
+        Host: goodbyefilteringchannel.space
     udp: true
 #=========== IKD ===========
   - name: 265 🇮🇩 IKD Grab
