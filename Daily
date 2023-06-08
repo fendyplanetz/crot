@@ -1,17 +1,20 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-SG Shopee ¹⁴.⁰⁶
+  - name: 382 🇸🇬 AKAMAI Shopee
     server: zendesk4.shopee.tw
-    port: 443
-    type: trojan
-    password: mainssh-kxjxpzjxn
-    skip-cert-verify: true
-    sni: zoom.us
+    port: 80
+    type: vmess
+    uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: ass.669990.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: ass.669990.xyz
     udp: true
 #=========== Amazon ===========
   - name: 36 🇸🇬 DIGITALOCEAN Meet
