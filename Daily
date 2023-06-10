@@ -16,26 +16,26 @@ proxies:
       headers: 
         Host: ass.669990.xyz
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 36 🇸🇬 DIGITALOCEAN Meet
-    server: sgdo.xolv4.com
-    port: 443
+#=========== ORACLE ===========
+  - name: 3 🇸🇬 ORACLE Midtrans
+    server: doc.midtrans.com
+    port: 80
     type: vmess
-    uuid: b93fa68b-aaa4-45d4-9a05-275a1631e8ba
+    uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: meet.google.com
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /
       headers: 
-        Host: sgdo.xolv4.com
+        Host: sg2.freeiq.cf
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 410 🇸🇬 CLOUDFLARE Zoom
-    server: goodbyefilteringchannel.space
+    server: doc.midtrans.com
     port: 443
     type: vmess
     uuid: 8c7f35bc-db54-4585-a6a3-2356e1ccff57
@@ -43,7 +43,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoom.us
+    servername: goodbyefilteringchannel.space
     network: ws
     ws-opts: 
       path: /ports/56416
