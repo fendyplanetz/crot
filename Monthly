@@ -48,13 +48,13 @@ proxies:
         Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Zoom ¹⁴.⁰⁶
-    server: sgtws.mainssh.xyz
+  - name: M-SG Midtrans ¹⁴.⁰⁶
+    server: docs.midtrans.com
     port: 443
     type: trojan
     password: mainssh-kxjxpzjxn
     skip-cert-verify: true
-    sni: m.zoom.us
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
@@ -62,21 +62,21 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 #=========== DIGITAL OCEAN ===========
-  - name: 36 🇸🇬 DIGITALOCEAN Meet
-    server: sgdo.xolv4.com
-    port: 443
+  - name: 110 🇸🇬 DIGITALOCEAN Blog
+    server: blog.midtrans.com
+    port: 80
     type: vmess
-    uuid: b93fa68b-aaa4-45d4-9a05-275a1631e8ba
+    uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: meet.google.com
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /v2ray
       headers: 
-        Host: sgdo.xolv4.com
+        Host: 8fhq6a.aiossh.my.id
     udp: true
 #=========== Akamai ===========
   - name: 248 🇸🇬 DIGITALOCEAN Df
