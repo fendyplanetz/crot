@@ -18,7 +18,7 @@ proxies:
     udp: true
 #=========== ORACLE ===========
   - name: 3 🇸🇬 ORACLE Midtrans
-    server: doc.midtrans.com
+    server: docs.midtrans.com
     port: 80
     type: vmess
     uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
@@ -33,22 +33,22 @@ proxies:
       headers: 
         Host: sg2.freeiq.cf
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 410 🇸🇬 CLOUDFLARE Zoom
-    server: doc.midtrans.com
-    port: 443
+#=========== DIGITALOCEAN ===========
+  - name: 110 🇸🇬 DIGITALOCEAN Demo
+    server: demo.midtrans.com
+    port: 80
     type: vmess
-    uuid: 8c7f35bc-db54-4585-a6a3-2356e1ccff57
+    uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: goodbyefilteringchannel.space
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /ports/56416
+      path: /v2ray
       headers: 
-        Host: goodbyefilteringchannel.space
+        Host: 8fhq6a.aiossh.my.id
     udp: true
 #=========== IKD ===========
   - name: 265 🇮🇩 IKD Grab
