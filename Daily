@@ -50,20 +50,20 @@ proxies:
       headers: 
         Host: 8fhq6a.aiossh.my.id
     udp: true
-#=========== IKD ===========
-  - name: 265 🇮🇩 IKD Grab
+#=========== ORACLE ===========
+  - name: 1011 🇸🇬 ORACLE Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vmess
-    uuid: 2f9e909b-7920-4fa1-ab13-18c22a9fddd7
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: yn1.01dj.sbs
+    servername: linkedin.disnet.gq
     network: ws
     ws-opts: 
-      path: /sometimesnaive
+      path: /vmessws
       headers: 
-        Host: yn1.01dj.sbs
+        Host: linkedin.disnet.gq
     udp: true
