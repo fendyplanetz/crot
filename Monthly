@@ -42,7 +42,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Midtrans ²⁰.⁰⁶
+  - name: M-ID Midtrans ²⁰.⁰⁶
     server: docs.midtrans.com
     port: 443
     type: trojan
