@@ -1,65 +1,59 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹⁴.⁰⁶
+  - name: M-ID Ava ²⁰.⁰⁶
     server: ava.game.naver.com
     port: 443
-    type: vless
-    uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idlws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vless
-      headers: 
-        Host: idlws.mainssh.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: M-ID Sogood ¹⁴.⁰⁶
-    server: sogood.linefriends.com
-    port: 443
-    type: vless
-    uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idlws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vless
-      headers: 
-        Host: idlws.mainssh.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: M-ID Shopee ¹⁴.⁰⁶
-    server: zendesk4.shopee.tw
-    port: 443
-    type: vless
-    uuid: 1036464f-d40c-44c8-918a-dc1c5030f964
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idlws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vless
-      headers: 
-        Host: idlws.mainssh.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: M-SG Midtrans ¹⁴.⁰⁶
-    server: docs.midtrans.com
-    port: 443
     type: trojan
-    password: mainssh-kxjxpzjxn
+    password: mainssh-mlkpkmlj
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: M-ID Sogood ²⁰.⁰⁶
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: mainssh-mlkpkmlj
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: M-ID Shopee ²⁰.⁰⁶
+    server: zendesk4.shopee.tw
+    port: 443
+    type: trojan
+    password: mainssh-mlkpkmlj
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: M-SG Midtrans ²⁰.⁰⁶
+    server: docs.midtrans.com
+    port: 443
+    type: trojan
+    password: mainssh-mlkpkmlj
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== DIGITAL OCEAN ===========
   - name: 110 🇸🇬 DIGITALOCEAN Blog
