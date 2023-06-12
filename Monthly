@@ -113,19 +113,19 @@ proxies:
         Host: sg2.freeiq.cf
     udp: true
 #=========== IKD ===========
-  - name: 91 🇮🇩 IKD Grab
+  - name: 1011 🇸🇬 ORACLE Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vmess
-    uuid: d7f004e3-d074-408e-81fe-f5cbf91caa34
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: yn1.01dj.sbs
+    servername: linkedin.disnet.gq
     network: ws
     ws-opts: 
-      path: /sometimesnaive
+      path: /vmessws
       headers: 
-        Host: yn1.01dj.sbs
+        Host: linkedin.disnet.gq
     udp: true
