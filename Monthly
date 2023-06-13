@@ -55,9 +55,9 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== DIGITAL OCEAN ===========
-  - name: 110 🇸🇬 DIGITALOCEAN Blog
-    server: blog.midtrans.com
+#=========== DIGITALOCEAN ===========
+  - name: 110 🇸🇬 DIGITALOCEAN Demo
+    server: demo.midtrans.com
     port: 80
     type: vmess
     uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
@@ -72,22 +72,22 @@ proxies:
       headers: 
         Host: 8fhq6a.aiossh.my.id
     udp: true
-#=========== Akamai ===========
-  - name: 248 🇸🇬 DIGITALOCEAN Df
+#=========== DIGITALOCEAN ===========
+  - name: 1109 🇸🇬 DIGITALOCEAN Df
     server: df.game.naver.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a
+    uuid: 78f85bb4-ce18-4fb7-9927-45d11f4e79a6
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray1.udpgw.com
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /v2ray
       headers: 
-        Host: v2ray1.udpgw.com
+        Host: 3qs44q.autocf.my.id
     udp: true
 #=========== ORACLE ===========
   - name: 23 🇸🇬 ORACLE Adup
@@ -106,7 +106,7 @@ proxies:
       headers: 
         Host: sg2.freeiq.cf
     udp: true
-#=========== IKD ===========
+#=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Grab
     server: food-merchant-help.grab.com
     port: 443
