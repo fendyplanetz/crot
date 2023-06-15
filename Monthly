@@ -65,7 +65,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: us-1.acyun.cf
     network: ws
     ws-opts: 
       path: /
@@ -82,7 +82,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: 3qs44q.autocf.my.id
     network: ws
     ws-opts: 
       path: /v2ray
