@@ -55,12 +55,12 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 110 🇸🇬 DIGITALOCEAN Demo
+#=========== AKAMAI ===========
+  - name: 467 🇸🇬 AKAMAI Demo
     server: demo.midtrans.com
     port: 80
     type: vmess
-    uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
+    uuid: 01925169-e2ff-483c-89f2-6e778dcdd450
     alterId: 0
     cipher: auto
     tls: false
@@ -68,9 +68,9 @@ proxies:
     servername: 
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /
       headers: 
-        Host: 8fhq6a.aiossh.my.id
+        Host: us-1.acyun.cf
     udp: true
 #=========== DIGITALOCEAN ===========
   - name: 1109 🇸🇬 DIGITALOCEAN Df
