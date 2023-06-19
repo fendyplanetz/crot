@@ -73,38 +73,38 @@ proxies:
         Host: us-1.acyun.cf
     udp: true
 #=========== DIGITALOCEAN ===========
-  - name: 1109 🇸🇬 DIGITALOCEAN Df
+  - name: 314 🇸🇬 DIGITALOCEAN Df
     server: df.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 78f85bb4-ce18-4fb7-9927-45d11f4e79a6
+    uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 3qs44q.autocf.my.id
+    tls: true
+    skip-cert-verify: true
+    servername: dynamic-sg2b.obfs.xyz
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /worryfree
       headers: 
-        Host: 3qs44q.autocf.my.id
+        Host: dynamic-sg2b.obfs.xyz
     udp: true
 #=========== ORACLE ===========
-  - name: 23 🇸🇬 ORACLE Adup
+  - name: 1011 🇸🇬 ORACLE Adup
     server: cdn.adup-tech.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: sg2.freeiq.cf
+    tls: true
+    skip-cert-verify: true
+    servername: linkedin.disnet.gq
     network: ws
     ws-opts: 
-      path: /
+      path: /vmessws
       headers: 
-        Host: sg2.freeiq.cf
+        Host: linkedin.disnet.gq
     udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Grab
