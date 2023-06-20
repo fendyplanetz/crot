@@ -9,7 +9,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: us-1.acyun.cf
     network: ws
     ws-opts: 
       path: /
