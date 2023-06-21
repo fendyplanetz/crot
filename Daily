@@ -34,21 +34,21 @@ proxies:
         Host: idc8.vpn-akcelluler.my.id
     udp: true
 #=========== DIGITALOCEAN ===========
-  - name: 314 🇸🇬 DIGITALOCEAN Demo
+  - name: 77 🇸🇬 DIGITALOCEAN Demo
     server: demo.midtrans.com
     port: 443
     type: vmess
-    uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee
+    uuid: af34de1b-3893-41e1-a6dd-68909f9f126b
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
+    servername: v2ray2.udpgw.com
     network: ws
     ws-opts: 
       path: /worryfree
       headers: 
-        Host: dynamic-sg2b.obfs.xyz
+        Host: v2ray2.udpgw.com
     udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Grab
