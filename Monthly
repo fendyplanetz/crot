@@ -73,11 +73,11 @@ proxies:
         Host: us-1.acyun.cf
     udp: true
 #=========== DIGITALOCEAN ===========
-  - name: 314 🇸🇬 DIGITALOCEAN Df
+  - name: 519 🇸🇬 DIGITALOCEAN Df
     server: df.game.naver.com
     port: 443
     type: vmess
-    uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee
+    uuid: 3f1efe58-f94e-4c8d-8428-8928ad5f075c
     alterId: 0
     cipher: auto
     tls: true
@@ -85,7 +85,7 @@ proxies:
     servername: dynamic-sg2b.obfs.xyz
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /
       headers: 
         Host: dynamic-sg2b.obfs.xyz
     udp: true
