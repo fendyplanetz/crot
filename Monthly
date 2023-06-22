@@ -73,21 +73,21 @@ proxies:
         Host: us-1.acyun.cf
     udp: true
 #=========== DIGITALOCEAN ===========
-  - name: 519 🇸🇬 DIGITALOCEAN Df
+  - name: 1104 🇸🇬 DIGITALOCEAN Df
     server: df.game.naver.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 3f1efe58-f94e-4c8d-8428-8928ad5f075c
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /
+      path: /vmess
       headers: 
-        Host: dynamic-sg2b.obfs.xyz
+        Host: sigma.jandapirang.my.id
     udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Adup
