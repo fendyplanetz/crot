@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ²⁵.⁰⁶
+  - name: M-ID Ava ³⁰.⁰⁶
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-ksjsbdkbb
+    password: mainssh-jsjssoblb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Sogood ²⁵.⁰⁶
+  - name: M-ID Sogood ³⁰.⁰⁶
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ksjsbdkbb
+    password: mainssh-jsjssoblb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ²⁵.⁰⁶
+  - name: M-ID Shopee ³⁰.⁰⁶
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-ksjsbdkbb
+    password: mainssh-jsjssoblb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -42,11 +42,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Midtrans ²⁵.⁰⁶
+  - name: M-ID Midtrans ³⁰.⁰⁶
     server: docs.midtrans.com
     port: 443
     type: trojan
-    password: mainssh-ksjsbdkbb
+    password: mainssh-jsjssoblb
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -107,19 +107,19 @@ proxies:
         Host: linkedin.disnet.gq
     udp: true
 #=========== ORACLE ===========
-  - name: 1011 🇸🇬 ORACLE Grab
+  - name: 119 🇮🇩 PT CLOUD Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vmess
-    uuid: a869c557-5c7d-426f-9039-0279c16352bc
+    uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: linkedin.disnet.gq
+    servername: idc8.vpn-akcelluler.my.id
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /v2ray
       headers: 
-        Host: linkedin.disnet.gq
+        Host: idc8.vpn-akcelluler.my.id
     udp: true
