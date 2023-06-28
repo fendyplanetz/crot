@@ -42,13 +42,13 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Midtrans ⁰⁶.⁰⁷
-    server: docs.midtrans.com
+  - name: M-ID Wa ⁰⁶.⁰⁷
+    server: idtws.mainssh.xyz
     port: 443
     type: trojan
     password: mainssh-hvhgjgvb
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: autodiscover.whatsapp.com
     network: ws
     ws-opts: 
       path: /trojan
