@@ -72,22 +72,22 @@ proxies:
       headers: 
         Host: us-1.acyun.cf
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 1104 🇸🇬 DIGITALOCEAN Df
+#=========== OVH ===========
+  - name: 1039 🇸🇬 OVH Df
     server: df.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    uuid: 6cbe563c-7597-4526-cef4-f2533ce2ba28
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: 
+    tls: true
+    skip-cert-verify: true
+    servername: ovh.mi14.pro
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /go
       headers: 
-        Host: sigma.jandapirang.my.id
+        Host: ovh.mi14.pro
     udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Adup
