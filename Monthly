@@ -107,19 +107,19 @@ proxies:
         Host: linkedin.disnet.gq
     udp: true
 #=========== ORACLE ===========
-  - name: 119 🇮🇩 PT CLOUD Grab
+  - name: 🇮🇩 AS16276 OVH Grab
     server: food-merchant-help.grab.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf
+    uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idc8.vpn-akcelluler.my.id
+    tls: false
+    skip-cert-verify: false
+    servername: 69.nrz.biz.id
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /vmess
       headers: 
-        Host: idc8.vpn-akcelluler.my.id
+        Host: 69.nrz.biz.id
     udp: true
