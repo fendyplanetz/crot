@@ -42,13 +42,13 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Wa ⁰⁶.⁰⁷
-    server: idtws.mainssh.xyz
+  - name: M-ID Care ⁰⁶.⁰⁷
+    server: care.pmang.game.naver.com
     port: 443
     type: trojan
     password: mainssh-hvhgjgvb
     skip-cert-verify: true
-    sni: autodiscover.whatsapp.com
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
