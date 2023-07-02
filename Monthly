@@ -55,9 +55,9 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Meet
-    server: foolvpn.tech
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Meet
+    server: sg1.foolvpn.tech
     port: 443
     type: vmess
     uuid: 9fb1af1c-8227-4072-af49-a90ffb1d4ee0
@@ -70,7 +70,7 @@ proxies:
     ws-opts: 
       path: /vmess
       headers: 
-        Host: foolvpn.tech
+        Host: sg1.foolvpn.tech
     udp: true
 #=========== OVH ===========
   - name: 1039 🇸🇬 OVH Df
