@@ -57,37 +57,37 @@ proxies:
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Meet
-    server: sg1.foolvpn.tech
+    server: 139.162.32.103
     port: 443
     type: vmess
-    uuid: 9fb1af1c-8227-4072-af49-a90ffb1d4ee0
-    alterId: 0
+    uuid: 132633a9-b53e-4352-82a6-93eae114482e
     cipher: auto
     tls: true
+    udp: true
     skip-cert-verify: true
     servername: meet.google.com
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: meet.google.com
+#=========== MELBIKOMAS ===========
+  - name: 🇸🇬 AS8849 MELBIKOMAS Df
+    server: df.game.naver.com
+    port: 80
+    type: vmess
+    uuid: 0dfa89a7-fe08-454e-817b-374097be358f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: sg2-mlb.securev2ray.com
     network: ws
     ws-opts: 
       path: /vmess
       headers: 
-        Host: sg1.foolvpn.tech
-    udp: true
-#=========== OVH ===========
-  - name: 1039 🇸🇬 OVH Df
-    server: df.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 6cbe563c-7597-4526-cef4-f2533ce2ba28
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ovh.mi14.pro
-    network: ws
-    ws-opts: 
-      path: /go
-      headers: 
-        Host: ovh.mi14.pro
+        Host: sg2-mlb.securev2ray.com
     udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Adup
@@ -106,20 +106,20 @@ proxies:
       headers: 
         Host: linkedin.disnet.gq
     udp: true
-#=========== ORACLE ===========
-  - name: 🇮🇩 AS16276 OVH Grab
+#=========== NUSA ===========
+  - name: 🇮🇩 AS23679 NUSA Grab
     server: food-merchant-help.grab.com
     port: 80
     type: vmess
-    uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
+    uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 69.nrz.biz.id
+    servername: nusa1.hijinetwork.cloud
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /tunnelvmess
       headers: 
-        Host: 69.nrz.biz.id
+        Host: nusa1.hijinetwork.cloud
     udp: true
