@@ -73,7 +73,7 @@ proxies:
       headers: 
         Host: zoom.us
 #=========== Biznet ===========
-  - name: Biznet
+  - name: Biznet Df
     server: df.game.naver.com
     port: 443
     type: trojan
