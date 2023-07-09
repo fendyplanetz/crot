@@ -56,22 +56,22 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Meet
-    server: 139.162.32.103
+  - name: 🇸🇬 AS45102 ALIBABA Zoom
+    server: 8.219.150.28
     port: 443
     type: vmess
-    uuid: 132633a9-b53e-4352-82a6-93eae114482e
+    uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: zoom.us
     network: ws
     alterId: 0
     ws-opts: 
-      path: /worryfree
+      path: /
       headers: 
-        Host: meet.google.com
+        Host: zoom.us
 #=========== MELBIKOMAS ===========
   - name: 🇸🇬 AS8849 MELBIKOMAS Df
     server: df.game.naver.com
