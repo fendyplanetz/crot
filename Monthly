@@ -72,22 +72,19 @@ proxies:
       path: /
       headers: 
         Host: zoom.us
-#=========== MELBIKOMAS ===========
-  - name: 🇸🇬 AS8849 MELBIKOMAS Df
+#=========== Biznet ===========
+  - name: Biznet
     server: df.game.naver.com
-    port: 80
-    type: vmess
-    uuid: 0dfa89a7-fe08-454e-817b-374097be358f
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: sg2-mlb.securev2ray.com
+    port: 443
+    type: trojan
+    password: bfa5d564-200d-4fb8-8d2a-1b3b69a2fb54
+    skip-cert-verify: true
+    sni: id-rysaputra18n19xz.me
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /trojan
       headers: 
-        Host: sg2-mlb.securev2ray.com
+        Host: id-rysaputra18n19xz.me
     udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Adup
