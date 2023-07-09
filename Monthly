@@ -106,20 +106,20 @@ proxies:
       headers: 
         Host: linkedin.disnet.gq
     udp: true
-#=========== NUSA ===========
-  - name: 🇮🇩 AS23679 NUSA Grab
+#=========== DIGITALOCEAN ===========
+  - name: 🇸🇬 AS14061 DIGITALOCEAN Grab
     server: food-merchant-help.grab.com
-    port: 80
+    port: 8443
     type: vmess
-    uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
+    uuid: 78f98c9e-cd35-4395-ace9-3045ff3d3423
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: nusa1.hijinetwork.cloud
+    tls: true
+    skip-cert-verify: true
+    servername: sgp1.looooooongnet.lol
     network: ws
     ws-opts: 
-      path: /tunnelvmess
+      path: /
       headers: 
-        Host: nusa1.hijinetwork.cloud
+        Host: sgp1.looooooongnet.lol
     udp: true
