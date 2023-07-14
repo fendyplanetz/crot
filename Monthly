@@ -55,7 +55,7 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== AKAMAI ===========
+#=========== ALIBABA ===========
   - name: 🇸🇬 AS45102 ALIBABA Zoom
     server: 8.219.150.28
     port: 443
@@ -103,20 +103,20 @@ proxies:
       headers: 
         Host: linkedin.disnet.gq
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Grab
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Grab
     server: food-merchant-help.grab.com
-    port: 8443
+    port: 443
     type: vmess
-    uuid: 78f98c9e-cd35-4395-ace9-3045ff3d3423
+    uuid: 952d7273-726a-4f3d-9676-f9c711b1ec52
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgp1.looooooongnet.lol
+    servername: v2ray1.udpgw.com
     network: ws
     ws-opts: 
-      path: /
+      path: /worryfree
       headers: 
-        Host: sgp1.looooooongnet.lol
+        Host: v2ray1.udpgw.com
     udp: true
