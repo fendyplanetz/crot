@@ -105,7 +105,7 @@ proxies:
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Grab
-    server: food-merchant-help.grab.com
+    server: 162.159.138.6
     port: 443
     type: vmess
     uuid: 952d7273-726a-4f3d-9676-f9c711b1ec52
