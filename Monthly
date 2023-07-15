@@ -55,23 +55,23 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== ALIBABA ===========
-  - name: 🇸🇬 AS45102 ALIBABA Zoom
-    server: 8.219.150.28
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Zoom
+    server: dynamic-sg1b.obfs.xyz
     port: 443
     type: vmess
-    uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c
+    uuid: 132633a9-b53e-4352-82a6-93eae114482e
+    alterId: 0
     cipher: auto
     tls: true
-    udp: true
     skip-cert-verify: true
     servername: zoom.us
     network: ws
-    alterId: 0
     ws-opts: 
-      path: /
+      path: /worryfree
       headers: 
         Host: zoom.us
+    udp: true
 #=========== Biznet ===========
   - name: Biznet Df
     server: df.game.naver.com
