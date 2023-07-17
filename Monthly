@@ -55,22 +55,19 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Zoom
-    server: dynamic-sg1b.obfs.xyz
+#=========== Biznet ===========
+  - name: Biznet Zoom
+    server: id-rysaputra18n19xz.me
     port: 443
-    type: vmess
-    uuid: 132633a9-b53e-4352-82a6-93eae114482e
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: bfa5d564-200d-4fb8-8d2a-1b3b69a2fb54
     skip-cert-verify: true
-    servername: zoom.us
+    sni: zoom.us
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /trojan
       headers: 
-        Host: zoom.us
+        Host: id-rysaputra18n19xz.me
     udp: true
 #=========== Biznet ===========
   - name: Biznet Df
