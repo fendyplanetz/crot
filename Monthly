@@ -1,59 +1,67 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹⁹.⁰⁷
+  - name: M-ID Ava ²⁵.⁰⁷
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-rewqrewq
+    type: vless
+    uuid: 6cb8c8af-b475-48d3-a5cc-56ee4b399ccf
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: idlws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Sogood ¹⁹.⁰⁷
+  - name: M-ID Sogood ²⁵.⁰⁷
     server: sogood.linefriends.com
     port: 443
-    type: trojan
-    password: mainssh-rewqrewq
+    type: vless
+    uuid: 6cb8c8af-b475-48d3-a5cc-56ee4b399ccf
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: idlws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ¹⁹.⁰⁷
+  - name: M-ID Shopee ²⁵.⁰⁷
     server: zendesk4.shopee.tw
     port: 443
-    type: trojan
-    password: mainssh-rewqrewq
+    type: vless
+    uuid: 6cb8c8af-b475-48d3-a5cc-56ee4b399ccf
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: idlws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Care ¹⁹.⁰⁷
+  - name: M-ID Care ²⁵.⁰⁷
     server: care.pmang.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-rewqrewq
+    type: vless
+    uuid: 6cb8c8af-b475-48d3-a5cc-56ee4b399ccf
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: idlws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vless
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: idlws.mainssh.xyz
     udp: true
 #=========== Biznet ===========
   - name: Biznet Zoom
