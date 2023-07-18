@@ -67,13 +67,16 @@ proxies:
   - name: Biznet Zoom
     server: id-rysaputra18n19xz.me
     port: 443
-    type: trojan
-    password: bfa5d564-200d-4fb8-8d2a-1b3b69a2fb54
+    type: vmess
+    uuid: 46ffa3e3-0f17-4f37-a20a-8fdccd18ce3e
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: zoom.us
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vmess
       headers: 
         Host: id-rysaputra18n19xz.me
     udp: true
@@ -81,13 +84,16 @@ proxies:
   - name: Biznet Df
     server: df.game.naver.com
     port: 443
-    type: trojan
-    password: bfa5d564-200d-4fb8-8d2a-1b3b69a2fb54
+    type: vmess
+    uuid: 46ffa3e3-0f17-4f37-a20a-8fdccd18ce3e
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-rysaputra18n19xz.me
+    servername: id-rysaputra18n19xz.me
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /vmess
       headers: 
         Host: id-rysaputra18n19xz.me
     udp: true
