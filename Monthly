@@ -114,17 +114,20 @@ proxies:
       headers: 
         Host: linkedin.disnet.gq
     udp: true
-#=========== Digital Ocean ===========
-  - name: Digital Ocean Grab 
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Grab
     server: food-merchant-help.grab.com
-    port: 443
-    type: trojan
-    password: e03fdefe-3b26-4d63-aa0a-34b098a6e550
-    skip-cert-verify: true
-    sni: sg-rysaputra18n19xz.tech
+    port: 80
+    type: vmess
+    uuid: c7442852-5a48-4456-8783-b7b8eebbca6c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: sg1.mlxg.org
     network: ws
     ws-opts: 
-      path: /whatever/trojan-ws
+      path: /
       headers: 
-        Host: sg-rysaputra18n19xz.tech
+        Host: sg1.mlxg.org
     udp: true
