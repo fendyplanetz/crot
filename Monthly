@@ -56,7 +56,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== Biznet ===========
-  - name: Biznet Zoom
+  - name: Biznet Midtrans
     server: id-rysaputra18n19xz.me
     port: 443
     type: vmess
@@ -65,7 +65,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoom.us
+    servername: docs.midtrans.com
     network: ws
     ws-opts: 
       path: /vmess
@@ -107,19 +107,19 @@ proxies:
         Host: linkedin.disnet.gq
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Grab
+  - name: 🇮🇩 AS38760 MEDIA Grab
     server: food-merchant-help.grab.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: c7442852-5a48-4456-8783-b7b8eebbca6c
+    uuid: 61a1b50a-9085-4385-840d-10b23b6da3b0
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: sg1.mlxg.org
+    tls: true
+    skip-cert-verify: true
+    servername: msa1.ak-celluler.com
     network: ws
     ws-opts: 
-      path: /
+      path: /v2ray
       headers: 
-        Host: sg1.mlxg.org
+        Host: msa1.ak-celluler.com
     udp: true
