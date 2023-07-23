@@ -57,7 +57,7 @@ proxies:
     udp: true
 #=========== Biznet ===========
   - name: Biznet Midtrans
-    server: id-rysaputra18n19xz.me
+    server: docs.midtrans.com
     port: 443
     type: vmess
     uuid: 46ffa3e3-0f17-4f37-a20a-8fdccd18ce3e
@@ -65,7 +65,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: docs.midtrans.com
+    servername: id-rysaputra18n19xz.me
     network: ws
     ws-opts: 
       path: /vmess
