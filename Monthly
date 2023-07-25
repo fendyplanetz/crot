@@ -89,6 +89,23 @@ proxies:
       headers: 
         Host: id-rysaputra18n19xz.me
     udp: true
+#=========== Biznet ===========
+  - name: Biznet Grab
+    server: food-merchant-help.grab.com
+    port: 443
+    type: vmess
+    uuid: 46ffa3e3-0f17-4f37-a20a-8fdccd18ce3e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-rysaputra18n19xz.me
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id-rysaputra18n19xz.me
+    udp: true
 #=========== ORACLE ===========
   - name: 1011 🇸🇬 ORACLE Adup
     server: cdn.adup-tech.com
@@ -105,21 +122,4 @@ proxies:
       path: /vmessws
       headers: 
         Host: linkedin.disnet.gq
-    udp: true
-#=========== AKAMAI ===========
-  - name: 🇮🇩 AS38760 MEDIA Grab
-    server: food-merchant-help.grab.com
-    port: 443
-    type: vmess
-    uuid: 61a1b50a-9085-4385-840d-10b23b6da3b0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: msa1.ak-celluler.com
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers: 
-        Host: msa1.ak-celluler.com
     udp: true
