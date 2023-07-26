@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ²⁸.⁰⁷
+  - name: M-ID Ava ⁰².⁰⁸
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-kshdkbbsk
+    password: mainssh-jdhdkbsk
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Sogood ²⁸.⁰⁷
+  - name: M-ID Sogood ⁰².⁰⁸
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-kshdkbbsk
+    password: mainssh-jdhdkbsk
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ²⁸.⁰⁷
+  - name: M-ID Shopee ⁰².⁰⁸
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-kshdkbbsk
+    password: mainssh-jdhdkbsk
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -42,11 +42,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Care ²⁸.⁰⁷
+  - name: M-ID Care ⁰².⁰⁸
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-kshdkbbsk
+    password: mainssh-jdhdkbsk
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
