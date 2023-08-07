@@ -106,20 +106,20 @@ proxies:
       headers: 
         Host: id-rysaputra18n19xz.me
     udp: true
-#=========== ORACLE ===========
-  - name: 1011 🇸🇬 ORACLE Adup
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Adup
     server: cdn.adup-tech.com
     port: 443
     type: vmess
-    uuid: a869c557-5c7d-426f-9039-0279c16352bc
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: linkedin.disnet.gq
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts: 
-      path: /vmessws
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: linkedin.disnet.gq
+        Host: panel2.hodorauth.com
     udp: true
