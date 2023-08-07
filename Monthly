@@ -75,11 +75,11 @@ proxies:
 #=========== CONTABO ===========
   - name: 🇸🇬 AS141995 CONTABO Df
     server: df.game.naver.com
-    port: 443
+    port: 80
     type: vmess
     uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: si4co.09vpn.com
