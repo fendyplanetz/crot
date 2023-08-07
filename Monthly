@@ -74,7 +74,7 @@ proxies:
     udp: true
 #=========== CONTABO ===========
   - name: 🇸🇬 AS141995 CONTABO Df
-    server: 172.64.154.83
+    server: df.game.naver.com
     port: 443
     type: vmess
     uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
@@ -108,7 +108,7 @@ proxies:
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Adup
-    server: 172.67.26.118
+    server: cdn.adup-tech.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
