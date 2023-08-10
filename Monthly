@@ -1,59 +1,59 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹³.⁰⁸
+  - name: M-SG Ava ¹⁷.⁰⁸
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-ksjdkdblh
+    password: mainssh-shshsjsj
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Sogood ¹³.⁰⁸
+  - name: M-SG Sogood ¹⁷.⁰⁸
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ksjdkdblh
+    password: mainssh-shshsjsj
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Shopee ¹³.⁰⁸
+  - name: M-SG Shopee ¹⁷.⁰⁸
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-ksjdkdblh
+    password: mainssh-shshsjsj
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Care ¹³.⁰⁸
+  - name: M-SG Care ¹⁷.⁰⁸
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-ksjdkdblh
+    password: mainssh-shshsjsj
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== Biznet ===========
   - name: Biznet Midtrans
