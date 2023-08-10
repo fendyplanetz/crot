@@ -1,31 +1,31 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-SG Ava ¹⁷.⁰⁸
+  - name: M-ID Ava ¹³.⁰⁸
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-shshsjsj
+    password: mainssh-ksjdkdblh
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Sogood ¹⁷.⁰⁸
+  - name: M-ID Sogood ¹³.⁰⁸
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-shshsjsj
+    password: mainssh-ksjdkdblh
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
   - name: M-SG Shopee ¹⁷.⁰⁸
