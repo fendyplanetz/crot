@@ -55,56 +55,39 @@ proxies:
       headers: 
         Host: sg2tws.mainssh.xyz
     udp: true
-#=========== Biznet ===========
-  - name: Biznet Midtrans
-    server: docs.midtrans.com
+#=========== DIGITALOCEAN ===========
+  - name: 🇸🇬 AS14061 DIGITALOCEAN Meet
+    server: do-sg.lzz.app
     port: 443
     type: vmess
-    uuid: 46ffa3e3-0f17-4f37-a20a-8fdccd18ce3e
+    uuid: 5436474d-13a9-47ef-898a-7101c2921be9
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-rysaputra18n19xz.me
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /re
       headers: 
-        Host: id-rysaputra18n19xz.me
+        Host: do-sg.lzz.app
     udp: true
-#=========== CONTABO ===========
-  - name: 🇸🇬 AS141995 CONTABO Df
-    server: df.game.naver.com
-    port: 80
-    type: vmess
-    uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: si4co.09vpn.com
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess/
-      headers: 
-        Host: si4co.09vpn.com
-#=========== Biznet ===========
-  - name: Biznet Grab
+#=========== DIGITALOCEAN ===========
+  - name: 🇸🇬 AS14061 DIGITALOCEAN Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vmess
-    uuid: 46ffa3e3-0f17-4f37-a20a-8fdccd18ce3e
+    uuid: 5436474d-13a9-47ef-898a-7101c2921be9
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-rysaputra18n19xz.me
+    servername: do-sg.lzz.app
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /re
       headers: 
-        Host: id-rysaputra18n19xz.me
+        Host: do-sg.lzz.app
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Adup
@@ -123,3 +106,20 @@ proxies:
       headers: 
         Host: panel2.hodorauth.com
     udp: true
+#=========== CONTABO ===========
+  - name: 🇸🇬 AS141995 CONTABO Df
+    server: df.game.naver.com
+    port: 80
+    type: vmess
+    uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: si4co.09vpn.com
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess/
+      headers: 
+        Host: si4co.09vpn.com
