@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹³.⁰⁸
+  - name: M-ID Ava ¹⁸.⁰⁸
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-ksjdkdblh
+    password: mainssh-kjhgkjhg
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -14,11 +14,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Sogood ¹³.⁰⁸
+  - name: M-ID Sogood ¹⁸.⁰⁸
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ksjdkdblh
+    password: mainssh-kjhgkjhg
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
