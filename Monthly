@@ -55,39 +55,37 @@ proxies:
       headers: 
         Host: sg2tws.mainssh.xyz
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Meet
-    server: do-sg.lzz.app
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Meet
+    server: bv01.wang66.homes
     port: 443
-    type: vmess
-    uuid: 5436474d-13a9-47ef-898a-7101c2921be9
-    alterId: 0
+    type: vless
+    uuid: edf12778-fbeb-48d9-85e4-6530370b47cc
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /re
+      path: /?ed
       headers: 
-        Host: do-sg.lzz.app
+        Host: bv01.wang66.homes
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Grab
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Grab
     server: food-merchant-help.grab.com
     port: 443
-    type: vmess
-    uuid: 5436474d-13a9-47ef-898a-7101c2921be9
-    alterId: 0
+    type: vless
+    uuid: edf12778-fbeb-48d9-85e4-6530370b47cc
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: do-sg.lzz.app
+    servername: bv01.wang66.homes
     network: ws
     ws-opts: 
-      path: /re
+      path: /?ed
       headers: 
-        Host: do-sg.lzz.app
+        Host: bv01.wang66.homes
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Adup
