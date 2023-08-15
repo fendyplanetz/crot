@@ -28,11 +28,11 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Shopee ¹⁷.⁰⁸
+  - name: M-SG Shopee ²².⁰⁸
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-shshsjsj
+    password: mainssh-poiupoiu
     skip-cert-verify: true
     sni: sg2tws.mainssh.xyz
     network: ws
@@ -42,11 +42,11 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Care ¹⁷.⁰⁸
+  - name: M-SG Care ²².⁰⁸
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-shshsjsj
+    password: mainssh-poiupoiu
     skip-cert-verify: true
     sni: sg2tws.mainssh.xyz
     network: ws
