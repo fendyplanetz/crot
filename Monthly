@@ -67,7 +67,7 @@ proxies:
     servername: api.microsoftstream.com
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /?ed=2048
       headers: 
         Host: bv01.wang66.homes
     udp: true
@@ -83,7 +83,7 @@ proxies:
     servername: bv01.wang66.homes
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /?ed=2048
       headers: 
         Host: bv01.wang66.homes
     udp: true
