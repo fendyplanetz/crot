@@ -69,7 +69,7 @@ proxies:
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: bv01.wang66.homes
+        Host: meetings.googleapis.com
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Grab
