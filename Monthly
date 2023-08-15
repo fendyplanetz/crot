@@ -56,20 +56,20 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Meetings
-    server: bv01.wang66.homes
+  - name: 🇸🇬 AS13335 CLOUDFLARE Adup
+    server: cdn.adup-tech.com
     port: 443
     type: vless
     uuid: edf12778-fbeb-48d9-85e4-6530370b47cc
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meetings.googleapis.com
+    servername: bv01.wang66.homes
     network: ws
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: meetings.googleapis.com
+        Host: bv01.wang66.homes
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Grab
@@ -88,8 +88,8 @@ proxies:
         Host: bv01.wang66.homes
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Adup
-    server: cdn.adup-tech.com
+  - name: 🇸🇬 AS63949 AKAMAI Zoom
+    server: panel2.hodorauth.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -97,7 +97,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    servername: zoom.us
     network: ws
     ws-opts: 
       path: /vsg1.0bad.com/chat
