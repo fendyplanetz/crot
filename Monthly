@@ -56,7 +56,7 @@ proxies:
         Host: sg2tws.mainssh.xyz
     udp: true
 #=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Meet
+  - name: 🇸🇬 AS13335 CLOUDFLARE Microsoft
     server: bv01.wang66.homes
     port: 443
     type: vless
@@ -64,7 +64,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: api.microsoftstream.com
     network: ws
     ws-opts: 
       path: /?ed
