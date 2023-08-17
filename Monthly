@@ -104,20 +104,20 @@ proxies:
       headers: 
         Host: zoom.us
     udp: true
-#=========== CONTABO ===========
-  - name: 🇸🇬 AS141995 CONTABO Df
+#=========== OVH SAS ===========
+  - name: 🇸🇬 AS16276 OVH SAS Df
     server: df.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: si4co.09vpn.com
-    network: ws
+    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
     alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ws.sshmax.xyz
+    network: ws
     ws-opts: 
-      path: /vmess/
+      path: /vmess
       headers: 
-        Host: si4co.09vpn.com
+        Host: sg1-ws.sshmax.xyz
+    udp: true
