@@ -87,12 +87,12 @@ proxies:
       headers: 
         Host: bv01.wang66.homes
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Zoom
-    server: panel2.hodorauth.com
+#=========== OVH SAS ===========
+  - name: 🇸🇬 AS16276 OVH SAS Zoom
+    server: 51.79.173.222
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
     alterId: 0
     cipher: auto
     tls: true
@@ -100,9 +100,9 @@ proxies:
     servername: zoom.us
     network: ws
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /vmess
       headers: 
-        Host: panel2.hodorauth.com
+        Host: zoom.us
     udp: true
 #=========== CONTABO ===========
   - name: 🇸🇬 AS141995 CONTABO Df
