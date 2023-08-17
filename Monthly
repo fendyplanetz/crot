@@ -88,7 +88,7 @@ proxies:
         Host: bv01.wang66.homes
     udp: true
 #=========== OVH SAS ===========
-  - name: 🇸🇬 AS16276 OVH SAS Zoom
+  - name: 🇸🇬 AS16276 OVH SAS Meet
     server: 51.79.173.222
     port: 443
     type: vmess
@@ -97,12 +97,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoom.us
+    servername: daily-1.meet.google.com
     network: ws
     ws-opts: 
       path: /vmess
       headers: 
-        Host: zoom.us
+        Host: daily-1.meet.google.com
     udp: true
 #=========== OVH SAS ===========
   - name: 🇸🇬 AS16276 OVH SAS Df
