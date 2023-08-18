@@ -28,6 +28,20 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
+  - name: M-ID Df ²⁵.⁰⁸
+    server: df.game.naver.com
+    port: 443
+    type: trojan
+    password: mainssh-sgdjgsjd
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: idtws.mainssh.xyz
+    udp: true
+#=========== MainSSH ===========
   - name: M-SG Shopee ²².⁰⁸
     server: zendesk4.shopee.tw
     port: 443
@@ -86,21 +100,4 @@ proxies:
       path: /?ed=2048
       headers: 
         Host: bv01.wang66.homes
-    udp: true
-#=========== OVH SAS ===========
-  - name: 🇸🇬 AS16276 OVH SAS Df
-    server: df.game.naver.com
-    port: 443
-    type: vmess
-    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-ws.sshmax.xyz
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg1-ws.sshmax.xyz
     udp: true
