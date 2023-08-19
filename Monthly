@@ -74,30 +74,30 @@ proxies:
     server: cdn.adup-tech.com
     port: 443
     type: vless
-    uuid: edf12778-fbeb-48d9-85e4-6530370b47cc
+    uuid: c2ee59b9-fb4d-4b75-a623-55455824fdaa
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bv01.wang66.homes
+    servername: c1.wang66.homes
     network: ws
     ws-opts: 
-      path: /?ed=2048
+      path: /
       headers: 
-        Host: bv01.wang66.homes
+        Host: c1.wang66.homes
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vless
-    uuid: edf12778-fbeb-48d9-85e4-6530370b47cc
+    uuid: c2ee59b9-fb4d-4b75-a623-55455824fdaa
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bv01.wang66.homes
+    servername: c1.wang66.homes
     network: ws
     ws-opts: 
-      path: /?ed=2048
+      path: /
       headers: 
-        Host: bv01.wang66.homes
+        Host: c1.wang66.homes
     udp: true
