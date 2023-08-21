@@ -101,3 +101,20 @@ proxies:
       headers: 
         Host: c1.wang66.homes
     udp: true
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Sogood
+    server: df.game.naver.com
+    port: 80
+    type: vmess
+    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: vless.wyhkaa0.cf
+    network: ws
+    ws-opts: 
+      path: /TG:@hkaa0
+      headers: 
+        Host: vless.wyhkaa0.cf
+    udp: true
