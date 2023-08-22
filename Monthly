@@ -87,7 +87,7 @@ proxies:
         Host: vless.wyhkaa0.cf
     udp: true
 #=========== ORACLE ===========
-- name: 🇮🇳 AS31898 ORACLE Df
+  - name: 🇮🇳 AS31898 ORACLE Df
     server: df.game.naver.com
     port: 80
     type: vmess
