@@ -86,37 +86,37 @@ proxies:
       headers: 
         Host: vless.wyhkaa0.cf
     udp: true
-#=========== ORACLE ===========
-  - name: 🇮🇳 AS31898 ORACLE Df
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Df
     server: df.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: mm2.shabijichang.com
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts: 
-      path: /
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: mm2.shabijichang.com
+        Host: panel2.hodorauth.com
     udp: true
-#=========== ORACLE ===========
-  - name: 🇮🇳 AS31898 ORACLE Adup
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Adup
     server: cdn.adup-tech.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: mm2.shabijichang.com
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts: 
-      path: /
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: mm2.shabijichang.com
+        Host: panel2.hodorauth.com
     udp: true
