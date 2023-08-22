@@ -71,7 +71,7 @@ proxies:
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Sogood
-    server: df.game.naver.com
+    server: sogood.linefriends.com
     port: 80
     type: vmess
     uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
@@ -89,22 +89,22 @@ proxies:
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Df
     server: df.game.naver.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    tls: false
+    skip-cert-verify: false
+    servername: vless.wyhkaa0.cf
     network: ws
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /TG:@hkaa0
       headers: 
-        Host: panel2.hodorauth.com
+        Host: vless.wyhkaa0.cf
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Zoom
+  - name: 🇸🇬 AS63949 AKAMAI Meeting
     server: panel2.hodorauth.com
     port: 443
     type: vmess
@@ -113,10 +113,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoom.us
+    servername: meetings.googleapis.com
     network: ws
     ws-opts: 
       path: /vsg1.0bad.com/chat
       headers: 
-        Host: zoom.us
+        Host: meetings.googleapis.com
     udp: true
