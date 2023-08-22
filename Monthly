@@ -104,8 +104,8 @@ proxies:
         Host: panel2.hodorauth.com
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Adup
-    server: cdn.adup-tech.com
+  - name: 🇸🇬 AS63949 AKAMAI Zoom
+    server: panel2.hodorauth.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -113,10 +113,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    servername: zoom.us
     network: ws
     ws-opts: 
       path: /vsg1.0bad.com/chat
       headers: 
-        Host: panel2.hodorauth.com
+        Host: zoom.us
     udp: true
