@@ -69,38 +69,6 @@ proxies:
       headers: 
         Host: sg2tws.mainssh.xyz
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Adup
-    server: cdn.adup-tech.com
-    port: 443
-    type: vless
-    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-wkrs-pages-vless-aoy.pages.dev
-    network: ws
-    ws-opts: 
-      path: null
-      headers: 
-        Host: cf-wkrs-pages-vless-aoy.pages.dev
-    udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Grab
-    server: food-merchant-help.grab.com
-    port: 443
-    type: vless
-    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-wkrs-pages-vless-aoy.pages.dev
-    network: ws
-    ws-opts: 
-      path: null
-      headers: 
-        Host: cf-wkrs-pages-vless-aoy.pages.dev
-    udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Sogood
     server: df.game.naver.com
