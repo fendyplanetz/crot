@@ -96,7 +96,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: mm2.shabijichang.com
     network: ws
     ws-opts: 
       path: /
@@ -113,7 +113,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: mm2.shabijichang.com
     network: ws
     ws-opts: 
       path: /
