@@ -42,32 +42,32 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Shopee ²².⁰⁸
+  - name: M-SG Shopee ²⁹.⁰⁸
     server: zendesk4.shopee.tw
     port: 443
     type: trojan
-    password: mainssh-poiupoiu
+    password: mainssh-poiujklo
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Care ²².⁰⁸
+  - name: M-SG Care ²⁹.⁰⁸
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-poiupoiu
+    password: mainssh-poiujklo
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Sogood
