@@ -74,32 +74,32 @@ proxies:
     server: cdn.adup-tech.com
     port: 443
     type: vless
-    uuid: c2ee59b9-fb4d-4b75-a623-55455824fdaa
+    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: c1.wang66.homes
+    servername: cf-wkrs-pages-vless-aoy.pages.dev
     network: ws
     ws-opts: 
-      path: /
+      path: null
       headers: 
-        Host: c1.wang66.homes
+        Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Grab
     server: food-merchant-help.grab.com
     port: 443
     type: vless
-    uuid: c2ee59b9-fb4d-4b75-a623-55455824fdaa
+    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: c1.wang66.homes
+    servername: cf-wkrs-pages-vless-aoy.pages.dev
     network: ws
     ws-opts: 
-      path: /
+      path: null
       headers: 
-        Host: c1.wang66.homes
+        Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Sogood
