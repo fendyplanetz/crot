@@ -96,7 +96,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: vless.wyhkaa0.cf
     network: ws
     ws-opts: 
       path: /TG:@hkaa0
@@ -113,7 +113,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: vless.wyhkaa0.cf
     network: ws
     ws-opts: 
       path: /TG:@hkaa0
