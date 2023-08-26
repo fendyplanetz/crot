@@ -1,17 +1,19 @@
 proxies:
-#=========== MainSSH ===========
-  - name: M-ID Ava ³¹.⁰⁸
+#=========== sshocean ===========
+  - name: sshocean-ID Ava ⁰².⁰⁹
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-jdhgiehh
+    type: vless
+    uuid: 7691fd75-59ba-457e-83bb-60abd5bf3d60
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: id2-ws.xvless.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Sogood ³¹.⁰⁸
