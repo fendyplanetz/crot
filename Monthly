@@ -71,22 +71,22 @@ proxies:
       headers: 
         Host: sgtws.mainssh.xyz
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Sogood
-    server: sogood.linefriends.com
+#=========== CLOUDFLARE ===========
+  - name: 🇺🇸 AS13335 CLOUDFLARE Meet
+    server: 47.88.89.251
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    servername: meet.google.com
     network: ws
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /MqINN7CF6UeFSASP4LNTFNn
       headers: 
-        Host: panel2.hodorauth.com
+        Host: meet.google.com
     udp: true
 #=========== DATACAMP ===========
   - name: 🇺🇸 AS212238 DATACAMP Df
