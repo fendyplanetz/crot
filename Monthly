@@ -1,6 +1,6 @@
 proxies:
 #=========== sshocean ===========
-  - name: sshocean-ID Ava ⁰².⁰⁹
+  - name: OC-ID Ava ⁰².⁰⁹
     server: ava.game.naver.com
     port: 443
     type: vless
