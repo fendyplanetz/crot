@@ -104,19 +104,19 @@ proxies:
         Host: panel2.hodorauth.com
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Adup
-    server: cdn.adup-tech.com
-    port: 443
+  - name: 🇺🇸 AS32097 WHOLESALE Ava
+    server: ava.game.naver.com
+    port: 80
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /2TokGE9A/
       headers: 
-        Host: panel2.hodorauth.com
+        Host: us6.cachexy.cf
     udp: true
