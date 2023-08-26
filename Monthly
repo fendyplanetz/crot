@@ -88,22 +88,22 @@ proxies:
       headers: 
         Host: panel2.hodorauth.com
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Df
+#=========== DATACAMP ===========
+  - name: 🇺🇸 AS212238 DATACAMP Df
     server: df.game.naver.com
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: dc4e1cf8-d880-4f31-a346-3f38d0d18e99
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    servername: cloudflare.piaole.me
     network: ws
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /huawei
       headers: 
-        Host: panel2.hodorauth.com
+        Host: cloudflare.piaole.me
     udp: true
 #=========== AKAMAI ===========
   - name: 🇺🇸 AS32097 WHOLESALE Ava
