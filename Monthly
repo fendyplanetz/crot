@@ -72,51 +72,51 @@ proxies:
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Sogood
     server: sogood.linefriends.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: vless.wyhkaa0.cf
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts: 
-      path: /TG:@hkaa0
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: vless.wyhkaa0.cf
+        Host: panel2.hodorauth.com
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Df
     server: df.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: vless.wyhkaa0.cf
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts: 
-      path: /TG:@hkaa0
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: vless.wyhkaa0.cf
+        Host: panel2.hodorauth.com
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Adup
     server: cdn.adup-tech.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: vless.wyhkaa0.cf
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts: 
-      path: /TG:@hkaa0
+      path: /vsg1.0bad.com/chat
       headers: 
-        Host: vless.wyhkaa0.cf
+        Host: panel2.hodorauth.com
     udp: true
