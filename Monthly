@@ -72,21 +72,21 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 #=========== CLOUDFLARE ===========
-  - name: 🇺🇸 AS13335 CLOUDFLARE Meet
-    server: 47.88.89.251
+  - name: 🇸🇬 AS63949 AKAMAI Zoom
+    server: vsg1.0bad.com
     port: 443
     type: vmess
-    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /MqINN7CF6UeFSASP4LNTFNn
+      path: /chat
       headers: 
-        Host: meet.google.com
+        Host: zoom.us
     udp: true
 #=========== DATACAMP ===========
   - name: 🇺🇸 AS212238 DATACAMP Df
@@ -106,19 +106,19 @@ proxies:
         Host: cloudflare.piaole.me
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇺🇸 AS32097 WHOLESALE Ava
+  - name: 🇸🇬 AS31898 ORACLE Ava
     server: ava.game.naver.com
     port: 80
     type: vmess
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+    uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: xjp.azzhuangaping.tw
     network: ws
     ws-opts: 
-      path: /2TokGE9A/
+      path: /adobe
       headers: 
-        Host: us6.cachexy.cf
+        Host: xjp.azzhuangaping.tw
     udp: true
