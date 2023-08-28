@@ -106,7 +106,7 @@ proxies:
         Host: cloudflare.piaole.me
     udp: true
 #=========== MICROSOFT ===========
- - name: 🇺🇸 AS8075 MICROSOFT Tech
+  - name: 🇺🇸 AS8075 MICROSOFT Tech
     server: cdn.adup-tech.com
     port: 2052
     type: vmess
