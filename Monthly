@@ -106,8 +106,8 @@ proxies:
         Host: cloudflare.piaole.me
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Ava
-    server: ava.game.naver.com
+  - name: 🇸🇬 AS63949 AKAMAI Tech
+    server: cdn.adup-tech.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
