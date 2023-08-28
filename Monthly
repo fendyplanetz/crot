@@ -71,7 +71,7 @@ proxies:
       headers: 
         Host: sgtws.mainssh.xyz
     udp: true
-#=========== CLOUDFLARE ===========
+#=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
     server: vsg1.0bad.com
     port: 443
@@ -106,19 +106,19 @@ proxies:
         Host: cloudflare.piaole.me
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS31898 ORACLE Ava
+  - name: 🇸🇬 AS63949 AKAMAI Ava
     server: ava.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: dd46dd47-8bc0-3f05-83fc-f0e551cc6fc9
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: xjp.azzhuangaping.tw
+    tls: true
+    skip-cert-verify: true
+    servername: vsg1.0bad.com
     network: ws
     ws-opts: 
-      path: /adobe
+      path: /chat
       headers: 
-        Host: xjp.azzhuangaping.tw
+        Host: vsg1.0bad.com
     udp: true
