@@ -105,20 +105,20 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Tech
+#=========== MICROSOFT ===========
+ - name: 🇺🇸 AS8075 MICROSOFT Tech
     server: cdn.adup-tech.com
-    port: 443
+    port: 2052
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vsg1.0bad.com
+    tls: false
+    skip-cert-verify: false
+    servername: 44.bbzbb.top
     network: ws
     ws-opts: 
-      path: /chat
+      path: /v2ray
       headers: 
-        Host: vsg1.0bad.com
+        Host: 44.bbzbb.top
     udp: true
