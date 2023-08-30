@@ -105,20 +105,20 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== MICROSOFT ===========
-  - name: 🇺🇸 AS8075 MICROSOFT Tech
+#=========== ORACLE ===========
+  - name: 🇸🇬 AS31898 ORACLE Tech
     server: cdn.adup-tech.com
-    port: 2052
+    port: 80
     type: vmess
-    uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92
+    uuid: 3ccbc585-baa6-4bc3-bd44-5b6c54406bfc
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 44.bbzbb.top
+    servername: xjp.shabijichang.com
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /
       headers: 
-        Host: 44.bbzbb.top
+        Host: xjp.shabijichang.com
     udp: true
