@@ -1,10 +1,10 @@
 proxies:
 #=========== sshocean ===========
-  - name: OC-ID Ava ⁰².⁰⁹
-    server: ava.game.naver.com
+  - name: OC-ID Sogood ⁰⁸.⁰⁹
+    server: sogood.linefriends.com
     port: 443
     type: vless
-    uuid: 7691fd75-59ba-457e-83bb-60abd5bf3d60
+    uuid: b130a8af-ab3c-43b9-9e80-9474ba566c99
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -14,34 +14,6 @@ proxies:
       path: /websocket
       headers: 
         Host: id2-ws.xvless.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: M-ID Sogood ³¹.⁰⁸
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: mainssh-jdhgiehh
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: idtws.mainssh.xyz
-    udp: true
-#=========== MainSSH ===========
-  - name: M-ID Grab ³¹.⁰⁸
-    server: food-merchant-help.grab.com
-    port: 443
-    type: trojan
-    password: mainssh-jdhgiehh
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
   - name: M-SG Ava ⁰⁸.⁰⁹
