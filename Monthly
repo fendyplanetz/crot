@@ -44,32 +44,32 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Shopee ²⁹.⁰⁸
-    server: zendesk4.shopee.tw
+  - name: M-SG Ava ⁰⁸.⁰⁹
+    server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-poiujklo
+    password: mainssh-jdhdbdkj
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Care ²⁹.⁰⁸
+  - name: M-SG Care ⁰⁸.⁰⁹
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-poiujklo
+    password: mainssh-jdhdbdkj
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    sni: sg2tws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sgtws.mainssh.xyz
+        Host: sg2tws.mainssh.xyz
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
