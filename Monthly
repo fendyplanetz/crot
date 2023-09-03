@@ -75,20 +75,20 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== ORACLE ===========
-  - name: 🇸🇬 AS31898 ORACLE Tech
+#=========== COLOCROSSING ===========
+  - name: 🇺🇸 AS36352 COLOCROSSING Tech
     server: cdn.adup-tech.com
-    port: 80
+    port: 2052
     type: vmess
-    uuid: 3ccbc585-baa6-4bc3-bd44-5b6c54406bfc
+    uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: xjp.shabijichang.com
+    servername: 103.160.204.242
     network: ws
     ws-opts: 
-      path: /
+      path: /blue99
       headers: 
-        Host: xjp.shabijichang.com
+        Host: cdn.adup-tech.com
     udp: true
