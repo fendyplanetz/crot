@@ -1,47 +1,45 @@
 proxies:
 #=========== sshocean ===========
-  - name: OC-ID Sogood ⁰⁸.⁰⁹
+  - name: M-ID Sogood ¹⁰.⁰⁹
     server: sogood.linefriends.com
     port: 443
-    type: vless
-    uuid: b130a8af-ab3c-43b9-9e80-9474ba566c99
-    cipher: auto
-    tls: true
+    type: trojan
+    password: mainssh-hdjdbosjsn
     skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /trojan
       headers: 
-        Host: id2-ws.xvless.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Ava ⁰⁸.⁰⁹
+  - name: M-ID Ava ¹⁰.⁰⁹
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-jdhdbdkj
+    password: mainssh-hdjdbosjsn
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-SG Care ⁰⁸.⁰⁹
+  - name: M-ID Care ¹⁰.⁰⁹
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-jdhdbdkj
+    password: mainssh-hdjdbosjsn
     skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: sg2tws.mainssh.xyz
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
