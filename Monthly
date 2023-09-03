@@ -75,20 +75,20 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== COLOCROSSING ===========
-  - name: 🇺🇸 AS36352 COLOCROSSING Tech
+#=========== WHOLESALE ===========
+  - name: 🇺🇸 AS32097 WHOLESALE Tech
     server: cdn.adup-tech.com
-    port: 2052
+    port: 80
     type: vmess
-    uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 103.160.204.242
+    servername: us6.cachexy.cf
     network: ws
     ws-opts: 
-      path: /blue99
+      path: /2TokGE9A/
       headers: 
-        Host: cdn.adup-tech.com
+        Host: us6.cachexy.cf
     udp: true
