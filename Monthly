@@ -76,8 +76,8 @@ proxies:
         Host: cloudflare.piaole.me
     udp: true
 #=========== WHOLESALE ===========
-  - name: 🇺🇸 AS32097 WHOLESALE Tech
-    server: cdn.adup-tech.com
+  - name: 🇺🇸 AS32097 WHOLESALE bbsdata
+    server: bbsdata.df.game.naver.com
     port: 80
     type: vmess
     uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
