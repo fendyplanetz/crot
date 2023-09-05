@@ -28,18 +28,18 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Care ¹⁰.⁰⁹
+  - name: M-ID Yt ¹⁰.⁰⁹
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
     password: mainssh-hdjdbosjsn
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: youtubei.googleapis.com
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: youtubei.googleapis.com
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
