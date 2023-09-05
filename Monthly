@@ -29,7 +29,7 @@ proxies:
     udp: true
 #=========== MainSSH ===========
   - name: M-ID Yt ¹⁰.⁰⁹
-    server: care.pmang.game.naver.com
+    server: idtws.mainssh.xyz
     port: 443
     type: trojan
     password: mainssh-hdjdbosjsn
