@@ -28,8 +28,8 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Api
-    server: api.pic.linefriends.com
+  - name: 🇸🇬 AS13335 CLOUDFLARE Care
+    server: care.pmang.game.naver.com
     port: 443
     type: vless
     uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
