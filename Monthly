@@ -28,18 +28,20 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Yt ¹⁰.⁰⁹
-    server: idtws.mainssh.xyz
+  - name: 🇸🇬 AS13335 CLOUDFLARE Api
+    server: api.pic.linefriends.com
     port: 443
-    type: trojan
-    password: mainssh-hdjdbosjsn
+    type: vless
+    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: youtubei.googleapis.com
+    servername: cf-wkrs-pages-vless-aoy.pages.dev
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /?ed
       headers: 
-        Host: youtubei.googleapis.com
+        Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
