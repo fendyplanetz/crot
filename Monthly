@@ -1,10 +1,10 @@
 proxies:
-#=========== sshocean ===========
+#=========== MainSSH ===========
   - name: M-ID Sogood ¹⁰.⁰⁹
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-hdjdbosjsn
+    password: mainssh-ghjkkjhg
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -18,7 +18,7 @@ proxies:
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: mainssh-hdjdbosjsn
+    password: mainssh-ghjkkjhg
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
@@ -27,7 +27,7 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
+#=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Care
     server: care.pmang.game.naver.com
     port: 443
