@@ -1,6 +1,6 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Sogood ¹⁰.⁰⁹
+  - name: M-ID Sogood ¹⁵.⁰⁹
     server: sogood.linefriends.com
     port: 443
     type: trojan
@@ -14,7 +14,7 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Ava ¹⁰.⁰⁹
+  - name: M-ID Ava ¹⁵.⁰⁹
     server: ava.game.naver.com
     port: 443
     type: trojan
