@@ -27,21 +27,22 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Care
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AS63949 AKAMAI Care
     server: care.pmang.game.naver.com
-    port: 443
-    type: vless
-    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
+    port: 80
+    type: vmess
+    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
+    alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-wkrs-pages-vless-aoy.pages.dev
+    tls: false
+    skip-cert-verify: false
+    servername: vless.wyhkaa0.cf
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /TG:@hkaa0
       headers: 
-        Host: cf-wkrs-pages-vless-aoy.pages.dev
+        Host: vless.wyhkaa0.cf
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
