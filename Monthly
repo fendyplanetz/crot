@@ -28,8 +28,8 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Care
-    server: care.pmang.game.naver.com
+  - name: 🇸🇬 AS63949 AKAMAI Account
+    server: account.pmang.game.naver.com
     port: 80
     type: vmess
     uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
