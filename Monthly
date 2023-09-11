@@ -13,19 +13,22 @@ proxies:
       headers: 
         Host: idtws.mainssh.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: M-ID Ava ¹⁵.⁰⁹
+#=========== ORACLE ===========
+  - name: 🇯🇵 AS31898 ORACLE Ava
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: mainssh-ghjkkjhg
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: ming2.kiwireich.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /ray
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: ming2.kiwireich.com
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Account
