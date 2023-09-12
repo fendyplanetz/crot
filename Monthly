@@ -81,20 +81,20 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== WHOLESALE ===========
-  - name: 🇺🇸 AS32097 WHOLESALE bbsdata
+#=========== CONTABO ===========
+  - name: 🇸🇬 AS141995 CONTABO bbsdata
     server: bbsdata.df.game.naver.com
     port: 80
     type: vmess
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: us6.cachexy.cf
+    servername: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     network: ws
     ws-opts: 
-      path: /2TokGE9A/
+      path: /vmess
       headers: 
-        Host: us6.cachexy.cf
+        Host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     udp: true
