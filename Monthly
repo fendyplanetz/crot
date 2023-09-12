@@ -81,20 +81,20 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== CONTABO ===========
-  - name: 🇸🇬 AS141995 CONTABO bbsdata
+#=========== DEDICATED ===========
+  - name: 🇺🇸 AS63018 DEDICATED bbsdata
     server: bbsdata.df.game.naver.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+    uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    tls: true
+    skip-cert-verify: true
+    servername: 3.freek1.xyz
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /dongtaiwang.com
       headers: 
-        Host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+        Host: 3.freek1.xyz
     udp: true
