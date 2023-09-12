@@ -81,20 +81,19 @@ proxies:
       headers: 
         Host: cloudflare.piaole.me
     udp: true
-#=========== DEDICATED ===========
-  - name: 🇺🇸 AS63018 DEDICATED bbsdata
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE bbsdata
     server: bbsdata.df.game.naver.com
     port: 443
-    type: vmess
-    uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-    alterId: 0
+    type: vless
+    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 3.freek1.xyz
+    servername: cf-wkrs-pages-vless-aoy.pages.dev
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /?ed
       headers: 
-        Host: 3.freek1.xyz
+        Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
