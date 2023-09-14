@@ -1,10 +1,10 @@
 proxies:
 #=========== MainSSH ===========
-  - name: M-ID Sogood ¹⁵.⁰⁹
+  - name: M-ID Sogood ²¹.⁰⁹
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-ghjkkjhg
+    password: mainssh-ghjkkjhdi
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
