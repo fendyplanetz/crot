@@ -14,38 +14,38 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== ORACLE ===========
-  - name: 🇯🇵 AS31898 ORACLE Ava
+  - name: 🇰🇷 AS31898 ORACLE Ava
     server: ava.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ming2.kiwireich.com
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers: 
-        Host: ming2.kiwireich.com
-    udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Account
-    server: account.pmang.game.naver.com
     port: 80
     type: vmess
-    uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be
+    uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: vless.wyhkaa0.cf
+    servername: se2.shabijichang.com
     network: ws
     ws-opts: 
-      path: /TG:@hkaa0
+      path: /
       headers: 
-        Host: vless.wyhkaa0.cf
+        Host: se2.shabijichang.com
+    udp: true
+#=========== ORACLE ===========
+  - name: 🇸🇦 AS31898 ORACLE Account
+    server: account.pmang.game.naver.com
+    port: 80
+    type: vmess
+    uuid: 8d59c92c-0653-4bf8-b832-37dc852b41de
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: jd4.shabijichang.com
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: jd4.shabijichang.com
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Zoom
