@@ -14,8 +14,8 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== ORACLE ===========
-  - name: 🇸🇬 AS31898 ORACLE Ava
-    server: ava.game.naver.com
+  - name: 🇸🇬 AS31898 ORACLE Icarus
+    server: beta-icarus.game.naver.com
     port: 80
     type: vmess
     uuid: 8d59c92c-0653-4bf8-b832-37dc852b41de
