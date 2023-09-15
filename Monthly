@@ -65,8 +65,8 @@ proxies:
         Host: zoom.us
     udp: true
 #=========== DATACAMP ===========
-  - name: 🇺🇸 AS212238 DATACAMP Df
-    server: df.game.naver.com
+  - name: 🇺🇸 AS212238 DATACAMP Kart
+    server: kart.nexon.game.naver.com
     port: 443
     type: vmess
     uuid: dc4e1cf8-d880-4f31-a346-3f38d0d18e99
