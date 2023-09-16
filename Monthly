@@ -65,8 +65,8 @@ proxies:
         Host: zoom.us
     udp: true
 #=========== sshOcean ===========
-  - name: OC-ID2 Kart ²³.⁰⁹
-    server: kart.nexon.game.naver.com
+  - name: OC-ID2 Grab ²³.⁰⁹
+    server: food-merchant-help.grab.com
     port: 443
     type: vless
     uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
