@@ -15,21 +15,21 @@ proxies:
       headers: 
         Host: id2-ws.xvless.xyz
     udp: true
-#=========== MainSSH ===========
-  - name: OC-ID2 Sogood ²³.⁰⁹
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
     server: sogood.linefriends.com
     port: 443
     type: vless
-    uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
+    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
+    servername: edtunnel-b6t.pages.dev
     network: ws
     ws-opts: 
-      path: /websocket
+      path: /
       headers: 
-        Host: id2-ws.xvless.xyz
+        Host: edtunnel-b6t.pages.dev
     udp: true
 #=========== ORACLE ===========
   - name: 🇸🇬 AS31898 ORACLE Ava
