@@ -1,17 +1,35 @@
 proxies:
-#=========== MainSSH ===========
-  - name: M-ID Sogood ²¹.⁰⁹
-    server: sogood.linefriends.com
+#=========== sshOcean ===========
+  - name: OC-ID2 Grab ²³.⁰⁹
+    server: food-merchant-help.grab.com
     port: 443
-    type: trojan
-    password: mainssh-ghjkkjhdi
+    type: vless
+    uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    servername: id2-ws.xvless.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /websocket
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: id2-ws.xvless.xyz
+    udp: true
+#=========== MainSSH ===========
+  - name: OC-ID2 Sogood ²³.⁰⁹
+    server: sogood.linefriends.com
+    port: 443
+    type: vless
+    uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2-ws.xvless.xyz
+    network: ws
+    ws-opts: 
+      path: /websocket
+      headers: 
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== ORACLE ===========
   - name: 🇸🇬 AS31898 ORACLE Ava
@@ -63,22 +81,6 @@ proxies:
       path: /chat
       headers: 
         Host: zoom.us
-    udp: true
-#=========== sshOcean ===========
-  - name: OC-ID2 Grab ²³.⁰⁹
-    server: food-merchant-help.grab.com
-    port: 443
-    type: vless
-    uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: id2-ws.xvless.xyz
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE bbsdata
