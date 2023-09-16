@@ -15,22 +15,6 @@ proxies:
       headers: 
         Host: id2-ws.xvless.xyz
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
-    server: sogood.linefriends.com
-    port: 443
-    type: vless
-    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: edtunnel-b6t.pages.dev
-    network: ws
-    ws-opts: 
-      path: /
-      headers: 
-        Host: edtunnel-b6t.pages.dev
-    udp: true
 #=========== ORACLE ===========
   - name: 🇸🇬 AS31898 ORACLE Ava
     server: ava.game.naver.com
@@ -81,6 +65,22 @@ proxies:
       path: /chat
       headers: 
         Host: zoom.us
+    udp: true
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
+    server: sogood.linefriends.com
+    port: 443
+    type: vless
+    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edtunnel-b6t.pages.dev
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: edtunnel-b6t.pages.dev
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE bbsdata
