@@ -14,21 +14,21 @@ proxies:
         Host: idtws.mainssh.xyz
     udp: true
 #=========== ORACLE ===========
-  - name: 🇸🇬 AS31898 ORACLE Icarus
-    server: beta-icarus.game.naver.com
+  - name: 🇸🇬 AS31898 ORACLE Nexon
+    server: bf.nexon.game.naver.com
     port: 80
     type: vmess
-    uuid: 8d59c92c-0653-4bf8-b832-37dc852b41de
+    uuid: baa2d4f8-feba-424a-8386-62f455c8f08a
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: xjp2.shabijichang.com
+    servername: xjp3.shabijichang.com
     network: ws
     ws-opts: 
       path: /
       headers: 
-        Host: xjp2.shabijichang.com
+        Host: xjp3.shabijichang.com
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Account
