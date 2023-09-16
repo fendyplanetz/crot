@@ -64,22 +64,21 @@ proxies:
       headers: 
         Host: zoom.us
     udp: true
-#=========== DATACAMP ===========
-  - name: 🇺🇸 AS212238 DATACAMP Kart
+#=========== sshOcean ===========
+  - name: OC-ID2 Kart ²³.⁰⁹
     server: kart.nexon.game.naver.com
     port: 443
-    type: vmess
-    uuid: dc4e1cf8-d880-4f31-a346-3f38d0d18e99
-    alterId: 0
+    type: vless
+    uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cloudflare.piaole.me
+    servername: id2-ws.xvless.xyz
     network: ws
     ws-opts: 
-      path: /huawei
+      path: /websocket
       headers: 
-        Host: cloudflare.piaole.me
+        Host: id2-ws.xvless.xyz
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE bbsdata
