@@ -16,8 +16,8 @@ proxies:
         Host: id2-ws.xvless.xyz
     udp: true
 #=========== ORACLE ===========
-  - name: 🇸🇬 AS31898 ORACLE Bill
-    server: bill-ch.soulworker.game.naver.com
+  - name: 🇸🇬 AS31898 ORACLE Ava
+    server: ava.game.naver.com
     port: 80
     type: vmess
     uuid: baa2d4f8-feba-424a-8386-62f455c8f08a
