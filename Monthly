@@ -1,20 +1,4 @@
 proxies:
-#=========== sshOcean ===========
-  - name: OC-ID2 Grab ²³.⁰⁹
-    server: food-merchant-help.grab.com
-    port: 443
-    type: vless
-    uuid: 83cab265-19fc-44aa-9bd2-04e33eb4f054
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
-    network: ws
-    ws-opts: 
-      path: /websocket
-      headers: 
-        Host: id2-ws.xvless.xyz
-    udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Ava
     server: ava.game.naver.com
@@ -97,4 +81,20 @@ proxies:
       path: /?ed
       headers: 
         Host: cf-wkrs-pages-vless-aoy.pages.dev
+    udp: true
+#=========== CLOUDFLARE ===========
+  - name: 471 🇸🇬 AS13335 CLOUDFLARE Df
+    server: df.game.naver.com
+    port: 2096
+    type: vless
+    uuid: c9530d80-7df7-43e0-aacd-3006d769029d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hk.vps.wengmail.link
+    network: ws
+    ws-opts: 
+      path: /?ed
+      headers: 
+        Host: hk.vps.wengmail.link
     udp: true
