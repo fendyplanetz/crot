@@ -1,20 +1,20 @@
 proxies:
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Ava
+#=========== HURRICANE ===========
+  - name: 🇸🇬 AS6939 HURRICANE Ava
     server: ava.game.naver.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    tls: false
+    skip-cert-verify: false
+    servername: sg1-v2ray.sshkit.org
     network: ws
     ws-opts: 
-      path: /vsg1.0bad.com/chat
+      path: /sshkit/1736960111/64ee26041efcc/
       headers: 
-        Host: panel2.hodorauth.com
+        Host: sg1-v2ray.sshkit.org
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Account
