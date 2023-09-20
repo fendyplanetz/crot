@@ -33,22 +33,15 @@ proxies:
       headers: 
         Host: sg1.wyhkaa0.cf
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AS63949 AKAMAI Zoom
-    server: vsg1.0bad.com
+#=========== LEASEWEB ===========
+  - name: LEASEWEB Meet
+    server: 27.0.232.204
     port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 77891e6750
     skip-cert-verify: true
-    servername: zoom.us
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers: 
-        Host: zoom.us
+    sni: daily-1.meet.google.com
+    network: tcp
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
