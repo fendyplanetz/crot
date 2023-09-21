@@ -1,6 +1,6 @@
 proxies:
 #=========== DREAMNET ===========
-  - name: 5 🇸🇬 AS137554 DREAMNET Ava
+  - name: 🇸🇬 AS137554 DREAMNET Ava
     server: ava.game.naver.com
     port: 443
     type: vless
