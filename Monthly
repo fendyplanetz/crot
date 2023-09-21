@@ -1,20 +1,19 @@
 proxies:
-#=========== HURRICANE ===========
-  - name: 🇸🇬 AS6939 HURRICANE Ava
+#=========== DREAMNET ===========
+  - name: 5 🇸🇬 AS137554 DREAMNET Ava
     server: ava.game.naver.com
-    port: 80
-    type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
+    port: 443
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: sg1-v2ray.sshkit.org
+    tls: true
+    skip-cert-verify: true
+    servername: baipiao1.curly-train.pages.dev
     network: ws
     ws-opts: 
-      path: /sshkit/1736960111/64ee26041efcc/
+      path: /?ed
       headers: 
-        Host: sg1-v2ray.sshkit.org
+        Host: baipiao1.curly-train.pages.dev
     udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Account
