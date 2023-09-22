@@ -76,7 +76,7 @@ proxies:
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Line2
-    server: corpvpn.line2.com
+    server: tokopvpn2.line2.com
     port: 2096
     type: vless
     uuid: c9530d80-7df7-43e0-aacd-3006d769029d
