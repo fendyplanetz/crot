@@ -75,8 +75,8 @@ proxies:
         Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
 #=========== CLOUDFLARE ===========
-  - name: 471 🇸🇬 AS13335 CLOUDFLARE Df
-    server: df.game.naver.com
+  - name: 🇸🇬 AS13335 CLOUDFLARE Line2
+    server: corpvpn.line2.com
     port: 2096
     type: vless
     uuid: c9530d80-7df7-43e0-aacd-3006d769029d
