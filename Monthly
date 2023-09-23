@@ -15,6 +15,22 @@ proxies:
       headers: 
         Host: baipiao1.curly-train.pages.dev
     udp: true
+#=========== DREAMNET ===========
+  - name: 🇸🇬 AS137554 DREAMNET bbsdata
+    server: bbsdata.df.game.naver.com
+    port: 443
+    type: vless
+    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edtunnel-b6t.pages.dev
+    network: ws
+    ws-opts: 
+      path: /
+      headers: 
+        Host: edtunnel-b6t.pages.dev
+    udp: true
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Account
     server: account.pmang.game.naver.com
@@ -58,22 +74,6 @@ proxies:
       path: /
       headers: 
         Host: jp.denny.cf
-    udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE bbsdata
-    server: bbsdata.df.game.naver.com
-    port: 443
-    type: vless
-    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-wkrs-pages-vless-aoy.pages.dev
-    network: ws
-    ws-opts: 
-      path: /?ed
-      headers: 
-        Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
