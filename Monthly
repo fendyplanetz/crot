@@ -42,21 +42,22 @@ proxies:
     sni: daily-1.meet.google.com
     network: tcp
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
+#=========== BRAINSTORM ===========
+  - name: 🇯🇵 AS136258 BRAINSTORM Sogood
     server: sogood.linefriends.com
     port: 443
-    type: vless
-    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
+    type: vmess
+    uuid: 99357805-2332-4548-95d7-73bf03c24599
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edtunnel-b6t.pages.dev
+    servername: jp.denny.cf
     network: ws
     ws-opts: 
       path: /
       headers: 
-        Host: edtunnel-b6t.pages.dev
+        Host: jp.denny.cf
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE bbsdata
