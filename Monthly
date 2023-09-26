@@ -58,22 +58,21 @@ proxies:
     sni: daily-1.meet.google.com
     network: tcp
     udp: true
-#=========== BRAINSTORM ===========
-  - name: 🇯🇵 AS136258 BRAINSTORM Sogood
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
     server: sogood.linefriends.com
-    port: 443
-    type: vmess
-    uuid: 99357805-2332-4548-95d7-73bf03c24599
-    alterId: 0
+    port: 2096
+    type: vless
+    uuid: c9530d80-7df7-43e0-aacd-3006d769029d
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: jp.denny.cf
+    servername: hk.vps.wengmail.link
     network: ws
     ws-opts: 
-      path: /
+      path: /?ed
       headers: 
-        Host: jp.denny.cf
+        Host: hk.vps.wengmail.link
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
