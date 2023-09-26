@@ -75,20 +75,19 @@ proxies:
       headers: 
         Host: jp.denny.cf
     udp: true
-#=========== BRAINSTORM ===========
-  - name: 🇯🇵 AS136258 BRAINSTORM Df
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Df
     server: df.game.naver.com
     port: 443
-    type: vmess
-    uuid: 99357805-2332-4548-95d7-73bf03c24599
-    alterId: 0
+    type: vless
+    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: jp.denny.cf
+    servername: edtunnel-b6t.pages.dev
     network: ws
     ws-opts: 
       path: /
       headers: 
-        Host: jp.denny.cf
+        Host: edtunnel-b6t.pages.dev
     udp: true
