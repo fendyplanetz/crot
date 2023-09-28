@@ -59,8 +59,8 @@ proxies:
     network: tcp
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Fifa
-    server: www.fifaonline3.nexon.game.naver.com
+  - name: M-ID Corp
+    server: corpvpn.line2.com
     port: 443
     type: trojan
     password: mainssh-jhgbjklj
