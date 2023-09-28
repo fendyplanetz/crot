@@ -58,21 +58,19 @@ proxies:
     sni: daily-1.meet.google.com
     network: tcp
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Sogood
+#=========== MainSSH ===========
+  - name: M-ID Sogood
     server: sogood.linefriends.com
-    port: 2096
-    type: vless
-    uuid: c9530d80-7df7-43e0-aacd-3006d769029d
-    cipher: auto
-    tls: true
+    port: 443
+    type: trojan
+    password: mainssh-jhgbjklj
     skip-cert-verify: true
-    servername: hk.vps.wengmail.link
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /trojan
       headers: 
-        Host: hk.vps.wengmail.link
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
