@@ -59,18 +59,18 @@ proxies:
     network: tcp
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Wa
-    server: idtws.mainssh.xyz
+  - name: M-ID ⁰⁵.¹⁰ Sogood
+    server: sogood.linefriends.com
     port: 443
     type: trojan
     password: mainssh-jhgbjklj
     skip-cert-verify: true
-    sni: w5.web.whatsapp.com
+    sni: idtws.mainssh.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: w5.web.whatsapp.com
+        Host: idtws.mainssh.xyz
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
