@@ -59,18 +59,18 @@ proxies:
     network: tcp
     udp: true
 #=========== MainSSH ===========
-  - name: M-ID Corp
-    server: corpvpn.line2.com
+  - name: M-ID Wa
+    server: idtws.mainssh.xyz
     port: 443
     type: trojan
     password: mainssh-jhgbjklj
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: w5.web.whatsapp.com
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: w5.web.whatsapp.com
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
