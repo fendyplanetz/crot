@@ -58,19 +58,19 @@ proxies:
     sni: daily-1.meet.google.com
     network: tcp
     udp: true
-#=========== MainSSH ===========
-  - name: M-ID ⁰⁵.¹⁰ Sogood
+#=========== OnlySSH ===========
+  - name: Only-ID ¹².¹⁰ Sogood
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: mainssh-jhgbjklj
+    password: c293b2d4-8fe9-4369-9403-6faa756094bf
     skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    sni: id1.kitu.xyz
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /trojan-ws/
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: id1.kitu.xyz
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
