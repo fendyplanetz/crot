@@ -49,18 +49,18 @@ proxies:
         Host: sg1.wyhkaa0.cf
     udp: true
 #=========== OnlySSH ===========
-  - name: Only-ID ¹².¹⁰ Meet
+  - name: Only-ID ¹².¹⁰ Zoom
     server: id1.kitu.xyz
     port: 443
     type: trojan
     password: c293b2d4-8fe9-4369-9403-6faa756094bf
     skip-cert-verify: true
-    sni: daily-1.meet.google.com
+    sni: wtin-summit.zoom.us
     network: ws
     ws-opts: 
       path: /trojan-ws/
       headers: 
-        Host: daily-1.meet.google.com
+        Host: wtin-summit.zoom.us
     udp: true
 #=========== OnlySSH ===========
   - name: Only-ID ¹².¹⁰ Sogood
