@@ -48,15 +48,19 @@ proxies:
       headers: 
         Host: sg1.wyhkaa0.cf
     udp: true
-#=========== LEASEWEB ===========
-  - name: LEASEWEB Meet
-    server: 27.0.232.204
+#=========== OnlySSH ===========
+  - name: Only-ID ¹².¹⁰ Meet
+    server: id1.kitu.xyz
     port: 443
     type: trojan
-    password: 77891e6750
+    password: c293b2d4-8fe9-4369-9403-6faa756094bf
     skip-cert-verify: true
     sni: daily-1.meet.google.com
-    network: tcp
+    network: ws
+    ws-opts: 
+      path: /trojan-ws/
+      headers: 
+        Host: daily-1.meet.google.com
     udp: true
 #=========== OnlySSH ===========
   - name: Only-ID ¹².¹⁰ Sogood
