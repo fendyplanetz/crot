@@ -48,7 +48,7 @@ proxies:
       headers: 
         Host: sg173528cef.qcryechvqw.xyz
     udp: true
-#=========== why ===========
+#=========== Why ===========
   - name: Why-ID ¹⁸.¹⁰ Meet
     server: id1.kitu.xyz
     port: 443
