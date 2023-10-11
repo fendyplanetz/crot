@@ -49,7 +49,7 @@ proxies:
         Host: sg173528cef.qcryechvqw.xyz
     udp: true
 #=========== why ===========
-  - name: Why-ID ¹².¹⁰ Meet
+  - name: Why-ID ¹⁸.¹⁰ Meet
     server: id1.kitu.xyz
     port: 443
     type: trojan
