@@ -34,19 +34,19 @@ proxies:
 #=========== AKAMAI ===========
   - name: 🇸🇬 AS63949 AKAMAI Account
     server: account.pmang.game.naver.com
-    port: 8080
+    port: 2052
     type: vmess
-    uuid: d0837e78-e2da-4a91-cda5-c70b5382a82f
+    uuid: 70dd3daa-b963-4dd9-acd9-13d86ed38f19
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: sg.wyhkaa0.cf
+    servername: sg173528cef.qcryechvqw.xyz
     network: ws
     ws-opts: 
-      path: /tg:@hkaa0
+      path: /video/xeXuHoHo
       headers: 
-        Host: sg.wyhkaa0.cf
+        Host: sg173528cef.qcryechvqw.xyz
     udp: true
 #=========== OnlySSH ===========
   - name: Only-ID ¹².¹⁰ Meet
