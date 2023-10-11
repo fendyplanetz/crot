@@ -48,12 +48,12 @@ proxies:
       headers: 
         Host: sg173528cef.qcryechvqw.xyz
     udp: true
-#=========== OnlySSH ===========
-  - name: Only-ID ¹².¹⁰ Meet
+#=========== why ===========
+  - name: Why-ID ¹².¹⁰ Meet
     server: id1.kitu.xyz
     port: 443
     type: trojan
-    password: c293b2d4-8fe9-4369-9403-6faa756094bf
+    password: ef588f4f-8923-4caa-99c5-a7b0960d2aa8
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
