@@ -61,19 +61,22 @@ proxies:
       headers: 
         Host: meet.google.com
     udp: true
-#=========== MainSSH ===========
-  - name: M-ID ¹³.¹⁰ Sogood
+#=========== DIGITALOCEAN ===========
+  - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
     server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: mainssh-jzhxkbkj
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
+    port: 80
+    type: vmess
+    uuid: 3994cb7a-a825-4d02-b740-be545155ec39
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: sgyd2.xingsu.fun
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /xingsu
       headers: 
-        Host: idtws.mainssh.xyz
+        Host: sgyd2.xingsu.fun
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
