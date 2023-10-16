@@ -61,22 +61,22 @@ proxies:
       headers: 
         Host: meet.google.com
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
+#=========== MICROSOFT ===========
+  - name: 🇸🇬 AS8075 MICROSOFT Sogood
     server: sogood.linefriends.com
     port: 80
     type: vmess
-    uuid: 3994cb7a-a825-4d02-b740-be545155ec39
+    uuid: fe7e765d-834c-4bd3-b262-2ad01db6e25f
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: sgyd2.xingsu.fun
+    servername: mofaxueyuansg.360ddns.online
     network: ws
     ws-opts: 
-      path: /xingsu
+      path: /
       headers: 
-        Host: sgyd2.xingsu.fun
+        Host: mofaxueyuansg.360ddns.online
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
