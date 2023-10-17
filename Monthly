@@ -62,8 +62,8 @@ proxies:
         Host: meet.google.com
     udp: true
 #=========== ORACLE ===========
-  - name: 🇸🇬 AS31898 ORACLE Sogood
-    server: sogood.linefriends.com
+  - name: 🇸🇬 AS31898 ORACLE Account
+    server: account.pmang.game.naver.com
     port: 80
     type: vmess
     uuid: c458695d-6908-45c3-9512-e0c46418454c
