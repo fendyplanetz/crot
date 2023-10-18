@@ -1,4 +1,18 @@
 proxies:
+#=========== Why ===========
+  - name: Why-ID ¹⁸.¹⁰ Meet
+    server: id1.kitu.xyz
+    port: 443
+    type: trojan
+    password: ef588f4f-8923-4caa-99c5-a7b0960d2aa8
+    skip-cert-verify: true
+    sni: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /trojan-ws/
+      headers: 
+        Host: meet.google.com
+    udp: true
 #=========== DREAMNET ===========
   - name: 🇸🇬 AS137554 DREAMNET Ava
     server: ava.game.naver.com
@@ -31,35 +45,22 @@ proxies:
       headers: 
         Host: edtunnel-b6t.pages.dev
     udp: true
-#=========== Why ===========
-  - name: Why-SG ¹⁸.¹⁰ Care
+#=========== ORACLE ===========
+  - name: 🇸🇬 AS31898 ORACLE Care
     server: care.pmang.game.naver.com
-    port: 443
-    type: vless
-    uuid: 06482726-4e71-44b1-a59e-25399b895145
+    port: 80
+    type: vmess
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1.kitu.xyz
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
     ws-opts: 
-      path: /vless-ws/
+      path: /
       headers: 
-        Host: sg1.kitu.xyz
-    udp: true
-#=========== Why ===========
-  - name: Why-ID ¹⁸.¹⁰ Meet
-    server: id1.kitu.xyz
-    port: 443
-    type: trojan
-    password: ef588f4f-8923-4caa-99c5-a7b0960d2aa8
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan-ws/
-      headers: 
-        Host: meet.google.com
+        Host: xjp3.shabijichang.com
     udp: true
 #=========== ORACLE ===========
   - name: 🇸🇬 AS31898 ORACLE Account
