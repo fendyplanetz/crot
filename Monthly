@@ -1,17 +1,13 @@
 proxies:
-#=========== Why ===========
-  - name: Why-ID ¹⁸.¹⁰ Meet
-    server: id1.kitu.xyz
+#=========== AMAZONCOM ===========
+  - name: 🇸🇬 AS16509 AMAZONCOM Meet
+    server: 18.142.122.247
     port: 443
     type: trojan
-    password: ef588f4f-8923-4caa-99c5-a7b0960d2aa8
+    password: your_password
     skip-cert-verify: true
     sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan-ws/
-      headers: 
-        Host: meet.google.com
+    network: tcp
     udp: true
 #=========== DREAMNET ===========
   - name: 🇸🇬 AS137554 DREAMNET Ava
