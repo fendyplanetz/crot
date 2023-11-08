@@ -60,7 +60,7 @@ proxies:
     udp: true
 #=========== DIGITALOCEAN ===========
   - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
-    server: df.game.naver.com
+    server: sogood.linefriends.com
     port: 80
     type: vmess
     uuid: e8ca0da7-dec8-4b9b-a05f-93ffc01c0792
