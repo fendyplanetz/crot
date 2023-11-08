@@ -60,20 +60,20 @@ proxies:
     udp: true
 #=========== DIGITALOCEAN ===========
   - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
-    server: sogood.linefriends.com
+    server: df.game.naver.com
     port: 80
     type: vmess
-    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    uuid: e8ca0da7-dec8-4b9b-a05f-93ffc01c0792
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: do2.myserver-prem.cloud
     network: ws
     ws-opts: 
-      path: /
+      path: /vmess
       headers: 
-        Host: warp.chigua.tk
+        Host: do2.myserver-prem.cloud
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
