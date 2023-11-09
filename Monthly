@@ -57,22 +57,21 @@ proxies:
       headers: 
         Host: baipiao1.curly-train.pages.dev
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
+#=========== CLOUD INDONESIA ===========
+  - name: 🇮🇩 PT CLOUD INDONESIA Sogood
     server: sogood.linefriends.com
-    port: 80
-    type: vmess
-    uuid: e8ca0da7-dec8-4b9b-a05f-93ffc01c0792
-    alterId: 0
+    port: 443
+    type: vless
+    uuid: e0e09477-10ed-4d4a-98ad-67c2afb995d8
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: do2.myserver-prem.cloud
+    tls: true
+    skip-cert-verify: true
+    servername: sgp.zxv.biz.id
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /vless-ws
       headers: 
-        Host: do2.myserver-prem.cloud
+        Host: sgp.zxv.biz.id
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
