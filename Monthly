@@ -41,22 +41,21 @@ proxies:
       headers: 
         Host: edtunnel-b6t.pages.dev
     udp: true
-#=========== ORACLE ===========
-  - name: 🇸🇬 AS31898 ORACLE Care
+#=========== ALIBABA US ===========
+  - name: 🇸🇬 ALIBABA US Care
     server: care.pmang.game.naver.com
-    port: 80
-    type: vmess
-    uuid: c458695d-6908-45c3-9512-e0c46418454c
-    alterId: 0
+    port: 443
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: xjp3.shabijichang.com
+    tls: true
+    skip-cert-verify: true
+    servername: baipiao1.curly-train.pages.dev
     network: ws
     ws-opts: 
-      path: /
+      path: /?ed
       headers: 
-        Host: xjp3.shabijichang.com
+        Host: baipiao1.curly-train.pages.dev
     udp: true
 #=========== DIGITALOCEAN ===========
   - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
