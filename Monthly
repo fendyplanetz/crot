@@ -41,22 +41,22 @@ proxies:
       headers: 
         Host: edtunnel-b6t.pages.dev
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 🇸🇬 AS14061 DIGITALOCEAN Care
+#=========== ORACLE ===========
+  - name: 🇸🇬 AS31898 ORACLE Care
     server: care.pmang.game.naver.com
     port: 80
     type: vmess
-    uuid: 130e1e06-ea93-4e9c-b3ed-6045ffdbce0e
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: do2.myserver-prem.cloud
+    servername: xjp3.shabijichang.com
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /
       headers: 
-        Host: do2.myserver-prem.cloud
+        Host: xjp3.shabijichang.com
     udp: true
 #=========== DIGITALOCEAN ===========
   - name: 🇸🇬 AS14061 DIGITALOCEAN Sogood
