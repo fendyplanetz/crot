@@ -80,14 +80,14 @@ proxies:
     server: df.game.naver.com
     port: 443
     type: vless
-    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
+    uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edtunnel-b6t.pages.dev
+    servername: ext35.zxv.biz.id
     network: ws
     ws-opts: 
-      path: /
+      path: /?ed
       headers: 
-        Host: edtunnel-b6t.pages.dev
+        Host: ext35.zxv.biz.id
     udp: true
