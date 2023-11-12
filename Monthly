@@ -9,21 +9,19 @@ proxies:
     sni: meet.google.com
     network: tcp
     udp: true
-#=========== DREAMNET ===========
-  - name: 🇸🇬 AS137554 DREAMNET Ava
+#=========== Iptunnels ===========
+  - name: Iptunnels Ava
     server: ava.game.naver.com
     port: 443
-    type: vless
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 832ca2418745387f
     skip-cert-verify: true
-    servername: baipiao1.curly-train.pages.dev
+    sni: jala.iptunnels.com
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: baipiao1.curly-train.pages.dev
+        Host: jala.iptunnels.com
     udp: true
 #=========== DREAMNET ===========
   - name: 🇸🇬 AS137554 DREAMNET bbsdata
