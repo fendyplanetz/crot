@@ -26,3 +26,17 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
+#=========== Iptunnels ===========
+  - name: Iptunnels Meet
+    server: jala.iptunnels.com
+    port: 443
+    type: trojan
+    password: 832ca2418745387f
+    skip-cert-verify: true
+    sni: meet.google.com
+    network: ws
+    ws-opts: 
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers: 
+        Host: meet.google.com
+    udp: true
