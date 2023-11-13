@@ -13,13 +13,16 @@ proxies:
   - name: Iptunnels Ava
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: 832ca2418745387f
+    type: vmess
+    uuid: b232396f-3d98-429f-b0fb-d17e4c203ee4
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: jala.iptunnels.com
+    servername: jala.iptunnels.com
     network: ws
     ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
+      path: /buy-vmess-ws-pm-telegram-at-synricha
       headers: 
         Host: jala.iptunnels.com
     udp: true
