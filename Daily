@@ -1,16 +1,6 @@
 proxies:
-#=========== AMAZONCOM ===========
-  - name: 🇸🇬 AS16509 AMAZONCOM Meet
-    server: 18.142.122.247
-    port: 443
-    type: trojan
-    password: your_password
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: tcp
-    udp: true
 #=========== Iptunnels ===========
-  - name: Iptunnels Ava
+  - name: Ava
     server: ava.game.naver.com
     port: 443
     type: vmess
@@ -27,7 +17,7 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Iptunnels ===========
-  - name: Iptunnels Meet
+  - name: Meet
     server: jala.iptunnels.com
     port: 443
     type: trojan
