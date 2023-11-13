@@ -1,69 +1,25 @@
 proxies:
-#=========== AKAMAI ===========
-  - name: 467 🇸🇬 AKAMAI Shopee
-    server: zendesk4.shopee.tw
-    port: 80
-    type: vmess
-    uuid: 01925169-e2ff-483c-89f2-6e778dcdd450
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: us-1.acyun.cf
-    network: ws
-    ws-opts: 
-      path: /
-      headers: 
-        Host: us-1.acyun.cf
-    udp: true
-#=========== ORACLE ===========
-  - name: 518 🇮🇩 CLOUD Docs
-    server: docs.midtrans.com
+#=========== AMAZONCOM ===========
+  - name: 🇸🇬 AS16509 AMAZONCOM Meet
+    server: 18.142.122.247
     port: 443
-    type: vmess
-    uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: your_password
     skip-cert-verify: true
-    servername: idc8.vpn-akcelluler.my.id
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers: 
-        Host: idc8.vpn-akcelluler.my.id
+    sni: meet.google.com
+    network: tcp
     udp: true
-#=========== DIGITALOCEAN ===========
-  - name: 77 🇸🇬 DIGITALOCEAN Demo
-    server: demo.midtrans.com
+#=========== Iptunnels ===========
+  - name: Iptunnels Ava
+    server: ava.game.naver.com
     port: 443
-    type: vmess
-    uuid: af34de1b-3893-41e1-a6dd-68909f9f126b
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 832ca2418745387f
     skip-cert-verify: true
-    servername: v2ray2.udpgw.com
+    sni: jala.iptunnels.com
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: v2ray2.udpgw.com
-    udp: true
-#=========== ORACLE ===========
-  - name: 1011 🇸🇬 ORACLE Grab
-    server: food-merchant-help.grab.com
-    port: 443
-    type: vmess
-    uuid: a869c557-5c7d-426f-9039-0279c16352bc
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: linkedin.disnet.gq
-    network: ws
-    ws-opts: 
-      path: /vmessws
-      headers: 
-        Host: linkedin.disnet.gq
+        Host: jala.iptunnels.com
     udp: true
