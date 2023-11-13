@@ -1,28 +1,4 @@
 proxies:
-#=========== AMAZONCOM ===========
-  - name: 🇸🇬 AS16509 AMAZONCOM Meet
-    server: 18.142.122.247
-    port: 443
-    type: trojan
-    password: your_password
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: tcp
-    udp: true
-#=========== Iptunnels ===========
-  - name: Iptunnels Ava
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: 832ca2418745387f
-    skip-cert-verify: true
-    sni: jala.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers: 
-        Host: jala.iptunnels.com
-    udp: true
 #=========== DREAMNET ===========
   - name: 🇸🇬 AS137554 DREAMNET bbsdata
     server: bbsdata.df.game.naver.com
