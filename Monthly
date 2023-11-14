@@ -31,21 +31,22 @@ proxies:
       headers: 
         Host: baipiao1.curly-train.pages.dev
     udp: true
-#=========== CLOUD INDONESIA ===========
-  - name: 🇮🇩 PT CLOUD INDONESIA Sogood
-    server: sogood.linefriends.com
+#=========== AKAMAI ===========
+  - name: 102 🇸🇬 AKAMAI Zoom
+    server: 170.187.230.221
     port: 443
-    type: vless
-    uuid: e0e09477-10ed-4d4a-98ad-67c2afb995d8
+    type: vmess
+    uuid: b0437ccd-08aa-4c74-8f31-27cbed8a2de6
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgp.zxv.biz.id
+    servername: zoom.us
     network: ws
     ws-opts: 
-      path: /vless-ws
+      path: /worryfree
       headers: 
-        Host: sgp.zxv.biz.id
+        Host: zoom.us
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Df
