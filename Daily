@@ -18,10 +18,10 @@ proxies:
     udp: true
 #=========== Iptunnels ===========
   - name: Meet
-    server: jala.iptunnels.com
+    server: cpanel.iptunnels.com
     port: 443
     type: trojan
-    password: 832ca2418745387f
+    password: 918a088c659451ae
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
