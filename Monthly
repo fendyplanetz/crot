@@ -16,8 +16,8 @@ proxies:
         Host: edtunnel-b6t.pages.dev
     udp: true
 #=========== ALIBABA US ===========
-  - name: 🇸🇬 ALIBABA US Bbsdata
-    server: bbsdata.df.game.naver.com
+  - name: 🇸🇬 ALIBABA US Halgame
+    server: member.halgame.game.naver.com
     port: 443
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -32,8 +32,8 @@ proxies:
         Host: baipiao1.curly-train.pages.dev
     udp: true
 #=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Df
-    server: df.game.naver.com
+  - name: 🇸🇬 AS13335 CLOUDFLARE Beta
+    server: beta-api.game.naver.com
     port: 443
     type: vless
     uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356
