@@ -17,16 +17,16 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Iptunnels ===========
-  - name: Meet
+  - name: Skype
     server: cpanel.iptunnels.com
     port: 443
     type: trojan
     password: 918a088c659451ae
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: api.skype.com
     network: ws
     ws-opts: 
       path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: meet.google.com
+        Host: api.skype.com
     udp: true
