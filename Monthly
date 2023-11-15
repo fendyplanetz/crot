@@ -16,8 +16,8 @@ proxies:
         Host: edtunnel-b6t.pages.dev
     udp: true
 #=========== ALIBABA US ===========
-  - name: 🇸🇬 ALIBABA US Care
-    server: care.pmang.game.naver.com
+  - name: 🇸🇬 ALIBABA US Sogood
+    server: sogood.linefriends.com
     port: 443
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
