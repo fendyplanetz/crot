@@ -32,8 +32,8 @@ proxies:
         Host: baipiao1.curly-train.pages.dev
     udp: true
 #=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE df
-    server: df.game.naver.com
+  - name: 🇸🇬 AS13335 CLOUDFLARE Bbsdata
+    server: bbsdata.df.game.naver.com
     port: 2087
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
