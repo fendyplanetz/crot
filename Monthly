@@ -1,7 +1,7 @@
 proxies:
 #=========== DREAMNET ===========
-  - name: 🇸🇬 AS137554 DREAMNET bbsdata
-    server: bbsdata.df.game.naver.com
+  - name: 🇸🇬 AS137554 DREAMNET Sogood
+    server: sogood.linefriends.com
     port: 443
     type: vless
     uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
@@ -16,8 +16,8 @@ proxies:
         Host: edtunnel-b6t.pages.dev
     udp: true
 #=========== ALIBABA US ===========
-  - name: 🇸🇬 ALIBABA US Sogood
-    server: sogood.linefriends.com
+  - name: 🇸🇬 ALIBABA US Bbsdata
+    server: bbsdata.df.game.naver.com
     port: 443
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -30,6 +30,22 @@ proxies:
       path: /?ed
       headers: 
         Host: baipiao1.curly-train.pages.dev
+    udp: true
+#=========== CLOUDFLARE ===========
+  - name: 🇸🇬 AS13335 CLOUDFLARE Df
+    server: df.game.naver.com
+    port: 443
+    type: vless
+    uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ext35.zxv.biz.id
+    network: ws
+    ws-opts: 
+      path: /?ed
+      headers: 
+        Host: ext35.zxv.biz.id
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
@@ -47,20 +63,4 @@ proxies:
       path: /worryfree
       headers: 
         Host: zoom.us
-    udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Df
-    server: df.game.naver.com
-    port: 443
-    type: vless
-    uuid: 4dba2b4a-d76f-429c-8547-0fcec7430356
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ext35.zxv.biz.id
-    network: ws
-    ws-opts: 
-      path: /?ed
-      headers: 
-        Host: ext35.zxv.biz.id
     udp: true
