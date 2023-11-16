@@ -1,10 +1,10 @@
 proxies:
 #=========== Iptunnels ===========
-  - name: Biznet Ava
+  - name: Jala Ava
     server: ava.game.naver.com
     port: 443
     type: vmess
-    uuid: 86ed6add-4206-4f3b-a4b1-be68b92b96e6
+    uuid: 73136aa8-a215-497a-a014-93d311c57ed4
     alterId: 0
     cipher: auto
     tls: true
@@ -17,7 +17,7 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Iptunnels ===========
-  - name: Jala Meet
+  - name: Biznet Meet
     server: cpanel.iptunnels.com
     port: 443
     type: trojan
