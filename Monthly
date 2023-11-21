@@ -15,21 +15,21 @@ proxies:
       headers: 
         Host: edtunnel-b6t.pages.dev
     udp: true
-#=========== ALIBABA US ===========
-  - name: 🇸🇬 ALIBABA US Care
-    server: care.pmang.game.naver.com
+#=========== West Java ===========
+  - name: Biznet Vless Ava
+    server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    uuid: 3ae26337-edd1-40ae-90bc-215d69e47734
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: baipiao1.curly-train.pages.dev
+    servername: cpanel.iptunnels.com
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /buy-vless-ws-pm-telegram-at-synricha
       headers: 
-        Host: baipiao1.curly-train.pages.dev
+        Host: cpanel.iptunnels.com
     udp: true
 #=========== CLOUDFLARE ===========
   - name: 🇸🇬 AS13335 CLOUDFLARE Bbsdata
