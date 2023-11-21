@@ -1,19 +1,19 @@
 proxies:
-#=========== DREAMNET ===========
-  - name: 🇸🇬 AS137554 DREAMNET Sogood
+#=========== Jala Vless ===========
+  - name: Jala Vless Sogood
     server: sogood.linefriends.com
     port: 443
     type: vless
-    uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
+    uuid: 8ded14db-c348-406f-822e-3e1bfcfc1ba0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edtunnel-b6t.pages.dev
+    servername: jala.iptunnels.com
     network: ws
     ws-opts: 
-      path: /
+      path: /buy-vless-ws-pm-telegram-at-synricha
       headers: 
-        Host: edtunnel-b6t.pages.dev
+        Host: jala.iptunnels.com
     udp: true
 #=========== West Java ===========
   - name: Biznet Vless Ava
