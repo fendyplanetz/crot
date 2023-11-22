@@ -21,7 +21,7 @@ proxies:
     server: cpanel.iptunnels.com
     port: 443
     type: trojan
-    password: abf9171642373cfb
+    password: c0ee554455eb0f7c
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
