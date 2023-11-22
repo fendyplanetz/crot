@@ -48,7 +48,7 @@ proxies:
         Host: baipiao1.curly-train.pages.dev
     udp: true
 #=========== AKAMAI ===========
-  - name: 102 🇸🇬 AKAMAI Skul
+  - name: 102 🇸🇬 AKAMAI Zoom
     server: 170.187.230.221
     port: 443
     type: vmess
@@ -57,10 +57,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: api.skul.id
+    servername: zoom.us
     network: ws
     ws-opts: 
       path: /worryfree
       headers: 
-        Host: api.skul.id
+        Host: zoom.us
     udp: true
