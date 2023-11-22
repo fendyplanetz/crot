@@ -31,21 +31,22 @@ proxies:
       headers: 
         Host: cpanel.iptunnels.com
     udp: true
-#=========== CLOUDFLARE ===========
-  - name: 🇸🇬 AS13335 CLOUDFLARE Bbsdata
+#=========== DIGITALOCEANASN ===========
+  - name: 🇸🇬 DIGITALOCEAN Bbsdata
     server: bbsdata.df.game.naver.com
-    port: 2087
-    type: vless
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    port: 443
+    type: vmess
+    uuid: 1389986a-6eb6-4f7b-839c-9cfb83ab700d
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: baipiao1.curly-train.pages.dev
+    servername: 6666.golinkwuxian.top
     network: ws
     ws-opts: 
-      path: /?ed
+      path: /apple
       headers: 
-        Host: baipiao1.curly-train.pages.dev
+        Host: 6666.golinkwuxian.top
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
