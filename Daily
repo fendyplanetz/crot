@@ -4,7 +4,7 @@ proxies:
     server: ava.game.naver.com
     port: 443
     type: vmess
-    uuid: 746f531f-690f-4d9e-b248-4ce41e5462a1
+    uuid: f321349c-fb75-4173-a609-fae24d9ceaf2
     alterId: 0
     cipher: auto
     tls: true
