@@ -32,8 +32,8 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== AKAMAI ===========
-  - name: 🇸🇬 AKAMAI Bbsdata
-    server: bbsdata.df.game.naver.com
+  - name: 🇸🇬 AKAMAI Adup
+    server: cdn.adup-tech.com
     port: 80
     type: vmess
     uuid: cb39b1a5-c105-40a8-a5b9-e3931971767e
