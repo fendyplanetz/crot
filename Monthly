@@ -31,22 +31,22 @@ proxies:
       headers: 
         Host: cpanel.iptunnels.com
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AKAMAI Adup
+#=========== DIGITALOCEANASN ===========
+  - name: 🇸🇬 DIGITALOCEAN Adup
     server: cdn.adup-tech.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: cb39b1a5-c105-40a8-a5b9-e3931971767e
+    uuid: 1389986a-6eb6-4f7b-839c-9cfb83ab700d
     alterId: 0
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: free.premiumserver.me
+    tls: true
+    skip-cert-verify: true
+    servername: 6666.golinkwuxian.top
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /apple
       headers: 
-        Host: free.premiumserver.me
+        Host: 6666.golinkwuxian.top
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
