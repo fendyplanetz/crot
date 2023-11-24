@@ -17,11 +17,11 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Iptunnels ===========
-  - name: Biznet Trojan Meet
-    server: cpanel.iptunnels.com
+  - name: Jala Trojan Meet
+    server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: c0ee554455eb0f7c
+    password: a3ce5600687776d0
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
