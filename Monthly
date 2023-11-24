@@ -32,7 +32,7 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== TEMPESTHOSTING ===========
-  - name: 🇸🇬 TEMPESTHOSTING
+  - name: 🇸🇬 TEMPESTHOSTING Adup
     server: cdn.adup-tech.com
     port: 443
     type: trojan
