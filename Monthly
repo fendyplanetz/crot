@@ -31,22 +31,19 @@ proxies:
       headers: 
         Host: cpanel.iptunnels.com
     udp: true
-#=========== DIGITALOCEANASN ===========
-  - name: 🇸🇬 DIGITALOCEAN Adup
+#=========== TEMPESTHOSTING ===========
+  - name: 🇸🇬 TEMPESTHOSTING
     server: cdn.adup-tech.com
     port: 443
-    type: vmess
-    uuid: 1389986a-6eb6-4f7b-839c-9cfb83ab700d
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 6aa57109-6cca-4939-8202-3e4baab15ccc
     skip-cert-verify: true
-    servername: 6666.golinkwuxian.top
+    sni: sg1.pqjc.buzz
     network: ws
     ws-opts: 
-      path: /apple
+      path: /pq/sg1
       headers: 
-        Host: 6666.golinkwuxian.top
+        Host: sg1.pqjc.buzz
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
