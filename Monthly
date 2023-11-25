@@ -31,19 +31,22 @@ proxies:
       headers: 
         Host: cpanel.iptunnels.com
     udp: true
-#=========== TEMPESTHOSTING ===========
-  - name: 🇸🇬 TEMPESTHOSTING Adup
+#=========== AKILE ===========
+  - name: 🇸🇬 AKILE Adup
     server: cdn.adup-tech.com
-    port: 443
-    type: trojan
-    password: 6aa57109-6cca-4939-8202-3e4baab15ccc
-    skip-cert-verify: true
-    sni: sg1.pqjc.buzz
+    port: 80
+    type: vmess
+    uuid: 93f4273e-e45a-49f4-fb8d-0308e0290128
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: sg2.xiaoxiaosean.com
     network: ws
     ws-opts: 
-      path: /pq/sg1
+      path: /xiaoxiaoqwerty_sg2_lol_begin_suiji_sguwgwuehf68yhhggjwgwjwvshwjgwndhsjj676rwhuqgusjrbejqkhwjw686bsiwgiwgsizhaiqjgaiahakwloqpdodgdiwgei_end
       headers: 
-        Host: sg1.pqjc.buzz
+        Host: sg2.xiaoxiaosean.com
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
