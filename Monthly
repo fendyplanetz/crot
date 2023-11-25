@@ -15,22 +15,21 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AKAMAI Ava
+#=========== West Java ===========
+  - name: Biznet Vless Ava
     server: ava.game.naver.com
-    port: 80
-    type: vmess
-    uuid: cb39b1a5-c105-40a8-a5b9-e3931971767e
-    alterId: 0
+    port: 443
+    type: vless
+    uuid: e79cab89-bb59-4646-83da-d4c1984558d2
     cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: free.premiumserver.me
+    tls: true
+    skip-cert-verify: true
+    servername: cpanel.iptunnels.com
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /buy-vless-ws-pm-telegram-at-synricha
       headers: 
-        Host: free.premiumserver.me
+        Host: cpanel.iptunnels.com
     udp: true
 #=========== AKILE ===========
   - name: 🇸🇬 AKILE Adup
