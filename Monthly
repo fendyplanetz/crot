@@ -31,22 +31,21 @@ proxies:
       headers: 
         Host: cpanel.iptunnels.com
     udp: true
-#=========== AKILE ===========
-  - name: 🇸🇬 AKILE Adup
+#=========== HOSTHATCH ===========
+  - name: 🇸🇬 HOSTHATCH Adup
     server: cdn.adup-tech.com
     port: 80
-    type: vmess
-    uuid: 93f4273e-e45a-49f4-fb8d-0308e0290128
-    alterId: 0
+    type: vless
+    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
     cipher: auto
     tls: false
-    skip-cert-verify: false
-    servername: sg2.xiaoxiaosean.com
+    skip-cert-verify: true
+    servername: cx21.ntr.biz.id
     network: ws
     ws-opts: 
-      path: /xiaoxiaoqwerty_sg2_lol_begin_suiji_sguwgwuehf68yhhggjwgwjwvshwjgwndhsjj676rwhuqgusjrbejqkhwjw686bsiwgiwgsizhaiqjgaiahakwloqpdodgdiwgei_end
+      path: /
       headers: 
-        Host: sg2.xiaoxiaosean.com
+        Host: cx21.ntr.biz.id
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
