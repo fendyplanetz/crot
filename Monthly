@@ -15,38 +15,6 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
-#=========== West Java ===========
-  - name: Biznet Vless Ava
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e79cab89-bb59-4646-83da-d4c1984558d2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cpanel.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-vless-ws-pm-telegram-at-synricha
-      headers: 
-        Host: cpanel.iptunnels.com
-    udp: true
-#=========== HOSTHATCH ===========
-  - name: 🇸🇬 HOSTHATCH Adup
-    server: cdn.adup-tech.com
-    port: 80
-    type: vless
-    uuid: 9132908c-57bf-4858-8845-e9aa385b6e16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cx21.ntr.biz.id
-    network: ws
-    ws-opts: 
-      path: /
-      headers: 
-        Host: cx21.ntr.biz.id
-    udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
     server: 170.187.230.221
