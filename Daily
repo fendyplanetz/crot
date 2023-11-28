@@ -21,7 +21,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: a3ce5600687776d0
+    password: eade33d3d01119a3
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
