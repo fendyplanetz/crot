@@ -30,3 +30,17 @@ proxies:
       headers: 
         Host: meet.google.com
     udp: true
+#=========== Iptunnels ===========
+  - name: Jala Trojan Ava
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: eade33d3d01119a3
+    skip-cert-verify: true
+    sni: jala.iptunnels.com
+    network: ws
+    ws-opts: 
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers: 
+        Host: jala.iptunnels.com
+    udp: true
