@@ -1,19 +1,17 @@
 proxies:
-#=========== Jala Vless ===========
-  - name: Jala Vless Sogood
-    server: sogood.linefriends.com
+#=========== JagoanSSH ===========
+  - name: Jago-ID ⁰⁷.¹²
+    server: ava.game.naver.com
     port: 443
-    type: vless
-    uuid: 8ded14db-c348-406f-822e-3e1bfcfc1ba0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: jagoanssh-hshdobkj
     skip-cert-verify: true
-    servername: jala.iptunnels.com
+    sni: id1go.ipservers.xyz
     network: ws
     ws-opts: 
-      path: /buy-vless-ws-pm-telegram-at-synricha
+      path: /trojan
       headers: 
-        Host: jala.iptunnels.com
+        Host: id1go.ipservers.xyz
     udp: true
 #=========== AKAMAI ===========
   - name: 102 🇸🇬 AKAMAI Zoom
