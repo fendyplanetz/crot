@@ -32,20 +32,3 @@ proxies:
       headers: 
         Host: zoom.us
     udp: true
-#=========== AKAMAI ===========
-  - name: 102 🇸🇬 AKAMAI Ava
-    server: ava.game.naver.com
-    port: 443
-    type: vmess
-    uuid: b0437ccd-08aa-4c74-8f31-27cbed8a2de6
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 170.187.230.221
-    network: ws
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: 170.187.230.221
-    udp: true
