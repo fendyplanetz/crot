@@ -1,22 +1,5 @@
 proxies:
 #=========== Iptunnels ===========
-  - name: Jala Vmess Ava
-    server: ava.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 6aa67aef-4721-4dcb-920d-ec3fcf628447
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jala.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-vmess-ws-pm-telegram-at-synricha
-      headers: 
-        Host: jala.iptunnels.com
-    udp: true
-#=========== Iptunnels ===========
   - name: Jala Trojan Meet
     server: jala.iptunnels.com
     port: 443
