@@ -25,7 +25,7 @@ proxies:
     servername: meet.google.com
     network: tcp
     ws-opts: 
-      path: null
+      path: 
       headers: 
         Host: meet.google.com
     udp: true
