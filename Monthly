@@ -1,10 +1,10 @@
 proxies:
 #=========== JagoanSSH ===========
-  - name: Jago-ID ⁰⁷.¹²
+  - name: Jago-ID ¹⁴.¹²
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: jagoanssh-hshdobkj
+    password: jagoanssh-hshdosb
     skip-cert-verify: true
     sni: id1go.ipservers.xyz
     network: ws
