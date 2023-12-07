@@ -13,20 +13,19 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
-#=========== AKAMAI ===========
-  - name: 102 🇸🇬 AKAMAI Zoom
-    server: 170.187.230.221
-    port: 443
-    type: vmess
-    uuid: b0437ccd-08aa-4c74-8f31-27cbed8a2de6
-    alterId: 0
+#=========== ASGLOBALTELEHOST ===========
+  - name: 🇸🇬 ASGLOBALTELEHOST Meet
+    server: 13.39.187.111
+    port: 8088
+    type: vless
+    uuid: a335d46e-2c79-41ec-a463-4d3725def125
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoom.us
-    network: ws
+    servername: meet.google.com
+    network: tcp
     ws-opts: 
-      path: /worryfree
+      path: null
       headers: 
-        Host: zoom.us
+        Host: meet.google.com
     udp: true
