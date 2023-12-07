@@ -14,7 +14,7 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== 🇸🇬 ALIBABA US ===========
-  - name: 🇸🇬 ALIBABA US
+  - name: 🇸🇬 ALIBABA US Meet
     server: 47.236.140.139
     port: 8443
     type: trojan
