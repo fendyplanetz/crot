@@ -13,10 +13,10 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
-#=========== M247 EUROPE ===========
-  - name: 🇸🇬 M247 EUROPE Meet
-    server: cyberspeed.synology.me
-    port: 5001
+#=========== 🇸🇬 ALIBABA US ===========
+  - name: 🇸🇬 ALIBABA US
+    server: 47.236.140.139
+    port: 8443
     type: trojan
     password: 63179baf-e94a-4d88-8968-ffe9ae3f1e45
     skip-cert-verify: true
