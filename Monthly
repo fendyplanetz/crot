@@ -39,7 +39,7 @@ proxies:
     servername: zoom.us
     network: tcp
     ws-opts: 
-      path: null
+      path: 
       headers: 
         Host: aparat.com.mavara.dynu.com
     udp: true
