@@ -28,7 +28,7 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== 🇸🇬 ALIBABA US ===========
-  - name: 🇸🇬 ASGLOBALTELEHOST TCP SNI TLS
+  - name: 🇸🇬 ASGLOBALTELEHOST
     server: aparat.com.mavara.dynu.com
     port: 8088
     type: vless
