@@ -37,7 +37,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 
+    servername: meet.google.com
     network: ws
     ws-opts: 
       path: /
