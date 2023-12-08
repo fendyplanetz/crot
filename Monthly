@@ -1,6 +1,6 @@
 proxies:
 #=========== JagoanSSH ===========
-  - name: Jago-ID ¹⁴.¹²
+  - name: Jago-ID Ava ¹⁴.¹²
     server: ava.game.naver.com
     port: 443
     type: trojan
