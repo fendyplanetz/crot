@@ -1,19 +1,5 @@
 proxies:
 #=========== Iptunnels ===========
-  - name: Jala Trojan Meet
-    server: jala.iptunnels.com
-    port: 443
-    type: trojan
-    password: 31272add075003c6
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers: 
-        Host: meet.google.com
-    udp: true
-#=========== Iptunnels ===========
   - name: Jala Trojan Ava
     server: ava.game.naver.com
     port: 443
@@ -40,4 +26,14 @@ proxies:
       path: /trojan
       headers: 
         Host: id1go.ipservers.xyz
+    udp: true
+#=========== AKAMAI ===========
+  - name: 🇸🇬 AKAMAI Meet
+    server: 172.104.36.112
+    port: 443
+    type: trojan
+    password: 6530ac8f-371c-44af-bdb2-b9eadcf3893f
+    skip-cert-verify: true
+    sni: meet.google.com
+    network: tcp
     udp: true
