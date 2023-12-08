@@ -27,19 +27,20 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
-#=========== ASGLOBALTELEHOST ===========
-  - name: 🇸🇬 ASGLOBALTELEHOST Zoom
-    server: aparat.com.mavara.dynu.com
-    port: 8088
-    type: vless
-    uuid: a335d46e-2c79-41ec-a463-4d3725def125
+#=========== ORACLEBMC31898 ===========
+  - name: 🇸🇬 ORACLEBMC31898 Meet
+    server: 162.159.241.127
+    port: 2052
+    type: vmess
+    uuid: 07ccc3b8-c9ed-4030-b6ae-0939467ee1b2
+    alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zoom.us
-    network: tcp
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
     ws-opts: 
-      path: 
+      path: /
       headers: 
-        Host: aparat.com.mavara.dynu.com
+        Host: meet.google.com
     udp: true
