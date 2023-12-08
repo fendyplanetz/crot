@@ -28,12 +28,18 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== 🇸🇬 ALIBABA US ===========
-  - name: 🇸🇬 ALIBABA US Meet
-    server: 47.236.140.139
-    port: 8443
-    type: trojan
-    password: 63179baf-e94a-4d88-8968-ffe9ae3f1e45
+  - name: 🇸🇬 ASGLOBALTELEHOST TCP SNI TLS
+    server: aparat.com.mavara.dynu.com
+    port: 8088
+    type: vless
+    uuid: a335d46e-2c79-41ec-a463-4d3725def125
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
+    servername: zoom.us
     network: tcp
+    ws-opts: 
+      path: null
+      headers: 
+        Host: aparat.com.mavara.dynu.com
     udp: true
