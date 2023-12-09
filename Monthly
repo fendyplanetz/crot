@@ -4,7 +4,7 @@ proxies:
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: 31272add075003c6
+    password: e9633c640da4e519
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
@@ -27,13 +27,19 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AKAMAI Meet
-    server: 172.104.36.112
-    port: 443
-    type: trojan
-    password: 6530ac8f-371c-44af-bdb2-b9eadcf3893f
+#=========== ASGLOBALTELEHOST ===========
+  - name: 🇸🇬 ASGLOBALTELEHOST Meet 
+    server: aparat.com.mavara.dynu.com
+    port: 8088
+    type: vless
+    uuid: a335d46e-2c79-41ec-a463-4d3725def125
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: meet.google.com
+    servername: meet.google.com
     network: tcp
+    ws-opts: 
+      path: /
+      headers: 
+        Host: meet.google.com
     udp: true
