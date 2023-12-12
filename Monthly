@@ -4,7 +4,7 @@ proxies:
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: 128e482aca5be4c5
+    password: 3c9d7be2f19dc127
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
