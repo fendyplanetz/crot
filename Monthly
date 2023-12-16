@@ -18,14 +18,14 @@ proxies:
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-hshdosb
+    password: jagoanssh-hdhdobh
     skip-cert-verify: true
-    sni: id1go.ipservers.xyz
+    sni: id2go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: id1go.ipservers.xyz
+        Host: id2go.ipservers.xyz
     udp: true
 #=========== ASGLOBALTELEHOST ===========
   - name: 🇸🇬 ASGLOBALTELEHOST Meet 
