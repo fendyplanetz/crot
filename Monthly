@@ -14,7 +14,7 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: Jago-ID Sogood ¹⁴.¹²
+  - name: Jago-ID Sogood ²³.¹²
     server: sogood.linefriends.com
     port: 443
     type: trojan
