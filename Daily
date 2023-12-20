@@ -1,7 +1,7 @@
 proxies:
 #=========== Iptunnels ===========
   - name: Jala Trojan Meet
-    server: meet.google.com.jala.iptunnels.com
+    server: jala.iptunnels.com
     port: 443
     type: trojan
     password: 8d02ce8cedccad34
@@ -20,10 +20,10 @@ proxies:
     type: trojan
     password: 8d02ce8cedccad34
     skip-cert-verify: true
-    sni: ava.game.naver.com.jala.iptunnels.com
+    sni: jala.iptunnels.com
     network: ws
     ws-opts: 
       path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: ava.game.naver.com.jala.iptunnels.com
+        Host: jala.iptunnels.com
     udp: true
