@@ -1,17 +1,17 @@
 proxies:
-#=========== JagoanSSH ===========
-  - name: Jago-ID Ava ²⁸.¹²
+#=========== Iptunnels ===========
+  - name: Jala Trojan Ava
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: jagoanssh-hshdobs
+    password: f6bb833d582b8d86
     skip-cert-verify: true
-    sni: id2go.ipservers.xyz
+    sni: jala.iptunnels.com
     network: ws
     ws-opts: 
-      path: /trojan
+      path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: id2go.ipservers.xyz
+        Host: jala.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
   - name: Jago-ID Sogood ²⁸.¹²
