@@ -27,19 +27,15 @@ proxies:
       headers: 
         Host: id2go.ipservers.xyz
     udp: true
-#=========== ASGLOBALTELEHOST ===========
-  - name: 🇸🇬 ASGLOBALTELEHOST Meet 
-    server: aparat.com.mavara.dynu.com
-    port: 8088
-    type: vless
-    uuid: a335d46e-2c79-41ec-a463-4d3725def125
+#=========== ARDH GLOBAL =========== 
+  - name: 🇮🇩 ARDH GLOBAL Meet
+    server: 113.20.28.102
+    port: 22188
+    type: vmess
+    uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5
+    alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
+    tls: false
+    skip-cert-verify: false
     servername: meet.google.com
-    network: tcp
-    ws-opts: 
-      path: /
-      headers: 
-        Host: meet.google.com
     udp: true
