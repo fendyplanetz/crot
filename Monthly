@@ -14,18 +14,18 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: Jago-ID Sogood ²⁸.¹²
+  - name: Jago-ID Sogood ⁰³.⁰¹
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-hshdobs
+    password: jagoanssh-jhxbzkbz
     skip-cert-verify: true
-    sni: id2go.ipservers.xyz
+    sni: id1go.ipservers.xyz
     network: ws
     ws-opts: 
       path: /trojan
       headers: 
-        Host: id2go.ipservers.xyz
+        Host: id1go.ipservers.xyz
     udp: true
 #=========== ARDH GLOBAL =========== 
   - name: 🇮🇩 ARDH GLOBAL Meet
