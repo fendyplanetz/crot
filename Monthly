@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: Jago-ID Sogood ⁰³.⁰¹
-    server: sogood.linefriends.com
+  - name: Jago-ID Df ⁰³.⁰¹
+    server: df.game.naver.com
     port: 443
     type: trojan
     password: jagoanssh-jhxbzkbz
