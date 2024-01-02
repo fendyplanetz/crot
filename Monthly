@@ -14,11 +14,11 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: ID1 Df ⁰³.⁰¹
+  - name: ID1 Df ⁰⁹.⁰¹
     server: df.game.naver.com
     port: 443
     type: trojan
-    password: jagoanssh-jhxbzkbz
+    password: jagoanssh-jshdkdb
     skip-cert-verify: true
     sni: id1go.ipservers.xyz
     network: ws
