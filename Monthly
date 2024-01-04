@@ -41,20 +41,17 @@ proxies:
       headers: 
         Host: id2go.ipservers.xyz
     udp: true
-#=========== AKAMAI ===========
-  - name: 🇸🇬 AKAMAI Care
-    server: care.pmang.game.naver.com
+#=========== Howdy ===========
+  - name: Herza Bbsdata
+    server: bbsdata.df.game.naver.com
     port: 443
-    type: vmess
-    uuid: bde7932e-8f52-4f7e-b92e-ad1cd0908784
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
     skip-cert-verify: true
-    servername: sg2-full.privateip.net
+    sni: id-1.test3.net
     network: ws
     ws-opts: 
-      path: /RACEVPN
+      path: /howdy
       headers: 
-        Host: sg2-full.privateip.net
+        Host: id-1.test3.net
     udp: true
