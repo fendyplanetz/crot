@@ -55,3 +55,17 @@ proxies:
       headers: 
         Host: id-1.test3.net
     udp: true
+#=========== Howdy-SG ===========
+- name: HE Help
+    server: help.pmang.game.daum.net
+    port: 443
+    type: trojan
+    password: 99ad4740-abe1-11ee-8849-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: sg-4.test3.net
+    udp: true
