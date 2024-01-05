@@ -56,7 +56,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy-SG ===========
-- name: HE Help
+  - name: HE Help
     server: help.pmang.game.daum.net
     port: 443
     type: trojan
