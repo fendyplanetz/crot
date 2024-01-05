@@ -42,7 +42,7 @@ proxies:
         Host: id2go.ipservers.xyz
     udp: true
 #=========== Howdy ===========
-  - name: Herza Ava
+  - name: Herza Daum
     server: board.pmang.game.daum.net
     port: 443
     type: trojan
