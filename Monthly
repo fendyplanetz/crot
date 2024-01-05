@@ -42,8 +42,8 @@ proxies:
         Host: id2go.ipservers.xyz
     udp: true
 #=========== Howdy ===========
-  - name: Herza Bbsdata
-    server: bbsdata.df.game.naver.com
+  - name: Herza Care
+    server: care.pmang.game.naver.com
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
