@@ -28,11 +28,11 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== JagoanSSH =========== 
-  - name: ID2 Sogood ⁰⁶.⁰¹
+  - name: ID2 Sogood ¹³.⁰¹
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: jagoanssh-hdhdodbb
+    password: jagoanssh-hfjhghf
     skip-cert-verify: true
     sni: id2go.ipservers.xyz
     network: ws
