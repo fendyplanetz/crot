@@ -43,7 +43,7 @@ proxies:
     udp: true
 #=========== Howdy ===========
   - name: Herza Ava
-    server: ava.game.naver.com
+    server: board.pmang.game.daum.net
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
