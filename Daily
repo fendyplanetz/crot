@@ -1,6 +1,6 @@
 proxies:
 #=========== Iptunnels ===========
-  - name: Jala Trojan Meet
+  - name: Jala Meet
     server: jala.iptunnels.com
     port: 443
     type: trojan
@@ -14,7 +14,7 @@ proxies:
         Host: meet.google.com
     udp: true
 #=========== Iptunnels ===========
-  - name: Jala Trojan Ava
+  - name: Jala Ava
     server: ava.game.naver.com
     port: 443
     type: trojan
