@@ -1,6 +1,6 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala Trojan Ava
+  - name: Jala Ava
     server: ava.game.naver.com
     port: 443
     type: trojan
