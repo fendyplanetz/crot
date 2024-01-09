@@ -28,11 +28,11 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: ID1 Df ⁰⁹.⁰¹
+  - name: ID1 Df ¹⁷.⁰¹
     server: df.game.naver.com
     port: 443
     type: trojan
-    password: jagoanssh-jshdkdb
+    password: jagoanssh-bdbdkdbg
     skip-cert-verify: true
     sni: id1go.ipservers.xyz
     network: ws
