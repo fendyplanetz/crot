@@ -4,7 +4,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: 688b6ad3f6818c7a
+    password: a818d78e79db37b4
     skip-cert-verify: true
     sni: meet.google.com
     network: ws
@@ -18,7 +18,7 @@ proxies:
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: 688b6ad3f6818c7a
+    password: a818d78e79db37b4
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
