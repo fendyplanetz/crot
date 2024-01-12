@@ -1,7 +1,7 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala Ava
-    server: ava.game.naver.com
+  - name: Jala Int
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: a818d78e79db37b4
@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Biznet =========== 
-  - name: Biznet Care
-    server: care.pmang.game.naver.com
+  - name: Biznet Email³
+    server: img.email3.vidio.com
     port: 443
     type: trojan
     password: f77ac3f1c5593073
@@ -28,8 +28,8 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: ID1 Df ¹⁷.⁰¹
-    server: df.game.naver.com
+  - name: ID1 Staging ¹⁷.⁰¹
+    server: quiz.staging.vidio.com
     port: 443
     type: trojan
     password: jagoanssh-bdbdkdbg
@@ -42,8 +42,8 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== Howdy ===========
-  - name: Herza Daum
-    server: board.pmang.game.daum.net
+  - name: Herza Email¹
+    server: img.email1.vidio.com
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
@@ -56,8 +56,8 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy-SG ===========
-  - name: Melbi Help
-    server: help.pmang.game.daum.net
+  - name: Melbi Email²
+    server: img.email2.vidio.com
     port: 443
     type: trojan
     password: 99ad4740-abe1-11ee-8849-1239d0255272
