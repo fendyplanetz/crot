@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Biznet =========== 
-  - name: Biznet Email³
-    server: img.email3.vidio.com
+  - name: Biznet Email¹
+    server: img.email1.vidio.com
     port: 443
     type: trojan
     password: f77ac3f1c5593073
@@ -56,8 +56,8 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy-SG ===========
-  - name: Melbi Email²
-    server: img.email2.vidio.com
+  - name: Melbi Help
+    server: help.pmang.game.daum.net
     port: 443
     type: trojan
     password: 99ad4740-abe1-11ee-8849-1239d0255272
