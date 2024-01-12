@@ -18,7 +18,7 @@ proxies:
     server: care.pmang.game.naver.com
     port: 443
     type: trojan
-    password: 55564188ebb5e3d8
+    password: f77ac3f1c5593073
     skip-cert-verify: true
     sni: cpanel.iptunnels.com
     network: ws
