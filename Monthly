@@ -28,8 +28,8 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: ID1 Staging ¹⁷.⁰¹
-    server: quiz.staging.vidio.com
+  - name: ID1 Daum ¹⁷.⁰¹
+    server: board.pmang.game.daum.net
     port: 443
     type: trojan
     password: jagoanssh-bdbdkdbg
