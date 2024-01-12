@@ -43,7 +43,7 @@ proxies:
     udp: true
 #=========== Howdy ===========
   - name: Herza Email¹
-    server: img.email².vidio.com
+    server: img.email2.vidio.com
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
