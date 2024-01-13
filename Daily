@@ -1,17 +1,17 @@
 proxies:
 #=========== Iptunnels ===========
-  - name: Jala Meet
-    server: jala.iptunnels.com
+  - name: Jala 81
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: a818d78e79db37b4
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: jala.iptunnels.com
     network: ws
     ws-opts: 
       path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: meet.google.com
+        Host: jala.iptunnels.com
     udp: true
 #=========== Iptunnels ===========
   - name: Jala Ava
