@@ -28,7 +28,7 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Biznet =========== 
-  - name: Biznet Staging
+  - name: Biznet 81
     server: 104.17.3.81
     port: 443
     type: trojan
