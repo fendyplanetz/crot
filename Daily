@@ -27,3 +27,31 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
+#=========== Biznet =========== 
+  - name: Biznet Staging
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: f77ac3f1c5593073
+    skip-cert-verify: true
+    sni: cpanel.iptunnels.com
+    network: ws
+    ws-opts: 
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers: 
+        Host: cpanel.iptunnels.com
+    udp: true
+#=========== JagoanSSH ===========
+  - name: ID1 52 ¹⁷.⁰¹
+    server: 104.18.225.52
+    port: 443
+    type: trojan
+    password: jagoanssh-bdbdkdbg
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: id1go.ipservers.xyz
+    udp: true
