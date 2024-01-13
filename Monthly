@@ -1,7 +1,7 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala Int
-    server: quiz.int.vidio.com
+  - name: Jala 4.240
+    server: 104.22.4.240
     port: 443
     type: trojan
     password: a818d78e79db37b4
@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Biznet =========== 
-  - name: Biznet Staging
-    server: quiz.staging.vidio.com
+  - name: Biznet 14
+    server: 172.67.5.14
     port: 443
     type: trojan
     password: f77ac3f1c5593073
@@ -28,8 +28,8 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== JagoanSSH ===========
-  - name: ID1 Quiz ¹⁷.⁰¹
-    server: quiz.vidio.com
+  - name: ID1 5.240 ¹⁷.⁰¹
+    server: 104.22.5.240
     port: 443
     type: trojan
     password: jagoanssh-bdbdkdbg
