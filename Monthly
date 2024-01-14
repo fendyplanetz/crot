@@ -1,35 +1,7 @@
 proxies:
-#=========== Jala ===========
-  - name: Jala Ava
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: a818d78e79db37b4
-    skip-cert-verify: true
-    sni: jala.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers: 
-        Host: jala.iptunnels.com
-    udp: true
-#=========== Biznet =========== 
-  - name: Biznet Meet
-    server: meet.google.com
-    port: 443
-    type: trojan
-    password: f77ac3f1c5593073
-    skip-cert-verify: true
-    sni: cpanel.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers: 
-        Host: cpanel.iptunnels.com
-    udp: true
 #=========== JagoanSSH ===========
-  - name: ID1 Daum ¹⁷.⁰¹
-    server: care.pmang.game.naver.com
+  - name: ID1 14 ¹⁷.⁰¹
+    server: 172.67.5.14
     port: 443
     type: trojan
     password: jagoanssh-bdbdkdbg
@@ -41,9 +13,9 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
-#=========== Howdy ===========
-  - name: Herza Df
-    server: df.game.naver.com
+#=========== Howdy ID ===========
+  - name: Herza 240
+    server: 104.22.5.240
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
@@ -56,8 +28,8 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy-SG ===========
-  - name: Melbi Account
-    server: account.pmang.game.naver.com
+  - name: Melbi 14
+    server: 172.67.5.14
     port: 443
     type: trojan
     password: 99ad4740-abe1-11ee-8849-1239d0255272
@@ -69,9 +41,9 @@ proxies:
       headers: 
         Host: sg-4.test3.net
     udp: true
-#=========== Howdy-HE ===========
-  - name: HE Ava
-    server: ava.game.naver.com
+#=========== Howdy-SG ===========
+  - name: HE 240
+    server: 104.22.5.240
     port: 443
     type: trojan
     password: fb5c2400-b277-11ee-ba51-1239d0255272
