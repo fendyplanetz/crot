@@ -14,8 +14,8 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 #=========== Howdy ID ===========
-  - name: Herza 240
-    server: 104.22.5.240
+  - name: Herza Int
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
