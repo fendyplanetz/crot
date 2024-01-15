@@ -1,4 +1,32 @@
 proxies:
+#=========== Jala ===========
+  - name: Jala BbsData
+    server: bbsdata.df.game.naver.com
+    port: 443
+    type: trojan
+    password: fc32e92c54eeb19a
+    skip-cert-verify: true
+    sni: jala.iptunnels.com
+    network: ws
+    ws-opts: 
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers: 
+        Host: jala.iptunnels.com
+    udp: true
+#=========== Biznet ===========
+  - name: Biznet Sogood
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 7536ce1bdbbd5c23
+    skip-cert-verify: true
+    sni: cpanel.iptunnels.com
+    network: ws
+    ws-opts: 
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers: 
+        Host: cpanel.iptunnels.com
+    udp: true
 #=========== JagoanSSH ===========
   - name: ID1 14 ¹⁷.⁰¹
     server: 172.67.5.14
