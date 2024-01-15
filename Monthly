@@ -69,17 +69,17 @@ proxies:
       headers: 
         Host: sg-4.test3.net
     udp: true
-#=========== Howdy-SG ===========
-  - name: HE 240
+#=========== Howdy HE2 ===========
+  - name: HE-2 240
     server: 104.22.5.240
     port: 443
     type: trojan
-    password: fb5c2400-b277-11ee-ba51-1239d0255272
+    password: f3433a50-b3c9-11ee-afc0-1239d0255272
     skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
+    sni: sg2-trojan.bonds.id
     network: ws
     ws-opts: 
       path: /howdy
       headers: 
-        Host: sg3-trojan.bonds.id
+        Host: sg2-trojan.bonds.id
     udp: true
