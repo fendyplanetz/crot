@@ -1,7 +1,7 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala BbsData
-    server: bbsdata.df.game.naver.com
+  - name: Jala 240
+    server: 104.22.5.240
     port: 443
     type: trojan
     password: fc32e92c54eeb19a
@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Biznet ===========
-  - name: Biznet Sogood
-    server: sogood.linefriends.com
+  - name: Biznet 14
+    server: 172.67.5.14
     port: 443
     type: trojan
     password: 7536ce1bdbbd5c23
