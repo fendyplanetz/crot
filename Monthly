@@ -27,20 +27,6 @@ proxies:
       headers: 
         Host: cpanel.iptunnels.com
     udp: true
-#=========== JagoanSSH ===========
-  - name: ID1 14 ¹⁷.⁰¹
-    server: 172.67.5.14
-    port: 443
-    type: trojan
-    password: jagoanssh-bdbdkdbg
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: id1go.ipservers.xyz
-    udp: true
 #=========== Howdy ID ===========
   - name: Herza Int
     server: quiz.int.vidio.com
