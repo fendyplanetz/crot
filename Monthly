@@ -1,7 +1,7 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala 240
-    server: 104.22.5.240
+  - name: Jala 52
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: 9593bc944b3add0d
@@ -42,8 +42,8 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy-SG ===========
-  - name: Melbi 14
-    server: 172.67.5.14
+  - name: Melbi 52
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: 99ad4740-abe1-11ee-8849-1239d0255272
@@ -56,8 +56,8 @@ proxies:
         Host: sg-4.test3.net
     udp: true
 #=========== Howdy HE2 ===========
-  - name: HE-2 240
-    server: 104.22.5.240
+  - name: HE-2 52
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: f3433a50-b3c9-11ee-afc0-1239d0255272
