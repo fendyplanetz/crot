@@ -28,8 +28,8 @@ proxies:
         Host: cpanel.iptunnels.com
     udp: true
 #=========== Howdy ID ===========
-  - name: Herza Int
-    server: quiz.int.vidio.com
+  - name: Herza 52
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
