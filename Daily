@@ -4,7 +4,7 @@ proxies:
     server: bbsdata.df.game.naver.com
     port: 443
     type: trojan
-    password: 9593bc944b3add0d
+    password: d8064fbeda6a9290
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
