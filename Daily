@@ -28,8 +28,8 @@ proxies:
         Host: meet.google.com
     udp: true
 #=========== Howdy-SG ===========
-  - name: Melbi Account
-    server: account.pmang.game.naver.com
+  - name: Melbi Sogood
+    server: sogood.linefriends.com
     port: 443
     type: trojan
     password: 99ad4740-abe1-11ee-8849-1239d0255272
