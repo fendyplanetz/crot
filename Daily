@@ -1,17 +1,17 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala BbsData
-    server: bbsdata.df.game.naver.com
+  - name: Jala zoom
+    server: jala.iptunnels.com
     port: 443
     type: trojan
     password: c2584de829ec0e5f
     skip-cert-verify: true
-    sni: jala.iptunnels.com
+    sni: zoom.us
     network: ws
     ws-opts: 
       path: /buy-trojan-ws-pm-telegram-at-synricha
       headers: 
-        Host: jala.iptunnels.com
+        Host: zoom.us
     udp: true
 #=========== Howdy ===========
   - name: Herza Meet
