@@ -28,8 +28,8 @@ proxies:
         Host: meet.google.com
     udp: true
 #=========== Howdy-SG ===========
-  - name: Melbi Sogood
-    server: sogood.linefriends.com
+  - name: Melbi Img
+    server: img.email1.vidio.com
     port: 443
     type: trojan
     password: 99ad4740-abe1-11ee-8849-1239d0255272
@@ -42,8 +42,8 @@ proxies:
         Host: sg-4.test3.net
     udp: true
 #=========== Howdy-HE2 ===========
-  - name: HE-2 Ava
-    server: ava.game.naver.com
+  - name: HE-2 Quiz
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: f3433a50-b3c9-11ee-afc0-1239d0255272
