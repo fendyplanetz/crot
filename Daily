@@ -14,18 +14,18 @@ proxies:
         Host: zoom.us
     udp: true
 #=========== Howdy ===========
-  - name: Herza Meet
-    server: id-1.test3.net
+  - name: Herza Quiz
+    server: quiz.vidio.com
     port: 443
     type: trojan
     password: aefd9ef0-aaf7-11ee-ab13-1239d0255272
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: id-1.test3.net
     network: ws
     ws-opts: 
       path: /howdy
       headers: 
-        Host: meet.google.com
+        Host: id-1.test3.net
     udp: true
 #=========== Howdy-SG ===========
   - name: Melbi Img
@@ -42,7 +42,7 @@ proxies:
         Host: sg-4.test3.net
     udp: true
 #=========== Howdy-HE2 ===========
-  - name: HE-2 Quiz
+  - name: HE-2 Int
     server: quiz.int.vidio.com
     port: 443
     type: trojan
