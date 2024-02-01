@@ -4,7 +4,7 @@ proxies:
     server: 104.18.225.52
     port: 443
     type: trojan
-    password: 8618f6d20494a5b9
+    password: 5adf0f45982b4317
     skip-cert-verify: true
     sni: jala.iptunnels.com
     network: ws
