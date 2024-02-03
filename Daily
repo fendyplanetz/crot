@@ -14,8 +14,8 @@ proxies:
         Host: zoom.us
     udp: true
 #=========== Jala Vmess ===========
-  - name: Jala Vmess Df 96
-    server: 104.18.3.96
+  - name: Jala Vmess Tech 118
+    server: 172.67.26.118
     port: 443
     type: vmess
     uuid: faee08ea-1bd2-4996-97ad-ea2b64911983
