@@ -13,6 +13,23 @@ proxies:
       headers: 
         Host: zoom.us
     udp: true
+#=========== Jala Vmess ===========
+  - name: Jala Vmess Df 96
+    server: 104.18.3.96
+    port: 443
+    type: vmess
+    uuid: faee08ea-1bd2-4996-97ad-ea2b64911983
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cpanel.iptunnels.com
+    network: ws
+    ws-opts: 
+      path: /buy-vmess-ws-pm-telegram-at-synricha
+      headers: 
+        Host: cpanel.iptunnels.com
+    udp: true
 #=========== Howdy ===========
   - name: Herza Sogood 25
     server: 104.22.2.25
@@ -40,18 +57,4 @@ proxies:
       path: /howdy
       headers: 
         Host: sg-4.test3.net
-    udp: true
-#=========== Howdy-HE2 ===========
-  - name: HE-2 Df 96
-    server: 104.18.3.96
-    port: 443
-    type: trojan
-    password: f3433a50-b3c9-11ee-afc0-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: sg2-trojan.bonds.id
     udp: true
