@@ -18,17 +18,17 @@ proxies:
     server: 172.67.26.118
     port: 443
     type: vmess
-    uuid: faee08ea-1bd2-4996-97ad-ea2b64911983
+    uuid: 9c1ad1f6-94cf-48cf-9971-50f542195929
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cpanel.iptunnels.com
+    servername: jala.iptunnels.com
     network: ws
     ws-opts: 
       path: /buy-vmess-ws-pm-telegram-at-synricha
       headers: 
-        Host: cpanel.iptunnels.com
+        Host: jala.iptunnels.com
     udp: true
 #=========== Howdy ===========
   - name: Herza Sogood 25
