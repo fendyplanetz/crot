@@ -45,7 +45,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Cloudflare Warp ===========
-  - name: Cloudflare Support
+  - name: Cloudflare Go
     server: yhsvpn1.pages.dev
     port: 443
     type: vless
@@ -58,5 +58,5 @@ proxies:
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: support.zoom.us
+        Host: go.zoom.us
     udp: true
