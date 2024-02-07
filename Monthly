@@ -13,6 +13,20 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
+#=========== Howdy HE2 ===========
+  - name: HE-2 52
+    server: 104.18.225.52
+    port: 443
+    type: trojan
+    password: f3433a50-b3c9-11ee-afc0-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: sg2-trojan.bonds.id
+    udp: true
 #=========== Howdy ID ===========
   - name: Herza 52
     server: 104.18.225.52
@@ -27,31 +41,19 @@ proxies:
       headers: 
         Host: id-1.test3.net
     udp: true
-#=========== Howdy-SG ===========
-  - name: Melbi 52
+#=========== Cloudflare Warp ===========
+  - name: Cloudflare 52
     server: 104.18.225.52
     port: 443
-    type: trojan
-    password: 99ad4740-abe1-11ee-8849-1239d0255272
+    type: vless
+    uuid: 3dba7851-3ffc-4298-a62a-e4b6a540ea7a
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    servername: yhsvpn1.pages.dev
     network: ws
     ws-opts: 
-      path: /howdy
+      path: null
       headers: 
-        Host: sg-4.test3.net
-    udp: true
-#=========== Howdy HE2 ===========
-  - name: HE-2 52
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: f3433a50-b3c9-11ee-afc0-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: sg2-trojan.bonds.id
+        Host: yhsvpn1.pages.dev
     udp: true
