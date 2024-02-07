@@ -45,7 +45,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Cloudflare Warp ===========
-  - name: Cloudflare Go
+  - name: Cloudflare Meet
     server: yhsvpn1.pages.dev
     port: 443
     type: vless
@@ -53,10 +53,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: go.zoom.us
+    servername: meet.google.com
     network: ws
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: go.zoom.us
+        Host: meet.google.com
     udp: true
