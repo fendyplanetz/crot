@@ -45,7 +45,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Cloudflare Warp ===========
-  - name: Cloudflare Google
+  - name: Cloudflare Support
     server: yhsvpn1.pages.dev
     port: 443
     type: vless
@@ -58,5 +58,5 @@ proxies:
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: lh5.googleusercontent.com
+        Host: support.zoom.us
     udp: true
