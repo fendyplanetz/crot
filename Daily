@@ -53,7 +53,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: yhsvpn1.pages.dev
+    servername: go.zoom.us
     network: ws
     ws-opts: 
       path: /?ed=2048
