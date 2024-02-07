@@ -14,8 +14,8 @@ proxies:
         Host: zoom.us
     udp: true
 #=========== Jala Vmess ===========
-  - name: Jala Vmess Tech 118
-    server: 172.67.26.118
+  - name: Jala Vmess Ava
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: 4afadc90-5b81-4966-a6bc-6e288742f0e0
