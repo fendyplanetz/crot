@@ -13,19 +13,22 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
-#=========== Howdy HE2 ===========
-  - name: HE-2 52
+#=========== Jala Vmess ===========
+  - name: Jala Vmess 52
     server: 104.18.225.52
     port: 443
-    type: trojan
-    password: f3433a50-b3c9-11ee-afc0-1239d0255272
+    type: vmess
+    uuid: 4afadc90-5b81-4966-a6bc-6e288742f0e0
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
+    servername: jala.iptunnels.com
     network: ws
     ws-opts: 
-      path: /howdy
+      path: /buy-vmess-ws-pm-telegram-at-synricha
       headers: 
-        Host: sg2-trojan.bonds.id
+        Host: jala.iptunnels.com
     udp: true
 #=========== Howdy ID ===========
   - name: Herza 52
