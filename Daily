@@ -44,17 +44,19 @@ proxies:
       headers: 
         Host: id-1.test3.net
     udp: true
-#=========== Howdy-SG ===========
-  - name: Melbi Ava 235
-    server: 104.18.213.235
+#=========== Cloudflare Warp ===========
+  - name: Cloudflare Google
+    server: yhsvpn1.pages.dev
     port: 443
-    type: trojan
-    password: 99ad4740-abe1-11ee-8849-1239d0255272
+    type: vless
+    uuid: 3dba7851-3ffc-4298-a62a-e4b6a540ea7a
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    servername: lh5.googleusercontent.com
     network: ws
     ws-opts: 
-      path: /howdy
+      path: /?ed=2048
       headers: 
-        Host: sg-4.test3.net
+        Host: lh5.googleusercontent.com
     udp: true
