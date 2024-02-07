@@ -53,7 +53,7 @@ proxies:
     servername: yhsvpn1.pages.dev
     network: ws
     ws-opts: 
-      path: null
+      path: /?ed=2048
       headers: 
         Host: yhsvpn1.pages.dev
     udp: true
