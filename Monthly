@@ -18,7 +18,7 @@ proxies:
     server: 104.18.225.52
     port: 443
     type: vmess
-    uuid: 8684a8fe-14a6-4421-8bb9-ba9533551510
+    uuid: 0677726b-8153-4d5d-8cd0-70bd9d032925
     alterId: 0
     cipher: auto
     tls: true
