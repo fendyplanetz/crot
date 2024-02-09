@@ -14,14 +14,14 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Jala Vmess ===========
-  - name: Jala Vmess 208
-    server: 104.21.73.208
-    port: 80
+  - name: Jala Vmess 52
+    server: 104.18.225.52
+    port: 443
     type: vmess
     uuid: 8684a8fe-14a6-4421-8bb9-ba9533551510
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: jala.iptunnels.com
     network: ws
