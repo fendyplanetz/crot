@@ -4,7 +4,7 @@ proxies:
     server: jala.iptunnels.com
     port: 443
     type: trojan
-    password: 316fa3801665f4e5
+    password: 474033ca79ae5cde
     skip-cert-verify: true
     sni: zoom.us
     network: ws
