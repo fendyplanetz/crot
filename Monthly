@@ -13,22 +13,21 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
-#=========== Jala Vmess ===========
-  - name: Jala Vmess 52
+#=========== sshOcean ===========
+  - name: Ocean 21/02
     server: 104.18.225.52
     port: 443
-    type: vmess
-    uuid: cc35e4d0-f5ca-4633-90dc-11220122377c
-    alterId: 0
+    type: vless
+    uuid: 5a6638c9-57e1-4ded-a0ba-5cc00999e7c6
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: jala.iptunnels.com
+    servername: il1.v2vless.xyz
     network: ws
     ws-opts: 
-      path: /buy-vmess-ws-pm-telegram-at-synricha
+      path: /vless
       headers: 
-        Host: jala.iptunnels.com
+        Host: il1.v2vless.xyz
     udp: true
 #=========== Howdy ID ===========
   - name: Herza 52
