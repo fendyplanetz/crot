@@ -57,3 +57,19 @@ proxies:
       headers: 
         Host: id1go.ipservers.xyz
     udp: true
+#=========== sshOcean ===========
+  - name: Ocean-SG 21/02
+    server: 104.18.225.52
+    port: 443
+    type: vless
+    uuid: 0040655f-2e8b-4a74-9009-d262678914f8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.v2vless.xyz
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: sg3.v2vless.xyz
+    udp: true
