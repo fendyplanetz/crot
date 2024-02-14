@@ -45,7 +45,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Jagoanssh ===========
-  - name: Jago.ID1-52
+  - name: Jago.ID1.21/02
     server: 104.18.225.52
     port: 443
     type: trojan
