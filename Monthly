@@ -44,19 +44,17 @@ proxies:
       headers: 
         Host: id-1.test3.net
     udp: true
-#=========== Cloudflare Warp ===========
-  - name: Cloudflare 52
+#=========== Jagoanssh ===========
+  - name: Jago.ID1-52
     server: 104.18.225.52
     port: 443
-    type: vless
-    uuid: 3dba7851-3ffc-4298-a62a-e4b6a540ea7a
-    cipher: auto
-    tls: true
+    type: trojan
+    password: jagoanssh-jdbdkbdj
     skip-cert-verify: true
-    servername: yhsvpn1.pages.dev
+    sni: id1go.ipservers.xyz
     network: ws
     ws-opts: 
-      path: /?ed=2048
+      path: /trojan
       headers: 
-        Host: yhsvpn1.pages.dev
+        Host: id1go.ipservers.xyz
     udp: true
