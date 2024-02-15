@@ -29,6 +29,20 @@ proxies:
       headers: 
         Host: il1.v2vless.xyz
     udp: true
+#=========== Jagoanssh ===========
+  - name: Jago.ID1.²¹.⁰²
+    server: 104.18.225.52
+    port: 443
+    type: trojan
+    password: jagoanssh-jdbdkbdj
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: id1go.ipservers.xyz
+    udp: true
 #=========== Howdy ID ===========
   - name: Herza 52
     server: 104.18.225.52
@@ -44,7 +58,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy SG ===========
-  - name: Melbi.SG
+  - name: Melbi SG
     server: 104.18.225.52
     port: 443
     type: trojan
@@ -56,18 +70,4 @@ proxies:
       path: /howdy
       headers: 
         Host: sg-4.test3.net
-    udp: true
-#=========== Jagoanssh ===========
-  - name: Jago.ID1.²¹.⁰²
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: jagoanssh-jdbdkbdj
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: id1go.ipservers.xyz
     udp: true
