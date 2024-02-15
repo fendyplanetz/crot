@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== sshOcean ===========
-  - name: Ocean 21/02
-    server: 104.18.225.52
+  - name: Ocean-ID.cdn.²¹.⁰²
+    server: cdn.visionplus.id
     port: 443
     type: vless
     uuid: 5a6638c9-57e1-4ded-a0ba-5cc00999e7c6
@@ -44,8 +44,8 @@ proxies:
         Host: id-1.test3.net
     udp: true
 #=========== Howdy SG ===========
-  - name: Melbi
-    server: 104.18.225.52
+  - name: Melbi.SG-cdn
+    server: cdn.visionplus.id
     port: 443
     type: trojan
     password: 5d39e840-cb94-11ee-8575-1239d0255272
@@ -58,7 +58,7 @@ proxies:
         Host: sg-4.test3.net
     udp: true
 #=========== Jagoanssh ===========
-  - name: Jago.ID1.21/02
+  - name: Jago.ID1.²¹.⁰²
     server: 104.18.225.52
     port: 443
     type: trojan
