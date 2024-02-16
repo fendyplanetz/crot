@@ -1,17 +1,17 @@
 proxies:
-#=========== Jala ===========
-  - name: Jala 52
+#=========== Mainssh ===========
+  - name: Main-SG ²³.⁰²
     server: 104.18.225.52
     port: 443
     type: trojan
-    password: 474033ca79ae5cde
+    password: mainssh-hdbdbdkb
     skip-cert-verify: true
-    sni: jala.iptunnels.com
+    sni: sgtws.mainssh.xyz
     network: ws
     ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
+      path: /trojan
       headers: 
-        Host: jala.iptunnels.com
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== sshOcean ===========
   - name: Ocean-ID.²¹.⁰²
