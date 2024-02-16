@@ -13,31 +13,28 @@ proxies:
       headers: 
         Host: zoom.us
     udp: true
-#=========== Jala Vmess ===========
-  - name: Jala Vmess Ava
-    server: ava.game.naver.com
+#=========== Mainssh ===========
+  - name: Main-SG ²³.⁰² Meet
+    server: sgtws.mainssh.xyz
     port: 443
-    type: vmess
-    uuid: cc35e4d0-f5ca-4633-90dc-11220122377c
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: mainssh-hdbdbdkb
     skip-cert-verify: true
-    servername: jala.iptunnels.com
+    sni: meet.google.com
     network: ws
     ws-opts: 
-      path: /buy-vmess-ws-pm-telegram-at-synricha
+      path: /trojan
       headers: 
-        Host: jala.iptunnels.com
+        Host: sgtws.mainssh.xyz
     udp: true
 #=========== Howdy ===========
-  - name: Herza Sogood 25
-    server: 104.22.2.25
+  - name: Herza Zoom
+    server: id-1.test3.net
     port: 443
     type: trojan
     password: 4c9bff20-c550-11ee-a56d-1239d0255272
     skip-cert-verify: true
-    sni: id-1.test3.net
+    sni: zoom.us
     network: ws
     ws-opts: 
       path: /howdy
