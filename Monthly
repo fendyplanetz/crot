@@ -27,20 +27,6 @@ proxies:
       headers: 
         Host: sgtws.mainssh.xyz
     udp: true
-#=========== Jagoanssh ===========
-  - name: Jago.ID1.²¹.⁰²
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: jagoanssh-jdbdkbdj
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: id1go.ipservers.xyz
-    udp: true
 #=========== Howdy ID ===========
   - name: Herza 52
     server: 104.18.225.52
