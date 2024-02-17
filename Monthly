@@ -1,4 +1,18 @@
 proxies:
+#=========== Jala ===========
+  - name: Jala 52
+    server: 104.18.225.52
+    port: 443
+    type: trojan
+    password: 474033ca79ae5cde
+    skip-cert-verify: true
+    sni: jala.iptunnels.com
+    network: ws
+    ws-opts: 
+      path: /buy-trojan-ws-pm-telegram-at-synricha
+      headers: 
+        Host: jala.iptunnels.com
+    udp: true
 #=========== Mainssh ===========
   - name: Main-SG ²³.⁰²
     server: 104.18.225.52
@@ -12,22 +26,6 @@ proxies:
       path: /trojan
       headers: 
         Host: sgtws.mainssh.xyz
-    udp: true
-#=========== sshOcean ===========
-  - name: Ocean-ID.²¹.⁰²
-    server: 104.18.225.52
-    port: 443
-    type: vless
-    uuid: 5a6638c9-57e1-4ded-a0ba-5cc00999e7c6
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: il1.v2vless.xyz
-    network: ws
-    ws-opts: 
-      path: /vless
-      headers: 
-        Host: il1.v2vless.xyz
     udp: true
 #=========== Jagoanssh ===========
   - name: Jago.ID1.²¹.⁰²
