@@ -1,7 +1,7 @@
 proxies:
 #=========== Jala ===========
-  - name: Jala zoom
-    server: jala.iptunnels.com
+  - name: Jala Ava
+    server: ava.gamenaver.com
     port: 443
     type: trojan
     password: 474033ca79ae5cde
@@ -28,13 +28,13 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 #=========== Howdy ===========
-  - name: Herza Zoom
-    server: id-1.test3.net
+  - name: Herza Sogood
+    server: sogood.linesfriend.com
     port: 443
     type: trojan
     password: 4c9bff20-c550-11ee-a56d-1239d0255272
     skip-cert-verify: true
-    sni: zoom.us
+    sni: id-1.test3.net
     network: ws
     ws-opts: 
       path: /howdy
