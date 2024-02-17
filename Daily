@@ -1,7 +1,7 @@
 proxies:
 #=========== Jala ===========
   - name: Jala Ava
-    server: ava.gamenaver.com
+    server: ava.game.naver.com
     port: 443
     type: trojan
     password: 474033ca79ae5cde
@@ -41,19 +41,17 @@ proxies:
       headers: 
         Host: id-1.test3.net
     udp: true
-#=========== Cloudflare Warp ===========
-  - name: Cloudflare Meet
-    server: yhsvpn1.pages.dev
+#=========== Howdy SG ===========
+  - name: Melbi-SG Zoom
+    server: sg-4.test3.net
     port: 443
-    type: vless
-    uuid: 3dba7851-3ffc-4298-a62a-e4b6a540ea7a
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 5d39e840-cb94-11ee-8575-1239d0255272
     skip-cert-verify: true
-    servername: meet.google.com
+    sni: zoom.us
     network: ws
     ws-opts: 
-      path: /?ed=2048
+      path: /howdy
       headers: 
-        Host: meet.google.com
+        Host: sg-4.test3.net
     udp: true
