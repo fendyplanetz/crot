@@ -27,20 +27,6 @@ proxies:
     skip-cert-verify: false
     grpc-opts:
       grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
-#=========== Mainssh ===========
-  - name: Main-SG ²³.⁰²
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: mainssh-hdbdbdkb
-    skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sgtws.mainssh.xyz
-    udp: true
 #=========== Howdy ID ===========
   - name: Herza 52
     server: 104.18.225.52
