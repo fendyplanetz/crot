@@ -13,6 +13,20 @@ proxies:
       headers: 
         Host: jala.iptunnels.com
     udp: true
+#=========== Jala GRPC ===========
+  - name: Jala-GRPC 52
+    server: 104.18.225.52
+    port: 443
+    type: vmess
+    uuid: 2d761264-71e4-4f9d-adbd-b05e2c2c8695
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: jala.iptunnels.com
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
 #=========== Mainssh ===========
   - name: Main-SG ²³.⁰²
     server: 104.18.225.52
