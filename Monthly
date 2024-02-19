@@ -14,8 +14,8 @@ proxies:
         Host: jala.iptunnels.com
     udp: true
 #=========== Jala GRPC ===========
-  - name: Jala-GRPC 52
-    server: 104.18.225.52
+  - name: Jala-GRPC cdn
+    server: cdn.visionplus.id
     port: 443
     type: vmess
     uuid: 2d761264-71e4-4f9d-adbd-b05e2c2c8695
