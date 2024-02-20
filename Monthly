@@ -41,17 +41,3 @@ proxies:
       headers: 
         Host: id-1.test3.net
     udp: true
-#=========== Howdy SG ===========
-  - name: Melbi SG
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: 5d39e840-cb94-11ee-8575-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: sg-4.test3.net
-    udp: true
