@@ -1,18 +1,4 @@
 proxies:
-#=========== Jala ===========
-  - name: Jala 52
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: ff30e9ecd43ad4af
-    skip-cert-verify: true
-    sni: jala.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
-      headers: 
-        Host: jala.iptunnels.com
-    udp: true
 #=========== Jala GRPC ===========
   - name: Jala-GRPC 52
     server: 104.18.225.52
@@ -27,17 +13,3 @@ proxies:
     skip-cert-verify: false
     grpc-opts:
       grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
-#=========== Howdy ID ===========
-  - name: Herza 52
-    server: 104.18.225.52
-    port: 443
-    type: trojan
-    password: 4c9bff20-c550-11ee-a56d-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: id-1.test3.net
-    udp: true
