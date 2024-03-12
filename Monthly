@@ -1,34 +1,4 @@
 proxies:
-#=========== Jala GRPC ===========
-  - name: Jala-GRPC 52
-    server: 104.18.225.52
-    port: 443
-    type: vmess
-    uuid: 33fb607c-2c82-4bf4-a424-8bd844ca78ff
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: jala.iptunnels.com
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: buy-vmess-grpc-pm-telegram-at-synricha
-#=========== Jala Vless ===========
-  - name: Jala-Vless 52
-    server: 104.18.225.52
-    port: 443
-    type: vless
-    uuid: 35b34aeb-79d7-40a9-97f9-82d30a731478
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jala.iptunnels.com
-    network: ws
-    ws-opts: 
-      path: /buy-vless-ws-pm-telegram-at-synricha
-      headers: 
-        Host: jala.iptunnels.com
-    udp: true
 #=========== ID4 ===========
   - name: Id4 52
     server: 104.18.225.52
