@@ -1,42 +1,28 @@
 proxies:
 #=========== ID4 ===========
-  - name: Id4 52
-    server: ava.game.naver.com
+  - name: Id4 Meet
+    server: id4.putrivpn.biz.id
     port: 443
     type: vless
     uuid: 2fc88fd2-b95c-48d2-8f5d-5ad2b5d5662e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id4.putrivpn.biz.id
+    servername: meet.google.com
     network: ws
     ws-opts: 
       path: /?ed=2048
       headers: 
         Host: id4.putrivpn.biz.id
     udp: true
-#=========== Mainssh ===========
-  - name: Main-SG ²³.⁰² Meet
-    server: sgtws.mainssh.xyz
-    port: 443
-    type: trojan
-    password: mainssh-hdbdbdkb
-    skip-cert-verify: true
-    sni: meet.google.com
-    network: ws
-    ws-opts: 
-      path: /trojan
-      headers: 
-        Host: sgtws.mainssh.xyz
-    udp: true
 #=========== Howdy ===========
-  - name: Herza Sogood
-    server: sogood.linesfriend.com
+  - name: Herza Zoom
+    server: id-1.test3.net
     port: 443
     type: trojan
     password: 4c9bff20-c550-11ee-a56d-1239d0255272
     skip-cert-verify: true
-    sni: id-1.test3.net
+    sni: zoom.us
     network: ws
     ws-opts: 
       path: /howdy
