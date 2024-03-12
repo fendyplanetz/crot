@@ -1,17 +1,19 @@
 proxies:
-#=========== Jala ===========
-  - name: Jala Ava
+#=========== ID4 ===========
+  - name: Id4 52
     server: ava.game.naver.com
     port: 443
-    type: trojan
-    password: 474033ca79ae5cde
+    type: vless
+    uuid: 2fc88fd2-b95c-48d2-8f5d-5ad2b5d5662e
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: zoom.us
+    servername: id4.putrivpn.biz.id
     network: ws
     ws-opts: 
-      path: /buy-trojan-ws-pm-telegram-at-synricha
+      path: /?ed=2048
       headers: 
-        Host: zoom.us
+        Host: id4.putrivpn.biz.id
     udp: true
 #=========== Mainssh ===========
   - name: Main-SG ²³.⁰² Meet
