@@ -13,5 +13,5 @@ proxies:
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: cvs-deo.shopeemobile.com
+        Host: id4.putrivpn.biz.id
     udp: true
