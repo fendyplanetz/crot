@@ -1,6 +1,6 @@
 proxies:
 #=========== ID4 ===========
-  - name: Id4 Meet
+  - name: Id4 Shopee
     server: id4.putrivpn.biz.id
     port: 443
     type: vless
@@ -8,38 +8,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meet.google.com
+    servername: cvs-deo.shopeemobile.com
     network: ws
     ws-opts: 
       path: /?ed=2048
       headers: 
-        Host: id4.putrivpn.biz.id
-    udp: true
-#=========== Howdy ===========
-  - name: Herza Zoom
-    server: id-1.test3.net
-    port: 443
-    type: trojan
-    password: 4c9bff20-c550-11ee-a56d-1239d0255272
-    skip-cert-verify: true
-    sni: zoom.us
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: id-1.test3.net
-    udp: true
-#=========== Howdy SG ===========
-  - name: Melbi-SG Zoom
-    server: sg-4.test3.net
-    port: 443
-    type: trojan
-    password: 5d39e840-cb94-11ee-8575-1239d0255272
-    skip-cert-verify: true
-    sni: zoom.us
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: sg-4.test3.net
+        Host: cvs-deo.shopeemobile.com
     udp: true
