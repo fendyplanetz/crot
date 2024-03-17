@@ -1,7 +1,7 @@
 proxies:
 #=========== ID4 ===========
-  - name: Id4 Ava
-    server: ava.game.naver.com
+  - name: Id4 Df
+    server: df.game.naver.com
     port: 443
     type: vless
     uuid: 2fc88fd2-b95c-48d2-8f5d-5ad2b5d5662e
