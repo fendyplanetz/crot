@@ -73,3 +73,7 @@ payload:
   - "+.cdninstagram.com"
   - "+.ig.me"
   - "+.instagram.com"
+#Gojek
+  - "+.gojekapi.com"
+  - "+.gojek.com"
+  - "+.gopay.com"
