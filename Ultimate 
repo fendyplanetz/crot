@@ -53,3 +53,13 @@ payload:
   - "+.nflxso.net"
   - "+.nflxvideo.net"
   - "netflix.com.edgesuite.net"
+#Facebook
+  - "+.facebook.net"
+  - "+.facebook.com"
+  - "+.fb.com"
+  - "+.fbcdn.net"
+  - "+.fna.fbcdn.net"
+#Instagram
+  - "+.cdninstagram.com"
+  - "+.ig.me"
+  - "+.instagram.com"
