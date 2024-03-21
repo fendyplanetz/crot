@@ -83,3 +83,8 @@ payload:
   - "+.gojekapi.com"
   - "+.gojek.com"
   - "+.gopay.com"
+#Shopee
+  - "+.shopeemobile.com"
+  - "+.shopee.co.id"
+
+
