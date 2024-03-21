@@ -53,6 +53,16 @@ payload:
   - "+.nflxso.net"
   - "+.nflxvideo.net"
   - "netflix.com.edgesuite.net"
+#Youtube
+  - "+.ggpht.cn"
+  - "+.ggpht.com"
+  - "+.googlevideo.com"
+  - "+.youtu.be"
+  - "+.youtube.com"
+  - "+.youtubei.googleapis.com"
+  - "+.youtubekids.com"
+  - "+.yt.be"
+  - "+.ytimg.com"
 #Facebook
   - "+.facebook.net"
   - "+.facebook.com"
