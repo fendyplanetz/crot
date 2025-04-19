@@ -1,4 +1,5 @@
 payload:
-  - "+.sg.capcutapi.com"
-  - "+.capcut.faceulv.com"
-  - "+.byteeffecttos-g.com"
+  # > Microsoft
+  - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-SUFFIX,faceulv.com
+  - DOMAIN-SUFFIX,byteeffecttos-g.com
