@@ -1,6 +1,6 @@
 payload:
   # > Capcut
-  - DOMAIN-SUFFIX,capcutapi.com
-  - DOMAIN-SUFFIX,faceulv.com
-  - DOMAIN-SUFFIX,byteeffecttos-g.com
-  - DOMAIN-SUFFIX,capcutcdn-us.com
+  - "+.capcutapi.com"
+  - "+.faceulv.com"
+  - "+.byteeffecttos-g.com"
+  - "+.capcutcdn-us.com"
