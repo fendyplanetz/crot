@@ -10,5 +10,5 @@ payload:
   - "+.ex-markets.pro"
   - "+.exnessaffiliates.com"
   - "+.exness.co"
-  #- "+.evio-edc.com"
-  #- "+.domains.web.app"
+  - "+.evio-edc.com"
+  - "+.domains.web.app"
