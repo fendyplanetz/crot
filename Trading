@@ -9,6 +9,6 @@ payload:
   - "+.frontrics.site"
   - "+.ex-markets.pro"
   - "+.exnessaffiliates.com"
-  - "+.evio-edc.com"
   - "+.exness.co"
-  - "+.domains.web.app"
+  #- "+.evio-edc.com"
+  #- "+.domains.web.app"
