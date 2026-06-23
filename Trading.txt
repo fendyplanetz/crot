@@ -1,9 +1,0 @@
-payload:
-  # > tradingview
-  - "+.tradingview.com"
-  - "+.esafx.co.id"
-  - "+.exnessaffiliates.com"
-  - "+.exness.com"
-  - "+.xness.co"
-  - "+.exness.io"
-  - "+.exness.help"
